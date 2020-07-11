@@ -1,0 +1,1004 @@
+主讲老师：未知
+讲课时间：2018年11月
+地址：https://study.163.com/course/courseMain.htm?courseId=1004960043
+总课时：25课
+
+【查看webpack历史版本】
+	npm view webpack versions // 注意versions是复数
+	
+【历史】
+	webpack-v1：2015年发布。支持CMD和AMD，同时拥有丰富的plugin和loader，webpack逐渐得到广泛应用。
+
+	webpack-v2：2016.12发布。相对于webpack1最大的改进就是支持ES Module，可以直接分析ES Module之间的依赖关系，而webpack1必须将ES Module转换成CommonJS模块之后，才能使用webpack1进行下一步处理。除此之外webpack2支持tree sharking，与ES Module的设计思路高度契合。
+
+	webpack-v3：2017.6发布。相对于webpack2，过渡相对平稳，但是新的特性大都围绕ES Module提出，如Scope Hoisting和Magic Comment。
+	
+	webpack-v4：2018.2发布。
+
++--------------------------------------------------------------------------------------------------------------------------
+|第1课：安装版本
++--------------------------------------------------------------------------------------------------------------------------
+【版本介绍】
+	当前讲的3.0，最新版本4.0
+	
+【默认安装最新版本】【缺点：每个项目的webpack是不一样的，所以不要全局安装】
+	npm install webpack -g
+
+【安装指定版本】
+	npm install -g webpack@3.10.0
+	
+【本地安装指定版本】
+	项目目录下
+	npm install webpack@3.10.0 --save-dev
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第2课：介绍
++--------------------------------------------------------------------------------------------------------------------------
+【介绍】
+	现代js的模块打包器
+
+【nodejs安装】
+	node -v
+	npm -v
+
+【全局安装】
+	npm install -g webpack
+	webpack --help
+	
+【本地安装】
+	1.cmd
+	2.mkdir demo （创建项目目录）
+	3.npm init -y （生成package.json）
+	4.npm install webpack@3.10.0 --save-dev
+	
+
++--------------------------------------------------------------------------------------------------------------------------
+|第3课：打包初体验
++--------------------------------------------------------------------------------------------------------------------------
+【创建webpack.config.js】
+
+	const path = require('path');// nodejs自带包
+	
+	module.exports = {
+		// 入口文件
+		【entry】: './src/index.js',
+		
+		// 输出目录（打包的js文件）
+		【output】: {
+			path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+			filename: 'app.js', // 输出的文件
+		}
+	}
+	
+最终会生成app.js文件，也就是index.html文件需要【引入】的文件。（这些操作是可以通过webpack的插件完成的，即html-webpack-plugin）
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第4课：什么是插件
++--------------------------------------------------------------------------------------------------------------------------
+【安装插件】
+	npm install html-webpack-plugin --save-dev
+
+【引入插件】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			
+			【
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			】
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第5课：devServer
++--------------------------------------------------------------------------------------------------------------------------
+【介绍】
+	简单的web服务器，并且能够实时重新加载（live reloading）【当保存的时候，自动的加载】
+	
+【安装】
+	npm install webpack-dev-server --save-dev
+	
+【补充】
+	进入bin目录里面的文件，即是命令
+	
+【添加命令】
+	package.json
+		'script': {
+			'start': './node_modules/.bin/webpack-dev-server',// 本来应该是这样，但根据nodejs 找文件的方式，可以写成下面样子
+			【'start': 'webpack-dev-server'】,
+		}
+		
+【使用】		
+	直接 npm start，而不是npm run start
+	
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			
+			【
+			devServer: {【打包到内存的，而不是真正的文件，假如没有index.html文件，也可以显示。】
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			}
+			】
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第6课：【css-loader】 【style-loader】
++--------------------------------------------------------------------------------------------------------------------------
+【什么是loader】
+	webpack自身只理解javascript的语法，还是es5的语法。如果要解释es6的语法，需要转换工具
+	
+【例子】	
+	// index.js 引入
+	import 'index.css';// 报错，无法解析，需要css-loader。【css-loader，让webpack知道怎么处理css文件】
+
+【安装】
+	npm install 【css-loader】 --save-dev
+	
+	npm install 【style-loader】 --save-dev // style-loader的作用：把已经打包好的css代码插入到html中
+
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			
+			【
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],// 【注意先后，这里是从后向前处理的顺序】
+					}
+				]
+			}
+			】
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第7课：使用图片：【file-loader】
++--------------------------------------------------------------------------------------------------------------------------
+【当引用了图片的时候，打包会报错】
+	// index.css
+	body {
+		background: url('../abc.jpg');
+	}
+	
+	// index.js
+	import 'index.css';
+
+【安装】
+	npm install 【file-loader】 --save-dev
+	
+【配置】	
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					【
+					{
+						test: /\.jpg$/,
+						use: ['file-loader'],
+					}
+					】
+				]
+			}
+		}	
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第8课: file-loader做的事情
++--------------------------------------------------------------------------------------------------------------------------
+【把图片复制到输出目录（dist）中】
+
+【打包后，图片被重命名了】
+	nodeing.jpg => f87923rbih42h958h3g93h9tnt536.jpg
+	
+	
++--------------------------------------------------------------------------------------------------------------------------
+|第9课：支持多种图片类型
++--------------------------------------------------------------------------------------------------------------------------
+	// 直接引入图片
+	// index.js
+	import imgSrc from './images/nodeing.jpg';
+	console.log(imgSrc); // 【结果就是图片的路径】
+	
+【匹配多张图片】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					{
+						test: 【/\.(jpg|png|webp|gif|bmp})$/】,// 多种图片格式
+						use: ['file-loader'],
+					}
+				]
+			}
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第10课：【url-loader】
++--------------------------------------------------------------------------------------------------------------------------
+【作用】
+	将图片的引用，从【地址】改为了【base64】
+	
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						
+						use: [【'url-loader'】],
+						或者
+						【
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,【图片大于8291就不去转换，如果小于，则转换为base64】
+							}
+						}]
+						】
+					}
+				]
+			}
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第11课：使用字体 【font-loader】
++--------------------------------------------------------------------------------------------------------------------------
+【安装】
+	npm install 【font-awesome】 --save-dev
+	
+	npm install 【file-loader】 --save-dev
+	
+【使用】
+	// index.js
+	import 'font-awesome/css/font-awesomee.css
+	
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,
+							}
+						}]
+					},
+					【
+					{
+						test: /\.(otf|eot|svg|ttf|woff|woff2})$/,// 多种图片格式
+						use: [{
+							loader: 'file-loader',
+							use: ['file-loader'],
+						}]
+					},
+					】
+				]
+			}
+		}	
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第12课：babel
++--------------------------------------------------------------------------------------------------------------------------
+【作用】
+	babel是一个js编译器，可以将es6转换为es5
+	
+【安装】
+	npm install babal-cli --save-dev
+
+【使用】
+	创建 【.babelrc】文件
+	
+	"build": "babel index.js"
+	npm run build
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第13课：【插件】 babel基于插件，插件提供一些扩展功能
++--------------------------------------------------------------------------------------------------------------------------
+【transform-es2015-arrow-functions】：es6【函数】转es5函数； () => {} 转 function
+【安装】
+	npm install babel-plugin-transform-es2015-arrow-functions --save-dev
+	
+【配置】
+	// .babelrc
+	{
+		"plugin": [【"transform-es2015-arrow-functions"】],
+	}
+	
+【transform-es2015-classes】:es6的【类】转es5的类
+【安装】
+	npm install babel-plugin-transform-es2015-classes --save-deb
+	
+【配置】	
+	// .babelrc
+	{
+		"plugin": ["transform-es2015-arrow-functions", 【"transform-es2015-classes"】],
+	}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第14课：babel的【preset】
++--------------------------------------------------------------------------------------------------------------------------
+【作用】
+	为了一次性的将es6的语法转为es5的语法。而不是写什么语法，再操作一次插件。
+	所以使用别人封装好了的，包括所有【插件的插件】
+	
+【安装】
+	npm install babel-cli 【babel-preset-es2015】 --save-dev  
+
+【配置】	
+	// .babelrc
+	{
+		【"preset": ["es2015"]】,
+	}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第15课：webpack和babel
++--------------------------------------------------------------------------------------------------------------------------
+【babel-core】：babel的核心的api：处理es6语法
+
+【babel-loader】：将es6的语法传输给babel-core来处理
+
+【安装】
+	npm install babel-core --save-dev
+	
+	npm install babel-loader --save-dev
+	
+	npm install babel-preset-es2015 --save-dev 或者 npm install babel-preset-env --save-dev
+	
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				})
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,
+							}
+						}]
+					},
+					{
+						test: /\.(otf|eot|svg|ttf|woff|woff2})$/,// 多种图片格式
+						use: [{
+							loader: 'file-loader',
+							use: ['file-loader'],
+						}]
+					},
+					【
+					{
+						test: /\.js$/,
+						use: ['babel-loader'],
+						exclude: path.resolve(__dirname, 'node_modules'),// 【排除node_modules文件下的js文件，不然速度非常慢（因为要处理所有js文件）】
+					}
+					】
+				]
+			}
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第16课：路径相关准备
++--------------------------------------------------------------------------------------------------------------------------
+【调整文件路径】
+	开发时，所有内容放到src文件夹里面
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第17课：js文件分类打包和clean-webpack-plugin
++--------------------------------------------------------------------------------------------------------------------------
+【修改入口文件配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			【entry: './src/assets/js/index.js',】
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+
+			...
+		}
+
+【修改出口文件配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/assets/js/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, '【dist/assets】'),// 目录的绝对路径
+				filename: '【js/app.js】', // 输出的文件
+			},
+			
+			...
+		}
+
+【clean-webpack-plugin】
+【安装】
+	npm install clean-webpack-plugin --save-dev
+	
+【使用】【配置】	
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		【const  { CleanWebpackPlugin } = require('clean-webpack-plugin');】
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/assets/js/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist/assets'),// 目录的绝对路径
+				filename: 'js/[name].bundlejs', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				}),
+				
+				【new CleanWebpackPlugin(['dist']),】
+			],
+			...
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第18课：html，图片，字体的分类打包
++--------------------------------------------------------------------------------------------------------------------------
+【调整index.html文件路径配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/assets/js/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist/assets'),// 目录的绝对路径
+				filename: 'js/app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: '【../】index.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				}),
+				
+				new CleanWebpackPlugin(['dist']),
+			],
+			...
+		}
+
+【图片和字体的路径配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				}),
+				new CleanWebpackPlugin(['dist']),
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						use: ['style-loader', 'css-loader'],
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,
+								【name: '【images/】[name].[hash:8].[ext]',】// ext：表示后缀
+							}
+						}]
+					},
+					{
+						test: /\.(otf|eot|svg|ttf|woff|woff2})$/,// 多种图片格式
+						use: [{
+							loader: 'file-loader',
+							// use: ['file-loader'],
+							options: {
+								【name: 'fonts/[name].[hash:8].[ext]',】
+							}
+						}]
+					},
+					{
+						test: /\.js$/,
+						use: ['babel-loader'],
+						exclude: path.resolve(__dirname, 'node_modules'),
+					}
+				]
+			}
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第19课：css文件的分类打包
++--------------------------------------------------------------------------------------------------------------------------
+【作用】
+	之前的打包，会把css文件的内容，打包到bundle.js文件中。但我们并不希望这么做。
+	
+【安装】
+	npm install extract-text-webpack-plugin --save-dev
+	
+【配置】	
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
+		【const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');】
+		【const extractcss = new ExtractTextWebpackPlugin({
+			filename: 'assets/css/index.css',// index.css -> 打包出来的文件名
+		});】
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				}),
+				new CleanWebpackPlugin(['dist']),
+				【extractcss】
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						// use: ['style-loader', 'css-loader'],
+						【
+						use: extractcss.extract({
+							fallback: 'style-loader',
+							use: ['css-loader'],
+						})
+						】
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,
+								name: 'images/[name].[hash:8].[ext]',// ext：表示后缀
+							}
+						}]
+					},
+					{
+						test: /\.(otf|eot|svg|ttf|woff|woff2})$/,// 多种图片格式
+						use: [{
+							loader: 'file-loader',
+							// use: ['file-loader'],
+							options: {
+								name: 'fonts/[name].[hash:8].[ext]',
+							}
+						}]
+					},
+					{
+						test: /\.js$/,
+						use: ['babel-loader'],
+						exclude: path.resolve(__dirname, 'node_modules'),
+					}
+				]
+			}
+		}
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第20课
++--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第21课
++--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第22课
++--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第23课：webpack4.x配置操作
++--------------------------------------------------------------------------------------------------------------------------
+【安装】
+	npm install webpack^4.0.0 --save-dev
+
+	npm install 【webpack-cli@3.1.2】 --save-dev  // 【必须安装，3.0并没有】
+
+【区别】
+	不再需要webpack.config.js【？？？？】
+	文件导出的方式变为nodeJS的【module.exports】，引入的方式变为 let a = 【require('./a.js')】;
+	
+【区分 开发环境 和 生产环境】	
+	开发环境（development）：打包不会被压缩（代码不会被压缩）
+	生产环境（production）：就是最终产品（只有一行，并且变量名只是一个字母，不是单词）
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第24课：开发环境和生产环境【webpack3.x打包出来的全部都是开发环境，即没有被压缩的】
++--------------------------------------------------------------------------------------------------------------------------
+【npx】
+	npx内置的包执行器，需要npm5.2.0以上支持
+	
+	【npx webpack === npm run dev】
+	
+	"dev": "webpack --mode development"
+
+
++--------------------------------------------------------------------------------------------------------------------------
+|第25课：webpack4.x的自定义配置
++--------------------------------------------------------------------------------------------------------------------------
+【配置】
+	webpack.config.js
+		// 引入插件
+		const HtmlWebpackPlugin = require('html-webpack-plugin');
+		const  { CleanWebpackPlugin } = require('clean-webpack-plugin');
+		const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
+		const extractcss = new ExtractTextWebpackPlugin({
+			filename: 'assets/css/index.css',// index.css -> 打包出来的文件名
+		});
+		// nodeJs自带模块
+		const path = require('path');// nodejs自带包
+		
+		module.exports = {
+			// 入口文件
+			entry: './src/index.js',
+			
+			// 输出目录（打包的js文件）
+			output: {
+				path: path.resolve(__dirname, 'dist'),// 目录的绝对路径
+				filename: 'app.js', // 输出的文件
+			},
+			plugins: [
+				new HtmlWebpackPlugin({
+					filename: 'main.html',// 指定打包出来的html文件的名字，默认：index.html
+					template: 'src/index.html',// 指定一个html模板，也就是我们需要的html文件里的内容
+				}),
+				new CleanWebpackPlugin(['dist']),
+				extractcss
+			],
+			devServer: {
+				open: true,// 当输入npm start后，直接打开（自动打开，不要手动复制localhost:8080）
+				port: 8080,// 修改端口
+				contentBase: './dist',// 修改服务器访问的根目录，默认：'./'
+			},
+			module: {
+				rules: [
+					{
+						test: /\.css$/,// 匹配.css文件
+						// use: ['style-loader', 'css-loader'],
+						use: extractcss.extract({
+							fallback: 'style-loader',
+							use: ['css-loader'],
+						})
+					},
+					{
+						test: /\.(jpg|png|webp|gif|bmp})$/,// 多种图片格式
+						use: [{
+							loader: 'url-loader',
+							options: {
+								limit: 8192,
+								name: 'images/[name].[hash:8].[ext]',// ext：表示后缀
+							}
+						}]
+					},
+					{
+						test: /\.(otf|eot|svg|ttf|woff|woff2})$/,// 多种图片格式
+						use: [{
+							loader: 'file-loader',
+							// use: ['file-loader'],
+							options: {
+								name: 'fonts/[name].[hash:8].[ext]',
+							}
+						}]
+					},
+					{
+						test: /\.js$/,
+						use: ['babel-loader'],
+						exclude: path.resolve(__dirname, 'node_modules'),
+					}
+				]
+			}
+		}
+
+
+【总结】
+	webpack的学习难点其实是周边安的知识非常的复杂。例如：如何做代码分割，如何合并模块，如何自动刷新，如何做代码效验，如何自动发布。
+	核心概念：entry，output，module，plugins，loader。
+
