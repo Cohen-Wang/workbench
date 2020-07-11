@@ -167,7 +167,7 @@ export const routes = [
             component: () => import('@/views/Study/Vue/Router.vue'),
             beforeEnter: (to, from, next) => {
               console.log(to, from, next)
-              alert('路由的拦截器')
+              alert('我是在router目录下的index.js文件里，用的路由的拦截器')
               next()
             }
           },
@@ -188,6 +188,12 @@ export const routes = [
             name: 'forceUpdate',
             meta: { title: 'forceUpdate' },
             component: () => import('@/views/Study/Vue/$forceUpdate.vue')
+          },
+          {
+            path: '/study/vue/key',
+            name: 'key',
+            meta: { title: 'key' },
+            component: () => import('@/views/Study/Vue/Key.vue')
           }
         ]
       },
@@ -287,7 +293,7 @@ export const routes = [
     component: Index,
     isShow: true,
     meta: { title: '应用', icon: 'file' },
-    redirect: '/axios',
+    redirect: '/application/debt',
     children: [
       {
         path: '/application/debt',
