@@ -282,6 +282,22 @@ export const routes = [
     ]
   },
   {
+    path: '/application',
+    name: 'application',
+    component: Index,
+    isShow: true,
+    meta: { title: '应用', icon: 'file' },
+    redirect: '/axios',
+    children: [
+      {
+        path: '/application/debt',
+        name: 'debt',
+        meta: { title: '债务', icon: 'credit-card' },
+        component: () => import('@/views/Application/Debt/Debt.vue')
+      }
+    ]
+  },
+  {
     path: '/404',
     name: '404',
     isShow: false,
