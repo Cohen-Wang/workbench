@@ -5,6 +5,8 @@
 </template>
 
 <style lang="less" scoped>
+@import './assets/iconfont/iconfont.css';
+
 #app {
   width: 100%;
   height: 100%;
