@@ -22,6 +22,19 @@
           <i class="iconfont" style="font-size: 40px;color: lightgray;">&#xe639;</i>
         </div>
       </div>
+      <hr>
+      <div class="d-flex">
+        <div class="d-flex flex-1 pl-20 pr-20" style="flex-direction: column;">
+          <input type="submit" class="iconfont" value="&#xe639;" style="font-size: 40px;color: red;">
+          <input class="iconfont" type="search" value="" placeholder="&#xe639;" name="keyword">
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex">
+        <div class="d-flex flex-1 pl-20 pr-20" style="flex-direction: column;">
+          <button type="submit" class="iconfont" style="font-size: 40px;color: red;">&#xe639;</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
