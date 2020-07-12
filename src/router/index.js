@@ -69,6 +69,18 @@ export const routes = [
             name: 'textOverflow',
             meta: { title: 'textOverflow' },
             component: () => import('@/views/Study/CSS/TextOverflow.vue')
+          },
+          {
+            path: '/study/css/font-awesome',
+            name: 'font-awesome',
+            meta: { title: 'font-awesome' },
+            component: () => import('@/views/Study/CSS/Font-Awesome.vue')
+          },
+          {
+            path: '/study/css/iconfont',
+            name: 'iconfont',
+            meta: { title: 'iconfont' },
+            component: () => import('@/views/Study/CSS/IconFont.vue')
           }
         ]
       },

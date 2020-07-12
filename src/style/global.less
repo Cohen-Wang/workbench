@@ -54,6 +54,12 @@
   .h-@{val} { height: @val + 0px; }
   .h-p-@{val} { width: @val * 100% / 100 }
 
+  /* font-size */
+  .font-@{val} { font-size: @val + 0px }
+
+  /* line-hight */
+  .lh-@{val} { line-height: @val + 0px }
+
   .loop(@list, (@i + 1));
 }
 
@@ -72,7 +78,7 @@
   .bg-@{val} { background-color: @val; }
 
   /* 字体 */
-  .font-@{val} { background-color: @val; }
+  .font-@{val} { color: @val; }
 
   .loop-color(@list, (@i + 1));
 }
