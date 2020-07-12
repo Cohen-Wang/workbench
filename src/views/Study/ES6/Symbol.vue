@@ -11,21 +11,21 @@
 
 <script>
 export default {
-  name: "MySymbol",
+  name: 'MySymbol',
   data() {
     return {
-      s: Symbol("school")
-    };
+      s: Symbol('school')
+    }
   },
   methods: {
     handleClick() {
-      console.log(this.s);
-      console.log(typeof this.s);
-      console.log(this.s.description);
-      console.log(Boolean(!Symbol(123)));
+      console.log(this.s)
+      console.log(typeof this.s)
+      console.log(this.s.description)
+      console.log(Boolean(!Symbol(123)))
     }
   }
-};
+}
 </script>
 
 <style scoped></style>

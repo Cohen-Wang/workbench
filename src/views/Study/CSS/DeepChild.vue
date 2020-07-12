@@ -12,7 +12,7 @@
         Ant Design的button，被修改了颜色
       </a-button>
     </div>
-    <hr/>
+    <hr class="mt-100 mb-100"/>
     <deep-grandchild></deep-grandchild>
   </div>
 </template>

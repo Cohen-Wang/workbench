@@ -7,21 +7,21 @@
       <h1>我是deep父组件</h1>
       <p>在我这里定义了 ---- #box #pox的背景颜色</p>
       <p>但是只有#box给了穿透 ---- /deep/</p>
-      <hr />
+      <hr class="mt-100 mb-100"/>
       <deep-child></deep-child>
     </div>
   </div>
 </template>
 
 <script>
-import DeepChild from "./DeepChild";
+import DeepChild from './DeepChild'
 
 export default {
-  name: "Deep",
+  name: 'Deep',
   components: {
     DeepChild
   }
-};
+}
 </script>
 
 <style lang="less" scoped>

@@ -18,30 +18,30 @@
 
 <script>
 export default {
-  name: "forceUpdate",
+  name: 'ForceUpdate',
   data() {
     return {
       arr: [
-        { name: "cohen", age: 23, school: ["西华师范大学", "西南财经大学"] },
-        { name: "kobe", age: 33 }
+        { name: 'cohen', age: 23, school: ['西华师范大学', '西南财经大学'] },
+        { name: 'kobe', age: 33 }
       ]
-    };
+    }
   },
   created() {
     setTimeout(() => {
-      this.arr[0].school[0] = "没有读过大学";
+      this.arr[0].school[0] = '没有读过大学'
       this.$message.info(
-        "数组arr已经被改变，但是dom上却并未修改。此时必须强制重新渲染",
+        '数组arr已经被改变，但是dom上却并未修改。此时必须强制重新渲染',
         10
-      );
-    }, 3000);
+      )
+    }, 3000)
   },
   methods: {
     handleClick() {
-      this.$forceUpdate();
+      this.$forceUpdate()
     }
   }
-};
+}
 </script>
 
 <style scoped></style>

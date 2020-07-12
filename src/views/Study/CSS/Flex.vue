@@ -186,15 +186,9 @@
             <div class="pox pink">6</div>
           </div>
           <p title="style=flex-wrap: wrap;align-content: flex-start">
-            <code
-              style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis"
-              >style="flex-wrap: wrap;align-content: flex-start"</code
-            >
+            <code style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis">style="flex-wrap: wrap;align-content: flex-start"</code>
           </p>
-          <div
-            class="box flex"
-            style="flex-wrap: wrap;align-content: flex-start"
-          >
+          <div class="box flex" style="flex-wrap: wrap;align-content: flex-start">
             <div class="pox red">1</div>
             <div class="pox green">2</div>
             <div class="pox blue">3</div>
@@ -221,10 +215,7 @@
             <div class="pox pink">6</div>
           </div>
           <p><code>style="align-content: space-between"</code></p>
-          <div
-            class="box flex"
-            style="flex-wrap: wrap;align-content: space-between"
-          >
+          <div class="box flex" style="flex-wrap: wrap;align-content: space-between">
             <div class="pox red">1</div>
             <div class="pox green">2</div>
             <div class="pox blue">3</div>
@@ -233,10 +224,7 @@
             <div class="pox pink">6</div>
           </div>
           <p><code>style="align-content: space-around"</code></p>
-          <div
-            class="box flex"
-            style="flex-wrap: wrap;align-content: space-around"
-          >
+          <div class="box flex" style="flex-wrap: wrap;align-content: space-around">
             <div class="pox red">1</div>
             <div class="pox green">2</div>
             <div class="pox blue">3</div>
@@ -245,10 +233,7 @@
             <div class="pox pink">6</div>
           </div>
           <p><code>style="align-content: space-evenly"</code></p>
-          <div
-            class="box flex"
-            style="flex-wrap: wrap;align-content: space-evenly"
-          >
+          <div class="box flex" style="flex-wrap: wrap;align-content: space-evenly">
             <div class="pox red">1</div>
             <div class="pox green">2</div>
             <div class="pox blue">3</div>
@@ -259,7 +244,7 @@
         </div>
       </div>
 
-      <hr style="margin: 200px 0;" />
+      <hr style="margin: 200px 0;"/>
 
       <!-- 子元素属性 -->
       <h1 style="text-align: center;font: 900 50px/1 '微软雅黑' ">
@@ -364,7 +349,7 @@
         </div>
       </div>
 
-      <hr style="margin: 200px 0;" />
+      <hr style="margin: 200px 0;"/>
 
       <!-- 案例 -->
       <h1 style="text-align: center;font: 900 50px/1 '微软雅黑' ">案例</h1>
@@ -373,98 +358,93 @@
           <p class="lead">案例一</p>
           <div class="case case-1">
             <div class="case-1-item">
-              <a-avatar
-                shape="square"
-                :size="64"
-                icon="user"
-                style="backgroundColor: #f56a00"
-              />
+              <a-avatar shape="square" :size="64" icon="user" style="background-color: #f56a00"/>
               <span>正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正</span>
             </div>
           </div>
 
           <div class="case case-1">
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正正</span>
             </div>
           </div>
 
           <div class="case case-1">
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正正正</span>
             </div>
             <div class="case-1-item">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
               <span>正正正正正正正正正正</span>
             </div>
           </div>
@@ -474,43 +454,34 @@
           <p class="lead">案例二</p>
           <div class="case case-2">
             <div class="case-2-left">
-              <a-input
-                placeholder-class="placeholder-input"
-                placeholder="Basic usage"
-              />
+              <a-input placeholder-class="placeholder-input" placeholder="Basic usage"/>
             </div>
             <div class="case-2-right">
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
             </div>
           </div>
 
           <div class="case case-2">
             <div class="case-2-left">
-              <a-input
-                placeholder-class="placeholder-input"
-                placeholder="Basic usage"
-              />
+              <a-input placeholder-class="placeholder-input" placeholder="Basic usage"/>
             </div>
             <div class="case-2-right">
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
             </div>
           </div>
 
           <div class="case case-2">
             <div class="case-2-left">
-              <a-input
-                placeholder-class="placeholder-input"
-                placeholder="Basic usage"
-              />
+              <a-input placeholder-class="placeholder-input" placeholder="Basic usage"/>
             </div>
             <div class="case-2-right">
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
-              <a-avatar shape="square" :size="32" icon="user" />
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
+              <a-avatar shape="square" :size="32" icon="user"/>
             </div>
           </div>
         </div>
@@ -519,7 +490,7 @@
           <p class="lead">案例三</p>
           <div class="case case-3">
             <div class="case-3-left">
-              <a-avatar shape="square" :size="64" icon="user" />
+              <a-avatar shape="square" :size="64" icon="user"/>
             </div>
             <div class="case-3-middle">
               <span class="top">你好，老王</span>
@@ -537,8 +508,8 @@
 
 <script>
 export default {
-  name: "Flex"
-};
+  name: 'Flex'
+}
 </script>
 
 <style lang="less" scoped>

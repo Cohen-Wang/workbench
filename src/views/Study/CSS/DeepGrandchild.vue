@@ -9,8 +9,8 @@
 
 <script>
 export default {
-  name: "DeepGrandchild"
-};
+  name: 'DeepGrandchild'
+}
 </script>
 
 <style scoped></style>
