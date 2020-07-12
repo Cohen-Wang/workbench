@@ -117,6 +117,12 @@ export const routes = [
             name: 'worker',
             meta: { title: 'worker' },
             component: () => import('@/views/Study/Javascript/Worker.vue')
+          },
+          {
+            path: '/study/javascript/fetch',
+            name: 'fetch',
+            meta: { title: 'window.fetch' },
+            component: () => import('@/views/Study/Javascript/Fetch.vue')
           }
         ]
       },
