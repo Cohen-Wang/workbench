@@ -298,6 +298,21 @@ export const routes = [
             component: () => import('@/views/Study/Ant-Design/DatePicker.vue')
           }
         ]
+      },
+      {
+        path: '/study/higher-order-function',
+        name: 'higher-order-function',
+        component: () => import('@/views/Study/HigherOrderFunction/Index.vue'),
+        meta: { title: '高阶函数', icon: 'dot-chart' },
+        redirect: '/study/echarts/category',
+        children: [
+          {
+            path: '/study/higher-order-function/createCache',
+            name: 'category',
+            meta: { title: '创建缓存' },
+            component: () => import('@/views/Study/HigherOrderFunction/CreateCache.vue')
+          }
+        ]
       }
     ]
   },
