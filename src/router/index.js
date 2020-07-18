@@ -209,6 +209,12 @@ export const routes = [
             component: () => import('@/views/Study/Vue/Router.vue')
           },
           {
+            path: '/study/vue/routerTest',
+            name: 'routerTest',
+            meta: { title: '路由测试（router）' },
+            component: () => import('@/views/Study/Vue/RouterTest.vue')
+          },
+          {
             path: '/study/vue/transition',
             name: 'transition',
             meta: { title: '过渡（transition）' },
