@@ -7,16 +7,21 @@
       <div class="box">
         <a-row :gutter="30">
           <a-col :span="12">
+            <blockquote>this.$route</blockquote>
             <pre class="well" v-text="route"></pre>
           </a-col>
           <a-col :span="12">
+            <blockquote>this.$router</blockquote>
             <pre class="well" v-text="router"></pre>
           </a-col>
         </a-row>
       </div>
       <div class="box">
         <a-row :gutter="30">
-          <a-col :span="12">
+          <a-col :span="24">
+            <blockquote>试一试</blockquote>
+          </a-col>
+          <a-col :span="6">
             <a-form layout="vertical">
               <a-form-item label="名字">
                 <a-input type="text" v-model="name"/>
@@ -25,10 +30,10 @@
                 <a-input type="number" v-model.number="age"/>
               </a-form-item>
               <a-form-item>
-                <a-button type="primary" @click="querySend">query发送</a-button>
-              </a-form-item>
-              <a-form-item>
-                <a-button type="primary" @click="paramSend">params发送</a-button>
+                <a-button-group>
+                  <a-button type="primary" @click="querySend">query发送</a-button>
+                  <a-button type="primary" @click="paramSend">params发送</a-button>
+                </a-button-group>
               </a-form-item>
             </a-form>
           </a-col>
@@ -48,6 +53,10 @@ export default {
       name: 'cohen',
       age: 23
     }
+  },
+  created() {
+    console.log('this.$route:', this.$route)
+    console.log('this.$router:', this.$router)
   },
   methods: {
     querySend() {
