@@ -71,6 +71,12 @@ export const routes = [
             component: () => import('@/views/Study/CSS/TextOverflow.vue')
           },
           {
+            path: '/study/css/scrollbar',
+            name: 'scrollbar',
+            meta: { title: 'scrollbar' },
+            component: () => import('@/views/Study/CSS/Scrollbar.vue')
+          },
+          {
             path: '/study/css/font-awesome',
             name: 'font-awesome',
             meta: { title: 'font-awesome' },
@@ -363,8 +369,8 @@ export const routes = [
 
 const router = new VueRouter({
   routes, // 配置
-  base: '/', // 应用的基路径。例如，如果整个单页应用服务在 /app/ 下，然后 base 就应该设为 '/app/'。默认值: '/'
-  mode: 'hash', // 路由的使用模式   #/home(hash)   /home(h5 history)
+  base: '/workbench/', // 应用的基路径。例如，如果整个单页应用服务在 /app/ 下，然后 base 就应该设为 '/app/'。默认值: '/'
+  mode: 'history', // 路由的使用模式   #/home(hash)   /home(h5 history)
   modules: {} // 进行路由模块划分
 })
 
