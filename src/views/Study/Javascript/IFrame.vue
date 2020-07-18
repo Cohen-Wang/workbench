@@ -6,20 +6,61 @@
       </div>
     </div>
     <div class="panel-body panel-body-box">
-      123
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe src="http://www.baidu.com"
+                    name="first"
+                    height="500"
+                    width="100%"
+                    scrolling="auto"/>
+          </div>
+        </div>
+        <!-- ... -->
+        <div>
+          <blockquote><h3>对话框展示iframe</h3></blockquote>
+          <div class="row">
+            <div class="col">
+              <iframe src="@/view/Study/Javascript/IFrame_1.html"
+                      name="first"
+                      height="500"
+                      width="100%"
+                      scrolling="auto"/>
+            </div>
+          </div>
+        </div>
+        <!-- ... -->
+        <div>
+          <blockquote><h3>对话框展示iframe</h3></blockquote>
+          <div class="row">
+            <div class="col">
+              <a-button type="primary" @click="dialogVisible">打开对话框</a-button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- 组件 -->
+    <i-frame-modal ref="iFrameModal"/>
   </div>
 </template>
 
 <script>
+import IFrameModal from './IFrameModal'
+
 export default {
   name: 'Iframe',
+  components: { IFrameModal },
   data() {
     return {
       a: 1
     }
   },
-  methods: {}
+  methods: {
+    dialogVisible() {
+      this.$refs.iFrameModal.open()
+    }
+  }
 }
 </script>
 

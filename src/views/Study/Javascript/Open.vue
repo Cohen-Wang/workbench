@@ -12,148 +12,156 @@
           <h1>window.open(URL,name,specs,replace)</h1>
         </div>
         <!-- url -->
-        <div>
-          <blockquote><h3>1.url</h3></blockquote>
-          <div class="row">
-            <div class="col">
+        <div class="box">
+          <a-row :gutter="40">
+            <a-col :span="24">
+              <blockquote><h3>1.url</h3></blockquote>
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open()</pre>
               <a-button type="primary" @click="click_1_1">打开</a-button>
-            </div>
-            <div class="col">
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com')</pre>
               <a-button type="primary" @click="click_1_2">打开</a-button>
-            </div>
-          </div>
+            </a-col>
+          </a-row>
         </div>
         <!-- name -->
-        <div>
-          <blockquote><h3>2.name</h3></blockquote>
-          <div class="row">
-            <div class="col">
+        <div class="box">
+          <a-row :gutter="40">
+            <a-col :span="24">
+              <blockquote><h3>2.name</h3></blockquote>
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com')</pre>
               <a-button type="primary" @click="click_2_1">打开</a-button>
-            </div>
-            <div class="col">
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_blank')</pre>
               <a-button type="primary" @click="click_2_2">打开</a-button>
-            </div>
-            <div class="col">
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_parent')</pre>
               <a-button type="primary" @click="click_2_3">打开</a-button>
-            </div>
-            <div class="col">
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_self')</pre>
               <a-button type="primary" @click="click_2_4">打开</a-button>
-            </div>
-            <div class="col">
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_top')</pre>
               <a-button type="primary" @click="click_2_5">打开</a-button>
-            </div>
-          </div>
+            </a-col>
+          </a-row>
         </div>
         <!-- specs -->
-        <div>
-          <blockquote><h3>3.specs</h3></blockquote>
-          <div class="row">
-            <div class="col">
+        <div class="box">
+          <a-row :gutter="40">
+            <a-col :span="24">
+              <blockquote><h3>3.specs</h3></blockquote>
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_blank', 'height=500, width=500, top=200, left=200')</pre>
               <a-button type="primary" @click="click_3_1">打开</a-button>
-            </div>
-          </div>
+            </a-col>
+          </a-row>
         </div>
         <!-- replace -->
-        <div>
-          <blockquote><h3>4.replace</h3></blockquote>
-          <div class="row">
-            <div class="col">
+        <div class="box">
+          <a-row :gutter="40">
+            <a-col :span="24">
+              <blockquote><h3>4.replace</h3></blockquote>
+            </a-col>
+            <a-col :span="12" class="mb-20">
               <pre class="well">window.open('https://www.baidu.com', '_blank', 'height=500, width=500, top=200, left=200')</pre>
               <a-button type="primary" @click="click_3_1">打开</a-button>
-            </div>
-          </div>
+            </a-col>
+          </a-row>
         </div>
         <!-- 效果 -->
-        <div>
-          <blockquote><h3>5.效果</h3></blockquote>
-          <div class="row">
-            <div class="col">
-              <div class="show">
-                <div>
-                  <a-form layout="horizontal" :label-col="{ span: 4 }" :wrapper-col="{ span: 20 }">
-                    <a-form-item label="name">
-                      <a-select allowClear @change="nameChange">
-                        <a-select-option v-for="item in nameOptions"
-                                         :key="item.value"
-                                         :value="item.value">
-                          {{ item.label }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item label="height">
-                      <a-input v-model="params.height" type="number" step="100"/>
-                    </a-form-item>
-                    <a-form-item label="width">
-                      <a-input v-model="params.width" type="number" step="100"/>
-                    </a-form-item>
-                    <a-form-item label="top">
-                      <a-input v-model="params.top" type="number" step="100"/>
-                    </a-form-item>
-                    <a-form-item label="left">
-                      <a-input v-model="params.left" type="number" step="100"/>
-                    </a-form-item>
-                    <a-form-item label="toolbar">
-                      <a-select allowClear @change="toolbarChange">
-                        <a-select-option v-for="item in toolbarOptions"
-                                         :key="item"
-                                         :value="item">
-                          {{ item }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item label="menubar">
-                      <a-select allowClear @change="menubarChange">
-                        <a-select-option v-for="item in menubarOptions"
-                                         :key="item"
-                                         :value="item">
-                          {{ item }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item label="resizable">
-                      <a-select allowClear @change="resizableChange">
-                        <a-select-option v-for="item in resizableOptions"
-                                         :key="item"
-                                         :value="item">
-                          {{ item }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item label="location">
-                      <a-select allowClear @change="locationChange">
-                        <a-select-option v-for="item in locationOptions"
-                                         :key="item"
-                                         :value="item">
-                          {{ item }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item label="status">
-                      <a-select allowClear @change="statusChange">
-                        <a-select-option v-for="item in statusOptions"
-                                         :key="item"
-                                         :value="item">
-                          {{ item }}
-                        </a-select-option>
-                      </a-select>
-                    </a-form-item>
-                    <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
-                      <a-button type="primary" @click="handleClick">打开</a-button>
-                    </a-form-item>
-                  </a-form>
-                </div>
-                <div><pre class="well" v-text="params"></pre></div>
-              </div>
-            </div>
-          </div>
+        <div class="box">
+          <a-row :gutter="24">
+            <a-col :span="24">
+              <blockquote><h3>5.效果</h3></blockquote>
+            </a-col>
+            <a-col :span="6" class="mb-20">
+              <a-form layout="horizontal" :label-col="{ span: 4 }" :wrapper-col="{ span: 20 }">
+                <a-form-item label="name">
+                  <a-select allowClear @change="nameChange">
+                    <a-select-option v-for="item in nameOptions"
+                                     :key="item.value"
+                                     :value="item.value">
+                      {{ item.label }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item label="height">
+                  <a-input v-model="params.height" type="number" step="100"/>
+                </a-form-item>
+                <a-form-item label="width">
+                  <a-input v-model="params.width" type="number" step="100"/>
+                </a-form-item>
+                <a-form-item label="top">
+                  <a-input v-model="params.top" type="number" step="100"/>
+                </a-form-item>
+                <a-form-item label="left">
+                  <a-input v-model="params.left" type="number" step="100"/>
+                </a-form-item>
+                <a-form-item label="toolbar">
+                  <a-select allowClear @change="toolbarChange">
+                    <a-select-option v-for="item in toolbarOptions"
+                                     :key="item"
+                                     :value="item">
+                      {{ item }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item label="menubar">
+                  <a-select allowClear @change="menubarChange">
+                    <a-select-option v-for="item in menubarOptions"
+                                     :key="item"
+                                     :value="item">
+                      {{ item }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item label="resizable">
+                  <a-select allowClear @change="resizableChange">
+                    <a-select-option v-for="item in resizableOptions"
+                                     :key="item"
+                                     :value="item">
+                      {{ item }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item label="location">
+                  <a-select allowClear @change="locationChange">
+                    <a-select-option v-for="item in locationOptions"
+                                     :key="item"
+                                     :value="item">
+                      {{ item }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item label="status">
+                  <a-select allowClear @change="statusChange">
+                    <a-select-option v-for="item in statusOptions"
+                                     :key="item"
+                                     :value="item">
+                      {{ item }}
+                    </a-select-option>
+                  </a-select>
+                </a-form-item>
+                <a-form-item :wrapper-col="{ span: 14, offset: 4 }">
+                  <a-button type="primary" @click="handleClick">打开</a-button>
+                </a-form-item>
+              </a-form>
+            </a-col>
+            <a-col :span="6" class="mb-20">
+              <div><pre class="well" v-text="params"></pre></div>
+            </a-col>
+          </a-row>
         </div>
       </div>
     </div>
@@ -260,31 +268,9 @@ export default {
 </script>
 
 <style scoped lang="less">
-  .container {
-
-    .row {
-      margin-left: -15px;
-      margin-right: -15px;
-      margin-bottom: 40px;
-      padding-bottom: 20px;
-      border-bottom: 2px dashed #e8e8e8;
-      display: flex;
-      flex-wrap: wrap;
-
-      .col {
-        width: 50%;
-        padding: 10px 15px;
-        border-right: 2px dashed #e8e8e8;
-
-        .show {
-          display: flex;
-
-          &>div {
-            width: 50%;
-            padding: 0 10px;
-          }
-        }
-      }
-    }
+  .box {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px dashed #e8e8e8;
   }
 </style>

@@ -186,7 +186,7 @@ export const routes = [
           },
           {
             path: '/study/vue/slot',
-            name: 'watch',
+            name: 'slot',
             meta: { title: '插槽(slot)' },
             component: () => import('@/views/Study/Vue/MySlot.vue')
           },
@@ -304,11 +304,11 @@ export const routes = [
         name: 'higher-order-function',
         component: () => import('@/views/Study/HigherOrderFunction/Index.vue'),
         meta: { title: '高阶函数', icon: 'dot-chart' },
-        redirect: '/study/echarts/category',
+        redirect: '/study/higher-order-function/createCache',
         children: [
           {
             path: '/study/higher-order-function/createCache',
-            name: 'category',
+            name: 'createCache',
             meta: { title: '创建缓存' },
             component: () => import('@/views/Study/HigherOrderFunction/CreateCache.vue')
           }
@@ -316,22 +316,22 @@ export const routes = [
       }
     ]
   },
-  {
-    path: '/case',
-    name: 'case',
-    component: Index,
-    isShow: true,
-    meta: { title: '案例', icon: 'file' },
-    redirect: '/axios',
-    children: [
-      {
-        path: '/axios',
-        name: 'axios',
-        meta: { title: 'axios', icon: 'credit-card' },
-        component: () => import('@/views/Study/Axios/Axios.vue')
-      }
-    ]
-  },
+  // {
+  //   path: '/case',
+  //   name: 'case',
+  //   component: Index,
+  //   isShow: true,
+  //   meta: { title: '案例', icon: 'file' },
+  //   redirect: '/axios',
+  //   children: [
+  //     {
+  //       path: '/axios',
+  //       name: 'axios',
+  //       meta: { title: 'axios', icon: 'credit-card' },
+  //       component: () => import('@/views/Study/Axios/Axios.vue')
+  //     }
+  //   ]
+  // },
   {
     path: '/application',
     name: 'application',
