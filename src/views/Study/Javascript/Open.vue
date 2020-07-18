@@ -13,7 +13,7 @@
         </div>
         <!-- url -->
         <div class="box">
-          <a-row :gutter="40">
+          <a-row :gutter="30">
             <a-col :span="24">
               <blockquote><h3>1.url</h3></blockquote>
             </a-col>
@@ -29,7 +29,7 @@
         </div>
         <!-- name -->
         <div class="box">
-          <a-row :gutter="40">
+          <a-row :gutter="30">
             <a-col :span="24">
               <blockquote><h3>2.name</h3></blockquote>
             </a-col>
@@ -57,7 +57,7 @@
         </div>
         <!-- specs -->
         <div class="box">
-          <a-row :gutter="40">
+          <a-row :gutter="30">
             <a-col :span="24">
               <blockquote><h3>3.specs</h3></blockquote>
             </a-col>
@@ -69,7 +69,7 @@
         </div>
         <!-- replace -->
         <div class="box">
-          <a-row :gutter="40">
+          <a-row :gutter="30">
             <a-col :span="24">
               <blockquote><h3>4.replace</h3></blockquote>
             </a-col>
@@ -81,7 +81,7 @@
         </div>
         <!-- 效果 -->
         <div class="box">
-          <a-row :gutter="24">
+          <a-row :gutter="30">
             <a-col :span="24">
               <blockquote><h3>5.效果</h3></blockquote>
             </a-col>

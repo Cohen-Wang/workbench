@@ -24,8 +24,8 @@ export default {
     }
   },
   mounted() {
-    console.log('this.$refs', this.$refs) // undefined
-    console.log('this.$refs.iframeId:', this.$refs.iframeId) // undefined
+    // console.log('this.$refs', this.$refs) // undefined
+    // console.log('this.$refs.iframeId:', this.$refs.iframeId) // undefined
   },
   methods: {
     open() {

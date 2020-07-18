@@ -316,22 +316,22 @@ export const routes = [
       }
     ]
   },
-  // {
-  //   path: '/case',
-  //   name: 'case',
-  //   component: Index,
-  //   isShow: true,
-  //   meta: { title: '案例', icon: 'file' },
-  //   redirect: '/axios',
-  //   children: [
-  //     {
-  //       path: '/axios',
-  //       name: 'axios',
-  //       meta: { title: 'axios', icon: 'credit-card' },
-  //       component: () => import('@/views/Study/Axios/Axios.vue')
-  //     }
-  //   ]
-  // },
+  {
+    path: '/case',
+    name: 'case',
+    component: Index,
+    isShow: true,
+    meta: { title: '案例', icon: 'file' },
+    redirect: '/case/index',
+    children: [
+      {
+        path: '/case/index',
+        name: 'index',
+        meta: { title: '所有案例', icon: 'credit-card' },
+        component: () => import('@/views/Case/Index.vue')
+      }
+    ]
+  },
   {
     path: '/application',
     name: 'application',
@@ -363,8 +363,8 @@ export const routes = [
 
 const router = new VueRouter({
   routes, // 配置
-  base: '/workbench/', // 应用的基路径。例如，如果整个单页应用服务在 /app/ 下，然后 base 就应该设为 '/app/'。默认值: '/'
-  mode: 'history', // 路由的使用模式   #/home(hash)   /home(h5 history)
+  base: '/', // 应用的基路径。例如，如果整个单页应用服务在 /app/ 下，然后 base 就应该设为 '/app/'。默认值: '/'
+  mode: 'hash', // 路由的使用模式   #/home(hash)   /home(h5 history)
   modules: {} // 进行路由模块划分
 })
 
