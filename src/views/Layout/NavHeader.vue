@@ -1,20 +1,19 @@
 <template>
-  <a-menu
-    mode="horizontal"
-    :default-selected-keys="[currentNav]"
-    style="height: 64px;line-height: 64px;"
-  >
-    <template v-for="(item, index) in routes" v-if="item.isShow">
+  <a-menu mode="horizontal"
+          :selected-keys="[currentNav]"
+          style="height: 64px;line-height: 64px;">
+    <!-- 左边 -->
+    <template v-for="item in showRouter">
       <a-menu-item :key="item.name" @click="handleClick">
-        <a-icon v-if="item.meta.icon" :type="item.meta.icon" />
+        <a-icon v-if="item.meta.icon" :type="item.meta.icon"/>
         {{ item.meta.title ? item.meta.title : "" }}
       </a-menu-item>
     </template>
-
+    <!-- 右边 -->
     <a-dropdown style="float: right;padding-right: 30px;">
       <a class="ant-dropdown-link" @click="e => e.preventDefault()">
         王海涛
-        <a-icon type="down" />
+        <a-icon type="down"/>
       </a>
       <a-menu slot="overlay">
         <a-menu-item>
@@ -32,39 +31,42 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex'
 
 export default {
-  name: "navHeader",
+  name: 'NavHeader',
   data() {
-    return {};
+    return {}
   },
   computed: {
-    ...mapGetters(["routes", "currentNav"])
+    ...mapGetters(['routes', 'currentNav']),
+    showRouter() {
+      return this.routes.filter(e => e.isShow)
+    }
   },
   methods: {
     // 导航条点击
     handleClick(option) {
-      const { key } = option;
-      this.$store.commit("SET_CURRENT_NAV", key);
+      const { key } = option
+      this.$store.commit('SET_CURRENT_NAV', key)
     },
     // 退出登录
     logout() {
       this.$confirm({
-        title: "确认退出登录吗？",
-        okText: "确认",
+        title: '确认退出登录吗？',
+        okText: '确认',
         onOk() {
           return new Promise((resolve, reject) => {
-            setTimeout(Math.random() > 0.5 ? resolve : reject, 1000);
-          }).catch(() => console.log("Oops errors!"));
+            setTimeout(Math.random() > 0.5 ? resolve : reject, 1000)
+          }).catch(() => console.log('Oops errors!'))
         },
-        cancelText: "取消",
+        cancelText: '取消',
         onCancel() {}
-      });
+      })
     }
   },
   created() {}
-};
+}
 </script>
 
 <style lang="less" scoped></style>
