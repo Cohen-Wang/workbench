@@ -245,6 +245,27 @@ export const routes = [
             name: 'moment',
             meta: { title: 'moment.js' },
             component: () => import('@/views/Study/Library/Moment.vue')
+          },
+          {
+            path: '/study/library/lodash',
+            name: 'lodash',
+            meta: { title: 'lodash.js', icon: 'smile' },
+            component: () => import('@/views/Study/Library/Index.vue'),
+            redirect: '/study/library/lodash/debounce',
+            children: [
+              {
+                path: '/study/library/lodash/debounce',
+                name: 'debounce',
+                meta: { title: 'debounce（防抖）' },
+                component: () => import('@/views/Study/Library/Lodash/Debounce.vue')
+              },
+              {
+                path: '/study/library/lodash/throttle',
+                name: 'throttle',
+                meta: { title: 'throttle（节流）' },
+                component: () => import('@/views/Study/Library/Lodash/Throttle.vue')
+              }
+            ]
           }
         ]
       },

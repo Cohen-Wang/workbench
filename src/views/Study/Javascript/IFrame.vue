@@ -71,10 +71,4 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
-  .box {
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    border-bottom: 2px dashed #e8e8e8;
-  }
-</style>
+<style scoped lang="less"></style>
