@@ -8,13 +8,13 @@
         <a-row :gutter="30">
           <a-col :span="12">
             <blockquote>当鼠标不停时，没有throttle</blockquote>
-            <pre class="well">window.width = {{ this.quickInfo.w }}</pre>
-            <pre class="well">window.height = {{ this.quickInfo.h }}</pre>
+            <pre class="well">clientX = {{ this.quickInfo.w }}</pre>
+            <pre class="well">clientY = {{ this.quickInfo.h }}</pre>
           </a-col>
           <a-col :span="12">
             <blockquote>当鼠标不停时，有throttle</blockquote>
-            <pre class="well">window.width = {{ this.slowInfo.w }}</pre>
-            <pre class="well">window.height = {{ this.slowInfo.h }}</pre>
+            <pre class="well">clientX = {{ this.slowInfo.w }}</pre>
+            <pre class="well">clientY = {{ this.slowInfo.h }}</pre>
           </a-col>
         </a-row>
       </div>

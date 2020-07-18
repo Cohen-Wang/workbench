@@ -160,7 +160,7 @@ export const routes = [
           {
             path: '/study/es6/null-propagation-operator',
             name: 'null-propagation-operator',
-            meta: { title: 'Null传导运算符' },
+            meta: { title: 'Null传导运算符（?.）' },
             component: () => import('@/views/Study/ES6/NullOperator.vue')
           },
           {
@@ -181,54 +181,55 @@ export const routes = [
           {
             path: '/study/vue/property',
             name: 'property',
-            meta: { title: 'Vue属性' },
+            meta: { title: 'Vue属性（property）' },
             component: () => import('@/views/Study/Vue/Property.vue')
+          },
+          {
+            path: '/study/vue/lifecycle',
+            name: 'lifecycle',
+            meta: { title: '生命周期（lifecycle）' },
+            component: () => import('@/views/Study/Vue/Lifecycle.vue')
           },
           {
             path: '/study/vue/watch',
             name: 'watch',
-            meta: { title: '侦听属性(watch)' },
+            meta: { title: '侦听属性（watch）' },
             component: () => import('@/views/Study/Vue/Watch.vue')
           },
           {
             path: '/study/vue/slot',
             name: 'slot',
-            meta: { title: '插槽(slot)' },
+            meta: { title: '插槽（slot）' },
             component: () => import('@/views/Study/Vue/MySlot.vue')
           },
           {
             path: '/study/vue/router',
             name: 'router',
-            meta: { title: '路由(router)' },
-            component: () => import('@/views/Study/Vue/Router.vue'),
-            beforeEnter: (to, from, next) => {
-              console.log(to, from, next)
-              alert('我是在router目录下的index.js文件里，用的路由的拦截器')
-              next()
-            }
+            meta: { title: '路由（router）' },
+            component: () => import('@/views/Study/Vue/Router.vue')
           },
           {
             path: '/study/vue/transition',
             name: 'transition',
-            meta: { title: '过渡(transition)' },
+            meta: { title: '过渡（transition）' },
             component: () => import('@/views/Study/Vue/Transition.vue')
           },
           {
             path: '/study/vue/mixins',
             name: 'mixins',
-            meta: { title: '混入(mixins)' },
+            meta: { title: '混入（mixins）' },
             component: () => import('@/views/Study/Vue/Mixins.vue')
           },
           {
             path: '/study/vue/forceUpdate',
             name: 'forceUpdate',
-            meta: { title: 'forceUpdate' },
+            meta: { title: '强制更新（forceUpdate）' },
             component: () => import('@/views/Study/Vue/$forceUpdate.vue')
           },
           {
             path: '/study/vue/key',
             name: 'key',
-            meta: { title: 'key' },
+            meta: { title: '循环（key）' },
             component: () => import('@/views/Study/Vue/Key.vue')
           }
         ]
