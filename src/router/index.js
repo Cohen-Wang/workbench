@@ -123,6 +123,18 @@ export const routes = [
             name: 'fetch',
             meta: { title: 'window.fetch' },
             component: () => import('@/views/Study/Javascript/Fetch.vue')
+          },
+          {
+            path: '/study/javascript/open',
+            name: 'open',
+            meta: { title: 'window.open' },
+            component: () => import('@/views/Study/Javascript/Open.vue')
+          },
+          {
+            path: '/study/javascript/iframe',
+            name: 'iframe',
+            meta: { title: 'window.iframe' },
+            component: () => import('@/views/Study/Javascript/IFrame.vue')
           }
         ]
       },
@@ -326,12 +338,12 @@ export const routes = [
     name: '404',
     isShow: false,
     component: () => import('@/views/404.vue')
-  },
+  }/*,
   // 一定要放在最后一个，因为路由匹配是按顺序匹配的，只有当匹配了所有的都找不到才说明是不存在的页面
   {
-    path: '/*',
+    path: '/!*',
     redirect: '/404'
-  }
+  }*/
 ]
 
 const router = new VueRouter({
