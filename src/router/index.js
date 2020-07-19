@@ -164,10 +164,28 @@ export const routes = [
             component: () => import('@/views/Study/ES6/NullOperator.vue')
           },
           {
+            path: '/study/es6/promise',
+            name: 'promise',
+            meta: { title: 'promise' },
+            component: () => import('@/views/Study/ES6/Promise.vue')
+          },
+          {
             path: '/study/es6/async-await',
             name: 'async-await',
             meta: { title: 'Async&Await' },
             component: () => import('@/views/Study/ES6/Async-Await.vue')
+          },
+          {
+            path: '/study/es6/square',
+            name: 'square',
+            meta: { title: '平方（square）' },
+            component: () => import('@/views/Study/ES6/Square.vue')
+          },
+          {
+            path: '/study/es6/clone',
+            name: 'clone',
+            meta: { title: '拷贝（clone）' },
+            component: () => import('@/views/Study/ES6/Clone.vue')
           }
         ]
       },
