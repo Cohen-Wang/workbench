@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '../views/Layout/Index'
+import Login from '../views/Login/Login'
+import Register from '../views/Login/Register'
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,16 @@ VueRouter.prototype.push = function push(location) {
 }
 
 export const routes = [
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
+  },
   {
     path: '/',
     name: 'dashboard',
@@ -405,12 +417,12 @@ export const routes = [
     name: '404',
     isShow: false,
     component: () => import('@/views/404.vue')
-  }/*,
+  },
   // 一定要放在最后一个，因为路由匹配是按顺序匹配的，只有当匹配了所有的都找不到才说明是不存在的页面
   {
-    path: '/!*',
+    path: '/*',
     redirect: '/404'
-  }*/
+  }
 ]
 
 const router = new VueRouter({
@@ -418,6 +430,16 @@ const router = new VueRouter({
   base: '/workbench/', // 应用的基路径。例如，如果整个单页应用服务在 /app/ 下，然后 base 就应该设为 '/app/'。默认值: '/'
   mode: 'history', // 路由的使用模式   #/home(hash)   /home(h5 history)
   modules: {} // 进行路由模块划分
+})
+
+// 拦截器
+router.beforeEach((to, from, next) => {
+  const isLogin = !!localStorage.getItem('token')
+  if (to.path === '/login' || to.path === '/register') {
+    next()
+  } else {
+    isLogin ? next() : next('/login')
+  }
 })
 
 export default router

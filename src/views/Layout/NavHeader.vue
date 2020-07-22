@@ -52,16 +52,26 @@ export default {
     },
     // 退出登录
     logout() {
+      const _this = this
       this.$confirm({
         title: '确认退出登录吗？',
         okText: '确认',
+        cancelText: '取消',
+        onCancel() {},
         onOk() {
           return new Promise((resolve, reject) => {
-            setTimeout(Math.random() > 0.5 ? resolve : reject, 1000)
-          }).catch(() => console.log('Oops errors!'))
-        },
-        cancelText: '取消',
-        onCancel() {}
+            setTimeout(() => {
+              // 清除token
+              localStorage.removeItem('token')
+              // 跳转login
+              _this.$router.push('/login')
+              // 为了关闭loading
+              resolve('关闭')
+            }, 1000)
+          }).catch(() => {
+            console.log('Oops errors!')
+          })
+        }
       })
     }
   },

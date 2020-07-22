@@ -4,99 +4,111 @@
       <div class="panel-title">Table(表格)</div>
     </div>
     <div class="panel-body panel-body-box">
-      <a-table :columns="columns" :data-source="data">
-        <a slot="name" slot-scope="text">{{ text }}</a>
-        <span slot="customTitle"><a-icon type="smile-o" /> Name</span>
-        <span slot="tags" slot-scope="tags">
-          <a-tag
-            v-for="tag in tags"
-            :key="tag"
-            :color="
-              tag === 'loser'
-                ? 'volcano'
-                : tag.length > 5
-                ? 'geekblue'
-                : 'green'
-            "
-          >
-            {{ tag.toUpperCase() }}
-          </a-tag>
-        </span>
+      <a-table :columns="columns"
+               :data-source="tableData"
+               size="small"
+               :loading="loading"
+               bordered>
+        <span slot="customTitle"><a-icon type="smile-o"/> 名字</span>
         <span slot="action" slot-scope="text, record">
-          <a>Invite 一 {{ record.name }}</a>
-          <a-divider type="vertical" />
-          <a>Delete</a>
-          <a-divider type="vertical" />
-          <a class="ant-dropdown-link"> More actions <a-icon type="down" /> </a>
+          <a @click="deleteRow(text, record)">删除</a>
+          <a-divider type="vertical"/>
+          <a @click="edit(text, record)">编辑</a>
+          <a-divider type="vertical"/>
+          <a class="ant-dropdown-link"> More actions <a-icon type="down"/> </a>
         </span>
       </a-table>
     </div>
   </div>
 </template>
+
 <script>
 const columns = [
   {
-    dataIndex: "name",
-    key: "name",
-    slots: { title: "customTitle" },
-    scopedSlots: { customRender: "name" }
+    title: 'ID',
+    dataIndex: 'id',
+    width: 50,
+    key: 'id'
   },
   {
-    title: "Age",
-    dataIndex: "age",
-    key: "age"
+    dataIndex: 'name',
+    key: 'name',
+    width: 180,
+    slots: { title: 'customTitle' },
+    scopedSlots: { customRender: 'name' }
   },
   {
-    title: "Address",
-    dataIndex: "address",
-    key: "address"
+    title: '邮件',
+    width: 240,
+    dataIndex: 'email',
+    key: 'email'
   },
   {
-    title: "Tags",
-    key: "tags",
-    dataIndex: "tags",
-    scopedSlots: { customRender: "tags" }
+    title: '电话',
+    width: 200,
+    dataIndex: 'phone',
+    key: 'phone'
   },
   {
-    title: "Action",
-    key: "action",
-    scopedSlots: { customRender: "action" }
+    title: '网页',
+    width: 150,
+    dataIndex: 'website',
+    key: 'website'
+  },
+  {
+    title: '地址',
+    width: 150,
+    dataIndex: 'address.city',
+    key: 'address'
+  },
+  {
+    title: '操作',
+    key: 'action',
+    scopedSlots: {
+      customRender: 'action'
+    }
   }
-];
-
-const data = [
-  {
-    key: "1",
-    name: "John Brown",
-    age: 32,
-    address: "New York No. 1 Lake Park",
-    tags: ["nice", "developer"]
-  },
-  {
-    key: "2",
-    name: "Jim Green",
-    age: 42,
-    address: "London No. 1 Lake Park",
-    tags: ["loser"]
-  },
-  {
-    key: "3",
-    name: "Joe Black",
-    age: 32,
-    address: "Sidney No. 1 Lake Park",
-    tags: ["cool", "teacher"]
-  }
-];
+]
 
 export default {
-  name: "Table",
+  name: 'Table',
   data() {
     return {
-      data,
-      columns
-    };
+      columns,
+      tableData: [],
+      // ...
+      loading: false
+    }
+  },
+  created() {
+    this.getTableData()
+  },
+  methods: {
+    // 获取数据
+    getTableData() {
+      const url = 'http://jsonplaceholder.typicode.com/users'
+      this.loading = true
+      this.$axios.get(url).then(res => {
+        if (!res.statusText) return this.$message.error('没有获取到数据', 2000)
+        this.tableData = res.data
+        console.log(this.tableData)
+      }).catch(err => {
+        console.log(err)
+      }).finally(() => {
+        this.loading = false
+      })
+    },
+    // 删除
+    deleteRow(item) {
+      console.log(item)
+      this.tableData.splice(this.tableData.indexOf(item), 1)
+    },
+    // 编辑
+    edit(item) {
+      console.log(item)
+    }
   }
-};
+}
 </script>
 
 <style scoped></style>
