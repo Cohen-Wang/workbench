@@ -284,6 +284,12 @@ export const routes = [
             component: () => import('@/views/Study/Library/Moment.vue')
           },
           {
+            path: '/study/library/mock',
+            name: 'mock',
+            meta: { title: 'mock.js' },
+            component: () => import('@/views/Study/Library/Mock.vue')
+          },
+          {
             path: '/study/library/lodash',
             name: 'lodash',
             meta: { title: 'lodash.js', icon: 'smile' },

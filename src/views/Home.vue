@@ -6,19 +6,19 @@
       </div>
     </div>
     <div class="panel-body panel-body-box">
-      <a-calendar />
+      <a-calendar/>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: 'Home',
   data() {
-    return {};
+    return {}
   },
   methods: {}
-};
+}
 </script>
 
 <style lang="less" scoped>

@@ -1,3346 +1,3346 @@
 export default {
   nodes: [
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1228207764901892097",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1228207764901892097',
       initScore: 0,
-      name: "凌波",
+      name: '凌波',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "凌波",
+      img: './1.jpg',
+      label: '凌波',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 560.2371160185395,
       y: 1130.784953970452
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1228211949588353026",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1228211949588353026',
       initScore: 200,
-      name: "拉菲",
+      name: '拉菲',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 80,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "拉菲",
+      img: './1.jpg',
+      label: '拉菲',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 40,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1908.6465340346397,
       y: -228.0085321982029
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1229668761156128769",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1229668761156128769',
       initScore: 0,
-      name: "标枪",
+      name: '标枪',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "标枪",
+      img: './1.jpg',
+      label: '标枪',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1673.117986986257,
       y: 578.5900980932734
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230056250308026370",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230056250308026370',
       initScore: 0,
-      name: "克利夫兰",
+      name: '克利夫兰',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "克利夫兰",
+      img: './1.jpg',
+      label: '克利夫兰',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1410.6685257715014,
       y: 219.87172303143066
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "Manjuu",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230714281840553985",
+      depart: 'Manjuu',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230714281840553985',
       initScore: 999,
-      name: "高军",
+      name: '高军',
       okrScore: 2.91,
-      position: "软件测试开发工程师",
-      taskType: "",
-      type: "image",
+      position: '软件测试开发工程师',
+      taskType: '',
+      type: 'image',
       size: 80,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "高军",
+      img: './1.jpg',
+      label: '高军',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 40,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 728.2487951232308,
       y: 422.65731362751234
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "碧蓝航线",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230731505590546434",
+      depart: '碧蓝航线',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230731505590546434',
       initScore: 200,
-      name: "指挥官",
+      name: '指挥官',
       okrScore: 0,
-      position: "前台",
-      taskType: "",
-      type: "image",
+      position: '前台',
+      taskType: '',
+      type: 'image',
       size: 80,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "指挥官",
+      img: './1.jpg',
+      label: '指挥官',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 40,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 717.3816473226642,
       y: 344.2471853904433
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230731754925142018",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230731754925142018',
       initScore: 0.01,
-      name: "长门",
+      name: '长门',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "长门",
+      img: './1.jpg',
+      label: '长门',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 30,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 746.7711445762889,
       y: 750.3455524021165
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230732072995991553",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230732072995991553',
       initScore: 0,
-      name: "伊丽莎白",
+      name: '伊丽莎白',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "伊丽莎白",
+      img: './1.jpg',
+      label: '伊丽莎白',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1263.9153199877526,
       y: 713.538831645674
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230732277166321665",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230732277166321665',
       initScore: 0,
-      name: "华盛顿",
+      name: '华盛顿',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "华盛顿",
+      img: './1.jpg',
+      label: '华盛顿',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1890.4350641819758,
       y: -96.66801349035816
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "铁血",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230732431248273409",
+      depart: '铁血',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230732431248273409',
       initScore: 220,
-      name: "俾斯麦",
+      name: '俾斯麦',
       okrScore: 7.711,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 80,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "俾斯麦",
+      img: './1.jpg',
+      label: '俾斯麦',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 40,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 626.0002127574157,
       y: 377.4978075943304
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "铁血",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230733662712705026",
+      depart: '铁血',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230733662712705026',
       initScore: 0,
-      name: "提尔比茨",
+      name: '提尔比茨',
       okrScore: 0,
-      position: "纵横",
-      taskType: "",
-      type: "image",
+      position: '纵横',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "提尔比茨",
+      img: './1.jpg',
+      label: '提尔比茨',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: -80.08661504303498,
       y: 343.69896590070204
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1230733791846936577",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1230733791846936577',
       initScore: 0,
-      name: "太原",
+      name: '太原',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "太原",
+      img: './1.jpg',
+      label: '太原',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1081.2569332756455,
       y: 189.89423040802282
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1231745357128069121",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1231745357128069121',
       initScore: 0,
-      name: "赤诚",
+      name: '赤诚',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "赤诚",
+      img: './1.jpg',
+      label: '赤诚',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 252.27639698915,
       y: 870.7565376592238
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1231823910850977794",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1231823910850977794',
       initScore: 0,
-      name: "大凤",
+      name: '大凤',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "大凤",
+      img: './1.jpg',
+      label: '大凤',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 835.5776549840199,
       y: 697.4752422465926
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "铁血",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1231824191508635650",
+      depart: '铁血',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1231824191508635650',
       initScore: 0,
-      name: "罗恩",
+      name: '罗恩',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "罗恩",
+      img: './1.jpg',
+      label: '罗恩',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 391.49232322947523,
       y: 702.7100246319383
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1231824697316532225",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1231824697316532225',
       initScore: 0,
-      name: "皇家方舟",
+      name: '皇家方舟',
       okrScore: 0,
-      position: "前台",
-      taskType: "",
-      type: "image",
+      position: '前台',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "皇家方舟",
+      img: './1.jpg',
+      label: '皇家方舟',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1520.0623520381862,
       y: 969.8438497857746
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1232207420849881090",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1232207420849881090',
       initScore: 0,
-      name: "天城",
+      name: '天城',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "天城",
+      img: './1.jpg',
+      label: '天城',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 903.9010831522628,
       y: 684.1746584704247
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "北方联合",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1232209222668353538",
+      depart: '北方联合',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1232209222668353538',
       initScore: 0,
-      name: "阿芙乐尔",
+      name: '阿芙乐尔',
       okrScore: 0,
-      position: "前锋",
-      taskType: "",
-      type: "image",
+      position: '前锋',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "阿芙乐尔",
+      img: './1.jpg',
+      label: '阿芙乐尔',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1073.0959993923684,
       y: 864.8991797082347
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1232215196456091649",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1232215196456091649',
       initScore: 0,
-      name: "光辉",
+      name: '光辉',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "光辉",
+      img: './1.jpg',
+      label: '光辉',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1620.852996451548,
       y: 917.9748235589066
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1232577352682930178",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1232577352682930178',
       initScore: 0,
-      name: "厌战",
+      name: '厌战',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "厌战",
+      img: './1.jpg',
+      label: '厌战',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1738.9122391770575,
       y: 657.334873646067
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234378633433051138",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234378633433051138',
       initScore: 0,
-      name: "企业",
+      name: '企业',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "企业",
+      img: './1.jpg',
+      label: '企业',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1373.0199286160632,
       y: 73.92786701232313
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234401718924201986",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234401718924201986',
       initScore: 0,
-      name: "夕张",
+      name: '夕张',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "夕张",
+      img: './1.jpg',
+      label: '夕张',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 379.85502715869023,
       y: 1057.2968984049296
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "销售部",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234401855029366786",
+      depart: '销售部',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234401855029366786',
       initScore: 0,
-      name: "明石",
+      name: '明石',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "明石",
+      img: './1.jpg',
+      label: '明石',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 228.6587162377064,
       y: -815.4385229085781
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234401968925691906",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234401968925691906',
       initScore: 0,
-      name: "不知火",
+      name: '不知火',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "不知火",
+      img: './1.jpg',
+      label: '不知火',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 789.781278596425,
       y: 1287.180193327754
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "维希教廷",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234402487714959361",
+      depart: '维希教廷',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234402487714959361',
       initScore: 100,
-      name: "黎塞留",
+      name: '黎塞留',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "黎塞留",
+      img: './1.jpg',
+      label: '黎塞留',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 30,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1139.6221967235044,
       y: -484.2106785672569
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1234415819662430210",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1234415819662430210',
       initScore: 0,
-      name: "密苏里",
+      name: '密苏里',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "密苏里",
+      img: './1.jpg',
+      label: '密苏里',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1405.3982039990449,
       y: -82.18025129651265
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235102781788585986",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235102781788585986',
       initScore: 0,
-      name: "大黄蜂",
+      name: '大黄蜂',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "大黄蜂",
+      img: './1.jpg',
+      label: '大黄蜂',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 2039.394633245016,
       y: 3.809130101706196
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235102946868002817",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235102946868002817',
       initScore: 0,
-      name: "约克城",
+      name: '约克城',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "约克城",
+      img: './1.jpg',
+      label: '约克城',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1614.8614964948974,
       y: -203.51887055597118
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235103234899247105",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235103234899247105',
       initScore: 0,
-      name: "女灶神",
+      name: '女灶神',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "女灶神",
+      img: './1.jpg',
+      label: '女灶神',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 2045.0654826487244,
       y: 139.11825693495544
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235103630220787714",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235103630220787714',
       initScore: 0,
-      name: "埃塞克斯",
+      name: '埃塞克斯',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "埃塞克斯",
+      img: './1.jpg',
+      label: '埃塞克斯',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 2011.8415850255938,
       y: -120.8712597225255
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235104690058493953",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235104690058493953',
       initScore: 0,
-      name: "加贺",
+      name: '加贺',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "加贺",
+      img: './1.jpg',
+      label: '加贺',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 761.2513210324968,
       y: 1140.6601058024894
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235105192271872002",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235105192271872002',
       initScore: 0,
-      name: "邦克山",
+      name: '邦克山',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "邦克山",
+      img: './1.jpg',
+      label: '邦克山',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1928.421349183542,
       y: 103.0242666893092
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235105462112419841",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235105462112419841',
       initScore: 0,
-      name: "香格里拉",
+      name: '香格里拉',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "香格里拉",
+      img: './1.jpg',
+      label: '香格里拉',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1528.3264685189279,
       y: 405.69036770697437
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235106826196549634",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235106826196549634',
       initScore: 0,
-      name: "平海",
+      name: '平海',
       okrScore: 1.924,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "平海",
+      img: './1.jpg',
+      label: '平海',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1040.4817511660297,
       y: -25.661376825573743
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235111081930326017",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235111081930326017',
       initScore: 0,
-      name: "宁海",
+      name: '宁海',
       okrScore: 1.877,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "宁海",
+      img: './1.jpg',
+      label: '宁海',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1132.2920197320109,
       y: 103.43572716463669
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235111587067133954",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235111587067133954',
       initScore: 0,
-      name: "长春",
+      name: '长春',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "长春",
+      img: './1.jpg',
+      label: '长春',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 790.3176669895358,
       y: -132.05040032755315
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235111908107550722",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235111908107550722',
       initScore: 0,
-      name: "鞍山",
+      name: '鞍山',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "鞍山",
+      img: './1.jpg',
+      label: '鞍山',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 898.4622521042455,
       y: -143.50157141804686
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235112719197863937",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235112719197863937',
       initScore: 0,
-      name: "重庆",
+      name: '重庆',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "重庆",
+      img: './1.jpg',
+      label: '重庆',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 824.5729643756418,
       y: -352.14336077360315
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235117929525927937",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235117929525927937',
       initScore: 0,
-      name: "翔鹤",
+      name: '翔鹤',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "翔鹤",
+      img: './1.jpg',
+      label: '翔鹤',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 324.22996948027924,
       y: 968.6837780677009
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "萨丁帝国",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1235129596984942593",
+      depart: '萨丁帝国',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1235129596984942593',
       initScore: 0,
-      name: "维内托",
+      name: '维内托',
       okrScore: 2.26,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "维内托",
+      img: './1.jpg',
+      label: '维内托',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 559.4075553950131,
       y: 138.37753423214664
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242256588704206850",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242256588704206850',
       initScore: 0,
-      name: "瑞鹤",
+      name: '瑞鹤',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "瑞鹤",
+      img: './1.jpg',
+      label: '瑞鹤',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 321.80470375340184,
       y: 576.526448870212
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242370632547213313",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242370632547213313',
       initScore: 0,
-      name: "衣阿华",
+      name: '衣阿华',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "衣阿华",
+      img: './1.jpg',
+      label: '衣阿华',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1943.066460542753,
       y: 238.34542861486727
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "北方联合",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242374279628759041",
+      depart: '北方联合',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242374279628759041',
       initScore: 0,
-      name: "塔什干",
+      name: '塔什干',
       okrScore: 6.174,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "塔什干",
+      img: './1.jpg',
+      label: '塔什干',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 672.8750596741418,
       y: 439.26049130666945
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242381637742411777",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242381637742411777',
       initScore: 0,
-      name: "三笠",
+      name: '三笠',
       okrScore: 5.846,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "三笠",
+      img: './1.jpg',
+      label: '三笠',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 741.5192661146799,
       y: 590.8188386504048
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242382032564830209",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242382032564830209',
       initScore: 0,
-      name: "大和",
+      name: '大和',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "大和",
+      img: './1.jpg',
+      label: '大和',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 536.254343444662,
       y: 1248.3686774766634
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "东煌",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1242737950783598593",
+      depart: '东煌',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1242737950783598593',
       initScore: 200,
-      name: "逸仙",
+      name: '逸仙',
       okrScore: 2.002,
-      position: "大数据分析设计师",
-      taskType: "",
-      type: "image",
+      position: '大数据分析设计师',
+      taskType: '',
+      type: 'image',
       size: 80,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "逸仙",
+      img: './1.jpg',
+      label: '逸仙',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 40,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 807.722780168952,
       y: 192.83967354834127
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "皇家",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1243083708590387202",
+      depart: '皇家',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1243083708590387202',
       initScore: 0,
-      name: "胜利",
+      name: '胜利',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "image",
+      position: '',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "胜利",
+      img: './1.jpg',
+      label: '胜利',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1680.6206190092807,
       y: 825.5485454222434
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "联动",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1247796787861516289",
+      depart: '联动',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1247796787861516289',
       initScore: 0,
-      name: "久远",
+      name: '久远',
       okrScore: 0,
-      position: "未设置职位",
-      taskType: "",
-      type: "image",
+      position: '未设置职位',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "久远",
+      img: './1.jpg',
+      label: '久远',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: -288.3429701529627,
       y: 1182.6234266714087
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "碧蓝航线",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1258561893385797633",
+      depart: '碧蓝航线',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1258561893385797633',
       initScore: 0,
-      name: "彭福祥",
+      name: '彭福祥',
       okrScore: 0,
-      position: "产品",
-      taskType: "",
-      type: "image",
+      position: '产品',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "彭福祥",
+      img: './1.jpg',
+      label: '彭福祥',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1399.6914951819717,
       y: 1785.9971091041207
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "白鹰",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1258564946969133058",
+      depart: '白鹰',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1258564946969133058',
       initScore: 0,
-      name: "南达科他",
+      name: '南达科他',
       okrScore: 0,
-      position: "未设置职位",
-      taskType: "",
-      type: "image",
+      position: '未设置职位',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "南达科他",
+      img: './1.jpg',
+      label: '南达科他',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1789.1514057429097,
       y: -251.25289039159287
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "Manjuu",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1259003134179176450",
+      depart: 'Manjuu',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1259003134179176450',
       initScore: 0,
-      name: "彭伟哲",
+      name: '彭伟哲',
       okrScore: 0,
-      position: "员工",
-      taskType: "",
-      type: "image",
+      position: '员工',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "彭伟哲",
+      img: './1.jpg',
+      label: '彭伟哲',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1061.7094151528183,
       y: 713.4836392741333
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1260482431901396994",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1260482431901396994',
       initScore: 0,
-      name: "岛风",
+      name: '岛风',
       okrScore: 0,
-      position: "前锋",
-      taskType: "",
-      type: "image",
+      position: '前锋',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "岛风",
+      img: './1.jpg',
+      label: '岛风',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 173.145648618228,
       y: 1044.9164267628805
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1268063792745148417",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1268063792745148417',
       initScore: 0,
-      name: "武藏",
+      name: '武藏',
       okrScore: 0,
-      position: "未设置职位",
-      taskType: "",
-      type: "image",
+      position: '未设置职位',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "武藏",
+      img: './1.jpg',
+      label: '武藏',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 432.67737831498243,
       y: 1188.1720387231903
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "重樱",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1268813952324419585",
+      depart: '重樱',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1268813952324419585',
       initScore: 0,
-      name: "信浓",
+      name: '信浓',
       okrScore: 0,
-      position: "未设置职位",
-      taskType: "",
-      type: "image",
+      position: '未设置职位',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "信浓",
+      img: './1.jpg',
+      label: '信浓',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 655.5276897556736,
       y: 1213.366719532615
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "Manjuu",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1269908061621493762",
+      depart: 'Manjuu',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1269908061621493762',
       initScore: 0,
-      name: "徐占鹏",
+      name: '徐占鹏',
       okrScore: 0,
-      position: "未设置职位",
-      taskType: "",
-      type: "image",
+      position: '未设置职位',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "徐占鹏",
+      img: './1.jpg',
+      label: '徐占鹏',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 672.3546131120884,
       y: -821.7959058810945
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "Manjuu",
-      describes: "",
-      headPortrait: "./1.jpg",
-      id: "1274243021081915394",
+      depart: 'Manjuu',
+      describes: '',
+      headPortrait: './1.jpg',
+      id: '1274243021081915394',
       initScore: 0,
-      name: "王海涛",
+      name: '王海涛',
       okrScore: 0,
-      position: "性感秘书",
-      taskType: "",
-      type: "image",
+      position: '性感秘书',
+      taskType: '',
+      type: 'image',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         }
       },
-      img: "./1.jpg",
-      label: "王海涛",
+      img: './1.jpg',
+      label: '王海涛',
       clipCfg: {
         show: true,
-        type: "circle",
+        type: 'circle',
         r: 20,
         style: {
-          stroke: "#eaff8f",
-          shadowColor: "#000",
+          stroke: '#eaff8f',
+          shadowColor: '#000',
           shadowBlur: 10,
           lineWidth: 2
         }
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 2056.170832255125,
       y: 1393.6634522431712
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "",
+      depart: '',
       describes:
-        "研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部",
-      headPortrait: "",
-      id: "1",
+        '研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部研发部',
+      headPortrait: '',
+      id: '1',
       initScore: 0,
-      name: "研发部",
+      name: '研发部',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "研发部",
-      color: "#5B8FF9",
+      label: '研发部',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 249.06249625495911,
       y: 1115.7558961389693
     },
     {
-      abbreviation: "中华",
-      creatUser: "",
+      abbreviation: '中华',
+      creatUser: '',
       createTime: null,
-      depart: "",
+      depart: '',
       describes:
-        "东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌",
-      headPortrait: "",
-      id: "1230731650218536961",
+        '东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌东煌',
+      headPortrait: '',
+      id: '1230731650218536961',
       initScore: 0,
-      name: "东煌",
+      name: '东煌',
       okrScore: 5.803,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "中华",
-      color: "#5B8FF9",
+      label: '中华',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 898.3820794786443,
       y: 14.091303504280662
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "123",
-      headPortrait: "",
-      id: "1230731753675239426",
+      depart: '',
+      describes: '123',
+      headPortrait: '',
+      id: '1230731753675239426',
       initScore: 0,
-      name: "重樱",
+      name: '重樱',
       okrScore: 5.846,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "重樱",
-      color: "#5B8FF9",
+      label: '重樱',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 595.6746837566483,
       y: 873.8864188722911
     },
     {
-      abbreviation: "英国",
-      creatUser: "",
+      abbreviation: '英国',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家",
-      headPortrait: "",
-      id: "1230732071771254786",
+      depart: '',
+      describes: '皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家皇家',
+      headPortrait: '',
+      id: '1230732071771254786',
       initScore: 0,
-      name: "皇家",
+      name: '皇家',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "英国",
-      color: "#5B8FF9",
+      label: '英国',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1396.3311969442757,
       y: 671.9682801399119
     },
     {
-      abbreviation: "美国",
-      creatUser: "",
+      abbreviation: '美国',
+      creatUser: '',
       createTime: null,
-      depart: "",
+      depart: '',
       describes:
-        "白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰",
-      headPortrait: "",
-      id: "1230732275924807682",
+        '白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰白鹰',
+      headPortrait: '',
+      id: '1230732275924807682',
       initScore: 0,
-      name: "白鹰",
+      name: '白鹰',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "美国",
-      color: "#5B8FF9",
+      label: '美国',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1738.2759469609953,
       y: 32.96762965711089
     },
     {
-      abbreviation: "德国",
-      creatUser: "",
+      abbreviation: '德国',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "铁血科技世界第一",
-      headPortrait: "",
-      id: "1230732430002565121",
+      depart: '',
+      describes: '铁血科技世界第一',
+      headPortrait: '',
+      id: '1230732430002565121',
       initScore: 0,
-      name: "铁血",
+      name: '铁血',
       okrScore: 7.711,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "德国",
-      color: "#5B8FF9",
+      label: '德国',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 207.87769419643843,
       y: 441.85069502801696
     },
     {
-      abbreviation: "苏联",
-      creatUser: "",
+      abbreviation: '苏联',
+      creatUser: '',
       createTime: null,
-      depart: "",
+      depart: '',
       describes:
-        "北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合",
-      headPortrait: "",
-      id: "1232209221502337026",
+        '北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合北方联合',
+      headPortrait: '',
+      id: '1232209221502337026',
       initScore: 0,
-      name: "北方联合",
+      name: '北方联合',
       okrScore: 6.174,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "苏联",
-      color: "#5B8FF9",
+      label: '苏联',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 863.9982112946635,
       y: 827.6366627494808
     },
     {
-      abbreviation: "法国",
-      creatUser: "",
+      abbreviation: '法国',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "妖精的尾巴",
-      headPortrait: "",
-      id: "1234402486314061825",
+      depart: '',
+      describes: '妖精的尾巴',
+      headPortrait: '',
+      id: '1234402486314061825',
       initScore: 0,
-      name: "维希教廷",
+      name: '维希教廷',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "法国",
-      color: "#5B8FF9",
+      label: '法国',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 1286.6080960055392,
       y: -411.0813848283645
     },
     {
-      abbreviation: "意大利",
-      creatUser: "",
+      abbreviation: '意大利',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "帝国萨丁帝国萨丁帝国萨丁帝国萨丁帝国萨丁帝国",
-      headPortrait: "",
-      id: "1235129595856674817",
+      depart: '',
+      describes: '帝国萨丁帝国萨丁帝国萨丁帝国萨丁帝国萨丁帝国',
+      headPortrait: '',
+      id: '1235129595856674817',
       initScore: 0,
-      name: "萨丁帝国",
+      name: '萨丁帝国',
       okrScore: 2.26,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "意大利",
-      color: "#5B8FF9",
+      label: '意大利',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 290.6458112065,
       y: -99.91870422136397
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "",
-      describes: "联动联动联动联动联动联动联动联动联动联动联动联动",
-      headPortrait: "",
-      id: "1247796787110735873",
+      depart: '',
+      describes: '联动联动联动联动联动联动联动联动联动联动联动联动',
+      headPortrait: '',
+      id: '1247796787110735873',
       initScore: 0,
-      name: "联动",
+      name: '联动',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "联动",
-      color: "#5B8FF9",
+      label: '联动',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: -102.49309397606288,
       y: 1145.5769972447688
     },
     {
-      abbreviation: "",
-      creatUser: "",
+      abbreviation: '',
+      creatUser: '',
       createTime: null,
-      depart: "",
+      depart: '',
       describes:
-        "财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部",
-      headPortrait: "",
-      id: "3",
+        '财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部财务部',
+      headPortrait: '',
+      id: '3',
       initScore: 0,
-      name: "财务部",
+      name: '财务部',
       okrScore: 0,
-      position: "",
-      taskType: "",
-      type: "DEPART",
+      position: '',
+      taskType: '',
+      type: 'DEPART',
       size: 60,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#29A8FF",
+        fill: '#29A8FF',
         lineWidth: 0
       },
-      label: "财务部",
-      color: "#5B8FF9",
+      label: '财务部',
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 922.4786432298106,
       y: 1529.7143138564752
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1591755026000,
-      depart: "",
-      describes: "开口就说的九分零四的防守i饿哦为",
-      headPortrait: "",
-      id: "1270538781847134209",
+      depart: '',
+      describes: '开口就说的九分零四的防守i饿哦为',
+      headPortrait: '',
+      id: '1270538781847134209',
       initScore: 0,
-      name: "测试环境",
+      name: '测试环境',
       okrScore: 15,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3348,46 +3348,46 @@ export default {
         width: 30,
         height: 30,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 954.9510538406881,
       y: 374.0869901944186
     },
     {
-      abbreviation: "",
-      creatUser: "天城",
+      abbreviation: '',
+      creatUser: '天城',
       createTime: 1591759775000,
-      depart: "",
-      describes: "复合管",
-      headPortrait: "",
-      id: "1270558700697493506",
+      depart: '',
+      describes: '复合管',
+      headPortrait: '',
+      id: '1270558700697493506',
       initScore: 0,
-      name: "测试1",
+      name: '测试1',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3395,46 +3395,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 859.4064907080913,
       y: 462.17378071357274
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1591771318000,
-      depart: "",
-      describes: "的第三方的似懂非懂实打实",
-      headPortrait: "",
-      id: "1270607115213021185",
+      depart: '',
+      describes: '的第三方的似懂非懂实打实',
+      headPortrait: '',
+      id: '1270607115213021185',
       initScore: 0,
-      name: "测试2",
+      name: '测试2',
       okrScore: 0,
-      position: "",
-      taskType: "部门任务",
-      type: "TASK",
+      position: '',
+      taskType: '部门任务',
+      type: 'TASK',
       size: 24,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#F1C1C7",
+        fill: '#F1C1C7',
         lineWidth: 0
       },
       icon: {
@@ -3442,46 +3442,46 @@ export default {
         width: 14,
         height: 14,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGNDU2RSIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGNDU2RSIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 939.886477769899,
       y: 154.92673158477197
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1591840352000,
-      depart: "",
-      describes: "梵蒂冈",
-      headPortrait: "",
-      id: "1270896664958963714",
+      depart: '',
+      describes: '梵蒂冈',
+      headPortrait: '',
+      id: '1270896664958963714',
       initScore: 0,
-      name: "测试3",
+      name: '测试3',
       okrScore: 10.5,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -3489,46 +3489,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 935.9812799604275,
       y: 293.8842152426883
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1591845317000,
-      depart: "",
-      describes: "注重质量和数量",
-      headPortrait: "",
-      id: "1270917489267281921",
+      depart: '',
+      describes: '注重质量和数量',
+      headPortrait: '',
+      id: '1270917489267281921',
       initScore: 0,
-      name: "2020年关于成功完成战略目标的前期准备",
+      name: '2020年关于成功完成战略目标的前期准备',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3536,46 +3536,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 964.5535161975208,
       y: 514.5908162521157
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1591855930000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1270962006733328386",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1270962006733328386',
       initScore: 0,
-      name: "测试10",
+      name: '测试10',
       okrScore: 10,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -3583,46 +3583,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 834.5281184241097,
       y: 300.59473460941473
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1591858313000,
-      depart: "",
-      describes: "分管",
-      headPortrait: "",
-      id: "1270971999079600129",
+      depart: '',
+      describes: '分管',
+      headPortrait: '',
+      id: '1270971999079600129',
       initScore: 0,
-      name: "测试11",
+      name: '测试11',
       okrScore: 10,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -3630,46 +3630,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 524.6208827909073,
       y: 480.6821550327313
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1592200563000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272407500244291585",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272407500244291585',
       initScore: 0,
-      name: "测试16",
+      name: '测试16',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3677,46 +3677,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 777.7721280503799,
       y: 306.09018423647
     },
     {
-      abbreviation: "",
-      creatUser: "指挥官",
+      abbreviation: '',
+      creatUser: '指挥官',
       createTime: 1592201113000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272409806746587138",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272409806746587138',
       initScore: 0,
-      name: "测试17",
+      name: '测试17',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3724,46 +3724,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 800.8973188702511,
       y: 356.2697137536365
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207470000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272436470574649345",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272436470574649345',
       initScore: 0,
-      name: "测试20",
+      name: '测试20',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3771,46 +3771,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 738.0368658733822,
       y: 217.8164930058839
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207538000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272436755510497282",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272436755510497282',
       initScore: 0,
-      name: "测试",
+      name: '测试',
       okrScore: 10,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -3818,46 +3818,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 684.3722273269434,
       y: 259.4643862184844
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207733000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272437572900655106",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272437572900655106',
       initScore: 0,
-      name: "测试21",
+      name: '测试21',
       okrScore: 0,
-      position: "",
-      taskType: "部门任务",
-      type: "TASK",
+      position: '',
+      taskType: '部门任务',
+      type: 'TASK',
       size: 24,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#F1C1C7",
+        fill: '#F1C1C7',
         lineWidth: 0
       },
       icon: {
@@ -3865,46 +3865,46 @@ export default {
         width: 14,
         height: 14,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGNDU2RSIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGNDU2RSIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkY0NTZFIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 792.1778568735007,
       y: 88.17386484148076
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207769000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272437723325173761",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272437723325173761',
       initScore: 0,
-      name: "测试22",
+      name: '测试22',
       okrScore: 10,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -3912,46 +3912,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 917.3649052372049,
       y: 214.39276540026208
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207818000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272437929139671042",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272437929139671042',
       initScore: 0,
-      name: "测试23",
+      name: '测试23',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -3959,46 +3959,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 777.1659229225216,
       y: 462.18922252323813
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592207854000,
-      depart: "",
-      describes: "规范",
-      headPortrait: "",
-      id: "1272438081082527746",
+      depart: '',
+      describes: '规范',
+      headPortrait: '',
+      id: '1272438081082527746',
       initScore: 0,
-      name: "测试24",
+      name: '测试24',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -4006,46 +4006,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 909.0417857190434,
       y: 366.10204853184956
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592208426000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1272440479184228354",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1272440479184228354',
       initScore: 0,
-      name: "测试25",
+      name: '测试25',
       okrScore: 10,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -4053,46 +4053,46 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 699.571649389664,
       y: 199.17720084865357
     },
     {
-      abbreviation: "",
-      creatUser: "逸仙",
+      abbreviation: '',
+      creatUser: '逸仙',
       createTime: 1592358289000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1273069051208982530",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1273069051208982530',
       initScore: 0,
-      name: "20200617",
+      name: '20200617',
       okrScore: 15,
-      position: "",
-      taskType: "专项任务",
-      type: "TASK",
+      position: '',
+      taskType: '专项任务',
+      type: 'TASK',
       size: 40,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#B7E8CD",
+        fill: '#B7E8CD',
         lineWidth: 0
       },
       icon: {
@@ -4100,46 +4100,46 @@ export default {
         width: 30,
         height: 30,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iIzRBQzU4MyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjNEFDNTgzIiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 539.6801734963058,
       y: 251.7719120096739
     },
     {
-      abbreviation: "",
-      creatUser: "高军",
+      abbreviation: '',
+      creatUser: '高军',
       createTime: 1592555791000,
-      depart: "",
-      describes: "",
-      headPortrait: "",
-      id: "1273897433517670402",
+      depart: '',
+      describes: '',
+      headPortrait: '',
+      id: '1273897433517670402',
       initScore: 0,
-      name: "5月测试1",
+      name: '5月测试1',
       okrScore: 10,
-      position: "",
-      taskType: "挑战任务",
-      type: "TASK",
+      position: '',
+      taskType: '挑战任务',
+      type: 'TASK',
       size: 32,
       style: {
         highlightNode: {
           opacity: 1,
-          "text-shape": {
+          'text-shape': {
             opacity: 1
           }
         },
         weakenNode: {
           opacity: 0.2,
-          "text-shape": {
+          'text-shape': {
             opacity: 0.2
           }
         },
-        fill: "#FFF2B2",
+        fill: '#FFF2B2',
         lineWidth: 0
       },
       icon: {
@@ -4147,12 +4147,12 @@ export default {
         width: 22,
         height: 22,
         img:
-          "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+"
+          'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTkxMjQxMjUwMTg2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjgwMDIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0Mi41IDMyOC44Yy0xMC0xLjYtMjAuMS0yLjYtMzAuNS0yLjYtMTA4LjUgMC0xOTYuNyA4OC4yLTE5Ni43IDE5Ni43UzQwMy41IDcxOS42IDUxMiA3MTkuNnMxOTYuNy04OC4yIDE5Ni43LTE5Ni43YzAtMjQuNS00LjctNDcuOC0xMi45LTY5LjRMNTcwLjUgNTgwLjNjLTE4LjYgMTguOC00My4zIDI5LjItNjkuOCAyOS4yLTI1LjkgMC01MC4zLTEwLTY4LjUtMjcuOWwtMS4zLTEuM2MtMzcuNi0zOC4yLTM3LjYtMTAwLjQgMC4xLTEzOC43bDExMS41LTExMi44eiIgZmlsbD0iI0ZGREIyNyIgcC1pZD0iODAwMyI+PC9wYXRoPjxwYXRoIGQ9Ik04OTUuNyAzMTMuM2wtNzUuNiA3Ni40Yy0xMi41IDEyLjctMjkuNCAxOS41LTQ2LjYgMTkuNS03IDAtMTQtMS4xLTIwLjktMy40bC03LjMtMi40YzE4LjQgMzUuOSAyOSA3Ni40IDI5IDExOS41IDAgMTQ0LjktMTE3LjQgMjYyLjMtMjYyLjMgMjYyLjNTMjQ5LjcgNjY3LjcgMjQ5LjcgNTIyLjkgMzY3LjEgMjYwLjYgNTEyIDI2MC42YzI5LjQgMCA1Ny42IDUuMSA4NCAxNGwyLjgtMi44LTEwLjUtMzEuOWMtNy43LTIzLjQtMS43LTQ5LjEgMTUuNy02Ni42bDU5LjQtNjAuMUM2MTYuMSA5NS44IDU2NS4zIDg1LjcgNTEyIDg1LjdjLTI0MS40IDAtNDM3LjEgMTk1LjctNDM3LjEgNDM3LjFTMjcwLjYgOTYwIDUxMiA5NjBzNDM3LjEtMTk1LjcgNDM3LjEtNDM3LjFjMC03Ni0xOS40LTE0Ny4zLTUzLjQtMjA5LjZ6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA0Ij48L3BhdGg+PHBhdGggZD0iTTY3My42IDI4OS4zTDQ3Ny43IDQ4Ny43Yy0xMi43IDEyLjktMTIuNyAzMy43IDAgNDYuNmwwLjMgMC4zYzYuMyA2LjIgMTQuNSA5LjMgMjIuNyA5LjMgOC40IDAgMTYuNy0zLjIgMjMtOS43TDcyNy4zIDMyOGw0Ni4xIDE1LjUgMTUzLjctMTU1LjQtOTIuMi0zMUw4MDQuMiA2NCA2NTAuNSAyMTkuNGwyMy4xIDY5Ljl6IiBmaWxsPSIjRkZEQjI3IiBwLWlkPSI4MDA1Ij48L3BhdGg+PC9zdmc+'
       },
-      color: "#5B8FF9",
+      color: '#5B8FF9',
       labelCfg: {
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       x: 477.30553851163717,
@@ -4161,38 +4161,38 @@ export default {
   ],
   edges: [
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1230731754925142018",
-      target: "1230731753675239426",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1230731754925142018',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|0",
+      id: 'edge|0',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4206,38 +4206,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1242374279628759041",
-      target: "1232209221502337026",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1242374279628759041',
+      target: '1232209221502337026',
       twoWay: false,
-      id: "edge|1",
+      id: 'edge|1',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4251,38 +4251,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1230732072995991553",
-      target: "1230732071771254786",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1230732072995991553',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|2",
+      id: 'edge|2',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4296,38 +4296,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1242737950783598593",
-      target: "1230731650218536961",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1242737950783598593',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|3",
+      id: 'edge|3',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4341,38 +4341,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1234378633433051138",
-      target: "1230732275924807682",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1234378633433051138',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|4",
+      id: 'edge|4',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4386,38 +4386,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1234401968925691906",
-      target: "3",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1234401968925691906',
+      target: '3',
       twoWay: false,
-      id: "edge|5",
+      id: 'edge|5',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4431,38 +4431,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1230732431248273409",
-      target: "1230732430002565121",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1230732431248273409',
+      target: '1230732430002565121',
       twoWay: false,
-      id: "edge|6",
+      id: 'edge|6',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4476,38 +4476,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1260482431901396994",
-      target: "1247796787110735873",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1260482431901396994',
+      target: '1247796787110735873',
       twoWay: false,
-      id: "edge|7",
+      id: 'edge|7',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4521,38 +4521,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1234402487714959361",
-      target: "1234402486314061825",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1234402487714959361',
+      target: '1234402486314061825',
       twoWay: false,
-      id: "edge|8",
+      id: 'edge|8',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4566,38 +4566,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1234401718924201986",
-      target: "1",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1234401718924201986',
+      target: '1',
       twoWay: false,
-      id: "edge|9",
+      id: 'edge|9',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4611,38 +4611,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      relationshipDes: "部门领导",
-      source: "1235129596984942593",
-      target: "1235129595856674817",
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      relationshipDes: '部门领导',
+      source: '1235129596984942593',
+      target: '1235129595856674817',
       twoWay: false,
-      id: "edge|10",
+      id: 'edge|10',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4656,41 +4656,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270917489267281921",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270917489267281921',
       twoWay: true,
-      id: "edge|11",
+      id: 'edge|11',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4704,41 +4704,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270962006733328386",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270962006733328386',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|12",
+      id: 'edge|12',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4752,41 +4752,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270607115213021185",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270607115213021185',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|13",
+      id: 'edge|13',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4800,41 +4800,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437929139671042",
-      target: "1272437572900655106",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437929139671042',
+      target: '1272437572900655106',
       twoWay: true,
-      id: "edge|14",
+      id: 'edge|14',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4848,41 +4848,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272437723325173761",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272437723325173761',
       twoWay: true,
-      id: "edge|15",
+      id: 'edge|15',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4896,41 +4896,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272438081082527746",
-      target: "1272437572900655106",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272438081082527746',
+      target: '1272437572900655106',
       twoWay: true,
-      id: "edge|16",
+      id: 'edge|16',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4944,41 +4944,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270896664958963714",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270896664958963714',
       twoWay: true,
-      id: "edge|17",
+      id: 'edge|17',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -4992,41 +4992,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270896664958963714",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270896664958963714',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|18",
+      id: 'edge|18',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5040,41 +5040,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1273897433517670402",
-      target: "1270971999079600129",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1273897433517670402',
+      target: '1270971999079600129',
       twoWay: true,
-      id: "edge|19",
+      id: 'edge|19',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5088,41 +5088,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|20",
+      id: 'edge|20',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5136,41 +5136,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|21",
+      id: 'edge|21',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5184,41 +5184,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270962006733328386",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270962006733328386',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|22",
+      id: 'edge|22',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5232,41 +5232,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270962006733328386",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270962006733328386',
       twoWay: true,
-      id: "edge|23",
+      id: 'edge|23',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5280,41 +5280,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270896664958963714",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270896664958963714',
       twoWay: true,
-      id: "edge|24",
+      id: 'edge|24',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5328,41 +5328,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272438081082527746",
-      target: "1272436755510497282",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272438081082527746',
+      target: '1272436755510497282',
       twoWay: true,
-      id: "edge|25",
+      id: 'edge|25',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5376,41 +5376,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272438081082527746",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272438081082527746',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|26",
+      id: 'edge|26',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5424,41 +5424,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|27",
+      id: 'edge|27',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5472,41 +5472,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270607115213021185",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270607115213021185',
       twoWay: true,
-      id: "edge|28",
+      id: 'edge|28',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5520,41 +5520,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270558700697493506",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270558700697493506',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|29",
+      id: 'edge|29',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5568,41 +5568,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270607115213021185",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270607115213021185',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|30",
+      id: 'edge|30',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5616,41 +5616,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1272407500244291585",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1272407500244291585',
       twoWay: true,
-      id: "edge|31",
+      id: 'edge|31',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5664,41 +5664,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272438081082527746",
-      target: "1272437929139671042",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272438081082527746',
+      target: '1272437929139671042',
       twoWay: true,
-      id: "edge|32",
+      id: 'edge|32',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5712,41 +5712,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270917489267281921",
-      target: "1270538781847134209",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270917489267281921',
+      target: '1270538781847134209',
       twoWay: true,
-      id: "edge|33",
+      id: 'edge|33',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5760,41 +5760,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270962006733328386",
-      target: "1270917489267281921",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270962006733328386',
+      target: '1270917489267281921',
       twoWay: true,
-      id: "edge|34",
+      id: 'edge|34',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5808,41 +5808,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437929139671042",
-      target: "1272436755510497282",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437929139671042',
+      target: '1272436755510497282',
       twoWay: true,
-      id: "edge|35",
+      id: 'edge|35',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5856,41 +5856,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270917489267281921",
-      target: "1270607115213021185",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270917489267281921',
+      target: '1270607115213021185',
       twoWay: true,
-      id: "edge|36",
+      id: 'edge|36',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5904,41 +5904,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437929139671042",
-      target: "1272437723325173761",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437929139671042',
+      target: '1272437723325173761',
       twoWay: true,
-      id: "edge|37",
+      id: 'edge|37',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -5952,41 +5952,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270896664958963714",
-      target: "1270607115213021185",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270896664958963714',
+      target: '1270607115213021185',
       twoWay: true,
-      id: "edge|38",
+      id: 'edge|38',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6000,41 +6000,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270917489267281921",
-      target: "1270896664958963714",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270917489267281921',
+      target: '1270896664958963714',
       twoWay: true,
-      id: "edge|39",
+      id: 'edge|39',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6048,41 +6048,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272436755510497282",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272436755510497282',
       twoWay: true,
-      id: "edge|40",
+      id: 'edge|40',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6096,41 +6096,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272438081082527746",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272438081082527746',
       twoWay: true,
-      id: "edge|41",
+      id: 'edge|41',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6144,41 +6144,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270962006733328386",
-      target: "1270607115213021185",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270962006733328386',
+      target: '1270607115213021185',
       twoWay: true,
-      id: "edge|42",
+      id: 'edge|42',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6192,41 +6192,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437723325173761",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437723325173761',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|43",
+      id: 'edge|43',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6240,41 +6240,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272436755510497282",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272436755510497282',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|44",
+      id: 'edge|44',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6288,41 +6288,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437723325173761",
-      target: "1272436755510497282",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437723325173761',
+      target: '1272436755510497282',
       twoWay: true,
-      id: "edge|45",
+      id: 'edge|45',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6336,41 +6336,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437723325173761",
-      target: "1272437572900655106",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437723325173761',
+      target: '1272437572900655106',
       twoWay: true,
-      id: "edge|46",
+      id: 'edge|46',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6384,41 +6384,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|47",
+      id: 'edge|47',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6432,41 +6432,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272437929139671042",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272437929139671042',
       twoWay: true,
-      id: "edge|48",
+      id: 'edge|48',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6480,41 +6480,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437572900655106",
-      target: "1272436755510497282",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437572900655106',
+      target: '1272436755510497282',
       twoWay: true,
-      id: "edge|49",
+      id: 'edge|49',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6528,41 +6528,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272407500244291585",
-      target: "1270917489267281921",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272407500244291585',
+      target: '1270917489267281921',
       twoWay: true,
-      id: "edge|50",
+      id: 'edge|50',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6576,41 +6576,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270607115213021185",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270607115213021185',
       twoWay: true,
-      id: "edge|51",
+      id: 'edge|51',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6624,41 +6624,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272438081082527746",
-      target: "1272437723325173761",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272438081082527746',
+      target: '1272437723325173761',
       twoWay: true,
-      id: "edge|52",
+      id: 'edge|52',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6672,41 +6672,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270917489267281921",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270917489267281921',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|53",
+      id: 'edge|53',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6720,41 +6720,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437929139671042",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437929139671042',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|54",
+      id: 'edge|54',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6768,41 +6768,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272437572900655106",
-      target: "1272436470574649345",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272437572900655106',
+      target: '1272436470574649345',
       twoWay: true,
-      id: "edge|55",
+      id: 'edge|55',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6816,41 +6816,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270962006733328386",
-      target: "1270896664958963714",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270962006733328386',
+      target: '1270896664958963714',
       twoWay: true,
-      id: "edge|56",
+      id: 'edge|56',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6864,41 +6864,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1270896664958963714",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1270896664958963714',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|57",
+      id: 'edge|57',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6912,41 +6912,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270558700697493506",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270558700697493506',
       twoWay: true,
-      id: "edge|58",
+      id: 'edge|58',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -6960,41 +6960,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272440479184228354",
-      target: "1272437572900655106",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272440479184228354',
+      target: '1272437572900655106',
       twoWay: true,
-      id: "edge|59",
+      id: 'edge|59',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7008,41 +7008,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      relationshipDes: "同在一个目标下",
-      source: "1272409806746587138",
-      target: "1270962006733328386",
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      relationshipDes: '同在一个目标下',
+      source: '1272409806746587138',
+      target: '1270962006733328386',
       twoWay: true,
-      id: "edge|60",
+      id: 'edge|60',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7056,38 +7056,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      relationshipDes: "部门分管领导",
-      source: "1230732072995991553",
-      target: "1230732071771254786",
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      relationshipDes: '部门分管领导',
+      source: '1230732072995991553',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|61",
+      id: 'edge|61',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7101,38 +7101,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      relationshipDes: "部门分管领导",
-      source: "1230714281840553985",
-      target: "1230731753675239426",
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      relationshipDes: '部门分管领导',
+      source: '1230714281840553985',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|62",
+      id: 'edge|62',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7146,38 +7146,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      relationshipDes: "部门分管领导",
-      source: "1242737950783598593",
-      target: "1230731650218536961",
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      relationshipDes: '部门分管领导',
+      source: '1242737950783598593',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|63",
+      id: 'edge|63',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7191,38 +7191,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      relationshipDes: "部门分管领导",
-      source: "1260482431901396994",
-      target: "1",
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      relationshipDes: '部门分管领导',
+      source: '1260482431901396994',
+      target: '1',
       twoWay: false,
-      id: "edge|64",
+      id: 'edge|64',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7236,38 +7236,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1247796787110735873",
-      target: "1247796787861516289",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1247796787110735873',
+      target: '1247796787861516289',
       twoWay: false,
-      id: "edge|65",
+      id: 'edge|65',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7281,38 +7281,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1230732430002565121",
-      target: "1230732431248273409",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1230732430002565121',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|66",
+      id: 'edge|66',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7326,38 +7326,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1230732071771254786",
-      target: "1229668761156128769",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1230732071771254786',
+      target: '1229668761156128769',
       twoWay: false,
-      id: "edge|67",
+      id: 'edge|67',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7371,38 +7371,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1230731753675239426",
-      target: "1242381637742411777",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1230731753675239426',
+      target: '1242381637742411777',
       twoWay: false,
-      id: "edge|68",
+      id: 'edge|68',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7416,38 +7416,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1234402486314061825",
-      target: "1234402487714959361",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1234402486314061825',
+      target: '1234402487714959361',
       twoWay: false,
-      id: "edge|69",
+      id: 'edge|69',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7461,38 +7461,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1232209221502337026",
-      target: "1242374279628759041",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1232209221502337026',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|70",
+      id: 'edge|70',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7506,38 +7506,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1230731650218536961",
-      target: "1242737950783598593",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1230731650218536961',
+      target: '1242737950783598593',
       twoWay: false,
-      id: "edge|71",
+      id: 'edge|71',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7551,38 +7551,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1230732275924807682",
-      target: "1228211949588353026",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1230732275924807682',
+      target: '1228211949588353026',
       twoWay: false,
-      id: "edge|72",
+      id: 'edge|72',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7596,38 +7596,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      relationshipDes: "部门中OKR分最高的人",
-      source: "1235129595856674817",
-      target: "1235129596984942593",
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      relationshipDes: '部门中OKR分最高的人',
+      source: '1235129595856674817',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|73",
+      id: 'edge|73',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7641,38 +7641,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1270538781847134209",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1270538781847134209',
       twoWay: false,
-      id: "edge|74",
+      id: 'edge|74',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7686,38 +7686,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1232207420849881090",
-      target: "1270558700697493506",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1232207420849881090',
+      target: '1270558700697493506',
       twoWay: false,
-      id: "edge|75",
+      id: 'edge|75',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7731,38 +7731,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1270607115213021185",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1270607115213021185',
       twoWay: false,
-      id: "edge|76",
+      id: 'edge|76',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7776,38 +7776,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1270896664958963714",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1270896664958963714',
       twoWay: false,
-      id: "edge|77",
+      id: 'edge|77',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7821,38 +7821,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1270917489267281921",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1270917489267281921',
       twoWay: false,
-      id: "edge|78",
+      id: 'edge|78',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7866,38 +7866,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1270962006733328386",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1270962006733328386',
       twoWay: false,
-      id: "edge|79",
+      id: 'edge|79',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7911,38 +7911,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1270971999079600129",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1270971999079600129',
       twoWay: false,
-      id: "edge|80",
+      id: 'edge|80',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -7956,38 +7956,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1272407500244291585",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1272407500244291585',
       twoWay: false,
-      id: "edge|81",
+      id: 'edge|81',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8001,38 +8001,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230731505590546434",
-      target: "1272409806746587138",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230731505590546434',
+      target: '1272409806746587138',
       twoWay: false,
-      id: "edge|82",
+      id: 'edge|82',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8046,38 +8046,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272436470574649345",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272436470574649345',
       twoWay: false,
-      id: "edge|83",
+      id: 'edge|83',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8091,38 +8091,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272436755510497282",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272436755510497282',
       twoWay: false,
-      id: "edge|84",
+      id: 'edge|84',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8136,38 +8136,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272437572900655106",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272437572900655106',
       twoWay: false,
-      id: "edge|85",
+      id: 'edge|85',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8181,38 +8181,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272437723325173761",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272437723325173761',
       twoWay: false,
-      id: "edge|86",
+      id: 'edge|86',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8226,38 +8226,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272437929139671042",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272437929139671042',
       twoWay: false,
-      id: "edge|87",
+      id: 'edge|87',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8271,38 +8271,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272438081082527746",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272438081082527746',
       twoWay: false,
-      id: "edge|88",
+      id: 'edge|88',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8316,38 +8316,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1272440479184228354",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1272440479184228354',
       twoWay: false,
-      id: "edge|89",
+      id: 'edge|89',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8361,38 +8361,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1242737950783598593",
-      target: "1273069051208982530",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1242737950783598593',
+      target: '1273069051208982530',
       twoWay: false,
-      id: "edge|90",
+      id: 'edge|90',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8406,38 +8406,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      relationshipDes: "任务创建人",
-      source: "1230714281840553985",
-      target: "1273897433517670402",
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      relationshipDes: '任务创建人',
+      source: '1230714281840553985',
+      target: '1273897433517670402',
       twoWay: false,
-      id: "edge|91",
+      id: 'edge|91',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8451,38 +8451,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1270538781847134209",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1270538781847134209',
       twoWay: false,
-      id: "edge|92",
+      id: 'edge|92',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8496,38 +8496,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1242381637742411777",
-      target: "1270558700697493506",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1242381637742411777',
+      target: '1270558700697493506',
       twoWay: false,
-      id: "edge|93",
+      id: 'edge|93',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8541,38 +8541,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230733791846936577",
-      target: "1270607115213021185",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230733791846936577',
+      target: '1270607115213021185',
       twoWay: false,
-      id: "edge|94",
+      id: 'edge|94',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8586,38 +8586,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1270896664958963714",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1270896664958963714',
       twoWay: false,
-      id: "edge|95",
+      id: 'edge|95',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8631,38 +8631,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732072995991553",
-      target: "1270917489267281921",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732072995991553',
+      target: '1270917489267281921',
       twoWay: false,
-      id: "edge|96",
+      id: 'edge|96',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8676,38 +8676,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1270962006733328386",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1270962006733328386',
       twoWay: false,
-      id: "edge|97",
+      id: 'edge|97',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8721,38 +8721,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1270971999079600129",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1270971999079600129',
       twoWay: false,
-      id: "edge|98",
+      id: 'edge|98',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8766,38 +8766,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1272407500244291585",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1272407500244291585',
       twoWay: false,
-      id: "edge|99",
+      id: 'edge|99',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8811,38 +8811,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1272409806746587138",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1272409806746587138',
       twoWay: false,
-      id: "edge|100",
+      id: 'edge|100',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8856,38 +8856,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1272436470574649345",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1272436470574649345',
       twoWay: false,
-      id: "edge|101",
+      id: 'edge|101',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8901,38 +8901,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1272436755510497282",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1272436755510497282',
       twoWay: false,
-      id: "edge|102",
+      id: 'edge|102',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8946,38 +8946,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1235111908107550722",
-      target: "1272437572900655106",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1235111908107550722',
+      target: '1272437572900655106',
       twoWay: false,
-      id: "edge|103",
+      id: 'edge|103',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -8991,38 +8991,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230714281840553985",
-      target: "1272437723325173761",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230714281840553985',
+      target: '1272437723325173761',
       twoWay: false,
-      id: "edge|104",
+      id: 'edge|104',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9036,38 +9036,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230731754925142018",
-      target: "1272437929139671042",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230731754925142018',
+      target: '1272437929139671042',
       twoWay: false,
-      id: "edge|105",
+      id: 'edge|105',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9081,38 +9081,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1272438081082527746",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1272438081082527746',
       twoWay: false,
-      id: "edge|106",
+      id: 'edge|106',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9126,38 +9126,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1272440479184228354",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1272440479184228354',
       twoWay: false,
-      id: "edge|107",
+      id: 'edge|107',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9171,38 +9171,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1273069051208982530",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1273069051208982530',
       twoWay: false,
-      id: "edge|108",
+      id: 'edge|108',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9216,38 +9216,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      relationshipDes: "任务负责人",
-      source: "1230732431248273409",
-      target: "1273897433517670402",
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      relationshipDes: '任务负责人',
+      source: '1230732431248273409',
+      target: '1273897433517670402',
       twoWay: false,
-      id: "edge|109",
+      id: 'edge|109',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9261,38 +9261,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1228207764901892097",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1228207764901892097',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|110",
+      id: 'edge|110',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9306,38 +9306,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1228211949588353026",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1228211949588353026',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|111",
+      id: 'edge|111',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9351,38 +9351,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1229668761156128769",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1229668761156128769',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|112",
+      id: 'edge|112',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9396,38 +9396,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230056250308026370",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230056250308026370',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|113",
+      id: 'edge|113',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9441,38 +9441,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230731754925142018",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230731754925142018',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|114",
+      id: 'edge|114',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9486,38 +9486,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230732072995991553",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230732072995991553',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|115",
+      id: 'edge|115',
       curveOffset: 110,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9531,38 +9531,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230732277166321665",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230732277166321665',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|116",
+      id: 'edge|116',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9576,38 +9576,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230732431248273409",
-      target: "1230732430002565121",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230732431248273409',
+      target: '1230732430002565121',
       twoWay: false,
-      id: "edge|117",
+      id: 'edge|117',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9621,38 +9621,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230733662712705026",
-      target: "1230732430002565121",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230733662712705026',
+      target: '1230732430002565121',
       twoWay: false,
-      id: "edge|118",
+      id: 'edge|118',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9666,38 +9666,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1230733791846936577",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1230733791846936577',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|119",
+      id: 'edge|119',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9711,38 +9711,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1231745357128069121",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1231745357128069121',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|120",
+      id: 'edge|120',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9756,38 +9756,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1231823910850977794",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1231823910850977794',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|121",
+      id: 'edge|121',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9801,38 +9801,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1231824191508635650",
-      target: "1230732430002565121",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1231824191508635650',
+      target: '1230732430002565121',
       twoWay: false,
-      id: "edge|122",
+      id: 'edge|122',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9846,38 +9846,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1231824697316532225",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1231824697316532225',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|123",
+      id: 'edge|123',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9891,38 +9891,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1232207420849881090",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1232207420849881090',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|124",
+      id: 'edge|124',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9936,38 +9936,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1232209222668353538",
-      target: "1232209221502337026",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1232209222668353538',
+      target: '1232209221502337026',
       twoWay: false,
-      id: "edge|125",
+      id: 'edge|125',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -9981,38 +9981,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1232215196456091649",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1232215196456091649',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|126",
+      id: 'edge|126',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10026,38 +10026,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1232577352682930178",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1232577352682930178',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|127",
+      id: 'edge|127',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10071,38 +10071,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1234378633433051138",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1234378633433051138',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|128",
+      id: 'edge|128',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10116,38 +10116,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1234401718924201986",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1234401718924201986',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|129",
+      id: 'edge|129',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10161,38 +10161,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1234401968925691906",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1234401968925691906',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|130",
+      id: 'edge|130',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10206,38 +10206,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1234402487714959361",
-      target: "1234402486314061825",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1234402487714959361',
+      target: '1234402486314061825',
       twoWay: false,
-      id: "edge|131",
+      id: 'edge|131',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10251,38 +10251,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1234415819662430210",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1234415819662430210',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|132",
+      id: 'edge|132',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10296,38 +10296,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235102781788585986",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235102781788585986',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|133",
+      id: 'edge|133',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10341,38 +10341,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235102946868002817",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235102946868002817',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|134",
+      id: 'edge|134',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10386,38 +10386,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235103234899247105",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235103234899247105',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|135",
+      id: 'edge|135',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10431,38 +10431,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235103630220787714",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235103630220787714',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|136",
+      id: 'edge|136',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10476,38 +10476,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235104690058493953",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235104690058493953',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|137",
+      id: 'edge|137',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10521,38 +10521,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235105192271872002",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235105192271872002',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|138",
+      id: 'edge|138',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10566,38 +10566,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235105462112419841",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235105462112419841',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|139",
+      id: 'edge|139',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10611,38 +10611,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235106826196549634",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235106826196549634',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|140",
+      id: 'edge|140',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10656,38 +10656,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235111081930326017",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235111081930326017',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|141",
+      id: 'edge|141',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10701,38 +10701,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235111587067133954",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235111587067133954',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|142",
+      id: 'edge|142',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10746,38 +10746,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235111908107550722",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235111908107550722',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|143",
+      id: 'edge|143',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10791,38 +10791,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235112719197863937",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235112719197863937',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|144",
+      id: 'edge|144',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10836,38 +10836,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235117929525927937",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235117929525927937',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|145",
+      id: 'edge|145',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10881,38 +10881,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1235129596984942593",
-      target: "1235129595856674817",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1235129596984942593',
+      target: '1235129595856674817',
       twoWay: false,
-      id: "edge|146",
+      id: 'edge|146',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10926,38 +10926,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242256588704206850",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242256588704206850',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|147",
+      id: 'edge|147',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -10971,38 +10971,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242370632547213313",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242370632547213313',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|148",
+      id: 'edge|148',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11016,38 +11016,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242374279628759041",
-      target: "1232209221502337026",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242374279628759041',
+      target: '1232209221502337026',
       twoWay: false,
-      id: "edge|149",
+      id: 'edge|149',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11061,38 +11061,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242381637742411777",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242381637742411777',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|150",
+      id: 'edge|150',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11106,38 +11106,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242382032564830209",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242382032564830209',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|151",
+      id: 'edge|151',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11151,38 +11151,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1242737950783598593",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1242737950783598593',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|152",
+      id: 'edge|152',
       curveOffset: 110,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11196,38 +11196,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1243083708590387202",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1243083708590387202',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|153",
+      id: 'edge|153',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11241,38 +11241,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1247796787861516289",
-      target: "1247796787110735873",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1247796787861516289',
+      target: '1247796787110735873',
       twoWay: false,
-      id: "edge|154",
+      id: 'edge|154',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11286,38 +11286,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1258564946969133058",
-      target: "1230732275924807682",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1258564946969133058',
+      target: '1230732275924807682',
       twoWay: false,
-      id: "edge|155",
+      id: 'edge|155',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11331,38 +11331,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1260482431901396994",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1260482431901396994',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|156",
+      id: 'edge|156',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11376,38 +11376,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1268063792745148417",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1268063792745148417',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|157",
+      id: 'edge|157',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11421,38 +11421,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "部门下的员工",
-      source: "1268813952324419585",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '部门下的员工',
+      source: '1268813952324419585',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|158",
+      id: 'edge|158',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11466,38 +11466,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTMBR",
-      relationshipAbbreviation: "最佳成员",
-      relationshipDes: "一个任务中,得分最高的人",
-      source: "1270538781847134209",
-      target: "1230732431248273409",
+      relationship: 'BESTMBR',
+      relationshipAbbreviation: '最佳成员',
+      relationshipDes: '一个任务中,得分最高的人',
+      source: '1270538781847134209',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|159",
+      id: 'edge|159',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11511,38 +11511,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTMBR",
-      relationshipAbbreviation: "最佳成员",
-      relationshipDes: "一个任务中,得分最高的人",
-      source: "1270896664958963714",
-      target: "1230714281840553985",
+      relationship: 'BESTMBR',
+      relationshipAbbreviation: '最佳成员',
+      relationshipDes: '一个任务中,得分最高的人',
+      source: '1270896664958963714',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|160",
+      id: 'edge|160',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11556,38 +11556,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "BESTMBR",
-      relationshipAbbreviation: "最佳成员",
-      relationshipDes: "一个任务中,得分最高的人",
-      source: "1273897433517670402",
-      target: "1235129596984942593",
+      relationship: 'BESTMBR',
+      relationshipAbbreviation: '最佳成员',
+      relationshipDes: '一个任务中,得分最高的人',
+      source: '1273897433517670402',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|161",
+      id: 'edge|161',
       curveOffset: 30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11601,38 +11601,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230056250308026370",
-      target: "1270538781847134209",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230056250308026370',
+      target: '1270538781847134209',
       twoWay: false,
-      id: "edge|162",
+      id: 'edge|162',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11646,38 +11646,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1232207420849881090",
-      target: "1270538781847134209",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1232207420849881090',
+      target: '1270538781847134209',
       twoWay: false,
-      id: "edge|163",
+      id: 'edge|163',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11691,38 +11691,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270538781847134209",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270538781847134209',
       twoWay: false,
-      id: "edge|164",
+      id: 'edge|164',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11736,38 +11736,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270558700697493506",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270558700697493506',
       twoWay: false,
-      id: "edge|165",
+      id: 'edge|165',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11781,38 +11781,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1270558700697493506",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1270558700697493506',
       twoWay: false,
-      id: "edge|166",
+      id: 'edge|166',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11826,38 +11826,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270896664958963714",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270896664958963714',
       twoWay: false,
-      id: "edge|167",
+      id: 'edge|167',
       curveOffset: 110,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11871,38 +11871,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1270896664958963714",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1270896664958963714',
       twoWay: false,
-      id: "edge|168",
+      id: 'edge|168',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11916,38 +11916,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270917489267281921",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270917489267281921',
       twoWay: false,
-      id: "edge|169",
+      id: 'edge|169',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -11961,38 +11961,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1270917489267281921",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1270917489267281921',
       twoWay: false,
-      id: "edge|170",
+      id: 'edge|170',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12006,38 +12006,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270962006733328386",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270962006733328386',
       twoWay: false,
-      id: "edge|171",
+      id: 'edge|171',
       curveOffset: 110,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12051,38 +12051,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1270962006733328386",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1270962006733328386',
       twoWay: false,
-      id: "edge|172",
+      id: 'edge|172',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12096,38 +12096,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1270971999079600129",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1270971999079600129',
       twoWay: false,
-      id: "edge|173",
+      id: 'edge|173',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12141,38 +12141,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1270971999079600129",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1270971999079600129',
       twoWay: false,
-      id: "edge|174",
+      id: 'edge|174',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12186,38 +12186,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272407500244291585",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272407500244291585',
       twoWay: false,
-      id: "edge|175",
+      id: 'edge|175',
       curveOffset: 110,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12231,38 +12231,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272407500244291585",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272407500244291585',
       twoWay: false,
-      id: "edge|176",
+      id: 'edge|176',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12276,38 +12276,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272409806746587138",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272409806746587138',
       twoWay: false,
-      id: "edge|177",
+      id: 'edge|177',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12321,38 +12321,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272409806746587138",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272409806746587138',
       twoWay: false,
-      id: "edge|178",
+      id: 'edge|178',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12366,38 +12366,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272436470574649345",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272436470574649345',
       twoWay: false,
-      id: "edge|179",
+      id: 'edge|179',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12411,38 +12411,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272436470574649345",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272436470574649345',
       twoWay: false,
-      id: "edge|180",
+      id: 'edge|180',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12456,38 +12456,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272436755510497282",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272436755510497282',
       twoWay: false,
-      id: "edge|181",
+      id: 'edge|181',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12501,38 +12501,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272436755510497282",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272436755510497282',
       twoWay: false,
-      id: "edge|182",
+      id: 'edge|182',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12546,38 +12546,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272437723325173761",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272437723325173761',
       twoWay: false,
-      id: "edge|183",
+      id: 'edge|183',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12591,38 +12591,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272437723325173761",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272437723325173761',
       twoWay: false,
-      id: "edge|184",
+      id: 'edge|184',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12636,38 +12636,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272437929139671042",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272437929139671042',
       twoWay: false,
-      id: "edge|185",
+      id: 'edge|185',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12681,38 +12681,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272437929139671042",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272437929139671042',
       twoWay: false,
-      id: "edge|186",
+      id: 'edge|186',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12726,38 +12726,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272438081082527746",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272438081082527746',
       twoWay: false,
-      id: "edge|187",
+      id: 'edge|187',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12771,38 +12771,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272438081082527746",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272438081082527746',
       twoWay: false,
-      id: "edge|188",
+      id: 'edge|188',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12816,38 +12816,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1272440479184228354",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1272440479184228354',
       twoWay: false,
-      id: "edge|189",
+      id: 'edge|189',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12861,38 +12861,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1272440479184228354",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1272440479184228354',
       twoWay: false,
-      id: "edge|190",
+      id: 'edge|190',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12906,38 +12906,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1273069051208982530",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1273069051208982530',
       twoWay: false,
-      id: "edge|191",
+      id: 'edge|191',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12951,38 +12951,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1273069051208982530",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1273069051208982530',
       twoWay: false,
-      id: "edge|192",
+      id: 'edge|192',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -12996,38 +12996,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230714281840553985",
-      target: "1273897433517670402",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230714281840553985',
+      target: '1273897433517670402',
       twoWay: false,
-      id: "edge|193",
+      id: 'edge|193',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13041,38 +13041,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      relationshipDes: "任务考核组成员",
-      source: "1230731505590546434",
-      target: "1273897433517670402",
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      relationshipDes: '任务考核组成员',
+      source: '1230731505590546434',
+      target: '1273897433517670402',
       twoWay: false,
-      id: "edge|194",
+      id: 'edge|194',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13086,38 +13086,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272440479184228354",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272440479184228354',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|195",
+      id: 'edge|195',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13131,38 +13131,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272440479184228354",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272440479184228354',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|196",
+      id: 'edge|196',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13176,38 +13176,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272440479184228354",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272440479184228354',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|197",
+      id: 'edge|197',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13221,38 +13221,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270971999079600129",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270971999079600129',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|198",
+      id: 'edge|198',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13266,38 +13266,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270971999079600129",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270971999079600129',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|199",
+      id: 'edge|199',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13311,38 +13311,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270971999079600129",
-      target: "1242381637742411777",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270971999079600129',
+      target: '1242381637742411777',
       twoWay: false,
-      id: "edge|200",
+      id: 'edge|200',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13356,38 +13356,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270917489267281921",
-      target: "1230731754925142018",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270917489267281921',
+      target: '1230731754925142018',
       twoWay: false,
-      id: "edge|201",
+      id: 'edge|201',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13401,38 +13401,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270917489267281921",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270917489267281921',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|202",
+      id: 'edge|202',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13446,38 +13446,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270917489267281921",
-      target: "1232209222668353538",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270917489267281921',
+      target: '1232209222668353538',
       twoWay: false,
-      id: "edge|203",
+      id: 'edge|203',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13491,38 +13491,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270917489267281921",
-      target: "1232207420849881090",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270917489267281921',
+      target: '1232207420849881090',
       twoWay: false,
-      id: "edge|204",
+      id: 'edge|204',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13536,38 +13536,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270917489267281921",
-      target: "1230732072995991553",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270917489267281921',
+      target: '1230732072995991553',
       twoWay: false,
-      id: "edge|205",
+      id: 'edge|205',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13581,38 +13581,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270896664958963714",
-      target: "1235111081930326017",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270896664958963714',
+      target: '1235111081930326017',
       twoWay: false,
-      id: "edge|206",
+      id: 'edge|206',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13626,38 +13626,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270896664958963714",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270896664958963714',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|207",
+      id: 'edge|207',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13671,38 +13671,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270896664958963714",
-      target: "1235106826196549634",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270896664958963714',
+      target: '1235106826196549634',
       twoWay: false,
-      id: "edge|208",
+      id: 'edge|208',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13716,38 +13716,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270896664958963714",
-      target: "1242737950783598593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270896664958963714',
+      target: '1242737950783598593',
       twoWay: false,
-      id: "edge|209",
+      id: 'edge|209',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13761,38 +13761,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270896664958963714",
-      target: "1242381637742411777",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270896664958963714',
+      target: '1242381637742411777',
       twoWay: false,
-      id: "edge|210",
+      id: 'edge|210',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13806,38 +13806,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272438081082527746",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272438081082527746',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|211",
+      id: 'edge|211',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13851,38 +13851,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272438081082527746",
-      target: "1230731505590546434",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272438081082527746',
+      target: '1230731505590546434',
       twoWay: false,
-      id: "edge|212",
+      id: 'edge|212',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13896,38 +13896,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437723325173761",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437723325173761',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|213",
+      id: 'edge|213',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13941,38 +13941,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437723325173761",
-      target: "1234378633433051138",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437723325173761',
+      target: '1234378633433051138',
       twoWay: false,
-      id: "edge|214",
+      id: 'edge|214',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -13986,38 +13986,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437723325173761",
-      target: "1230731505590546434",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437723325173761',
+      target: '1230731505590546434',
       twoWay: false,
-      id: "edge|215",
+      id: 'edge|215',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14031,38 +14031,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436755510497282",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436755510497282',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|216",
+      id: 'edge|216',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14076,38 +14076,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436755510497282",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436755510497282',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|217",
+      id: 'edge|217',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14121,38 +14121,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270607115213021185",
-      target: "1230733791846936577",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270607115213021185',
+      target: '1230733791846936577',
       twoWay: false,
-      id: "edge|218",
+      id: 'edge|218',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14166,38 +14166,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270607115213021185",
-      target: "1235111081930326017",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270607115213021185',
+      target: '1235111081930326017',
       twoWay: false,
-      id: "edge|219",
+      id: 'edge|219',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14211,38 +14211,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270607115213021185",
-      target: "1235111587067133954",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270607115213021185',
+      target: '1235111587067133954',
       twoWay: false,
-      id: "edge|220",
+      id: 'edge|220',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14256,38 +14256,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270607115213021185",
-      target: "1235106826196549634",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270607115213021185',
+      target: '1235106826196549634',
       twoWay: false,
-      id: "edge|221",
+      id: 'edge|221',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14301,38 +14301,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270607115213021185",
-      target: "1235111908107550722",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270607115213021185',
+      target: '1235111908107550722',
       twoWay: false,
-      id: "edge|222",
+      id: 'edge|222',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14346,38 +14346,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270558700697493506",
-      target: "1230733791846936577",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270558700697493506',
+      target: '1230733791846936577',
       twoWay: false,
-      id: "edge|223",
+      id: 'edge|223',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14391,38 +14391,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270558700697493506",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270558700697493506',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|224",
+      id: 'edge|224',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14436,38 +14436,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270558700697493506",
-      target: "1242737950783598593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270558700697493506',
+      target: '1242737950783598593',
       twoWay: false,
-      id: "edge|225",
+      id: 'edge|225',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14481,38 +14481,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270558700697493506",
-      target: "1242381637742411777",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270558700697493506',
+      target: '1242381637742411777',
       twoWay: false,
-      id: "edge|226",
+      id: 'edge|226',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14526,38 +14526,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437572900655106",
-      target: "1235111587067133954",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437572900655106',
+      target: '1235111587067133954',
       twoWay: false,
-      id: "edge|227",
+      id: 'edge|227',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14571,38 +14571,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437572900655106",
-      target: "1235111908107550722",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437572900655106',
+      target: '1235111908107550722',
       twoWay: false,
-      id: "edge|228",
+      id: 'edge|228',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14616,38 +14616,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437572900655106",
-      target: "1242737950783598593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437572900655106',
+      target: '1242737950783598593',
       twoWay: false,
-      id: "edge|229",
+      id: 'edge|229',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14661,38 +14661,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273897433517670402",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273897433517670402',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|230",
+      id: 'edge|230',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14706,38 +14706,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273897433517670402",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273897433517670402',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|231",
+      id: 'edge|231',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14751,38 +14751,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273897433517670402",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273897433517670402',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|232",
+      id: 'edge|232',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14796,38 +14796,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272409806746587138",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272409806746587138',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|233",
+      id: 'edge|233',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14841,38 +14841,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272409806746587138",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272409806746587138',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|234",
+      id: 'edge|234',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14886,38 +14886,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272409806746587138",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272409806746587138',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|235",
+      id: 'edge|235',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14931,38 +14931,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272409806746587138",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272409806746587138',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|236",
+      id: 'edge|236',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -14976,38 +14976,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272407500244291585",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272407500244291585',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|237",
+      id: 'edge|237',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15021,38 +15021,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272407500244291585",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272407500244291585',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|238",
+      id: 'edge|238',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15066,38 +15066,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272407500244291585",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272407500244291585',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|239",
+      id: 'edge|239',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15111,38 +15111,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272407500244291585",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272407500244291585',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|240",
+      id: 'edge|240',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15156,38 +15156,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437929139671042",
-      target: "1230731754925142018",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437929139671042',
+      target: '1230731754925142018',
       twoWay: false,
-      id: "edge|241",
+      id: 'edge|241',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15201,38 +15201,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437929139671042",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437929139671042',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|242",
+      id: 'edge|242',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15246,38 +15246,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272437929139671042",
-      target: "1259003134179176450",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272437929139671042',
+      target: '1259003134179176450',
       twoWay: false,
-      id: "edge|243",
+      id: 'edge|243',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15291,38 +15291,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436470574649345",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436470574649345',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|244",
+      id: 'edge|244',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15336,38 +15336,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436470574649345",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436470574649345',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|245",
+      id: 'edge|245',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15381,38 +15381,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436470574649345",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436470574649345',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|246",
+      id: 'edge|246',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15426,38 +15426,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1272436470574649345",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1272436470574649345',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|247",
+      id: 'edge|247',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15471,38 +15471,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270538781847134209",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270538781847134209',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|248",
+      id: 'edge|248',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15516,38 +15516,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270538781847134209",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270538781847134209',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|249",
+      id: 'edge|249',
       curveOffset: 70,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15561,38 +15561,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270538781847134209",
-      target: "1242381637742411777",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270538781847134209',
+      target: '1242381637742411777',
       twoWay: false,
-      id: "edge|250",
+      id: 'edge|250',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15606,38 +15606,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273069051208982530",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273069051208982530',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|251",
+      id: 'edge|251',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15651,38 +15651,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273069051208982530",
-      target: "1230732431248273409",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273069051208982530',
+      target: '1230732431248273409',
       twoWay: false,
-      id: "edge|252",
+      id: 'edge|252',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15696,38 +15696,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1273069051208982530",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1273069051208982530',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|253",
+      id: 'edge|253',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15741,38 +15741,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270962006733328386",
-      target: "1242374279628759041",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270962006733328386',
+      target: '1242374279628759041',
       twoWay: false,
-      id: "edge|254",
+      id: 'edge|254',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15786,38 +15786,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270962006733328386",
-      target: "1230714281840553985",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270962006733328386',
+      target: '1230714281840553985',
       twoWay: false,
-      id: "edge|255",
+      id: 'edge|255',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15831,38 +15831,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      relationshipDes: "参与任务",
-      source: "1270962006733328386",
-      target: "1235129596984942593",
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      relationshipDes: '参与任务',
+      source: '1270962006733328386',
+      target: '1235129596984942593',
       twoWay: false,
-      id: "edge|256",
+      id: 'edge|256',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15876,38 +15876,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1270538781847134209",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1270538781847134209',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|257",
+      id: 'edge|257',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15921,38 +15921,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1270558700697493506",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1270558700697493506',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|258",
+      id: 'edge|258',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -15966,38 +15966,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1270607115213021185",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1270607115213021185',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|259",
+      id: 'edge|259',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16011,38 +16011,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1270917489267281921",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1270917489267281921',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|260",
+      id: 'edge|260',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16056,38 +16056,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1272436470574649345",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1272436470574649345',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|261",
+      id: 'edge|261',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16101,38 +16101,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1272437572900655106",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1272437572900655106',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|262",
+      id: 'edge|262',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16146,38 +16146,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1272437929139671042",
-      target: "1230731753675239426",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1272437929139671042',
+      target: '1230731753675239426',
       twoWay: false,
-      id: "edge|263",
+      id: 'edge|263',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16191,38 +16191,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1272438081082527746",
-      target: "1230732071771254786",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1272438081082527746',
+      target: '1230732071771254786',
       twoWay: false,
-      id: "edge|264",
+      id: 'edge|264',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16236,38 +16236,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      relationshipDes: "任务的责任部门",
-      source: "1272440479184228354",
-      target: "1230731650218536961",
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      relationshipDes: '任务的责任部门',
+      source: '1272440479184228354',
+      target: '1230731650218536961',
       twoWay: false,
-      id: "edge|265",
+      id: 'edge|265',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16283,38 +16283,38 @@ export default {
   ],
   simplifyEdges: [
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1234401968925691906",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|0",
+      source: '1234401968925691906',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|0',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16328,38 +16328,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1234378633433051138",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1230732275924807682",
-      id: "edge|1",
+      source: '1234378633433051138',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1230732275924807682',
+      id: 'edge|1',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16373,38 +16373,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1270538781847134209",
-      id: "edge|2",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1270538781847134209',
+      id: 'edge|2',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16416,41 +16416,41 @@ export default {
         y: 371.8789046723301
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270607115213021185",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235111908107550722",
-      id: "edge|3",
+      source: '1270607115213021185',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235111908107550722',
+      id: 'edge|3',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16464,38 +16464,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272440479184228354",
-      id: "edge|4",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272440479184228354',
+      id: 'edge|4',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16509,41 +16509,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|5",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|5',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16557,38 +16557,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270896664958963714",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235111081930326017",
-      id: "edge|6",
+      source: '1270896664958963714',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235111081930326017',
+      id: 'edge|6',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16602,38 +16602,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270558700697493506",
-      id: "edge|7",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270558700697493506',
+      id: 'edge|7',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16647,38 +16647,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272436470574649345",
-      id: "edge|8",
+      source: '1230714281840553985',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272436470574649345',
+      id: 'edge|8',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16692,38 +16692,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1260482431901396994",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1247796787110735873",
-      id: "edge|9",
+      source: '1260482431901396994',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1247796787110735873',
+      id: 'edge|9',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16737,38 +16737,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270538781847134209",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|10",
+      source: '1270538781847134209',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|10',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16780,41 +16780,41 @@ export default {
         y: 437.46028651332045
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1270607115213021185",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|11",
+      source: '1270607115213021185',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|11',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16828,41 +16828,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270962006733328386",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|12",
+      source: '1270962006733328386',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|12',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16876,38 +16876,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230731754925142018",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1272437929139671042",
-      id: "edge|13",
+      source: '1230731754925142018',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1272437929139671042',
+      id: 'edge|13',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16921,38 +16921,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270962006733328386",
-      id: "edge|14",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270962006733328386',
+      id: 'edge|14',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -16966,38 +16966,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1273069051208982530",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|15",
+      source: '1273069051208982530',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|15',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17011,38 +17011,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1270917489267281921",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|16",
+      source: '1270917489267281921',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|16',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17056,38 +17056,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272437929139671042",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230732431248273409",
-      id: "edge|17",
+      source: '1272437929139671042',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230732431248273409',
+      id: 'edge|17',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17101,41 +17101,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437929139671042",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437723325173761",
-      id: "edge|18",
+      source: '1272437929139671042',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437723325173761',
+      id: 'edge|18',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17149,38 +17149,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1260482431901396994",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|19",
+      source: '1260482431901396994',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|19',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17194,38 +17194,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270896664958963714",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235106826196549634",
-      id: "edge|20",
+      source: '1270896664958963714',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235106826196549634',
+      id: 'edge|20',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17239,38 +17239,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1232207420849881090",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270538781847134209",
-      id: "edge|21",
+      source: '1232207420849881090',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270538781847134209',
+      id: 'edge|21',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17282,41 +17282,41 @@ export default {
         y: 393.2531893240991
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1273069051208982530",
-      id: "edge|22",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1273069051208982530',
+      id: 'edge|22',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17330,38 +17330,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1235129596984942593",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1235129595856674817",
-      id: "edge|23",
+      source: '1235129596984942593',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1235129595856674817',
+      id: 'edge|23',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17375,41 +17375,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436755510497282",
-      id: "edge|24",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436755510497282',
+      id: 'edge|24',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17423,38 +17423,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1272437572900655106",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|25",
+      source: '1272437572900655106',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|25',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17468,38 +17468,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272437723325173761",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1234378633433051138",
-      id: "edge|26",
+      source: '1272437723325173761',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1234378633433051138',
+      id: 'edge|26',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17513,38 +17513,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1231823910850977794",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|27",
+      source: '1231823910850977794',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|27',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17558,38 +17558,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门中OKR分最高的人",
+      relationshipDes: '部门中OKR分最高的人',
       twoWay: null,
-      source: "1230731753675239426",
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      target: "1242381637742411777",
-      id: "edge|28",
+      source: '1230731753675239426',
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      target: '1242381637742411777',
+      id: 'edge|28',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17603,38 +17603,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1272436470574649345",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|29",
+      source: '1272436470574649345',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|29',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17648,38 +17648,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并考核任务",
+      relationshipDes: '创建并考核任务',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "CREANDRVW",
-      relationshipAbbreviation: "创建并考核",
-      target: "1270538781847134209",
-      id: "edge|30",
+      source: '1230714281840553985',
+      relationship: 'CREANDRVW',
+      relationshipAbbreviation: '创建并考核',
+      target: '1270538781847134209',
+      id: 'edge|30',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17691,41 +17691,41 @@ export default {
         y: 374.89098826597314
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门分管领导",
+      relationshipDes: '部门分管领导',
       twoWay: null,
-      source: "1260482431901396994",
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      target: "1",
-      id: "edge|31",
+      source: '1260482431901396994',
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      target: '1',
+      id: 'edge|31',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17739,38 +17739,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235104690058493953",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|32",
+      source: '1235104690058493953',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|32',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17784,38 +17784,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1272440479184228354",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|33",
+      source: '1272440479184228354',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|33',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17829,41 +17829,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437929139671042",
-      id: "edge|34",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437929139671042',
+      id: 'edge|34',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17877,41 +17877,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437572900655106",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436755510497282",
-      id: "edge|35",
+      source: '1272437572900655106',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436755510497282',
+      id: 'edge|35',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17925,41 +17925,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437723325173761",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|36",
+      source: '1272437723325173761',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|36',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -17973,38 +17973,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270558700697493506",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230733791846936577",
-      id: "edge|37",
+      source: '1270558700697493506',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230733791846936577',
+      id: 'edge|37',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18018,38 +18018,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235111908107550722",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|38",
+      source: '1235111908107550722',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|38',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18063,38 +18063,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1268813952324419585",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|39",
+      source: '1268813952324419585',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|39',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18108,41 +18108,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270962006733328386",
-      id: "edge|40",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270962006733328386',
+      id: 'edge|40',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18156,38 +18156,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272437572900655106",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235111587067133954",
-      id: "edge|41",
+      source: '1272437572900655106',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235111587067133954',
+      id: 'edge|41',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18201,38 +18201,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272436470574649345",
-      id: "edge|42",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272436470574649345',
+      id: 'edge|42',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18246,38 +18246,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235102946868002817",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|43",
+      source: '1235102946868002817',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|43',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18291,38 +18291,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1270607115213021185",
-      id: "edge|44",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1270607115213021185',
+      id: 'edge|44',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18336,38 +18336,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272436755510497282",
-      id: "edge|45",
+      source: '1230714281840553985',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272436755510497282',
+      id: 'edge|45',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18381,38 +18381,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270971999079600129",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|46",
+      source: '1270971999079600129',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|46',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18426,38 +18426,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1273897433517670402",
-      id: "edge|47",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1273897433517670402',
+      id: 'edge|47',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18471,38 +18471,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1228207764901892097",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|48",
+      source: '1228207764901892097',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|48',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18516,38 +18516,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1232207420849881090",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1270558700697493506",
-      id: "edge|49",
+      source: '1232207420849881090',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1270558700697493506',
+      id: 'edge|49',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18559,41 +18559,41 @@ export default {
         y: 478.1695699486591
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1273069051208982530",
-      id: "edge|50",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1273069051208982530',
+      id: 'edge|50',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18607,38 +18607,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1272438081082527746",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|51",
+      source: '1272438081082527746',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|51',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18652,38 +18652,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272440479184228354",
-      id: "edge|52",
+      source: '1230714281840553985',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272440479184228354',
+      id: 'edge|52',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18697,38 +18697,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270962006733328386",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|53",
+      source: '1270962006733328386',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|53',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18742,41 +18742,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1273897433517670402",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270971999079600129",
-      id: "edge|54",
+      source: '1273897433517670402',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270971999079600129',
+      id: 'edge|54',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18790,41 +18790,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|55",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|55',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18836,41 +18836,41 @@ export default {
         y: 366.89995613451015
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272437723325173761",
-      id: "edge|56",
+      source: '1230731505590546434',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272437723325173761',
+      id: 'edge|56',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18884,41 +18884,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272438081082527746",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|57",
+      source: '1272438081082527746',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|57',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18932,38 +18932,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1232209222668353538",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1232209221502337026",
-      id: "edge|58",
+      source: '1232209222668353538',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1232209221502337026',
+      id: 'edge|58',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -18977,38 +18977,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1230732430002565121",
-      id: "edge|59",
+      source: '1230732431248273409',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1230732430002565121',
+      id: 'edge|59',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19022,41 +19022,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270607115213021185",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|60",
+      source: '1270607115213021185',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|60',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19070,38 +19070,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1270538781847134209",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|61",
+      source: '1270538781847134209',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|61',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19113,41 +19113,41 @@ export default {
         y: 44.05882602085829
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1231824191508635650",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732430002565121",
-      id: "edge|62",
+      source: '1231824191508635650',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732430002565121',
+      id: 'edge|62',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19161,38 +19161,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272437723325173761",
-      id: "edge|63",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272437723325173761',
+      id: 'edge|63',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19206,41 +19206,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270962006733328386",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270607115213021185",
-      id: "edge|64",
+      source: '1270962006733328386',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270607115213021185',
+      id: 'edge|64',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19254,41 +19254,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270896664958963714",
-      id: "edge|65",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270896664958963714',
+      id: 'edge|65',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19302,38 +19302,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270896664958963714",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242381637742411777",
-      id: "edge|66",
+      source: '1270896664958963714',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242381637742411777',
+      id: 'edge|66',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19347,38 +19347,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272438081082527746",
-      id: "edge|67",
+      source: '1230731505590546434',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272438081082527746',
+      id: 'edge|67',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19392,38 +19392,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1258564946969133058",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|68",
+      source: '1258564946969133058',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|68',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19437,38 +19437,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1270558700697493506",
-      id: "edge|69",
+      source: '1230714281840553985',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1270558700697493506',
+      id: 'edge|69',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19482,38 +19482,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1234402487714959361",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1234402486314061825",
-      id: "edge|70",
+      source: '1234402487714959361',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1234402486314061825',
+      id: 'edge|70',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19527,38 +19527,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并参与/负责/最佳成员",
+      relationshipDes: '创建并参与/负责/最佳成员',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CREANDPARTICIPATE",
-      relationshipAbbreviation: "创建并参与",
-      target: "1272437572900655106",
-      id: "edge|71",
+      source: '1242737950783598593',
+      relationship: 'CREANDPARTICIPATE',
+      relationshipAbbreviation: '创建并参与',
+      target: '1272437572900655106',
+      id: 'edge|71',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19572,41 +19572,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270917489267281921",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270607115213021185",
-      id: "edge|72",
+      source: '1270917489267281921',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270607115213021185',
+      id: 'edge|72',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19620,41 +19620,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272438081082527746",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437572900655106",
-      id: "edge|73",
+      source: '1272438081082527746',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437572900655106',
+      id: 'edge|73',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19668,38 +19668,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272409806746587138",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230732431248273409",
-      id: "edge|74",
+      source: '1272409806746587138',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230732431248273409',
+      id: 'edge|74',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19713,38 +19713,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1230731754925142018",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1230731753675239426",
-      id: "edge|75",
+      source: '1230731754925142018',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1230731753675239426',
+      id: 'edge|75',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19758,38 +19758,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235106826196549634",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|76",
+      source: '1235106826196549634',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|76',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19803,38 +19803,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270607115213021185",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235111587067133954",
-      id: "edge|77",
+      source: '1270607115213021185',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235111587067133954',
+      id: 'edge|77',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19848,38 +19848,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1230733662712705026",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732430002565121",
-      id: "edge|78",
+      source: '1230733662712705026',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732430002565121',
+      id: 'edge|78',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19893,38 +19893,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1234401718924201986",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|79",
+      source: '1234401718924201986',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|79',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19938,38 +19938,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272436470574649345",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230732431248273409",
-      id: "edge|80",
+      source: '1272436470574649345',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230732431248273409',
+      id: 'edge|80',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -19983,41 +19983,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270917489267281921",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270896664958963714",
-      id: "edge|81",
+      source: '1270917489267281921',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270896664958963714',
+      id: 'edge|81',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20031,38 +20031,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并考核任务",
+      relationshipDes: '创建并考核任务',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "CREANDRVW",
-      relationshipAbbreviation: "创建并考核",
-      target: "1272409806746587138",
-      id: "edge|82",
+      source: '1230731505590546434',
+      relationship: 'CREANDRVW',
+      relationshipAbbreviation: '创建并考核',
+      target: '1272409806746587138',
+      id: 'edge|82',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20076,38 +20076,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272440479184228354",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|83",
+      source: '1272440479184228354',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|83',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20121,41 +20121,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270607115213021185",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|84",
+      source: '1270607115213021185',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|84',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20167,41 +20167,41 @@ export default {
         y: 354.21114429634366
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272436755510497282",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|85",
+      source: '1272436755510497282',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|85',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20215,38 +20215,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732072995991553",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1270917489267281921",
-      id: "edge|86",
+      source: '1230732072995991553',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1270917489267281921',
+      id: 'edge|86',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20260,38 +20260,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1232577352682930178",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|87",
+      source: '1232577352682930178',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|87',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20305,38 +20305,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门分管领导",
+      relationshipDes: '部门分管领导',
       twoWay: null,
-      source: "1230732072995991553",
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      target: "1230732071771254786",
-      id: "edge|88",
+      source: '1230732072995991553',
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      target: '1230732071771254786',
+      id: 'edge|88',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20350,38 +20350,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1243083708590387202",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|89",
+      source: '1243083708590387202',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|89',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20395,41 +20395,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270917489267281921",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|90",
+      source: '1270917489267281921',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|90',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20441,41 +20441,41 @@ export default {
         y: 393.6538309142919
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1273069051208982530",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|91",
+      source: '1273069051208982530',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|91',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20489,38 +20489,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235103234899247105",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|92",
+      source: '1235103234899247105',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|92',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20534,41 +20534,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272438081082527746",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436755510497282",
-      id: "edge|93",
+      source: '1272438081082527746',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436755510497282',
+      id: 'edge|93',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20582,38 +20582,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270917489267281921",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230731754925142018",
-      id: "edge|94",
+      source: '1270917489267281921',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230731754925142018',
+      id: 'edge|94',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20627,38 +20627,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1232215196456091649",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|95",
+      source: '1232215196456091649',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|95',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20672,38 +20672,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1234401968925691906",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "3",
-      id: "edge|96",
+      source: '1234401968925691906',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '3',
+      id: 'edge|96',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20717,41 +20717,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437723325173761",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437572900655106",
-      id: "edge|97",
+      source: '1272437723325173761',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437572900655106',
+      id: 'edge|97',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20765,41 +20765,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270962006733328386",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|98",
+      source: '1270962006733328386',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|98',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20811,41 +20811,41 @@ export default {
         y: 359.4065049260974
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1232207420849881090",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|99",
+      source: '1232207420849881090',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|99',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20857,44 +20857,44 @@ export default {
         y: 861.0631054922625
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437723325173761",
-      id: "edge|100",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437723325173761',
+      id: 'edge|100',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20908,38 +20908,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272437929139671042",
-      id: "edge|101",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272437929139671042',
+      id: 'edge|101',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20953,38 +20953,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272436470574649345",
-      id: "edge|102",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272436470574649345',
+      id: 'edge|102',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -20998,38 +20998,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235111081930326017",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|103",
+      source: '1235111081930326017',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|103',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21043,41 +21043,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270917489267281921",
-      id: "edge|104",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270917489267281921',
+      id: 'edge|104',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21091,38 +21091,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270917489267281921",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230732431248273409",
-      id: "edge|105",
+      source: '1270917489267281921',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230732431248273409',
+      id: 'edge|105',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21136,38 +21136,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并考核任务",
+      relationshipDes: '创建并考核任务',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "CREANDRVW",
-      relationshipAbbreviation: "创建并考核",
-      target: "1270971999079600129",
-      id: "edge|106",
+      source: '1230714281840553985',
+      relationship: 'CREANDRVW',
+      relationshipAbbreviation: '创建并考核',
+      target: '1270971999079600129',
+      id: 'edge|106',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21181,38 +21181,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235117929525927937",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|107",
+      source: '1235117929525927937',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|107',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21226,38 +21226,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1270558700697493506",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|108",
+      source: '1270558700697493506',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|108',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21271,38 +21271,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "一个任务中,得分最高的人",
+      relationshipDes: '一个任务中,得分最高的人',
       twoWay: null,
-      source: "1273897433517670402",
-      relationship: "BESTMBR",
-      relationshipAbbreviation: "最佳成员",
-      target: "1235129596984942593",
-      id: "edge|109",
+      source: '1273897433517670402',
+      relationship: 'BESTMBR',
+      relationshipAbbreviation: '最佳成员',
+      target: '1235129596984942593',
+      id: 'edge|109',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21316,41 +21316,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270962006733328386",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270896664958963714",
-      id: "edge|110",
+      source: '1270962006733328386',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270896664958963714',
+      id: 'edge|110',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21364,41 +21364,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|111",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|111',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21412,38 +21412,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272436470574649345",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|112",
+      source: '1272436470574649345',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|112',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21457,41 +21457,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270917489267281921",
-      id: "edge|113",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270917489267281921',
+      id: 'edge|113',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21505,38 +21505,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270607115213021185",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235106826196549634",
-      id: "edge|114",
+      source: '1270607115213021185',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235106826196549634',
+      id: 'edge|114',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21550,38 +21550,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1231745357128069121",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|115",
+      source: '1231745357128069121',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|115',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21595,38 +21595,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272436755510497282",
-      id: "edge|116",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272436755510497282',
+      id: 'edge|116',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21640,41 +21640,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437929139671042",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437572900655106",
-      id: "edge|117",
+      source: '1272437929139671042',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437572900655106',
+      id: 'edge|117',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21688,38 +21688,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272438081082527746",
-      id: "edge|118",
+      source: '1230714281840553985',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272438081082527746',
+      id: 'edge|118',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21733,38 +21733,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272407500244291585",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|119",
+      source: '1272407500244291585',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|119',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21778,41 +21778,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270896664958963714",
-      id: "edge|120",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270896664958963714',
+      id: 'edge|120',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21826,38 +21826,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272437929139671042",
-      id: "edge|121",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272437929139671042',
+      id: 'edge|121',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21871,38 +21871,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272407500244291585",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1230732431248273409",
-      id: "edge|122",
+      source: '1272407500244291585',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1230732431248273409',
+      id: 'edge|122',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21916,38 +21916,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272409806746587138",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|123",
+      source: '1272409806746587138',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|123',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -21961,38 +21961,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1230056250308026370",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|124",
+      source: '1230056250308026370',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|124',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22006,38 +22006,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1273897433517670402",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|125",
+      source: '1273897433517670402',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|125',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22051,38 +22051,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230733791846936577",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1270607115213021185",
-      id: "edge|126",
+      source: '1230733791846936577',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1270607115213021185',
+      id: 'edge|126',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22096,41 +22096,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270917489267281921",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|127",
+      source: '1270917489267281921',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|127',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22144,38 +22144,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1273897433517670402",
-      id: "edge|128",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1273897433517670402',
+      id: 'edge|128',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22189,38 +22189,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1242374279628759041",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1232209221502337026",
-      id: "edge|129",
+      source: '1242374279628759041',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1232209221502337026',
+      id: 'edge|129',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22234,41 +22234,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|130",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|130',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22280,41 +22280,41 @@ export default {
         y: 363.22418336696137
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1242370632547213313",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|131",
+      source: '1242370632547213313',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|131',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22328,38 +22328,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门中OKR分最高的人",
+      relationshipDes: '部门中OKR分最高的人',
       twoWay: null,
-      source: "1247796787110735873",
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      target: "1247796787861516289",
-      id: "edge|132",
+      source: '1247796787110735873',
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      target: '1247796787861516289',
+      id: 'edge|132',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22373,41 +22373,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272407500244291585",
-      id: "edge|133",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272407500244291585',
+      id: 'edge|133',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22421,38 +22421,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270917489267281921",
-      id: "edge|134",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270917489267281921',
+      id: 'edge|134',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22466,38 +22466,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门领导",
+      relationshipDes: '部门领导',
       twoWay: null,
-      source: "1234401718924201986",
-      relationship: "DEPTHEADS",
-      relationshipAbbreviation: "部门领导",
-      target: "1",
-      id: "edge|135",
+      source: '1234401718924201986',
+      relationship: 'DEPTHEADS',
+      relationshipAbbreviation: '部门领导',
+      target: '1',
+      id: 'edge|135',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22511,41 +22511,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272436755510497282",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|136",
+      source: '1272436755510497282',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|136',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22559,38 +22559,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272437723325173761",
-      id: "edge|137",
+      source: '1230714281840553985',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272437723325173761',
+      id: 'edge|137',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22604,41 +22604,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437929139671042",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|138",
+      source: '1272437929139671042',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|138',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22652,38 +22652,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235111587067133954",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|139",
+      source: '1235111587067133954',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|139',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22697,41 +22697,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272438081082527746",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437929139671042",
-      id: "edge|140",
+      source: '1272438081082527746',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437929139671042',
+      id: 'edge|140',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22745,41 +22745,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437929139671042",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436755510497282",
-      id: "edge|141",
+      source: '1272437929139671042',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436755510497282',
+      id: 'edge|141',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22793,38 +22793,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235105462112419841",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|142",
+      source: '1235105462112419841',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|142',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22838,38 +22838,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1272438081082527746",
-      id: "edge|143",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1272438081082527746',
+      id: 'edge|143',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22883,38 +22883,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270558700697493506",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242737950783598593",
-      id: "edge|144",
+      source: '1270558700697493506',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242737950783598593',
+      id: 'edge|144',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22928,38 +22928,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建参与并考核",
+      relationshipDes: '创建参与并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "FULLPRTP",
-      relationshipAbbreviation: "全程参与",
-      target: "1270896664958963714",
-      id: "edge|145",
+      source: '1230714281840553985',
+      relationship: 'FULLPRTP',
+      relationshipAbbreviation: '全程参与',
+      target: '1270896664958963714',
+      id: 'edge|145',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -22973,38 +22973,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建参与并考核",
+      relationshipDes: '创建参与并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "FULLPRTP",
-      relationshipAbbreviation: "全程参与",
-      target: "1272407500244291585",
-      id: "edge|146",
+      source: '1230714281840553985',
+      relationship: 'FULLPRTP',
+      relationshipAbbreviation: '全程参与',
+      target: '1272407500244291585',
+      id: 'edge|146',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23018,41 +23018,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270896664958963714",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|147",
+      source: '1270896664958963714',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|147',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23066,41 +23066,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437723325173761",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436755510497282",
-      id: "edge|148",
+      source: '1272437723325173761',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436755510497282',
+      id: 'edge|148',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23114,38 +23114,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1242381637742411777",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1270558700697493506",
-      id: "edge|149",
+      source: '1242381637742411777',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1270558700697493506',
+      id: 'edge|149',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23159,41 +23159,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270558700697493506",
-      id: "edge|150",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270558700697493506',
+      id: 'edge|150',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23207,41 +23207,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272438081082527746",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437723325173761",
-      id: "edge|151",
+      source: '1272438081082527746',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437723325173761',
+      id: 'edge|151',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23255,38 +23255,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270971999079600129",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242381637742411777",
-      id: "edge|152",
+      source: '1270971999079600129',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242381637742411777',
+      id: 'edge|152',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23300,38 +23300,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235112719197863937",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|153",
+      source: '1235112719197863937',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|153',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23345,38 +23345,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272407500244291585",
-      id: "edge|154",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272407500244291585',
+      id: 'edge|154',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23390,41 +23390,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272437572900655106",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272436470574649345",
-      id: "edge|155",
+      source: '1272437572900655106',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272436470574649345',
+      id: 'edge|155',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23438,38 +23438,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235102781788585986",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|156",
+      source: '1235102781788585986',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|156',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23483,41 +23483,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272409806746587138",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270607115213021185",
-      id: "edge|157",
+      source: '1272409806746587138',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270607115213021185',
+      id: 'edge|157',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23531,38 +23531,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1230732277166321665",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|158",
+      source: '1230732277166321665',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|158',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23576,38 +23576,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1231824697316532225",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732071771254786",
-      id: "edge|159",
+      source: '1231824697316532225',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732071771254786',
+      id: 'edge|159',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23621,38 +23621,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272407500244291585",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|160",
+      source: '1272407500244291585',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|160',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23666,38 +23666,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1234415819662430210",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|161",
+      source: '1234415819662430210',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|161',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23711,38 +23711,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270538781847134209",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242381637742411777",
-      id: "edge|162",
+      source: '1270538781847134209',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242381637742411777',
+      id: 'edge|162',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23754,41 +23754,41 @@ export default {
         y: 575.2222885127547
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235105192271872002",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|163",
+      source: '1235105192271872002',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|163',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23802,38 +23802,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1273069051208982530",
-      id: "edge|164",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1273069051208982530',
+      id: 'edge|164',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23847,41 +23847,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270962006733328386",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270917489267281921",
-      id: "edge|165",
+      source: '1270962006733328386',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270917489267281921',
+      id: 'edge|165',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23895,38 +23895,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270896664958963714",
-      id: "edge|166",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270896664958963714',
+      id: 'edge|166',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23940,41 +23940,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270962006733328386",
-      id: "edge|167",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270962006733328386',
+      id: 'edge|167',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -23988,41 +23988,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272407500244291585",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270607115213021185",
-      id: "edge|168",
+      source: '1272407500244291585',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270607115213021185',
+      id: 'edge|168',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24036,38 +24036,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272409806746587138",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|169",
+      source: '1272409806746587138',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|169',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24081,41 +24081,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270558700697493506",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|170",
+      source: '1270558700697493506',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|170',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24127,41 +24127,41 @@ export default {
         y: 382.7179727624834
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1270971999079600129",
-      id: "edge|171",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1270971999079600129',
+      id: 'edge|171',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24175,38 +24175,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并考核任务",
+      relationshipDes: '创建并考核任务',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "CREANDRVW",
-      relationshipAbbreviation: "创建并考核",
-      target: "1270917489267281921",
-      id: "edge|172",
+      source: '1230714281840553985',
+      relationship: 'CREANDRVW',
+      relationshipAbbreviation: '创建并考核',
+      target: '1270917489267281921',
+      id: 'edge|172',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24220,38 +24220,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230056250308026370",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270538781847134209",
-      id: "edge|173",
+      source: '1230056250308026370',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270538781847134209',
+      id: 'edge|173',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24263,41 +24263,41 @@ export default {
         y: 369.26782342011734
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "任务创建人",
+      relationshipDes: '任务创建人',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "CRE",
-      relationshipAbbreviation: "创建",
-      target: "1272438081082527746",
-      id: "edge|174",
+      source: '1242737950783598593',
+      relationship: 'CRE',
+      relationshipAbbreviation: '创建',
+      target: '1272438081082527746',
+      id: 'edge|174',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24311,38 +24311,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务的责任部门",
+      relationshipDes: '任务的责任部门',
       twoWay: null,
-      source: "1272437929139671042",
-      relationship: "ATTRIBUTIONTASK",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|175",
+      source: '1272437929139671042',
+      relationship: 'ATTRIBUTIONTASK',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|175',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24356,38 +24356,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1235103630220787714",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230732275924807682",
-      id: "edge|176",
+      source: '1235103630220787714',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230732275924807682',
+      id: 'edge|176',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24401,38 +24401,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272437929139671042",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1259003134179176450",
-      id: "edge|177",
+      source: '1272437929139671042',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1259003134179176450',
+      id: 'edge|177',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24446,38 +24446,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建参与并考核",
+      relationshipDes: '创建参与并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "FULLPRTP",
-      relationshipAbbreviation: "全程参与",
-      target: "1270962006733328386",
-      id: "edge|178",
+      source: '1230714281840553985',
+      relationship: 'FULLPRTP',
+      relationshipAbbreviation: '全程参与',
+      target: '1270962006733328386',
+      id: 'edge|178',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24491,38 +24491,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门中OKR分最高的人",
+      relationshipDes: '部门中OKR分最高的人',
       twoWay: null,
-      source: "1230732071771254786",
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      target: "1229668761156128769",
-      id: "edge|179",
+      source: '1230732071771254786',
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      target: '1229668761156128769',
+      id: 'edge|179',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24536,38 +24536,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270917489267281921",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1232209222668353538",
-      id: "edge|180",
+      source: '1270917489267281921',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1232209222668353538',
+      id: 'edge|180',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24581,38 +24581,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1230733791846936577",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731650218536961",
-      id: "edge|181",
+      source: '1230733791846936577',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731650218536961',
+      id: 'edge|181',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24626,38 +24626,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270896664958963714",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242737950783598593",
-      id: "edge|182",
+      source: '1270896664958963714',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242737950783598593',
+      id: 'edge|182',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24671,38 +24671,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1230732431248273409",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1272440479184228354",
-      id: "edge|183",
+      source: '1230732431248273409',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1272440479184228354',
+      id: 'edge|183',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24716,41 +24716,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272438081082527746",
-      id: "edge|184",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272438081082527746',
+      id: 'edge|184',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24764,38 +24764,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270607115213021185",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235111081930326017",
-      id: "edge|185",
+      source: '1270607115213021185',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235111081930326017',
+      id: 'edge|185',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24809,38 +24809,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270917489267281921",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1232207420849881090",
-      id: "edge|186",
+      source: '1270917489267281921',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1232207420849881090',
+      id: 'edge|186',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24852,41 +24852,41 @@ export default {
         y: 664.1746584704247
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1242256588704206850",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|187",
+      source: '1242256588704206850',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|187',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24900,38 +24900,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272436470574649345",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|188",
+      source: '1272436470574649345',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|188',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24945,38 +24945,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "创建并考核任务",
+      relationshipDes: '创建并考核任务',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "CREANDRVW",
-      relationshipAbbreviation: "创建并考核",
-      target: "1273897433517670402",
-      id: "edge|189",
+      source: '1230714281840553985',
+      relationship: 'CREANDRVW',
+      relationshipAbbreviation: '创建并考核',
+      target: '1273897433517670402',
+      id: 'edge|189',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -24990,38 +24990,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272440479184228354",
-      id: "edge|190",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272440479184228354',
+      id: 'edge|190',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25035,38 +25035,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1242382032564830209",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|191",
+      source: '1242382032564830209',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|191',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25080,38 +25080,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门分管领导",
+      relationshipDes: '部门分管领导',
       twoWay: null,
-      source: "1242737950783598593",
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      target: "1230731650218536961",
-      id: "edge|192",
+      source: '1242737950783598593',
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      target: '1230731650218536961',
+      id: 'edge|192',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25125,38 +25125,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1272440479184228354",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1235129596984942593",
-      id: "edge|193",
+      source: '1272440479184228354',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1235129596984942593',
+      id: 'edge|193',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25170,38 +25170,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务负责人",
+      relationshipDes: '任务负责人',
       twoWay: null,
-      source: "1235111908107550722",
-      relationship: "PRINCIPAL",
-      relationshipAbbreviation: "负责人",
-      target: "1272437572900655106",
-      id: "edge|194",
+      source: '1235111908107550722',
+      relationship: 'PRINCIPAL',
+      relationshipAbbreviation: '负责人',
+      target: '1272437572900655106',
+      id: 'edge|194',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25215,38 +25215,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1270971999079600129",
-      id: "edge|195",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1270971999079600129',
+      id: 'edge|195',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25260,41 +25260,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270896664958963714",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270607115213021185",
-      id: "edge|196",
+      source: '1270896664958963714',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270607115213021185',
+      id: 'edge|196',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25308,38 +25308,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门中OKR分最高的人",
+      relationshipDes: '部门中OKR分最高的人',
       twoWay: null,
-      source: "1230732275924807682",
-      relationship: "BESTEE",
-      relationshipAbbreviation: "最佳员工",
-      target: "1228211949588353026",
-      id: "edge|197",
+      source: '1230732275924807682',
+      relationship: 'BESTEE',
+      relationshipAbbreviation: '最佳员工',
+      target: '1228211949588353026',
+      id: 'edge|197',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25353,41 +25353,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1270896664958963714",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1270538781847134209",
-      id: "edge|198",
+      source: '1270896664958963714',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1270538781847134209',
+      id: 'edge|198',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25399,41 +25399,41 @@ export default {
         y: 354.56729868987446
       },
       curvePosition: 0.5,
-      label: ""
+      label: ''
     },
     {
-      relationshipDes: "参与任务",
+      relationshipDes: '参与任务',
       twoWay: null,
-      source: "1270962006733328386",
-      relationship: "PARTICIPATE",
-      relationshipAbbreviation: "参与",
-      target: "1242374279628759041",
-      id: "edge|199",
+      source: '1270962006733328386',
+      relationship: 'PARTICIPATE',
+      relationshipAbbreviation: '参与',
+      target: '1242374279628759041',
+      id: 'edge|199',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25447,38 +25447,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门分管领导",
+      relationshipDes: '部门分管领导',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "LEADERSINCRG",
-      relationshipAbbreviation: "分管领导",
-      target: "1230731753675239426",
-      id: "edge|200",
+      source: '1230714281840553985',
+      relationship: 'LEADERSINCRG',
+      relationshipAbbreviation: '分管领导',
+      target: '1230731753675239426',
+      id: 'edge|200',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25492,38 +25492,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "参与/负责/最佳成员并考核",
+      relationshipDes: '参与/负责/最佳成员并考核',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "PARTICIPATEANDEVALUATE",
-      relationshipAbbreviation: "参与并考核",
-      target: "1272409806746587138",
-      id: "edge|201",
+      source: '1230714281840553985',
+      relationship: 'PARTICIPATEANDEVALUATE',
+      relationshipAbbreviation: '参与并考核',
+      target: '1272409806746587138',
+      id: 'edge|201',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25537,41 +25537,41 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "同在一个目标下",
+      relationshipDes: '同在一个目标下',
       twoWay: true,
-      source: "1272440479184228354",
-      relationship: "COMMONGOAL",
-      relationshipAbbreviation: "共同目标",
-      target: "1272437572900655106",
-      id: "edge|202",
+      source: '1272440479184228354',
+      relationship: 'COMMONGOAL',
+      relationshipAbbreviation: '共同目标',
+      target: '1272437572900655106',
+      id: 'edge|202',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         }
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25585,38 +25585,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230731505590546434",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272436755510497282",
-      id: "edge|203",
+      source: '1230731505590546434',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272436755510497282',
+      id: 'edge|203',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25630,38 +25630,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1272437929139671042",
-      id: "edge|204",
+      source: '1230714281840553985',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1272437929139671042',
+      id: 'edge|204',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25675,38 +25675,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "任务考核组成员",
+      relationshipDes: '任务考核组成员',
       twoWay: null,
-      source: "1230714281840553985",
-      relationship: "ASSESSMENT",
-      relationshipAbbreviation: "考核",
-      target: "1273069051208982530",
-      id: "edge|205",
+      source: '1230714281840553985',
+      relationship: 'ASSESSMENT',
+      relationshipAbbreviation: '考核',
+      target: '1273069051208982530',
+      id: 'edge|205',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25720,38 +25720,38 @@ export default {
       curvePosition: 0.5
     },
     {
-      relationshipDes: "部门下的员工",
+      relationshipDes: '部门下的员工',
       twoWay: null,
-      source: "1268063792745148417",
-      relationship: "ATTRIBUTIONDEPART",
-      relationshipAbbreviation: "归属",
-      target: "1230731753675239426",
-      id: "edge|206",
+      source: '1268063792745148417',
+      relationship: 'ATTRIBUTIONDEPART',
+      relationshipAbbreviation: '归属',
+      target: '1230731753675239426',
+      id: 'edge|206',
       curveOffset: -30,
       style: {
         highlightEdgeDark: {
-          stroke: "#ffffff"
+          stroke: '#ffffff'
         },
         weakenEdgeDark: {
-          stroke: "#071631"
+          stroke: '#071631'
         },
         weakenEdgeLight: {
-          stroke: "#f5f5f5"
+          stroke: '#f5f5f5'
         },
-        stroke: "#e2e2e2",
+        stroke: '#e2e2e2',
         lineWidth: 1,
         lineAppendWidth: 2,
         endArrow: {
-          path: "M 0,0 L 4,1 L 4,-1 Z",
-          fill: "#e2e2e2"
+          path: 'M 0,0 L 4,1 L 4,-1 Z',
+          fill: '#e2e2e2'
         },
         startArrow: false
       },
-      type: "quadratic",
+      type: 'quadratic',
       labelCfg: {
         autoRotate: true,
         style: {
-          fill: "#01172E"
+          fill: '#01172E'
         }
       },
       startPoint: {
@@ -25766,4 +25766,4 @@ export default {
     }
   ],
   explorerCache: false
-};
+}
