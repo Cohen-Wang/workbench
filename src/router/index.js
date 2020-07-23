@@ -303,6 +303,12 @@ export const routes = [
                 component: () => import('@/views/Study/Library/Lodash/Throttle.vue')
               }
             ]
+          },
+          {
+            path: '/study/library/tinyMCE',
+            name: 'tinyMCE',
+            meta: { title: 'tinyMCE' },
+            component: () => import('@/views/Study/Library/TinyMCE.vue')
           }
         ]
       },
