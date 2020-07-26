@@ -23,7 +23,7 @@ export default {
   props: {
     debug: {
       type: Boolean,
-      defalut: false
+      default: false
     },
     //传入一个value，使组件支持v-model绑定
     value: {
