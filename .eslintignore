@@ -3,5 +3,6 @@
 /config/
 /dist/
 /src/assets/
+/src/components/
 /src/utils/*.js
 /*.js
