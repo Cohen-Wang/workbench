@@ -30,9 +30,20 @@ export default {
       type: String,
       default: ''
     },
+    // 高度
     height: {
       type: Number,
       default: 300
+    },
+    // 最大高度
+    max_height: {
+      type: Number,
+      default: 500
+    },
+    //
+    placeholder: {
+      type: String,
+      default: '请输入内容'
     },
     // 是否显示状态栏
     statusbar: {
@@ -73,6 +84,8 @@ export default {
         language: 'zh_CN', // 语言
         // 高度
         height: this.height,
+        max_height: this.max_height,
+        placeholder: this.placeholder,
         // ？？？？？？？？
         branding: false,
         // 去掉最下面的提示
