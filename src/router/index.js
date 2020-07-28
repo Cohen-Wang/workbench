@@ -172,7 +172,7 @@ export const routes = [
           {
             path: '/study/es6/null-propagation-operator',
             name: 'null-propagation-operator',
-            meta: { title: 'Null传导运算符（?.）' },
+            meta: { title: 'Null运算符' },
             component: () => import('@/views/Study/ES6/NullOperator.vue')
           },
           {
