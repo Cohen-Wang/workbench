@@ -368,6 +368,12 @@ export const routes = [
             component: () => import('@/views/Study/Ant-Design/Table.vue')
           },
           {
+            path: '/study/ant-design/form',
+            name: 'form',
+            meta: { title: 'form(表单)' },
+            component: () => import('@/views/Study/Ant-Design/Form.vue')
+          },
+          {
             path: '/study/ant-design/datePicker',
             name: 'datePicker',
             meta: { title: 'DatePicker(日期选择器)' },
