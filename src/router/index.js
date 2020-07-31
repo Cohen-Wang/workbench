@@ -360,6 +360,21 @@ export const routes = [
                 component: () => import('@/views/Study/Visualization/ECharts/Category.vue')
               }
             ]
+          },
+          {
+            path: '/study/visualization/d3',
+            name: 'd3',
+            component: () => import('@/views/Study/Visualization/D3/Index.vue'),
+            meta: { title: 'D3', icon: 'dot-chart' },
+            redirect: '/study/visualization/d3/force',
+            children: [
+              {
+                path: '/study/visualization/d3/force',
+                name: 'category',
+                meta: { title: '力导图' },
+                component: () => import('@/views/Study/Visualization/D3/Force.vue')
+              }
+            ]
           }
         ]
       },

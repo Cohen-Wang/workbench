@@ -119,13 +119,11 @@ export default {
         }, 5000)
       })
     },
-
     // 优化【节点】
     optimizeNodes(nodes) {
       return nodes.map(node => {
         node.size = 70
         node.style = node.style || {}
-
         // 人员
         if (node.type === 'USER') {
           node.type = 'image'
@@ -217,7 +215,7 @@ export default {
         return edge
       })
     },
-
+    // 画图
     createChart1(data) {
       return new Promise(resolve => {
         // if (this.graph[this.graphType].graph) return
@@ -289,14 +287,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.container {
-  width: 100%;
-  height: calc(100vh - 130px);
-  background-color: #ffffff;
+  .container {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-color: #ffffff;
 
-  .canvas {
-    height: 100%;
-    background-color: darkblue;
+    .canvas {
+      height: 100%;
+      background: url("./../../../../assets/image/discovery_bg_blue.png");
+    }
   }
-}
 </style>
