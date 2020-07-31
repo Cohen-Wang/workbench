@@ -131,6 +131,12 @@ export const routes = [
             component: () => import('@/views/Study/Javascript/Console.vue')
           },
           {
+            path: '/study/javascript/cursor',
+            name: 'cursor',
+            meta: { title: '获取光标' },
+            component: () => import('@/views/Study/Javascript/Cursor.vue')
+          },
+          {
             path: '/study/javascript/worker',
             name: 'worker',
             meta: { title: 'worker' },
