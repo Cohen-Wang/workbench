@@ -325,38 +325,62 @@ export const routes = [
         ]
       },
       {
-        path: '/study/antv-g6',
-        name: 'antv-g6',
-        component: () => import('@/views/Study/Antv-G6/Index.vue'),
-        meta: { title: '蚂蚁数据可视化(Antv-G6)', icon: 'dot-chart' },
-        redirect: '/study/antv-g6/fruchterman',
+        path: '/study/visualization',
+        name: 'visualization',
+        component: () => import('@/views/Study/Visualization/Index.vue'),
+        meta: { title: '数据可视化', icon: 'area-chart' },
+        redirect: '/study/visualization/antv-g6',
         children: [
           {
-            path: '/study/antv-g6/fruchterman',
-            name: 'fruchterman',
-            meta: { title: '图布局' },
-            component: () => import('@/views/Study/Antv-G6/Fruchterman.vue')
+            path: '/study/visualization/antv-g6',
+            name: 'antv-g6',
+            component: () => import('@/views/Study/Visualization/Antv-G6/Index.vue'),
+            meta: { title: 'Antv-G6', icon: 'dot-chart' },
+            redirect: '/study/visualization/antv-g6/fruchterman',
+            children: [
+              {
+                path: '/study/visualization/antv-g6/fruchterman',
+                name: 'fruchterman',
+                meta: { title: '图布局' },
+                component: () => import('@/views/Study/Visualization/Antv-G6/Fruchterman.vue')
+              },
+              {
+                path: '/study/visualization/antv-g6/force',
+                name: 'force',
+                meta: { title: '力导向图布局' },
+                component: () => import('@/views/Study/Visualization/Antv-G6/Force.vue')
+              }
+            ]
           },
           {
-            path: '/study/antv-g6/force',
-            name: 'force',
-            meta: { title: '力导向图布局' },
-            component: () => import('@/views/Study/Antv-G6/Force.vue')
-          }
-        ]
-      },
-      {
-        path: '/study/echarts',
-        name: 'echarts',
-        component: () => import('@/views/Study/Antv-G6/Index.vue'),
-        meta: { title: 'ECharts', icon: 'dot-chart' },
-        redirect: '/study/echarts/category',
-        children: [
+            path: '/study/visualization/echarts',
+            name: 'echarts',
+            component: () => import('@/views/Study/Visualization/Antv-G6/Index.vue'),
+            meta: { title: 'ECharts', icon: 'dot-chart' },
+            redirect: '/study/visualization/echarts/category',
+            children: [
+              {
+                path: '/study/visualization/echarts/category',
+                name: 'category',
+                meta: { title: '图布局' },
+                component: () => import('@/views/Study/Visualization/ECharts/Category.vue')
+              }
+            ]
+          },
           {
-            path: '/study/echarts/category',
-            name: 'category',
-            meta: { title: '图布局' },
-            component: () => import('@/views/Study/ECharts/Category.vue')
+            path: '/study/visualization/d3',
+            name: 'd3',
+            component: () => import('@/views/Study/Visualization/D3/Index.vue'),
+            meta: { title: 'D3', icon: 'dot-chart' },
+            redirect: '/study/visualization/d3/force',
+            children: [
+              {
+                path: '/study/visualization/d3/force',
+                name: 'category',
+                meta: { title: '力导图' },
+                component: () => import('@/views/Study/Visualization/D3/Force.vue')
+              }
+            ]
           }
         ]
       },
