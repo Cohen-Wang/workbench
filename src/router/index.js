@@ -332,6 +332,12 @@ export const routes = [
         redirect: '/study/visualization/antv-g6',
         children: [
           {
+            path: '/study/visualization/svg',
+            name: 'svg',
+            component: () => import('@/views/Study/Visualization/SVG.vue'),
+            meta: { title: 'svg', icon: 'dot-chart' }
+          },
+          {
             path: '/study/visualization/antv-g6',
             name: 'antv-g6',
             component: () => import('@/views/Study/Visualization/Antv-G6/Index.vue'),
@@ -374,6 +380,24 @@ export const routes = [
             meta: { title: 'D3', icon: 'dot-chart' },
             redirect: '/study/visualization/d3/force',
             children: [
+              {
+                path: '/study/visualization/d3/histogram',
+                name: 'histogram',
+                meta: { title: '直方图' },
+                component: () => import('@/views/Study/Visualization/D3/Histogram.vue')
+              },
+              {
+                path: '/study/visualization/d3/line-graph',
+                name: 'line-graph',
+                meta: { title: '折线图' },
+                component: () => import('@/views/Study/Visualization/D3/LineGraph.vue')
+              },
+              {
+                path: '/study/visualization/d3/pie-graph',
+                name: 'pie-graph',
+                meta: { title: '饼图' },
+                component: () => import('@/views/Study/Visualization/D3/PieGraph.vue')
+              },
               {
                 path: '/study/visualization/d3/force',
                 name: 'category',
