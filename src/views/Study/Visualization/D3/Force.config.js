@@ -1,72 +1,90 @@
 export default {
-  /**
-   * 主题：白色
-   */
-  light: {
-    DEPART: { // 部门
-      radius: 30,
-      bgColor: '#45b1f3'
-    },
-    TASK: { // 任务
-      radius: 25,
-      bgColor: '#b7e8cd',
-      '挑战任务': {
-        bgColor: '#FFF2B2'
-      },
-      '专项任务': {
-        bgColor: '#B7E8CD'
-      },
-      '部门任务': {
-        bgColor: '#F1C1C7'
-      }
-    },
-    image: {
-      radius: 20,
-      bgColor: '#eeeeee'
-    }
-  },
 
   /**
-   * 主题：蓝色
+   * 任务
    */
-  blue: {
-    depart: {
-      // 节点大小 - 半径
-    },
-    TASK: { // 任务
-      radius: 25,
-      bgColor: '#b7e8cd',
-      '挑战任务': {
+  TASK: {
+    radius: 18,
+    distance: 650,
+    fontSize: '14px',
+    '挑战任务': {
+      light: {
+        bgColor: '#eeeeee'
+      },
+      blue: {
         bgColor: '#FFF2B2'
       },
-      '专项任务': {
-        bgColor: '#B7E8CD'
-      },
-      '部门任务': {
-        bgColor: '#F1C1C7'
-      }
-    }
-  },
-
-  /**
-   * 主题：黑色
-   */
-  dark: {
-    depart: {
-      // 节点大小 - 半径
-    },
-    TASK: { // 任务
-      radius: 25,
-      bgColor: '#b7e8cd',
-      '挑战任务': {
+      dark: {
         bgColor: '#736313'
+      }
+    },
+    '专项任务': {
+      light: {
+        bgColor: '#B7E8CD'
       },
-      '专项任务': {
+      blue: {
+        bgColor: '#B7E8CD'
+      },
+      dark: {
         bgColor: '#224839'
+      }
+    },
+    '部门任务': {
+      light: {
+        bgColor: '#F1C1C7'
       },
-      '部门任务': {
+      blue: {
+        bgColor: '#F1C1C7'
+      },
+      dark: {
         bgColor: '#4C2830'
       }
     }
+  },
+
+  /**
+   * 部门
+   */
+  DEPART: {
+    radius: 30,
+    distance: 500,
+    fontSize: '16px',
+    light: {
+      bgColor: '#FFF2B2'
+    },
+    blue: {
+      bgColor: '#FFF2B2'
+    },
+    dark: {
+      bgColor: '#736313'
+    }
+  },
+
+  /**
+   * 人员
+   */
+  image: {
+    radius: 18,
+    distance: 120,
+    fontSize: '10px',
+    light: {
+      bgColor: '#eeeeee'
+    },
+    blue: {
+      bgColor: '#FFF2B2'
+    },
+    dark: {
+      bgColor: '#736313'
+    }
+  },
+
+  /**
+   * 连线
+   */
+  line: {
+    lineWidth: 0.4, // 宽度
+    color: '#abcdef', // 颜色
+    textColor: '#333333', // 文字颜色
+    fontSize: '8px'
   }
 }

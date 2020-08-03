@@ -8,6 +8,7 @@
 import * as d3 from 'd3'
 import CONFIG from './Force.config'
 import data from './ForceData'
+import head from '@/assets/image/head.png'
 // import data from './ForceDataTest'
 
 // 准备数据
@@ -71,23 +72,11 @@ export default {
     show() {
       // 处理连线的source的id
       edges.forEach(edge => {
-        const index = nodes.findIndex(node => node.id === edge.source)
-        edge['source'] = index // 将id 变为index（不能省略index）
+        edge['source'] = nodes.findIndex(node => node.id === edge.source) // 将id 变为index（不能省略index）
       })
 
       edges.forEach(edge => {
-        const index = nodes.findIndex(node => node.id === edge.target)
-        edge['target'] = index // 将id 变为index（不能省略index）
-      })
-
-      edges.forEach(edge => {
-        edge['value'] = 2 // 将id 变为index（不能省略index）
-      })
-
-      nodes.forEach(node => {
-        if (node.type === 'DEPART') node['group'] = 3
-        if (node.type === 'TASK') node['group'] = 2
-        if (node.type === 'image') node['group'] = 1
+        edge['target'] = nodes.findIndex(node => node.id === edge.target) // 将id 变为index（不能省略index）
       })
 
       // 创建svg 对象
@@ -98,7 +87,7 @@ export default {
       const g = svg.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
 
       // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
-      const colorScale = d3.scaleOrdinal().domain(d3.range(nodes.length)).range(d3.schemeCategory10)
+      // const colorScale = d3.scaleOrdinal().domain(d3.range(nodes.length)).range(d3.schemeCategory10)
       const forceSimulation = d3.forceSimulation()
         .force('link', d3.forceLink())
         .force('charge', d3.forceManyBody())
@@ -110,10 +99,7 @@ export default {
       // 生成边数据
       forceSimulation.force('link').links(edges)
         .distance(function(d) { // 每一边的长度
-          if (d.source.type === 'TASK') return 650
-          if (d.source.type === 'DEPART') return 500
-          if (d.source.type === 'image') return 100
-          return d.value * 100
+          return CONFIG[d.source.type].distance
         })
 
       // 设置图形的中心位置
@@ -126,9 +112,9 @@ export default {
         .enter()
         .append('line')
         .attr('stroke', function(d, i) {
-          return '#abcdef' || colorScale(d.value) // 边的颜色
+          return CONFIG['line'].color // 边的颜色
         })
-        .attr('stroke-width', 1)
+        .attr('stroke-width', CONFIG['line'].lineWidth)
 
       // 边上文字
       const linksText = g.append('g')
@@ -139,7 +125,7 @@ export default {
         .text(function(d) {
           return d.relationshipAbbreviation || '默认文字'
         })
-        .attr('fill', '#ccc')
+        .attr('fill', CONFIG['line'].textColor)
 
       // 建立用来放在每个节点和对应文字的分组<g>
       const gs = g.selectAll('.circleText')
@@ -161,36 +147,34 @@ export default {
       gs.append('circle')
         // .attr('r',20)
         .attr('r', function(d, i) { // 圆圈半径的大小
-          return d.group * 10
+          return CONFIG[d.type].radius
         })
         .attr('fill', function(d, i) {
           // 节点圆圈的颜色
-          if (d.type === 'TASK') return CONFIG[theme][d.type][d.taskType].bgColor // 节点圆圈的颜色
-          return CONFIG[theme][d.type].bgColor
+          if (d.type === 'TASK') return CONFIG[d.type][d.taskType][theme].bgColor // 节点圆圈的颜色
+          return CONFIG[d.type][theme].bgColor
         })
 
       // 添加图片
       gs.append('image')
         .attr('xlink:href', (d, i) => {
-          return d.img || d.icon.img || 'https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png'
+          // return d.img || d.icon.img || 'https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png'
+          if (d.type === 'DEPART') return d.icon.img
+          if (d.type === 'TASK') return d.icon.img
+          if (d.type === 'image') return head
         })
-        .attr('width', d => CONFIG[theme][d.type].radius * 2)
-        .attr('height', d => CONFIG[theme][d.type].radius * 2)
-        .attr('x', d => -CONFIG[theme][d.type].radius)
-        .attr('y', d => -CONFIG[theme][d.type].radius)
+        .attr('width', d => CONFIG[d.type].radius * 2)
+        .attr('height', d => CONFIG[d.type].radius * 2)
+        .attr('x', d => -CONFIG[d.type].radius)
+        .attr('y', d => -CONFIG[d.type].radius)
         // .attr('dy', 10)
 
       // 文字
       gs.append('text')
-        // .attr('x', -10)
-        // .attr('y', -20)
-        // .attr('dy', 10)
-        .attr('x', -25)
-        .attr('y', -5)
-        .attr('dy', 10)
-        .text(function(d) {
-          return d.name
-        })
+        .attr('text-anchor', 'middle')
+        .attr('font-size', d => CONFIG[d.type].fontSize)
+        .attr('dy', 5) // y轴位置
+        .text(d => d.name)
         .attr('fill', '#333')
 
       function ticked() {
