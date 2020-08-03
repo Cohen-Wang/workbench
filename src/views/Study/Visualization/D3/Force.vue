@@ -9,62 +9,15 @@ import * as d3 from 'd3'
 import CONFIG from './Force.config'
 import data from './ForceData'
 import head from '@/assets/image/head.png'
-// import data from './ForceDataTest'
-
-// 准备数据
-// const nodes = [ // 节点集
-//   { name: '陕西省', group: 2.5 },
-//   { name: '西安市', group: 2 },
-//   { name: '安康市', group: 2 },
-//   { name: '咸阳市', group: 2 },
-//   { name: '宝鸡市', group: 2 },
-//   { name: '铜川市', group: 2 },
-//   { name: '商洛市', group: 2 },
-//   { name: '汉中市', group: 2 },
-//   { name: '延安市', group: 2 },
-//   { name: '兴平市', group: 2 },
-//   { name: '碑林区', group: 1.5 },
-//   { name: '未央区', group: 1.5 },
-//   { name: '莲湖区', group: 1.5 },
-//   { name: '新城区', group: 1.5 },
-//   { name: '户县', group: 1.5 },
-//   { name: '祖庵镇', group: 1 },
-//   { name: '甘河镇', group: 1 },
-//   { name: '蒋村镇', group: 1 }
-// ]
-// const edges = [ // 边集
-//   { source: 0, target: 1, value: 2 }, // value控制线的长短
-//   { source: 0, target: 2, value: 2 },
-//   { source: 0, target: 3, value: 2 },
-//   { source: 0, target: 4, value: 2 },
-//   { source: 0, target: 5, value: 2 },
-//   { source: 0, target: 6, value: 2 },
-//   { source: 0, target: 7, value: 2 },
-//   { source: 0, target: 8, value: 2 },
-//   { source: 0, target: 9, value: 2 },
-//   { source: 1, target: 10, value: 1.5 },
-//   { source: 1, target: 11, value: 1.5 },
-//   { source: 1, target: 12, value: 1.5 },
-//   { source: 1, target: 13, value: 1.5 },
-//   { source: 1, target: 14, value: 1.5 },
-//   { source: 14, target: 15, value: 1 },
-//   { source: 14, target: 16, value: 1 },
-//   { source: 14, target: 17, value: 1 }
-// ]
 
 const nodes = data.nodes
 const edges = data.edges
-
 const theme = 'light'
 
 export default {
   name: 'Force',
   mounted() {
     this.$nextTick(() => {
-      console.log(CONFIG)
-      console.log(theme)
-      console.log('d3:', d3)
-      console.log('data:', data)
       this.show()
     })
   },
@@ -72,11 +25,11 @@ export default {
     show() {
       // 处理连线的source的id
       edges.forEach(edge => {
-        edge['source'] = nodes.findIndex(node => node.id === edge.source) // 将id 变为index（不能省略index）
+        edge['source'] = nodes.findIndex(node => node.id === edge.source) // 将id 变为index
       })
 
       edges.forEach(edge => {
-        edge['target'] = nodes.findIndex(node => node.id === edge.target) // 将id 变为index（不能省略index）
+        edge['target'] = nodes.findIndex(node => node.id === edge.target) // 将id 变为index
       })
 
       // 创建svg 对象
@@ -175,7 +128,16 @@ export default {
         .attr('font-size', d => CONFIG[d.type].fontSize)
         .attr('dy', 5) // y轴位置
         .text(d => d.name)
-        .attr('fill', '#333')
+        .attr('fill', '#666')
+
+      // 缩放
+      svg.call(d3.zoom()
+        .scaleExtent([1 / 2, 8])
+        .on('zoom', zoomed))
+
+      function zoomed() {
+        g.attr('transform', d3.event.transform)
+      }
 
       function ticked() {
         links.attr('x1', function(d) { return d.source.x })

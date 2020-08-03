@@ -47,7 +47,7 @@ export default {
    */
   DEPART: {
     radius: 30,
-    distance: 500,
+    distance: 800,
     fontSize: '16px',
     light: {
       bgColor: '#FFF2B2'
