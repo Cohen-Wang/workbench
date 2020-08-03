@@ -381,6 +381,12 @@ export const routes = [
             redirect: '/study/visualization/d3/force',
             children: [
               {
+                path: '/study/visualization/d3/basis',
+                name: 'basis',
+                meta: { title: '基础' },
+                component: () => import('@/views/Study/Visualization/D3/Basis.vue')
+              },
+              {
                 path: '/study/visualization/d3/histogram',
                 name: 'histogram',
                 meta: { title: '直方图' },
@@ -400,7 +406,7 @@ export const routes = [
               },
               {
                 path: '/study/visualization/d3/force',
-                name: 'category',
+                name: 'd3-force',
                 meta: { title: '力导图' },
                 component: () => import('@/views/Study/Visualization/D3/Force.vue')
               }

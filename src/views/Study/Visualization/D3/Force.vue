@@ -1,20 +1,240 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">力导图</div>
-    </div>
-    <div class="panel-body panel-body-box">
-      <div class="box">123</div>
-    </div>
+  <div id="force-box" ref="force-box" class="graph-box">
+    <!-- ... -->
   </div>
 </template>
 
 <script>
+import * as d3 from 'd3'
+import CONFIG from './Force.config'
+import data from './ForceData'
+// import data from './ForceDataTest'
+
+// 准备数据
+// const nodes = [ // 节点集
+//   { name: '陕西省', group: 2.5 },
+//   { name: '西安市', group: 2 },
+//   { name: '安康市', group: 2 },
+//   { name: '咸阳市', group: 2 },
+//   { name: '宝鸡市', group: 2 },
+//   { name: '铜川市', group: 2 },
+//   { name: '商洛市', group: 2 },
+//   { name: '汉中市', group: 2 },
+//   { name: '延安市', group: 2 },
+//   { name: '兴平市', group: 2 },
+//   { name: '碑林区', group: 1.5 },
+//   { name: '未央区', group: 1.5 },
+//   { name: '莲湖区', group: 1.5 },
+//   { name: '新城区', group: 1.5 },
+//   { name: '户县', group: 1.5 },
+//   { name: '祖庵镇', group: 1 },
+//   { name: '甘河镇', group: 1 },
+//   { name: '蒋村镇', group: 1 }
+// ]
+// const edges = [ // 边集
+//   { source: 0, target: 1, value: 2 }, // value控制线的长短
+//   { source: 0, target: 2, value: 2 },
+//   { source: 0, target: 3, value: 2 },
+//   { source: 0, target: 4, value: 2 },
+//   { source: 0, target: 5, value: 2 },
+//   { source: 0, target: 6, value: 2 },
+//   { source: 0, target: 7, value: 2 },
+//   { source: 0, target: 8, value: 2 },
+//   { source: 0, target: 9, value: 2 },
+//   { source: 1, target: 10, value: 1.5 },
+//   { source: 1, target: 11, value: 1.5 },
+//   { source: 1, target: 12, value: 1.5 },
+//   { source: 1, target: 13, value: 1.5 },
+//   { source: 1, target: 14, value: 1.5 },
+//   { source: 14, target: 15, value: 1 },
+//   { source: 14, target: 16, value: 1 },
+//   { source: 14, target: 17, value: 1 }
+// ]
+
+const nodes = data.nodes
+const edges = data.edges
+
+const theme = 'light'
+
 export default {
-  name: 'Force'
+  name: 'Force',
+  mounted() {
+    this.$nextTick(() => {
+      console.log(CONFIG)
+      console.log(theme)
+      console.log('d3:', d3)
+      console.log('data:', data)
+      this.show()
+    })
+  },
+  methods: {
+    show() {
+      // 处理连线的source的id
+      edges.forEach(edge => {
+        const index = nodes.findIndex(node => node.id === edge.source)
+        edge['source'] = index // 将id 变为index（不能省略index）
+      })
+
+      edges.forEach(edge => {
+        const index = nodes.findIndex(node => node.id === edge.target)
+        edge['target'] = index // 将id 变为index（不能省略index）
+      })
+
+      edges.forEach(edge => {
+        edge['value'] = 2 // 将id 变为index（不能省略index）
+      })
+
+      nodes.forEach(node => {
+        if (node.type === 'DEPART') node['group'] = 3
+        if (node.type === 'TASK') node['group'] = 2
+        if (node.type === 'image') node['group'] = 1
+      })
+
+      // 创建svg 对象
+      const width = this.$refs['force-box'].offsetWidth
+      const height = this.$refs['force-box'].offsetHeight
+      const svg = d3.select('#force-box').append('svg').attr('width', width).attr('height', height)
+      const marge = { top: 10, bottom: 10, left: 10, right: 10 }
+      const g = svg.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
+
+      // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
+      const colorScale = d3.scaleOrdinal().domain(d3.range(nodes.length)).range(d3.schemeCategory10)
+      const forceSimulation = d3.forceSimulation()
+        .force('link', d3.forceLink())
+        .force('charge', d3.forceManyBody())
+        .force('center', d3.forceCenter())
+
+      // 生成节点数据
+      forceSimulation.nodes(nodes).on('tick', ticked) // 这个函数很重要，后面给出具体实现和说明
+
+      // 生成边数据
+      forceSimulation.force('link').links(edges)
+        .distance(function(d) { // 每一边的长度
+          if (d.source.type === 'TASK') return 650
+          if (d.source.type === 'DEPART') return 500
+          if (d.source.type === 'image') return 100
+          return d.value * 100
+        })
+
+      // 设置图形的中心位置
+      forceSimulation.force('center').x(width / 2).y(height / 2)
+
+      // 绘制边
+      const links = g.append('g')
+        .selectAll('line')
+        .data(edges)
+        .enter()
+        .append('line')
+        .attr('stroke', function(d, i) {
+          return '#abcdef' || colorScale(d.value) // 边的颜色
+        })
+        .attr('stroke-width', 1)
+
+      // 边上文字
+      const linksText = g.append('g')
+        .selectAll('text')
+        .data(edges)
+        .enter()
+        .append('text')
+        .text(function(d) {
+          return d.relationshipAbbreviation || '默认文字'
+        })
+        .attr('fill', '#ccc')
+
+      // 建立用来放在每个节点和对应文字的分组<g>
+      const gs = g.selectAll('.circleText')
+        .data(nodes)
+        .enter()
+        .append('g')
+        .attr('transform', function(d, i) {
+          const cirX = d.x
+          const cirY = d.y
+          return `translate(${cirX}, ${cirY})`
+        })
+        .call(d3.drag()
+          .on('start', started)
+          .on('drag', dragged)
+          .on('end', ended)
+        )
+
+      // 绘制节点
+      gs.append('circle')
+        // .attr('r',20)
+        .attr('r', function(d, i) { // 圆圈半径的大小
+          return d.group * 10
+        })
+        .attr('fill', function(d, i) {
+          // 节点圆圈的颜色
+          if (d.type === 'TASK') return CONFIG[theme][d.type][d.taskType].bgColor // 节点圆圈的颜色
+          return CONFIG[theme][d.type].bgColor
+        })
+
+      // 添加图片
+      gs.append('image')
+        .attr('xlink:href', (d, i) => {
+          return d.img || d.icon.img || 'https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png'
+        })
+        .attr('width', d => CONFIG[theme][d.type].radius * 2)
+        .attr('height', d => CONFIG[theme][d.type].radius * 2)
+        .attr('x', d => -CONFIG[theme][d.type].radius)
+        .attr('y', d => -CONFIG[theme][d.type].radius)
+        // .attr('dy', 10)
+
+      // 文字
+      gs.append('text')
+        // .attr('x', -10)
+        // .attr('y', -20)
+        // .attr('dy', 10)
+        .attr('x', -25)
+        .attr('y', -5)
+        .attr('dy', 10)
+        .text(function(d) {
+          return d.name
+        })
+        .attr('fill', '#333')
+
+      function ticked() {
+        links.attr('x1', function(d) { return d.source.x })
+          .attr('y1', function(d) { return d.source.y })
+          .attr('x2', function(d) { return d.target.x })
+          .attr('y2', function(d) { return d.target.y })
+
+        linksText.attr('x', function(d) { return (d.source.x + d.target.x) / 2 }) // 连线文字的x
+          .attr('y', function(d) { return (d.source.y + d.target.y) / 2 }) // 连线文字的Y
+
+        gs.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')' }) // 节点的位置
+      }
+
+      // drag
+      function started(d) {
+        if (!d3.event.active) {
+          forceSimulation.alphaTarget(0.8).restart() // 设置衰减系数，对节点位置移动过程的模拟，数值越高移动越快，数值范围[0，1]
+        }
+        d.fx = d.x
+        d.fy = d.y
+      }
+
+      function dragged(d) {
+        d.fx = d3.event.x
+        d.fy = d3.event.y
+      }
+
+      function ended(d) {
+        if (!d3.event.active) {
+          forceSimulation.alphaTarget(0)
+        }
+        d.fx = null
+        d.fy = null
+      }
+    }
+  }
 }
 </script>
 
-<style scoped>
-
+<style lang="less" scoped>
+  .graph-box {
+    background: url("../../../../assets/image/discovery_bg_blue.png");
+    height: calc(100vh - 115px);
+    user-select: none;
+  }
 </style>
