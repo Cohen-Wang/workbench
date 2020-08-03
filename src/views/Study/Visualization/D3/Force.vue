@@ -41,19 +41,20 @@ export default {
 
       // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
       // const colorScale = d3.scaleOrdinal().domain(d3.range(nodes.length)).range(d3.schemeCategory10)
+
+      // 初始化力导图实例
       const forceSimulation = d3.forceSimulation()
-        .force('link', d3.forceLink())
-        .force('charge', d3.forceManyBody())
-        .force('center', d3.forceCenter())
+        .force('link', d3.forceLink()) // 让相互有链接的点，有一定的距离
+        .force('charge', d3.forceManyBody()) // 粒子两两之间的力，正数引力，负数斥力
+        .force('center', d3.forceCenter()) // 所有粒子，向中心的力
 
       // 生成节点数据
       forceSimulation.nodes(nodes).on('tick', ticked) // 这个函数很重要，后面给出具体实现和说明
 
       // 生成边数据
       forceSimulation.force('link').links(edges)
-        .distance(function(d) { // 每一边的长度
-          return CONFIG[d.source.type].distance
-        })
+        .distance(d => CONFIG[d.source.type].distance) // 每一边的长度)
+        // .strength(-3) // 斥力大小
 
       // 设置图形的中心位置
       forceSimulation.force('center').x(width / 2).y(height / 2)
