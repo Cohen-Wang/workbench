@@ -48,7 +48,7 @@ export default {
   DEPART: {
     radius: 30,
     distance: 1000,
-    fontSize: '16px',
+    fontSize: '14px',
     fontY: 5,
     opacity: {
       weakened: 0.2,
@@ -69,7 +69,7 @@ export default {
   image: {
     radius: 18,
     distance: 150,
-    fontSize: '10px',
+    fontSize: '12px',
     fontY: 30,
     opacity: {
       weakened: 0.1,
