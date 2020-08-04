@@ -1,12 +1,14 @@
 export default {
-
-  /**
-   * 任务
-   */
+  // 任务
   TASK: {
     radius: 18,
-    distance: 650,
+    distance: 850,
     fontSize: '14px',
+    opacity: {
+      weakened: 0.6,
+      normal: 1
+    },
+    isShowText: false,
     '挑战任务': {
       light: {
         bgColor: '#eeeeee'
@@ -41,14 +43,16 @@ export default {
       }
     }
   },
-
-  /**
-   * 部门
-   */
+  // 部门
   DEPART: {
     radius: 30,
-    distance: 800,
+    distance: 1000,
     fontSize: '16px',
+    opacity: {
+      weakened: 0.2,
+      normal: 1
+    },
+    isShowText: true,
     light: {
       bgColor: '#FFF2B2'
     },
@@ -59,14 +63,16 @@ export default {
       bgColor: '#736313'
     }
   },
-
-  /**
-   * 人员
-   */
+  // 人员
   image: {
     radius: 18,
-    distance: 120,
+    distance: 150,
     fontSize: '10px',
+    opacity: {
+      weakened: 0.1,
+      normal: 1
+    },
+    isShowText: true,
     light: {
       bgColor: '#eeeeee'
     },
@@ -77,14 +83,26 @@ export default {
       bgColor: '#736313'
     }
   },
-
-  /**
-   * 连线
-   */
-  line: {
+  line: { // 连线
     lineWidth: 0.4, // 宽度
-    color: '#abcdef', // 颜色
-    textColor: '#333333', // 文字颜色
-    fontSize: '8px'
+    fontSize: '8px',
+    light: {
+      textColor: '#333333', // 文字颜色
+      weakenColor: '#eeeeee', // 弱化的颜色
+      normalColor: '#cccccc', // 普通颜色
+      strengtheningColor: '#666666' // 强化颜色
+    },
+    blue: {
+      textColor: '#333333', // 文字颜色
+      weakenColor: '#eeeeee', // 弱化的颜色
+      normalColor: '#cccccc', // 普通颜色
+      strengtheningColor: '#666666' // 强化颜色
+    },
+    dark: {
+      textColor: '#c9ecff', // 文字颜色
+      weakenColor: '#0a1d38', // 弱化的颜色
+      normalColor: '#0a1d38', // 普通颜色
+      strengtheningColor: '#c9ecff' // 强化颜色
+    }
   }
 }

@@ -7,17 +7,30 @@
 <script>
 import * as d3 from 'd3'
 import CONFIG from './Force.config'
-import data from './ForceData'
-import head from '@/assets/image/head.png'
+import { fakeData, realData } from './ForceData'
 
-const nodes = data.nodes
-const edges = data.edges
-const theme = 'light'
+// 背景图片
+import DiscoveryBgLight from '@/assets/image/discovery_bg_light.png'
+import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
+import DiscoveryBgDark from '@/assets/image/discovery_bg_dark.png'
+const THEME_BG = {
+  'light': DiscoveryBgLight,
+  'blue': DiscoveryBgBlue,
+  'dark': DiscoveryBgDark
+}
+
+// import head from '@/assets/image/head.png'
+const nodes = realData.nodes
+const edges = realData.edges
+const theme = 'dark'
 
 export default {
   name: 'Force',
   mounted() {
+    console.log(fakeData)
+    console.log(realData)
     this.$nextTick(() => {
+      document.getElementById('force-box').style.backgroundImage = `url("${THEME_BG[theme]}")`
       this.show()
     })
   },
@@ -35,9 +48,9 @@ export default {
       // 创建svg 对象
       const width = this.$refs['force-box'].offsetWidth
       const height = this.$refs['force-box'].offsetHeight
-      const svg = d3.select('#force-box').append('svg').attr('width', width).attr('height', height)
+      const svgObj = d3.select('#force-box').append('svg').attr('width', width).attr('height', height)
       const marge = { top: 10, bottom: 10, left: 10, right: 10 }
-      const g = svg.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
+      const groupObj = svgObj.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
 
       // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
       // const colorScale = d3.scaleOrdinal().domain(d3.range(nodes.length)).range(d3.schemeCategory10)
@@ -60,33 +73,32 @@ export default {
       forceSimulation.force('center').x(width / 2).y(height / 2)
 
       // 绘制边
-      const links = g.append('g')
+      const links = groupObj.append('g')
         .selectAll('line')
         .data(edges)
         .enter()
         .append('line')
         .attr('stroke', function(d, i) {
-          return CONFIG['line'].color // 边的颜色
+          return CONFIG['line'][theme].normalColor // 边的颜色
         })
         .attr('stroke-width', CONFIG['line'].lineWidth)
 
-      // 边上文字
-      const linksText = g.append('g')
+      // 线上文字
+      const linksText = groupObj.append('g')
         .selectAll('text')
         .data(edges)
         .enter()
         .append('text')
-        .text(function(d) {
-          return d.relationshipAbbreviation || '默认文字'
-        })
-        .attr('fill', CONFIG['line'].textColor)
+        .text(d => d.relationshipAbbreviation)
+        .attr('fill', CONFIG['line'][theme].textColor)
+        .attr('opacity', 0) // 初始化不显示，鼠标移入才显示
 
       // 建立用来放在每个节点和对应文字的分组<g>
-      const gs = g.selectAll('.circleText')
+      const singleNodeGroup = groupObj.selectAll('.circleText')
         .data(nodes)
         .enter()
         .append('g')
-        .attr('transform', function(d, i) {
+        .attr('transform', d => {
           const cirX = d.x
           const cirY = d.y
           return `translate(${cirX}, ${cirY})`
@@ -97,47 +109,66 @@ export default {
           .on('end', ended)
         )
 
-      // 绘制节点
-      gs.append('circle')
-        // .attr('r',20)
-        .attr('r', function(d, i) { // 圆圈半径的大小
-          return CONFIG[d.type].radius
-        })
-        .attr('fill', function(d, i) {
-          // 节点圆圈的颜色
+      singleNodeGroup.on('mouseenter', onMouseenter)
+      singleNodeGroup.on('mouseleave', onMouseleave)
+      singleNodeGroup.on('click', onNodeClick)
+
+      // 绘制节点（圆圈），当没有图片的时候使用
+      singleNodeGroup.append('circle')
+        .attr('r', d => CONFIG[d.type].radius) // 圆圈半径的大小
+        .attr('fill', (d, i) => {
+          // 节点（圆圈）的颜色
           if (d.type === 'TASK') return CONFIG[d.type][d.taskType][theme].bgColor // 节点圆圈的颜色
           return CONFIG[d.type][theme].bgColor
         })
 
+      // 添加剪切clipPath，用于头像图片的裁剪
+      const clipPath = singleNodeGroup.append('clipPath')
+        .attr('id', (d, i) => `portrait-${i}`) // 给剪切版添加id
+
+      // 剪切板里面添加圆形图
+      clipPath.append('circle')
+        .attr('cx', 0).attr('cy', 0)
+        .attr('r', d => CONFIG[d.type].radius)
+
       // 添加图片
-      gs.append('image')
+      singleNodeGroup.append('image')
         .attr('xlink:href', (d, i) => {
-          // return d.img || d.icon.img || 'https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png'
-          if (d.type === 'DEPART') return d.icon.img
-          if (d.type === 'TASK') return d.icon.img
-          if (d.type === 'image') return head
+          return d.img || d.icon.img
+          // 家里的网络
+          // if (d.type === 'DEPART' || d.type === 'TASK') return d.icon.img
+          // if (d.type === 'image') return head
         })
-        .attr('width', d => CONFIG[d.type].radius * 2)
-        .attr('height', d => CONFIG[d.type].radius * 2)
-        .attr('x', d => -CONFIG[d.type].radius)
+        .attr('x', d => {
+          if (d.type === 'image') return -CONFIG[d.type].radius - 8
+          return -CONFIG[d.type].radius
+        })
         .attr('y', d => -CONFIG[d.type].radius)
-        // .attr('dy', 10)
+        .attr('width', d => {
+          if (d.type === 'image') return CONFIG[d.type].radius * 2 * 1.4
+          return CONFIG[d.type].radius * 2
+        })
+        .attr('height', d => {
+          if (d.type === 'image') return CONFIG[d.type].radius * 2 * 1.4
+          return CONFIG[d.type].radius * 2
+        })
+        .attr('style', (d, i) => `clip-path:url(#portrait-${i})`)
 
       // 文字
-      gs.append('text')
+      singleNodeGroup.append('text')
         .attr('text-anchor', 'middle')
         .attr('font-size', d => CONFIG[d.type].fontSize)
         .attr('dy', 5) // y轴位置
-        .text(d => d.name)
+        .text(d => CONFIG[d.type].isShowText ? d.name : '')
         .attr('fill', '#666')
 
       // 缩放
-      svg.call(d3.zoom()
-        .scaleExtent([1 / 2, 8])
+      svgObj.call(d3.zoom()
+        .scaleExtent([1 / 6, 8])
         .on('zoom', zoomed))
 
       function zoomed() {
-        g.attr('transform', d3.event.transform)
+        groupObj.attr('transform', d3.event.transform)
       }
 
       function ticked() {
@@ -149,7 +180,7 @@ export default {
         linksText.attr('x', function(d) { return (d.source.x + d.target.x) / 2 }) // 连线文字的x
           .attr('y', function(d) { return (d.source.y + d.target.y) / 2 }) // 连线文字的Y
 
-        gs.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')' }) // 节点的位置
+        singleNodeGroup.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')' }) // 节点的位置
       }
 
       // drag
@@ -172,6 +203,60 @@ export default {
         }
         d.fx = null
         d.fy = null
+      }
+
+      function onMouseenter(d, i) {
+        weakenEffect()
+        strengthEffect(d, i)
+      }
+
+      function onMouseleave(d, i) {
+        normalEffect()
+      }
+
+      function onNodeClick(d, i) {
+        alert(d.id)
+      }
+
+      // 弱化效果
+      function weakenEffect() {
+        // 弱化
+        // singleNodeGroup.attr('opacity', (d) => CONFIG[d.type]['opacity'].weakened)
+        // links.attr('stroke', CONFIG['line'][theme].weakenColor)
+      }
+
+      // 强化
+      function strengthEffect(thisD, thisI) {
+        const relatedNodeIndex = []
+        // 鼠标移入节点
+        relatedNodeIndex.push(thisD.index)
+        // 线段强化
+        links.attr('stroke', (d) => {
+          if (d.target.index === thisD.index) {
+            relatedNodeIndex.push(d.source.index)
+            return CONFIG['line'][theme]['strengtheningColor']
+          }
+          if (d.source.index === thisD.index) {
+            relatedNodeIndex.push(d.target.index)
+            return CONFIG['line'][theme]['strengtheningColor']
+          }
+          return CONFIG['line'][theme]['weakenColor']
+        })
+        // 节点强化
+        singleNodeGroup.attr('opacity', d => {
+          return (relatedNodeIndex.includes(d.index)) ? CONFIG[d.type]['opacity'].normal : 0.1
+        })
+        // 文字
+        linksText.attr('opacity', d => {
+          return (relatedNodeIndex.includes(d.source.index) && relatedNodeIndex.includes(d.target.index)) ? 1 : 0
+        })
+      }
+
+      // 恢复正常效果
+      function normalEffect() {
+        singleNodeGroup.attr('opacity', (d) => CONFIG[d.type]['opacity'].normal)
+        links.attr('stroke', CONFIG['line'][theme].normalColor) // 恢复
+        linksText.attr('opacity', 0) // 恢复
       }
     }
   }
