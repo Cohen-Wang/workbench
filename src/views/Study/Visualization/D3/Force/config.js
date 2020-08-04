@@ -4,6 +4,7 @@ export default {
     radius: 18,
     distance: 850,
     fontSize: '14px',
+    fontY: 5,
     opacity: {
       weakened: 0.6,
       normal: 1
@@ -48,6 +49,7 @@ export default {
     radius: 30,
     distance: 1000,
     fontSize: '16px',
+    fontY: 5,
     opacity: {
       weakened: 0.2,
       normal: 1
@@ -68,6 +70,7 @@ export default {
     radius: 18,
     distance: 150,
     fontSize: '10px',
+    fontY: 30,
     opacity: {
       weakened: 0.1,
       normal: 1
@@ -103,6 +106,17 @@ export default {
       weakenColor: '#0a1d38', // 弱化的颜色
       normalColor: '#0a1d38', // 普通颜色
       strengtheningColor: '#c9ecff' // 强化颜色
+    }
+  },
+  text: {
+    light: {
+      color: '#333333'
+    },
+    blue: {
+      color: '#333333'
+    },
+    dark: {
+      color: '#ffffff'
     }
   }
 }
