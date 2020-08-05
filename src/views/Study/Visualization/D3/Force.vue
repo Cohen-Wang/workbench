@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="panel-body panel-body-box">
-        <div id="force-box" ref="force-box" class="graph-box">
+        <div id="container" class="graph-box">
           <!-- ... -->
         </div>
       </div>
@@ -41,7 +41,7 @@
 import config from './Force/config'
 import { realData as data } from './Force/data'
 import dataManage from './Force/dataManage'
-import show from './Force/main'
+import flexibleManagement from './Force/flexibleManagement'
 // 背景图片
 import DiscoveryBgLight from '@/assets/image/discovery_bg_light.png'
 import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
@@ -75,11 +75,10 @@ export default {
     }
   },
   mounted() {
-    console.log('config:', config)
     // 正文
     this.$nextTick(() => {
       // 设置背景图
-      document.getElementById('force-box').style.backgroundImage = `url("${THEME_BG[this.theme]}")`
+      document.getElementById('container').style.backgroundImage = `url("${THEME_BG[this.theme]}")`
       // 画图
       this.show()
     })
@@ -89,9 +88,19 @@ export default {
       // 处理数据
       this.edges = dataManage.optimizeSource(this.edges, data.nodes)
       this.edges = dataManage.optimizeTarget(this.edges, data.nodes)
-
-      show(this.edges, this.nodes, config[this.theme], this.$refs['force-box'])
+      // ?
+      flexibleManagement.setEdges(this.edges)
+      flexibleManagement.setNodes(this.nodes)
+      flexibleManagement.setConfig(config[this.theme])
+      // ?
+      const container = document.getElementById('container')
+      flexibleManagement.setContainer(container)
+      // ?
+      flexibleManagement.render()
     },
+    // +-------------------------------------------------------------------------------------------
+    // + 对话框
+    // +-------------------------------------------------------------------------------------------
     // 打开编辑对话框
     showEditorDialog() {
       this.editorDialog.visible = true

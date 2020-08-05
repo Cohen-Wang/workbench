@@ -11,7 +11,7 @@
       <hr class="mb-50"/>
 
       <div>
-        <blockquote>2.可以在<code>main.js</code>全局引用。 也可以在<code>组件</code>中局部引用。</blockquote>
+        <blockquote>2.可以在<code>flexibleManagement.js</code>全局引用。 也可以在<code>组件</code>中局部引用。</blockquote>
         <p>注意路径：<kbd>import 'font-awesome/css/font-awesome.css'</kbd></p>
       </div>
       <hr class="mb-50"/>
