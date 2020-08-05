@@ -1,6 +1,6 @@
 import * as d3 from 'd3'
 
-export default (edges, nodes, config, theme, ref) => {
+export default (edges, nodes, config, ref) => {
   console.log('d3', d3)
   // 创建svg 对象
   const width = ref.offsetWidth
@@ -35,7 +35,7 @@ export default (edges, nodes, config, theme, ref) => {
     .data(edges)
     .enter()
     .append('line')
-    .attr('stroke', config['line'][theme].normalColor) // 边的颜色
+    .attr('stroke', config['line'].normalColor) // 边的颜色
     .attr('stroke-width', config['line'].lineWidth)
 
   // 线上文字
@@ -45,7 +45,7 @@ export default (edges, nodes, config, theme, ref) => {
     .enter()
     .append('text')
     .text(d => d.relationshipAbbreviation)
-    .attr('fill', config['line'][theme].textColor)
+    .attr('fill', config['line'].text.color)
     .attr('opacity', 0) // 初始化不显示，鼠标移入才显示
 
   // 建立用来放在每个节点和对应文字的分组<g>
@@ -73,8 +73,8 @@ export default (edges, nodes, config, theme, ref) => {
     .attr('r', d => config[d.type].radius) // 圆圈半径的大小
     .attr('fill', (d, i) => {
       // 节点（圆圈）的颜色
-      if (d.type === 'TASK') return config[d.type][d.taskType][theme].bgColor // 节点圆圈的颜色
-      return config[d.type][theme].bgColor
+      if (d.type === 'TASK') return config[d.type][d.taskType].bgColor // 节点圆圈的颜色
+      return config[d.type].bgColor
     })
 
   // 添加剪切clipPath，用于头像图片的裁剪
@@ -86,7 +86,7 @@ export default (edges, nodes, config, theme, ref) => {
     .attr('cx', 0).attr('cy', 0)
     .attr('r', d => config[d.type].radius)
 
-  // 添加图片
+  // 添加图片及其属性
   singleNodeGroup.append('image')
     .attr('xlink:href', (d, i) => {
       return d.img || d.icon.img
@@ -106,13 +106,13 @@ export default (edges, nodes, config, theme, ref) => {
     })
     .attr('style', (d, i) => `clip-path:url(#portrait-${i})`)
 
-  // 文字
+  // 文字及其属性
   singleNodeGroup.append('text')
     .text(d => config[d.type].isShowText ? d.name : '')
     .attr('text-anchor', 'middle')
-    .attr('font-size', d => config[d.type].fontSize)
-    .attr('dy', d => config[d.type].fontY) // y轴位置
-    .attr('fill', () => config['text'][theme].color)
+    .attr('font-size', d => config[d.type].text.size)
+    .attr('dy', d => config[d.type].text.y) // y轴位置
+    .attr('fill', d => config[d.type].text.color)
 
   // 缩放
   svgObj.call(d3.zoom()
@@ -124,15 +124,16 @@ export default (edges, nodes, config, theme, ref) => {
   }
 
   function ticked() {
-    links.attr('x1', function(d) { return d.source.x })
-      .attr('y1', function(d) { return d.source.y })
-      .attr('x2', function(d) { return d.target.x })
-      .attr('y2', function(d) { return d.target.y })
-
-    linksText.attr('x', function(d) { return (d.source.x + d.target.x) / 2 }) // 连线文字的x
-      .attr('y', function(d) { return (d.source.y + d.target.y) / 2 }) // 连线文字的Y
-
-    singleNodeGroup.attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')' }) // 节点的位置
+    // 连线的起始点坐标
+    links.attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y)
+    // 连线文字坐标
+    linksText.attr('x', (d) => (d.source.x + d.target.x) / 2) // x坐标
+      .attr('y', (d) => (d.source.y + d.target.y) / 2) // y坐标
+    // 节点组（circle，剪切板，图片，文字）的坐标
+    singleNodeGroup.attr('transform', (d) => `translate(${d.x}, ${d.y})`)
   }
 
   // drag
@@ -174,7 +175,7 @@ export default (edges, nodes, config, theme, ref) => {
   function weakenEffect() {
     // 弱化
     // singleNodeGroup.attr('opacity', (d) => config[d.type]['opacity'].weakened)
-    // links.attr('stroke', config['line'][theme].weakenColor)
+    // links.attr('stroke', config['line'].weakenColor)
   }
 
   // 强化
@@ -186,13 +187,13 @@ export default (edges, nodes, config, theme, ref) => {
     links.attr('stroke', (d) => {
       if (d.target.index === thisD.index) {
         relatedNodeIndex.push(d.source.index)
-        return config['line'][theme]['strengtheningColor']
+        return config['line'].strengtheningColor
       }
       if (d.source.index === thisD.index) {
         relatedNodeIndex.push(d.target.index)
-        return config['line'][theme]['strengtheningColor']
+        return config['line'].strengtheningColor
       }
-      return config['line'][theme]['weakenColor']
+      return config['line'].weakenColor
     })
     // 节点强化
     singleNodeGroup.attr('opacity', d => {
@@ -207,7 +208,7 @@ export default (edges, nodes, config, theme, ref) => {
   // 恢复正常效果
   function normalEffect() {
     singleNodeGroup.attr('opacity', (d) => config[d.type]['opacity'].normal)
-    links.attr('stroke', config['line'][theme].normalColor) // 恢复
+    links.attr('stroke', config['line'].normalColor) // 恢复
     linksText.attr('opacity', 0) // 恢复
   }
 }
