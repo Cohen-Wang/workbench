@@ -72,6 +72,9 @@ export default {
   watch: {
     theme(newValue, oldValue) {
       console.log(newValue, oldValue)
+      document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
+      flexibleManagement.setConfig(config[newValue])
+      flexibleManagement.reset()
     }
   },
   mounted() {
@@ -88,13 +91,13 @@ export default {
       // 处理数据
       this.edges = dataManage.optimizeSource(this.edges, data.nodes)
       this.edges = dataManage.optimizeTarget(this.edges, data.nodes)
-      // ?
-      flexibleManagement.setEdges(this.edges)
-      flexibleManagement.setNodes(this.nodes)
-      flexibleManagement.setConfig(config[this.theme])
-      // ?
-      const container = document.getElementById('container')
-      flexibleManagement.setContainer(container)
+      // 初始化
+      flexibleManagement.init({
+        id: 'container',
+        nodes: this.nodes,
+        edges: this.edges,
+        config: config[this.theme]
+      })
       // ?
       flexibleManagement.render()
     },
@@ -121,6 +124,7 @@ export default {
 <style lang="less" scoped>
   .panel-body-box {
     padding: 0;
+    overflow: hidden;
   }
   .graph-box {
     background: url("../../../../assets/image/discovery_bg_blue.png");
