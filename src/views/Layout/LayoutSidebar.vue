@@ -33,10 +33,27 @@
             <span slot="title">
               <span>{{ item2.meta.title }}</span>
             </span>
-            <template v-for="item3 in item2.children">
+            <!-- 孙元素【无】孙孙元素 -->
+            <!-- eslint-disable-next-line -->
+            <template v-for="item3 in item2.children" v-if="!item3.children">
               <a-menu-item :key="item3.path">
                 {{ item3.meta.title }}
               </a-menu-item>
+            </template>
+            <!-- 孙元素【有】孙孙元素 -->
+            <!-- eslint-disable-next-line -->
+            <template v-for="item3 in item2.children" v-if="item3.children">
+              <a-sub-menu :key="item3.path">
+                <span slot="title">
+                  <span>{{ item3.meta.title }}</span>
+                </span>
+
+                <template v-for="item4 in item3.children">
+                  <a-menu-item :key="item4.path">
+                    {{ item4.meta.title }}
+                  </a-menu-item>
+                </template>
+              </a-sub-menu>
             </template>
           </a-sub-menu>
         </template>

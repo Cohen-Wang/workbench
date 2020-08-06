@@ -359,6 +359,45 @@ export const routes = [
             ]
           },
           {
+            path: '/study/visualization/antv-g2',
+            name: 'antv-g2',
+            component: () => import('@/views/Study/Visualization/Antv-G2/Index.vue'),
+            meta: { title: 'Antv-G2', icon: 'dot-chart' },
+            redirect: '/study/visualization/antv-g6/bars',
+            children: [
+              {
+                path: '/study/visualization/antv-g6/bars',
+                name: 'bars',
+                meta: { title: '柱状图' },
+                component: () => import('@/views/Study/Visualization/Antv-G2/Bars/Index.vue'),
+                redirect: '/study/visualization/antv-g6/bars/basal-bar-chart',
+                children: [
+                  {
+                    path: '/study/visualization/antv-g6/bars/basal-bar-chart',
+                    name: 'basal-bar-chart',
+                    meta: { title: '基础柱状图' },
+                    component: () => import('@/views/Study/Visualization/Antv-G2/Bars/BasalBarChart.vue')
+                  }
+                ]
+              },
+              {
+                path: '/study/visualization/antv-g6/lines',
+                name: 'line',
+                meta: { title: '折线图' },
+                component: () => import('@/views/Study/Visualization/Antv-G2/Lines/Index.vue'),
+                redirect: '/study/visualization/antv-g6/lines/basal-line-chart',
+                children: [
+                  {
+                    path: '/study/visualization/antv-g6/lines/basal-line-chart',
+                    name: 'basal-line-chart',
+                    meta: { title: '基础折线图' },
+                    component: () => import('@/views/Study/Visualization/Antv-G2/Lines/BasalLineChart.vue')
+                  }
+                ]
+              }
+            ]
+          },
+          {
             path: '/study/visualization/echarts',
             name: 'echarts',
             component: () => import('@/views/Study/Visualization/Antv-G6/Index.vue'),
