@@ -394,6 +394,21 @@ export const routes = [
                     component: () => import('@/views/Study/Visualization/Antv-G2/Lines/BasalLineChart.vue')
                   }
                 ]
+              },
+              {
+                path: '/study/visualization/antv-g6/radars',
+                name: 'radars',
+                meta: { title: '雷达图' },
+                component: () => import('@/views/Study/Visualization/Antv-G2/Radars/Index.vue'),
+                redirect: '/study/visualization/antv-g6/radar/basal-radar-chart',
+                children: [
+                  {
+                    path: '/study/visualization/antv-g6/radar/basal-radar-chart',
+                    name: 'basal-radar-chart',
+                    meta: { title: '雷达图' },
+                    component: () => import('@/views/Study/Visualization/Antv-G2/Radars/BasalRadarChart.vue')
+                  }
+                ]
               }
             ]
           },
