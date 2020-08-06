@@ -1,8 +1,11 @@
 <template>
   <div class="discovery-wrapper">
     <div v-show="indexVisible" style="width: inherit; height: inherit">
-      <div class="transition-btn fs-18" @click="isTransition=!isTransition"><i :class="isTransition?'el-icon-s-unfold':'el-icon-s-fold'"/>
+      <div class="transition-btn fs-18"
+           @click="isTransition=!isTransition">
+        <i :class="isTransition?'el-icon-s-unfold':'el-icon-s-fold'"/>
       </div>
+      <!-- 导航条 -->
       <transition name="el-fade-in-linear">
         <div v-show="isTransition" class="c-header">
           <div class="" style="float: left">
@@ -19,9 +22,6 @@
                                  v-model="graph['关系探索'].nodeTypeFilter"
                                  class="text-right ml-12p"
                                  @change="onNodeTypeFilterChange">
-                <!--<el-checkbox label="image"><span class="fs-22" style="color:#FF095C">●</span>人员</el-checkbox>-->
-                <!--<el-checkbox label="DEPART"><span class="fs-22" style="color:#29A8FF">●</span>部门</el-checkbox>-->
-                <!--<el-checkbox label="TASK"><span class="fs-22" style="color:#FFD300">●</span>任务</el-checkbox> -->
                 <el-checkbox label="image">人员</el-checkbox>
                 <el-checkbox label="DEPART">部门</el-checkbox>
                 <el-checkbox label="TASK">任务</el-checkbox>
@@ -57,22 +57,6 @@
               <span class="fs-16 ml-18p  mr-6p" style="color:#FFD300">●</span><span class="fs-14">挑战任务</span>
               <span class="fs-16 ml-18p mr-6p" style="color:#4AC583">●</span><span class="fs-14">专项任务</span>
               <span class="fs-16 ml-18p mr-6p" style="color:#FF456E">●</span><span class="fs-14 mr-18p">部门任务</span>
-              <!--<el-checkbox-group v-show="graphType==='关系探索'"-->
-              <!--v-model="graph['关系探索'].nodeTypeFilter"-->
-              <!--class="text-right ml-12p"-->
-              <!--@change="onNodeTypeFilterChange">-->
-              <!--<el-checkbox label="image"><span class="fs-22" style="color:#FF095C">●</span>人员</el-checkbox>-->
-              <!--<el-checkbox label="DEPART"><span class="fs-22" style="color:#29A8FF">●</span>部门</el-checkbox>-->
-              <!--<el-checkbox label="TASK"><span class="fs-22" style="color:#FFD300">●</span>任务</el-checkbox> -->
-              <!--<el-checkbox label="image">人员</el-checkbox>-->
-              <!--<el-checkbox label="DEPART">部门</el-checkbox>-->
-              <!--<el-checkbox label="TASK">任务</el-checkbox>-->
-              <!--</el-checkbox-group>-->
-              <!--          #BFBFBF-->
-              <!--          <i class="fs-20 iconfont icon-wenzi ml-12p cursor-point" style="color:#29A8FF"/>-->
-              <!--          <i class="fs-20 iconfont  ml-12p cursor-point" style="color:#29A8FF"/>-->
-              <!--          <i class="fs-20 iconfont icon-trun ml-12p cursor-point" style="color:#29A8FF"/>-->
-              <!--          <i class="fs-20 iconfont icon-yinying ml-12p cursor-point" style="color:#29A8FF"/>-->
             </div>
           </div>
         </div>
@@ -418,28 +402,6 @@ export default {
         spinner: 'el-icon-loading',
         background: 'rgba(0, 0, 0, 0.7)'
       })
-      // const cacheKey = 'OKR_CACHE_DISCOVERY'
-      // let cachedData = sessionStorage.getItem(cacheKey)
-      // if (!cachedData) {
-      //   const result = await this.getDiscoveryData()
-      //   if (result === 'error') {
-      //     loading.close()
-      //     return
-      //   }
-      //   const nodes = this.optimizeNodes(result.nodes)
-      //   const edges = this.optimizeEdges(result.edges)
-      //   const simplifyEdges = this.optimizeEdges(result.simplifyEdges)
-      //   cachedData = { nodes, edges, simplifyEdges }
-      //   //  非主线程的业务, 交给异步去执行
-      //   setTimeout(() => {
-      //     sessionStorage.setItem(cacheKey, JSON.stringify(cachedData))
-      //   }, 1000)
-      // } else {
-      //   cachedData = JSON.parse(cachedData)
-      // }
-      // this.graphData = cachedData
-
-      // this.graph[this.graphType].creationTime = new Date()
 
       const result = await this.getDiscoveryData()
       if (result === 'error') {
@@ -455,28 +417,30 @@ export default {
       // 保存处理好的数据
       this.graphData = { nodes, edges, simplifyEdges }
       window.localStorage.setItem('abc', JSON.stringify(this.graphData))
+
       //  非主线程的业务, 交给异步去执行
       setTimeout(() => {
         this.createChart0({ nodes, edges })
       }, 1000)
+
       // 主业务
       this.createChart1({ nodes, edges: simplifyEdges }).then(graph => {
         setTimeout(() => {
           loading.setText('图形计算中')
         }, 500)
+
         setTimeout(() => {
           loading.setText('图形绘制中')
         }, 100)
+
         setTimeout(() => {
           loading.setText('布局参数计算中')
           this.graphReady = true
           graph.fitView(20)
         }, 2000)
+
         setTimeout(() => {
           loading.close()
-          // graph.updateLayout({
-          //   gravity: 1
-          // })
         }, 3000)
       })
     },
@@ -674,21 +638,7 @@ export default {
               // 任务 -> 部门, 部门 -> 任务
               if ((edge.source.type === 'TASK' && edge.target.type === 'DEPART') || (edge.source.type === 'DEPART' && edge.target.type === 'TASK')) return 1500
               return 500
-              // },
-              // // 边的作用力，默认根据节点的出入度自适应
-              // edgeStrength: edge => {
-              //   if (edge.source.type === 'TASK') {
-              //     return 0.7
-              //   }
-              //   return 0.1
             }
-            // workerEnabled: true,
-            // type: 'fruchterman',
-            // gravity: 0.5,
-            // speed: 5
-            // linkDistance: 100,
-            // preventOverlap: true,
-            // type: 'force'
           },
           animate: true, // Boolean，切换布局时是否使用动画过度，默认为 false
           animateCfg: {

@@ -17,6 +17,7 @@
     <a-modal title="编辑"
              :visible="editorDialog.visible"
              :width="800"
+             :mask-closable="false"
              okText="确认"
              cancelText="取消"
              @ok="onConfirm"
