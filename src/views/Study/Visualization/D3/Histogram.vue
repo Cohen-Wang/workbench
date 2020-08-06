@@ -1,7 +1,7 @@
 <template>
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <div class="panel-title">histogram</div>
+      <div class="panel-title">直方图</div>
     </div>
     <div class="panel-body panel-body-box">
       <div class="box">
