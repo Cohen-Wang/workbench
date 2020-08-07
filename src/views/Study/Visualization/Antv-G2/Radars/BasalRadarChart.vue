@@ -19,16 +19,16 @@ import DataSet from '@antv/data-set'
 import { Chart } from '@antv/g2'
 
 const data = [
-  { item: 'Design', a: 70, b: 30 },
-  { item: 'Development', a: 60, b: 70 },
-  { item: 'Marketing', a: 50, b: 60 },
-  { item: 'Users', a: 40, b: 50 },
-  { item: 'Test', a: 60, b: 70 },
-  { item: 'Language', a: 70, b: 50 },
-  { item: 'Technology', a: 50, b: 40 },
-  { item: 'Support', a: 30, b: 40 },
-  { item: 'Sales', a: 60, b: 40 },
-  { item: 'UX', a: 50, b: 60 }
+  { item: 'Design', a: 70, b: 30, c: 50 },
+  { item: 'Development', a: 60, b: 70, c: 50 },
+  { item: 'Marketing', a: 50, b: 60, c: 50 },
+  { item: 'Users', a: 40, b: 50, c: 50 },
+  { item: 'Test', a: 60, b: 70, c: 50 },
+  { item: 'Language', a: 70, b: 50, c: 50 },
+  { item: 'Technology', a: 50, b: 40, c: 50 },
+  { item: 'Support', a: 30, b: 40, c: 50 },
+  { item: 'Sales', a: 60, b: 40, c: 50 },
+  { item: 'UX', a: 50, b: 60, c: 50 }
 ]
 const { DataView } = DataSet
 const dv = new DataView().source(data)
@@ -49,7 +49,7 @@ export default {
     graphRender() {
       dv.transform({
         type: 'fold',
-        fields: ['a', 'b'], // 展开字段集
+        fields: ['a', 'b', 'c'], // 展开字段集
         key: 'user', // key字段
         value: 'score' // value字段
       })

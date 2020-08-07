@@ -125,6 +125,12 @@ export const routes = [
         redirect: '/study/javascript/console',
         children: [
           {
+            path: '/study/javascript/string',
+            name: 'string',
+            meta: { title: 'string' },
+            component: () => import('@/views/Study/Javascript/String.vue')
+          },
+          {
             path: '/study/javascript/console',
             name: 'console',
             meta: { title: 'console' },
