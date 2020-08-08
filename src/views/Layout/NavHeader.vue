@@ -5,6 +5,7 @@
             :selected-keys="[currentNav]"
             style="height: 64px;line-height: 64px;">
       <a-button size="small"
+                type="link"
                 :icon="collapsed ? 'menu-unfold' : 'menu-fold'"
                 style="margin: 0 20px;"
                 @click="toggleCollapsed"/>

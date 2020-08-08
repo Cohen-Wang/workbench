@@ -6,7 +6,14 @@
     <div class="panel-body panel-body-box">
       <div class="box">
         <blockquote>基础柱状图</blockquote>
-        <div id="container">
+        <a-radio-group v-model="graphData">
+          <a-radio-button v-for="(dataItem, dataIndex) in DATA_OPTIONS"
+                          :key="dataIndex"
+                          :value="dataItem.value">
+            {{ dataItem.label }}
+          </a-radio-button>
+        </a-radio-group>
+        <div id="container" class="graph">
           <!-- 图形 -->
         </div>
       </div>
@@ -17,54 +24,83 @@
 <script>
 import { Chart } from '@antv/g2'
 
-// 配置
-const data = [
-  { type: '未知', value: 654, percent: 0.02 },
-  { type: '17 岁以下', value: 654, percent: 0.02 },
-  { type: '18-24 岁', value: 4400, percent: 0.2 },
-  { type: '25-29 岁', value: 5300, percent: 0.24 },
-  { type: '30-39 岁', value: 6200, percent: 0.28 },
-  { type: '40-49 岁', value: 3300, percent: 0.14 },
-  { type: '50 岁以上', value: 1500, percent: 0.06 }
+const DATA_OPTIONS = [
+  {
+    label: '数据1',
+    value: [
+      { type: '未知', value: 100, percent: 0.1 },
+      { type: '17 岁以下', value: 300, percent: 0.3 },
+      { type: '18-24 岁', value: 200, percent: 0.2 },
+      { type: '25-29 岁', value: 500, percent: 0.5 },
+      { type: '30-39 岁', value: 400, percent: 0.4 },
+      { type: '40-49 岁', value: 700, percent: 0.7 },
+      { type: '50 岁以上', value: 600, percent: 0.6 }
+    ]
+  },
+  {
+    label: '数据2',
+    value: [
+      { type: '未知', value: 100, percent: 0.1 },
+      { type: '17 岁以下', value: 200, percent: 0.2 },
+      { type: '18-24 岁', value: 300, percent: 0.3 },
+      { type: '25-29 岁', value: 400, percent: 0.4 },
+      { type: '30-39 岁', value: 500, percent: 0.5 },
+      { type: '40-49 岁', value: 600, percent: 0.6 },
+      { type: '50 岁以上', value: 700, percent: 0.7 }
+    ]
+  },
+  {
+    label: '数据3',
+    value: [
+      { type: '未知', value: 100, percent: 0.1 },
+      { type: '17 岁以下', value: 200, percent: 0.2 },
+      { type: '50 岁以上', value: 700, percent: 0.7 }
+    ]
+  }
 ]
 
 export default {
   name: 'BasalBarChart',
+  data() {
+    return {
+      DATA_OPTIONS,
+      graphData: DATA_OPTIONS[0].value,
+      chart: null
+    }
+  },
+  watch: {
+    graphData() {
+      this.changeChart()
+    }
+  },
   created() {
-    console.dir(Chart)
   },
   mounted() {
-    this.show()
+    this.initChart()
   },
   methods: {
-    show() {
-      const chart = new Chart({
-        container: 'container',
-        autoFit: true,
-        height: 500,
-        padding: [50, 20, 50, 20]
-      })
-      chart.data(data)
-      chart.scale('value', {
-        alias: '销售额(万)'
-      })
-
-      chart.axis('type', {
+    initChart() {
+      // 初始化canvas
+      this.chart = new Chart({ container: 'container', autoFit: true, padding: [50, 30, 80, 30] })
+      // 绑定数据
+      this.chart.data(this.graphData)
+      // ???
+      this.chart.scale('value', { alias: '销售额(万)' })
+      // ???
+      this.chart.axis('type', {
         tickLine: {
           alignTick: false
         }
       })
-      chart.axis('value', false)
-
-      chart.tooltip({
-        showMarkers: false
-      })
-      chart.interval().position('type*value')
-      chart.interaction('element-active')
-
+      // ???
+      this.chart.axis('value', false)
+      // ???
+      this.chart.tooltip({ showMarkers: false })
+      this.chart.interval().position('type*value')
+      this.chart.interaction('element-active')
       // 添加文本标注
-      data.forEach((item) => {
-        chart
+      this.graphData.forEach((item) => {
+        this.chart
           .annotation()
           .text({
             position: [item.type, item.value],
@@ -83,12 +119,47 @@ export default {
             offsetY: -12
           })
       })
-      chart.render()
+      // 渲染
+      this.chart.render()
+    },
+    // 更新数据时
+    changeChart() {
+      console.log('更新数据后')
+      // 清空标注，及其配置
+      this.chart.annotation().clear(true)
+      // 重写标注
+      this.graphData.forEach(item => {
+        this.chart
+          .annotation()
+          .text({
+            position: [item.type, item.value],
+            content: item.value,
+            style: {
+              textAlign: 'center'
+            },
+            offsetY: -30
+          })
+          .text({
+            position: [item.type, item.value],
+            content: (item.percent * 100).toFixed(0) + '%',
+            style: {
+              textAlign: 'center'
+            },
+            offsetY: -12
+          })
+      })
+      // 更新数据
+      this.chart.changeData(this.graphData)
     }
   }
 }
 </script>
 
-<style scoped>
-
+<style lang="less" scoped>
+  .graph {
+    background-color: #f8f8f8;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+  }
 </style>
