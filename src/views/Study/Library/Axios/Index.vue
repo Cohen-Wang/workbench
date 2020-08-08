@@ -1,11 +1,13 @@
 <template>
-  <h1>axios</h1>
+  <router-view/>
 </template>
 
 <script>
 export default {
-  name: 'Axios'
+  name: 'Index'
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

@@ -5,10 +5,10 @@
 </template>
 
 <style lang="less" scoped>
-@import './assets/iconfont/iconfont.css';
+  @import './assets/iconfont/iconfont.css';
 
-#app {
-  width: 100%;
-  height: 100%;
-}
+  #app {
+    width: 100%;
+    height: 100%;
+  }
 </style>

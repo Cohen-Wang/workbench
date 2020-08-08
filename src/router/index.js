@@ -49,14 +49,8 @@ export const routes = [
     component: Index,
     isShow: true,
     meta: { title: '学习', icon: 'credit-card' },
-    redirect: '/study/axios',
+    redirect: '/study/css',
     children: [
-      // {
-      //   path: '/study/axios',
-      //   name: 'axios',
-      //   meta: { title: 'axios', icon: 'credit-card' },
-      //   component: () => import('@/views/Study/Axios/Axios.vue')
-      // },
       {
         path: '/study/css',
         name: 'css',
@@ -289,6 +283,21 @@ export const routes = [
         meta: { title: '常用工具库', icon: 'rocket' },
         redirect: '/study/library/moment',
         children: [
+          {
+            path: '/study/library/axios',
+            name: 'axios',
+            meta: { title: 'axios', icon: 'credit-card' },
+            component: () => import('@/views/Study/Library/Axios/Index.vue'),
+            redirect: '/study/library/axios/basic',
+            children: [
+              {
+                path: '/study/library/axios/basic',
+                name: 'basic',
+                meta: { title: '基础' },
+                component: () => import('@/views/Study/Library/Axios/Basic.vue')
+              }
+            ]
+          },
           {
             path: '/study/library/moment',
             name: 'moment',

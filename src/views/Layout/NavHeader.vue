@@ -42,14 +42,14 @@
              cancelText="取消"
              @ok="handleOk"
              @cancel="hideIndividuationDialog">
-      <a-form-model :model="individuationDialog.form" :label-col="{ span: 4 }" :wrapper-col="{ span: 14 }">
+      <a-form-model :label-col="{ span: 4 }" :wrapper-col="{ span: 14 }">
         <a-form-model-item label="选择主题">
-          <a-radio-group v-model="individuationDialog.form.theme" @change="changeTheme">
-            <a-radio-button v-for="(styleItem, styleIndex) in THEME_CONFIG"
-                            :key="styleIndex"
-                            :value="styleItem.value">
-              {{ styleItem.label }}
-            </a-radio-button>
+          <a-radio-group v-model="theme">
+            <a-radio v-for="(themeItem, themeIndex) in THEME_CONFIG"
+                     :key="themeIndex"
+                     :value="themeItem.value">
+              {{ themeItem.label }}
+            </a-radio>
           </a-radio-group>
         </a-form-model-item>
       </a-form-model>
@@ -59,27 +59,46 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { THEME_CONFIG } from '@/global/config'
+import { THEME_CONFIG, DEFAULT_THEME, DEFAULT_COLLAPSED } from '@/global/config'
 
 export default {
   name: 'NavHeader',
   data() {
     return {
       THEME_CONFIG,
+      //
+      theme: null,
+      collapsed: null,
       // 个性化
       individuationDialog: {
         visible: false,
         form: {
-          theme: 'light'
+          // theme: 'light'
         }
       }
     }
   },
   computed: {
-    ...mapGetters(['routes', 'currentNav', 'theme', 'collapsed']),
+    ...mapGetters(['routes', 'currentNav']),
     showRouter() {
       return this.routes.filter(e => e.isShow)
     }
+  },
+  watch: {
+    theme(newValue) {
+      this.$store.commit('SET_CURRENT_THEME', newValue)
+    },
+    collapsed(newValue) {
+      this.$store.commit('SET_CURRENT_COLLAPSED', newValue)
+    }
+  },
+  created() {
+    this.theme = window.localStorage.getItem('theme') || DEFAULT_THEME
+    // JSON.parse('false') => false
+    this.collapsed = JSON.parse(window.localStorage.getItem('collapsed')) || DEFAULT_COLLAPSED
+    // 如果是第一次，就保存
+    this.$store.commit('SET_CURRENT_THEME', this.theme)
+    this.$store.commit('SET_CURRENT_COLLAPSED', this.collapsed)
   },
   methods: {
     // 导航条点击
@@ -94,12 +113,8 @@ export default {
     },
     // 切换导航菜单宽度
     toggleCollapsed() {
-      this.$store.commit('SET_CURRENT_COLLAPSED', null)
-    },
-    // 切换主题
-    changeTheme(e) {
-      const theme = e.target.value
-      this.$store.commit('SET_CURRENT_THEME', theme)
+      this.collapsed = !this.collapsed
+      this.$store.commit('SET_CURRENT_COLLAPSED', this.collapsed)
     },
     // 确定
     handleOk() {
@@ -134,8 +149,7 @@ export default {
         }
       })
     }
-  },
-  created() {}
+  }
 }
 </script>
 

@@ -6,7 +6,7 @@
         <img v-show="!collapsed" src="@/assets/image/logo_with_text.png" width="100" alt=""/>
       </a>
     </div>
-    <a-menu mode="vertical"
+    <a-menu mode="inline"
             :theme="theme"
             class="layout-sidebar"
             :inline-collapsed="collapsed"
@@ -120,5 +120,9 @@ export default {
     height: calc(100vh - 64px);
     overflow-x: hidden;
     overflow-y: auto;
+
+    &::-webkit-scrollbar{
+      display:none;
+    }
   }
 </style>
