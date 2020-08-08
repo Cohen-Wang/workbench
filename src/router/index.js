@@ -51,17 +51,17 @@ export const routes = [
     meta: { title: '学习', icon: 'credit-card' },
     redirect: '/study/axios',
     children: [
-      {
-        path: '/study/axios',
-        name: 'axios',
-        meta: { title: 'axios', icon: 'credit-card' },
-        component: () => import('@/views/Study/Axios/Axios.vue')
-      },
+      // {
+      //   path: '/study/axios',
+      //   name: 'axios',
+      //   meta: { title: 'axios', icon: 'credit-card' },
+      //   component: () => import('@/views/Study/Axios/Axios.vue')
+      // },
       {
         path: '/study/css',
         name: 'css',
         component: () => import('@/views/Study/CSS/Index.vue'),
-        meta: { title: 'CSS', icon: 'bulb' },
+        meta: { title: 'CSS', icon: 'trophy' },
         redirect: '/study/css/flex',
         children: [
           {
@@ -106,7 +106,7 @@ export const routes = [
         path: '/study/less',
         name: 'less',
         component: () => import('@/views/Study/Less/Index.vue'),
-        meta: { title: 'Less', icon: 'bulb' },
+        meta: { title: 'Less', icon: 'apartment' },
         redirect: '/study/less/loop',
         children: [
           {
@@ -121,7 +121,7 @@ export const routes = [
         path: '/study/javascript',
         name: 'javascript',
         component: () => import('@/views/Study/Javascript/Index.vue'),
-        meta: { title: 'Javascript', icon: 'bulb' },
+        meta: { title: 'Javascript', icon: 'cloud-server' },
         redirect: '/study/javascript/console',
         children: [
           {
@@ -172,7 +172,7 @@ export const routes = [
         path: '/study/es6',
         name: 'es6',
         component: () => import('@/views/Study/ES6/Index.vue'),
-        meta: { title: 'ES6', icon: 'bulb' },
+        meta: { title: 'ES6', icon: 'deployment-unit' },
         redirect: '/study/es6/async-await',
         children: [
           {
@@ -217,7 +217,7 @@ export const routes = [
         path: '/study/vue',
         name: 'vue',
         component: () => import('@/views/Study/Vue/Index.vue'),
-        meta: { title: 'VUE', icon: 'smile' },
+        meta: { title: 'VUE', icon: 'fork' },
         redirect: '/study/vue/property',
         children: [
           {
@@ -286,7 +286,7 @@ export const routes = [
         path: '/study/library',
         name: 'library',
         component: () => import('@/views/Study/Library/Index.vue'),
-        meta: { title: '常用工具库', icon: 'smile' },
+        meta: { title: '常用工具库', icon: 'rocket' },
         redirect: '/study/library/moment',
         children: [
           {
@@ -505,7 +505,7 @@ export const routes = [
         path: '/study/higher-order-function',
         name: 'higher-order-function',
         component: () => import('@/views/Study/HigherOrderFunction/Index.vue'),
-        meta: { title: '高阶函数', icon: 'dot-chart' },
+        meta: { title: '高阶函数', icon: 'reconciliation' },
         redirect: '/study/higher-order-function/createCache',
         children: [
           {

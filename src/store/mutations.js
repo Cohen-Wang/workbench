@@ -10,6 +10,10 @@ const mutations = {
   // 设置主题
   SET_CURRENT_THEME: (state, payload) => {
     state.theme = payload
+  },
+  // 设置导航菜单宽度
+  SET_CURRENT_COLLAPSED: (state, payload) => {
+    state.collapsed = !state.collapsed
   }
 }
 

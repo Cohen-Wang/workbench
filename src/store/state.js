@@ -7,7 +7,9 @@ const state = {
   // 当前一级导航
   currentNav: 'study',
   // 主题
-  theme: 'light'
+  theme: 'light',
+  // 导航菜单宽度
+  collapsed: true
 }
 
 export default state

@@ -1,8 +1,13 @@
 <template>
   <div>
     <a-menu mode="horizontal"
+            :theme="theme"
             :selected-keys="[currentNav]"
             style="height: 64px;line-height: 64px;">
+      <a-button size="small"
+                :icon="collapsed ? 'menu-unfold' : 'menu-fold'"
+                style="margin: 0 20px;"
+                @click="toggleCollapsed"/>
       <!-- 左边 -->
       <template v-for="item in showRouter">
         <a-menu-item :key="item.name" @click="handleClick">
@@ -71,7 +76,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['routes', 'currentNav', 'theme']),
+    ...mapGetters(['routes', 'currentNav', 'theme', 'collapsed']),
     showRouter() {
       return this.routes.filter(e => e.isShow)
     }
@@ -86,6 +91,10 @@ export default {
     // 打开
     showIndividuationDialog() {
       this.individuationDialog.visible = true
+    },
+    // 切换导航菜单宽度
+    toggleCollapsed() {
+      this.$store.commit('SET_CURRENT_COLLAPSED', null)
     },
     // 切换主题
     changeTheme(e) {
