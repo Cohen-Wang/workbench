@@ -62,20 +62,17 @@ export default {
   },
   watch: {
     graphData() {
-      const dv = new DataView().source(this.graphData)
-      this.$nextTick()
-      this.chart.changeData(dv.rows)
-      // this.chart.render()
+      this.changeChart()
     }
   },
   created() {
   },
   mounted() {
-    this.graphRender()
+    this.initChart()
   },
   methods: {
     // 画图
-    graphRender() {
+    initChart() {
       const dv = new DataView().source(this.graphData)
       // ...
       dv.transform({
@@ -150,6 +147,18 @@ export default {
       this.chart.area().position('item*score').color('user')
       // 渲染
       this.chart.render()
+    },
+    changeChart() {
+      console.log('更新数据后')
+      const dv = new DataView().source(this.graphData)
+      dv.transform({
+        type: 'fold',
+        fields: ['铜站', '龚站', '总厂'], // 展开字段集
+        key: 'user', // key字段
+        value: 'score' // value字段
+      })
+      // 更新数据
+      this.chart.changeData(dv.rows)
     }
   }
 }

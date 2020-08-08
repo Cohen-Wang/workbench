@@ -336,6 +336,12 @@ export const routes = [
             name: 'tinyMCE',
             meta: { title: 'tinyMCE' },
             component: () => import('@/views/Study/Library/TinyMCE.vue')
+          },
+          {
+            path: '/study/library/monaco',
+            name: 'monaco',
+            meta: { title: 'monaco' },
+            component: () => import('@/views/Study/Library/Monaco.vue')
           }
         ]
       },
