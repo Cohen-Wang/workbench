@@ -167,7 +167,7 @@ export const routes = [
         name: 'es6',
         component: () => import('@/views/Study/ES6/Index.vue'),
         meta: { title: 'ES6', icon: 'deployment-unit' },
-        redirect: '/study/es6/async-await',
+        redirect: '/study/es6/async',
         children: [
           {
             path: '/study/es6/symbol',
@@ -188,10 +188,10 @@ export const routes = [
             component: () => import('@/views/Study/ES6/Promise.vue')
           },
           {
-            path: '/study/es6/async-await',
-            name: 'async-await',
-            meta: { title: 'Async&Await' },
-            component: () => import('@/views/Study/ES6/Async-Await.vue')
+            path: '/study/es6/async',
+            name: 'async',
+            meta: { title: 'Async' },
+            component: () => import('@/views/Study/ES6/Async.vue')
           },
           {
             path: '/study/es6/square',

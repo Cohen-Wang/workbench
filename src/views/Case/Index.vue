@@ -26,7 +26,7 @@ export default {
   name: 'Index',
   data() {
     return {
-      url: '/assets/case/canvas/',
+      url: 'file:///E:/project/case/canvas/',
       layoutCfg: [
         { name: '雷达', path: '' }
       ]
@@ -35,7 +35,7 @@ export default {
   methods: {
     handleClick(path) {
       console.log(this.url + path)
-      window.open('/index.html', '_blank', 'height=800, width=800, top=200, left=200')
+      window.open(`${this.url}wavePlant/index.html`, '_blank', 'height=800, width=800, top=200, left=200')
     }
   }
 }

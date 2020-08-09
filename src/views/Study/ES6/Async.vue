@@ -4,14 +4,13 @@
       <div class="panel-title">Async-Await</div>
     </div>
     <div class="panel-body panel-body-box">
-      <div>
-        <blockquote>1.async 是 ES7 才有的与异步操作有关的关键字，和 Promise ， Generator 有很大关联的。</blockquote>
+      <div class="box">
+        <blockquote>
+          <p>1.async 是 ES7 才有的与异步操作有关的关键字，和 Promise ， Generator 有很大关联的。</p>
+          <p>2.返回值:async 函数返回一个 Promise 对象，可以使用 then 方法添加回调函数。</p>
+        </blockquote>
       </div>
-      <div>
-        <blockquote>2.返回值:async 函数返回一个 Promise 对象，可以使用 then 方法添加回调函数。</blockquote>
-      </div>
-      <hr>
-      <div>
+      <div class="box">
         <blockquote>案例一：非异步 - return</blockquote>
         <pre class="well">
 async helloAsync() {
@@ -23,8 +22,7 @@ async helloAsync() {
           <a-button type="danger" @click="handleClick2">点击查看返回值</a-button>
         </a-button-group>
       </div>
-      <hr>
-      <div>
+      <div class="box">
         <blockquote>案例二：异步 - setTimeout</blockquote>
         <pre class="well">
 testWait(num) {
@@ -46,13 +44,24 @@ testWait(num) {
           <a-button type="primary" @click="getPrice" :loading="btnLoading">点击等待3秒，获取结果</a-button>
         </a-form>
       </div>
+      <div class="box">
+        <blockquote>多个async</blockquote>
+        <a-button type="primary" @click="showDialog('MultiAsyncModal')">查看</a-button>
+      </div>
     </div>
+    <!-- 组件 -->
+    <multi-async-modal ref="MultiAsyncModal"/>
   </div>
 </template>
 
 <script>
+import MultiAsyncModal from './async/MultiAsyncModal'
+
 export default {
   name: 'AsyncAwait',
+  components: {
+    MultiAsyncModal
+  },
   data() {
     return {
       price: 0,
@@ -88,6 +97,9 @@ export default {
       this.btnLoading = true
       this.price = await this.testWait(this.price)
       this.btnLoading = false
+    },
+    showDialog(refName) {
+      this.$refs[refName].show()
     }
   }
 }
