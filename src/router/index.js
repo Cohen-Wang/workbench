@@ -483,7 +483,7 @@ export const routes = [
                 path: '/study/visualization/d3/force',
                 name: 'd3-force',
                 meta: { title: '力导图' },
-                component: () => import('@/views/Study/Visualization/D3/Force.vue')
+                component: () => import('@/views/Study/Visualization/D3/Force/Force.vue')
               }
             ]
           }

@@ -38,6 +38,10 @@
         <blockquote>T</blockquote>
         <a-button type="dashed" @click="showDialog('SVGText')">text</a-button>
       </div>
+      <div class="box">
+        <blockquote>U</blockquote>
+        <a-button type="dashed" @click="showDialog('SVGUse')">use</a-button>
+      </div>
     </div>
     <!-- 组件 -->
     <svg-rect ref="SVGRect"></svg-rect>
@@ -50,6 +54,7 @@
     <svg-path ref="SVGPath"></svg-path>
     <svg-clipPath ref="SVGClipPath"></svg-clipPath>
     <svg-image ref="SVGImage"></svg-image>
+    <svg-use ref="SVGUse"></svg-use>
   </div>
 </template>
 
@@ -64,6 +69,7 @@ import SVGPolyline from './components/SVGPolyline'
 import SVGPath from './components/SVGPath'
 import SVGClipPath from './components/SVGClipPath'
 import SVGImage from './components/SVGImage'
+import SVGUse from './components/SVGUse'
 
 export default {
   name: 'SVGStudy',
@@ -77,7 +83,8 @@ export default {
     'svg-polyline': SVGPolyline,
     'svg-path': SVGPath,
     'svg-clipPath': SVGClipPath,
-    'svg-image': SVGImage
+    'svg-image': SVGImage,
+    'svg-use': SVGUse
   },
   methods: {
     showDialog(refName) {

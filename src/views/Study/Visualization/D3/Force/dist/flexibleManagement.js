@@ -125,7 +125,11 @@ export default {
 
     // 添加图片及其属性
     this.singleNodeGroup.append('image')
-      .attr('xlink:href', d => d.img || d.icon.img)
+      .attr('xlink:href', d => {
+        if (d.type === 'DEPART') return d.icon.img
+        if (d.type === 'TASK') return d.icon.img
+        if (d.type === 'image') return 'https://wx1.sinaimg.cn/large/006AAcdyly1ghkkr4ll4gj30r50r4wgq.jpg'
+      })
       .attr('x', d => (d.type === 'image') ? -this.config[d.type].radius - 8 : -this.config[d.type].radius)
       .attr('y', d => -this.config[d.type].radius)
       .attr('width', d => (d.type === 'image') ? this.config[d.type].radius * 2 * 1.4 : this.config[d.type].radius * 2)
