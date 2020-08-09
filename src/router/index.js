@@ -355,8 +355,8 @@ export const routes = [
           {
             path: '/study/visualization/svg',
             name: 'svg',
-            component: () => import('@/views/Study/Visualization/SVG.vue'),
-            meta: { title: 'svg', icon: 'dot-chart' }
+            component: () => import('@/views/Study/Visualization/SVG/SVG.vue'),
+            meta: { title: 'SVG', icon: 'dot-chart' }
           },
           {
             path: '/study/visualization/antv-g6',
