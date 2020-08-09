@@ -57,23 +57,17 @@
           <a-form-model-item label="选择对象">
             <a-select v-model="editorDialog.form.SingleObject" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'image')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'DEPART')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'TASK')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
@@ -85,23 +79,17 @@
           <a-form-model-item label="对象1">
             <a-select v-model="editorDialog.form.relatedObject.first" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'image')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'DEPART')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'TASK')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
@@ -110,23 +98,17 @@
           <a-form-model-item label="对象2">
             <a-select v-model="editorDialog.form.relatedObject.second" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'image')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'DEPART')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
               <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in allObject.filter(e => e.type === 'TASK')"
-                                 :key="index"
-                                 :value="item.id">
+                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
                   {{ item.name }}
                 </a-select-option>
               </a-select-opt-group>
@@ -197,7 +179,19 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['theme'])
+    ...mapGetters(['theme']),
+    // 人员节点
+    imageNode() {
+      return this.allObject.filter(e => e.type === 'image')
+    },
+    // 部门节点
+    departNode() {
+      return this.allObject.filter(e => e.type === 'DEPART')
+    },
+    // 任务节点
+    taskNode() {
+      return this.allObject.filter(e => e.type === 'TASK')
+    }
   },
   watch: {
     theme(newValue, oldValue) {
