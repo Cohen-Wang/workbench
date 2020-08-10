@@ -43,13 +43,16 @@ export default {
     const oContainer = document.getElementById(this.id)
     this.width = oContainer.offsetWidth
     this.height = oContainer.offsetHeight
+
+    //
+    this.svgObj = d3.select(`#${this.id}`).append('svg').attr('width', this.width).attr('height', this.height)
   },
   // 画图
   render() {
+    console.log('render')
     const marge = { top: 10, bottom: 10, left: 10, right: 10 }
 
     // 创建svg 对象
-    this.svgObj = d3.select(`#${this.id}`).append('svg').attr('width', this.width).attr('height', this.height)
     this.groupObj = this.svgObj.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
 
     // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
@@ -146,6 +149,11 @@ export default {
 
     // 缩放
     this.svgObj.call(d3.zoom().scaleExtent([1 / 6, 8]).on('zoom', this.zoomed.bind(this)))
+  },
+
+  // 清空svg
+  clear() {
+    this.svgObj.selectAll('svg > *').remove() // 移除svg内部节点
   },
 
   reset() {

@@ -16,6 +16,11 @@ const dataManage = {
     })
     return result
   }
+
+  // 过滤节点【人员】或【任务】或【部门】
+  // filterType(nodes, type) {
+  //   return nodes.filter(item => item.type === type)
+  // }
 }
 
 export default dataManage

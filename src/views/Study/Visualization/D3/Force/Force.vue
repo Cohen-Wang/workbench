@@ -46,8 +46,8 @@
             <a-checkbox-group v-model="editorDialog.form.objectsList">
               <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG"
                           :key="objectIndex"
-                          :value="objectItem">
-                {{ objectItem }}
+                          :value="objectItem.value">
+                {{ objectItem.label }}
               </a-checkbox>
             </a-checkbox-group>
           </a-form-model-item>
@@ -132,6 +132,7 @@ import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
 import DiscoveryBgDark from '@/assets/image/discovery_bg_dark.png'
 import { mapGetters } from 'vuex'
 
+// 主题背景配置
 const THEME_BG = {
   'light': DiscoveryBgLight,
   'blue': DiscoveryBgBlue,
@@ -144,18 +145,32 @@ const TASK_TYPE_CONFIG = [
   { label: '部门任务', color: '#fc4c78' }
 ]
 // 显示对象配置
-const SHOW_OBJECT_CONFIG = ['人员', '部门', '任务']
-const DEFAULT_OBJECTS_LIST = ['人员', '部门', '任务']
+const SHOW_OBJECT_CONFIG = [
+  { label: '人员', value: 'image' },
+  { label: '部门', value: 'DEPART' },
+  { label: '任务', value: 'TASK' }
+]
+const DEFAULT_OBJECTS_LIST = ['image', 'DEPART', 'TASK']
 // 显示哪种关系
 const GRAPH_TYPE_CONFIG = ['关系探索', '对象探索', '相对关系']
 const DEFAULT_GRAPH_TYPE = '关系探索'
+
+// 处理数据
+const nodes = data.nodes
+const edges = dataManage.optimizeTarget(dataManage.optimizeSource(data.edges, nodes), nodes)
 
 export default {
   name: 'Force',
   data() {
     return {
-      edges: data.edges,
-      nodes: data.nodes,
+      original: {
+        nodes: nodes,
+        edges: edges
+      },
+      filter: {
+        nodes: [],
+        edges: []
+      },
       // 编辑对话框
       editorDialog: {
         visible: false,
@@ -180,16 +195,15 @@ export default {
   },
   computed: {
     ...mapGetters(['theme']),
-    // 人员节点
+    // 人员节点集合
     imageNode() { return this.allObject.filter(e => e.type === 'image') },
-    // 部门节点
+    // 部门节点集合
     departNode() { return this.allObject.filter(e => e.type === 'DEPART') },
-    // 任务节点
+    // 任务节点集合
     taskNode() { return this.allObject.filter(e => e.type === 'TASK') }
   },
   watch: {
-    theme(newValue, oldValue) {
-      console.log(newValue, oldValue)
+    theme(newValue) {
       document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
       flexibleManagement.setConfig(config[newValue])
       flexibleManagement.reset()
@@ -197,6 +211,22 @@ export default {
     'editorDialog.form.graphType': {
       handler: function() {
         console.log('改变图形类型')
+      }
+    },
+    'editorDialog.form.objectsList': {
+      handler: function(newValue) {
+        this.filter.nodes = [] // 清空
+        newValue.forEach(type => {
+          this.filter.nodes.push(...this.original.nodes.filter(node => node.type === type))
+        })
+        // ???
+        // 过滤连线
+        //
+        flexibleManagement.setEdges(this.filter.edges)
+        flexibleManagement.setNodes(this.filter.nodes)
+        flexibleManagement.clear()
+        // 渲染
+        flexibleManagement.render()
       }
     }
   },
@@ -212,16 +242,12 @@ export default {
   methods: {
     show() {
       // ???
-      this.allObject = data.nodes
-      console.log(this.allObject)
-      // 处理数据
-      this.edges = dataManage.optimizeSource(this.edges, data.nodes)
-      this.edges = dataManage.optimizeTarget(this.edges, data.nodes)
+      this.allObject = this.original.nodes
       // 初始化
       flexibleManagement.init({
         id: 'container',
-        nodes: this.nodes,
-        edges: this.edges,
+        nodes: this.original.nodes,
+        edges: this.original.edges,
         config: config[this.theme]
       })
       // 渲染
