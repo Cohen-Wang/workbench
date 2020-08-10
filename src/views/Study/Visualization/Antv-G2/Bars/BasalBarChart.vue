@@ -84,16 +84,21 @@ export default {
       this.chart = new Chart({ container: 'container', autoFit: true, padding: [50, 30, 80, 30] })
       // 绑定数据
       this.chart.data(this.graphData)
-      // ???
+      // tooltip的提示文字
       this.chart.scale('value', { alias: '销售额(万)' })
-      // ???
+      // X轴
       this.chart.axis('type', {
         tickLine: {
           alignTick: false
+        },
+        label: {
+          style: {
+            stroke: 'red'
+          }
         }
       })
-      // ???
-      this.chart.axis('value', false)
+      // Y轴刻度，是否拉条横线
+      this.chart.axis('value', true)
       // ???
       this.chart.tooltip({ showMarkers: false })
       this.chart.interval().position('type*value')

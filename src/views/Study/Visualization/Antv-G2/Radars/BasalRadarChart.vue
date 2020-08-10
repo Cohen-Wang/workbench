@@ -79,7 +79,6 @@ export default {
         key: 'user', // key字段
         value: 'score' // value字段
       })
-
       // 使用 G2 进行绘图的入口
       this.chart = new Chart({
         container: 'basic',
@@ -89,7 +88,6 @@ export default {
         visible: true,
         autoFit: true
       })
-
       // 装载数据源
       this.chart.data(dv.rows)
       // 比例
@@ -110,8 +108,7 @@ export default {
           }
         }
       })
-
-      // ？
+      // 中心点到角的线
       this.chart.axis('item', {
         line: null,
         tickLine: null,
@@ -121,10 +118,21 @@ export default {
               lineDash: null
             }
           }
+        },
+        label: {
+          offset: 50,
+          // 使用 formatter 回调函数
+          formatter: val => {
+            // return val
+            return val.slice(0, 5) + '\n' + val.slice(5, val.length)
+          },
+          style: {
+            fill: 'red',
+            fontSize: 14
+          }
         }
       })
-
-      // ？
+      // 中间的蜘蛛网
       this.chart.axis('score', {
         line: null,
         tickLine: null,
@@ -137,17 +145,28 @@ export default {
           }
         }
       })
+      // 自定义 legend - 图形下面的说明
+      this.chart.legend({
+        items: [
+          { name: '铜站', value: '各项花销', marker: { symbol: 'square', style: { fill: '#1890FF', r: 5 }}},
+          { name: '龚站', value: '总费用', marker: { symbol: 'square', style: { fill: '#EF626D', r: 5 }}},
+          { name: '总厂', value: '总费用', marker: { symbol: 'square', style: { fill: '#9acd32', r: 5 }}}
+        ]
+      })
       // 围绕的线
-      this.chart.line().position('item*score').color('user').size(2) // 围绕线的lineWidth
-      // 围绕的点
-      this.chart.point().position('item*score').color('user').shape('circle').size(4).style({ stroke: '#fff', lineWidth: 1, fillOpacity: 1 })
+      this.chart.line().position('item*score').color('user', ['#1890FF', '#EF626D', '#9acd32']).size(2) // 围绕线的lineWidth
+      // 围绕的线的连点
+      this.chart
+        .point()
+        .position('item*score')
+        .color('user', ['#1890FF', '#EF626D', '#9acd32'])
+        .shape('circle').size(4).style({ stroke: '#fff', lineWidth: 1, fillOpacity: 1 })
       // 区域
-      this.chart.area().position('item*score').color('user')
+      this.chart.area().position('item*score').color('user', ['#1890FF', '#EF626D', '#9acd32'])
       // 渲染
       this.chart.render()
     },
     changeChart() {
-      console.log('更新数据后')
       const dv = new DataView().source(this.graphData)
       dv.transform({
         type: 'fold',
