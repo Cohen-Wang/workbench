@@ -4,43 +4,18 @@
       <div class="panel-title">SVG基础</div>
     </div>
     <div class="panel-body panel-body-box">
-      <div class="box">
-        <blockquote>A</blockquote>
-      </div>
-      <div class="box">
-        <blockquote>C</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGCircle')">circle</a-button>
-        <a-button type="dashed" @click="showDialog('SVGClipPath')">clipPath</a-button>
-      </div>
-      <div class="box">
-        <blockquote>E</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGEllipse')">ellipse</a-button>
-      </div>
-      <div class="box">
-        <blockquote>I</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGImage')">image</a-button>
-      </div>
-      <div class="box">
-        <blockquote>L</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGLine')">line</a-button>
-      </div>
-      <div class="box">
-        <blockquote>P</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGPolygon')">polygon</a-button>
-        <a-button type="dashed" @click="showDialog('SVGPolyline')">polyline</a-button>
-        <a-button type="dashed" @click="showDialog('SVGPath')">path</a-button>
-      </div>
-      <div class="box">
-        <blockquote>R</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGRect')">rect</a-button>
-      </div>
-      <div class="box">
-        <blockquote>T</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGText')">text</a-button>
-      </div>
-      <div class="box">
-        <blockquote>U</blockquote>
-        <a-button type="dashed" @click="showDialog('SVGUse')">use</a-button>
+      <div  v-for="(cfgItem, cfgKey, cfgIndex) in DEFAULT_CONFIG"
+            :key="cfgIndex"
+            class="box">
+        <blockquote>{{ cfgKey }}</blockquote>
+        <a-row :gutter="[16, 16]">
+          <a-col v-for="(item, index) in cfgItem" :key="index" :xs="24" :sm="12" :md="8" :lg="8" :xl="6" :xxl="4">
+            <a-card hoverable @click="showDialog(item.dialogName)">
+              <img slot="cover" alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>
+              <a-card-meta :title="item.title || '暂无标题' " :description="item.description || '暂无描述'"/>
+            </a-card>
+          </a-col>
+        </a-row>
       </div>
     </div>
     <!-- 组件 -->
@@ -71,6 +46,37 @@ import SVGClipPath from './components/SVGClipPath'
 import SVGImage from './components/SVGImage'
 import SVGUse from './components/SVGUse'
 
+const DEFAULT_CONFIG = {
+  A: [],
+  C: [
+    { dialogName: 'SVGCircle', title: 'circle' },
+    { dialogName: 'SVGClipPath', title: 'clipPath' }
+  ],
+  E: [
+    { dialogName: 'SVGEllipse', title: 'ellipse' }
+  ],
+  I: [
+    { dialogName: 'SVGImage', title: 'image' }
+  ],
+  L: [
+    { dialogName: 'SVGLine', title: 'line' }
+  ],
+  P: [
+    { dialogName: 'SVGPolygon', title: 'polygon', description: '封闭直线' },
+    { dialogName: 'SVGPolyline', title: 'polyline', description: '不封闭直线' },
+    { dialogName: 'SVGPath', title: 'path' }
+  ],
+  R: [
+    { dialogName: 'SVGRect', title: 'rect' }
+  ],
+  T: [
+    { dialogName: 'SVGText', title: 'text' }
+  ],
+  U: [
+    { dialogName: 'SVGUse', title: 'use' }
+  ]
+}
+
 export default {
   name: 'SVGStudy',
   components: {
@@ -85,6 +91,11 @@ export default {
     'svg-clipPath': SVGClipPath,
     'svg-image': SVGImage,
     'svg-use': SVGUse
+  },
+  data() {
+    return {
+      DEFAULT_CONFIG
+    }
   },
   methods: {
     showDialog(refName) {
