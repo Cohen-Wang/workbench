@@ -4,7 +4,7 @@
       <div class="panel-title">SVG基础</div>
     </div>
     <div class="panel-body panel-body-box">
-      <div  v-for="(cfgItem, cfgKey, cfgIndex) in DEFAULT_CONFIG"
+      <div v-for="(cfgItem, cfgKey, cfgIndex) in DEFAULT_CONFIG"
             :key="cfgIndex"
             class="box">
         <blockquote>{{ cfgKey }}</blockquote>
@@ -48,33 +48,50 @@ import SVGUse from './components/SVGUse'
 
 const DEFAULT_CONFIG = {
   A: [],
+  B: [],
   C: [
     { dialogName: 'SVGCircle', title: 'circle' },
     { dialogName: 'SVGClipPath', title: 'clipPath' }
   ],
+  D: [],
   E: [
     { dialogName: 'SVGEllipse', title: 'ellipse' }
   ],
+  F: [],
+  G: [],
+  H: [],
   I: [
     { dialogName: 'SVGImage', title: 'image' }
   ],
+  J: [],
+  K: [],
   L: [
     { dialogName: 'SVGLine', title: 'line' }
   ],
+  M: [],
+  N: [],
+  O: [],
   P: [
     { dialogName: 'SVGPolygon', title: 'polygon', description: '封闭直线' },
     { dialogName: 'SVGPolyline', title: 'polyline', description: '不封闭直线' },
     { dialogName: 'SVGPath', title: 'path' }
   ],
+  Q: [],
   R: [
     { dialogName: 'SVGRect', title: 'rect' }
   ],
+  S: [],
   T: [
     { dialogName: 'SVGText', title: 'text' }
   ],
   U: [
     { dialogName: 'SVGUse', title: 'use' }
-  ]
+  ],
+  V: [],
+  W: [],
+  X: [],
+  Y: [],
+  Z: []
 }
 
 export default {
