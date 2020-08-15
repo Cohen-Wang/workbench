@@ -63,6 +63,7 @@ export default {
           // Data
           '@date()': '@date()',
           '@date(\'yyyy-MM-dd\')': '@date("yyyy-MM-dd")',
+          '@date(\'yyyy年MM月dd日\')': '@date("yyyy年MM月dd日")',
           '@time()': '@time()',
           '@date(\'HH:mm:ss\')': '@date("HH:mm:ss")'
         }
