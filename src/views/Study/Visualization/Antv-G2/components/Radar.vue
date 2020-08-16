@@ -1,30 +1,39 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">雷达图</div>
-    </div>
-    <div class="panel-body panel-body-box">
-      <div class="box">
-        <blockquote>雷达图</blockquote>
-        <a-button icon="redo" @click="refresh"></a-button>
-        <div id="basic" class="graph">
-          <!-- 图形 -->
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
+      </div>
+      <div slot="component-body">
+        <div class="box">
+          <blockquote>雷达图</blockquote>
+          <a-button icon="redo" @click="refresh"></a-button>
+          <div id="basic" class="graph">
+            <!-- 图形 -->
+          </div>
         </div>
       </div>
-    </div>
+    </my-component>
   </div>
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
 import { Chart } from '@antv/g2'
 import DataSet from '@antv/data-set'
-
 const { DataView } = DataSet
 
 export default {
-  name: 'BasalRadarChart',
+  name: 'Radar',
+  components: {
+    GoBack,
+    MyComponent
+  },
   data() {
     return {
+      visible: false,
+      //
       graphData: [],
       chart: null
     }
@@ -34,10 +43,23 @@ export default {
       this.changeChart()
     }
   },
-  mounted() {
-    this.get()
-  },
   methods: {
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+      this.get()
+    },
+    goBack() {
+      this.visible = false
+    },
+    // +---------------------------------------------------------------------------------------------
+    // | 获取数据
+    // +---------------------------------------------------------------------------------------------
+    // +---------------------------------------------------------------------------------------------
+    // | 数据
+    // +---------------------------------------------------------------------------------------------
     async get() {
       this.graphData = await this.getData()
       this.initChart()
@@ -55,6 +77,9 @@ export default {
     async refresh() {
       this.graphData = await this.getData()
     },
+    // +---------------------------------------------------------------------------------------------
+    // | 雷达图
+    // +---------------------------------------------------------------------------------------------
     // 画图
     initChart() {
       const dv = new DataView().source(this.graphData)
@@ -175,3 +200,4 @@ export default {
     margin-top: 10px;
   }
 </style>
+

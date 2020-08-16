@@ -383,55 +383,7 @@ export const routes = [
             path: '/study/visualization/antv-g2',
             name: 'antv-g2',
             component: () => import('@/views/Study/Visualization/Antv-G2/Index.vue'),
-            meta: { title: 'Antv-G2', icon: 'dot-chart' },
-            redirect: '/study/visualization/antv-g6/bars',
-            children: [
-              {
-                path: '/study/visualization/antv-g6/bars',
-                name: 'bars',
-                meta: { title: '柱状图' },
-                component: () => import('@/views/Study/Visualization/Antv-G2/Bars/Index.vue'),
-                redirect: '/study/visualization/antv-g6/bars/basal-bar-chart',
-                children: [
-                  {
-                    path: '/study/visualization/antv-g6/bars/basal-bar-chart',
-                    name: 'basal-bar-chart',
-                    meta: { title: '基础柱状图' },
-                    component: () => import('@/views/Study/Visualization/Antv-G2/Bars/BasalBarChart.vue')
-                  }
-                ]
-              },
-              {
-                path: '/study/visualization/antv-g6/lines',
-                name: 'line',
-                meta: { title: '折线图' },
-                component: () => import('@/views/Study/Visualization/Antv-G2/Lines/Index.vue'),
-                redirect: '/study/visualization/antv-g6/lines/basal-line-chart',
-                children: [
-                  {
-                    path: '/study/visualization/antv-g6/lines/basal-line-chart',
-                    name: 'basal-line-chart',
-                    meta: { title: '基础折线图' },
-                    component: () => import('@/views/Study/Visualization/Antv-G2/Lines/BasalLineChart.vue')
-                  }
-                ]
-              },
-              {
-                path: '/study/visualization/antv-g6/radars',
-                name: 'radars',
-                meta: { title: '雷达图' },
-                component: () => import('@/views/Study/Visualization/Antv-G2/Radars/Index.vue'),
-                redirect: '/study/visualization/antv-g6/radar/basal-radar-chart',
-                children: [
-                  {
-                    path: '/study/visualization/antv-g6/radar/basal-radar-chart',
-                    name: 'basal-radar-chart',
-                    meta: { title: '雷达图' },
-                    component: () => import('@/views/Study/Visualization/Antv-G2/Radars/BasalRadarChart.vue')
-                  }
-                ]
-              }
-            ]
+            meta: { title: 'Antv-G2', icon: 'dot-chart' }
           },
           {
             path: '/study/visualization/echarts',
@@ -494,21 +446,6 @@ export const routes = [
         name: 'ant-design',
         component: () => import('@/views/Study/Ant-Design/Index.vue'),
         meta: { title: 'Ant-Design', icon: 'dot-chart' }
-        // redirect: '/study/ant-design/table'
-        // children: [
-        //   {
-        //     path: '/study/ant-design/form',
-        //     name: 'form',
-        //     meta: { title: 'form(表单)' },
-        //     component: () => import('@/views/Study/Ant-Design/Form.vue')
-        //   },
-        //   {
-        //     path: '/study/ant-design/datePicker',
-        //     name: 'datePicker',
-        //     meta: { title: 'DatePicker(日期选择器)' },
-        //     component: () => import('@/views/Study/Ant-Design/DatePicker.vue')
-        //   }
-        // ]
       },
       {
         path: '/study/higher-order-function',
