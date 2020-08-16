@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">Table(表格)</div>
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
       </div>
-      <div class="panel-body panel-body-box">
+      <div slot="component-body">
+        <!-- table -->
         <a-table :columns="table.columns"
                  :data-source="table.data"
                  :loading="table.loading"
@@ -46,7 +47,7 @@
           </span>
         </a-table>
       </div>
-    </div>
+    </my-component>
     <!-- 抽屉 -->
     <a-drawer title="Basic Drawer"
               placement="right"
@@ -61,6 +62,8 @@
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
 
 const columns = [
   {
@@ -170,9 +173,15 @@ const columns = [
 ]
 
 export default {
-  name: 'Table',
+  name: 'TableStudy',
+  components: {
+    GoBack,
+    MyComponent
+  },
   data() {
     return {
+      visible: false,
+      //
       table: {
         columns,
         data: [],
@@ -184,10 +193,20 @@ export default {
       }
     }
   },
-  created() {
-    this.getTableData()
-  },
   methods: {
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+      this.getTableData()
+    },
+    goBack() {
+      this.visible = false
+    },
+    // +---------------------------------------------------------------------------------------------
+    // | 获取数据
+    // +---------------------------------------------------------------------------------------------
     // 获取数据
     getTableData() {
       const url = '/ant-design/table'
@@ -233,4 +252,4 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style lang="less" scoped></style>

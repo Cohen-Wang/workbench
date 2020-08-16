@@ -493,34 +493,22 @@ export const routes = [
         path: '/study/ant-design',
         name: 'ant-design',
         component: () => import('@/views/Study/Ant-Design/Index.vue'),
-        meta: { title: 'Ant-Design', icon: 'dot-chart' },
-        redirect: '/study/ant-design/table',
-        children: [
-          {
-            path: '/study/ant-design/table',
-            name: 'table',
-            meta: { title: 'Table(表格)' },
-            component: () => import('@/views/Study/Ant-Design/Table.vue')
-          },
-          {
-            path: '/study/ant-design/form',
-            name: 'form',
-            meta: { title: 'form(表单)' },
-            component: () => import('@/views/Study/Ant-Design/Form.vue')
-          },
-          {
-            path: '/study/ant-design/datePicker',
-            name: 'datePicker',
-            meta: { title: 'DatePicker(日期选择器)' },
-            component: () => import('@/views/Study/Ant-Design/DatePicker.vue')
-          },
-          {
-            path: '/study/ant-design/transfer',
-            name: 'transfer',
-            meta: { title: 'transfer' },
-            component: () => import('@/views/Study/Ant-Design/Transfer.vue')
-          }
-        ]
+        meta: { title: 'Ant-Design', icon: 'dot-chart' }
+        // redirect: '/study/ant-design/table'
+        // children: [
+        //   {
+        //     path: '/study/ant-design/form',
+        //     name: 'form',
+        //     meta: { title: 'form(表单)' },
+        //     component: () => import('@/views/Study/Ant-Design/Form.vue')
+        //   },
+        //   {
+        //     path: '/study/ant-design/datePicker',
+        //     name: 'datePicker',
+        //     meta: { title: 'DatePicker(日期选择器)' },
+        //     component: () => import('@/views/Study/Ant-Design/DatePicker.vue')
+        //   }
+        // ]
       },
       {
         path: '/study/higher-order-function',

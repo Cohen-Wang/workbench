@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">transfer</div>
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
       </div>
-      <div class="panel-body panel-body-box">
+      <div slot="component-body">
         <div class="box d-flex">
           <div style="width: 500px; margin-right: 20px;">
             <a-transfer v-if="transfer.data.length > 0"
@@ -35,15 +35,23 @@
           </div>
         </div>
       </div>
-    </div>
+    </my-component>
   </div>
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
+
 export default {
-  name: 'Transfer',
+  name: 'TransferStudy',
+  components: {
+    GoBack,
+    MyComponent
+  },
   data() {
     return {
+      visible: false,
       transfer: {
         data: [],
         targetKeys: [],
@@ -51,16 +59,24 @@ export default {
       }
     }
   },
-  created() {
-    this.get()
-  },
   methods: {
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+      this.get()
+    },
+    goBack() {
+      this.visible = false
+    },
+    // +---------------------------------------------------------------------------------------------
+    // | 请求
+    // +---------------------------------------------------------------------------------------------
     async get() {
       const data = await this.getData()
       this.transfer.data = data.map(e => Object.assign({}, e, { key: e.key.toString() })) // key必须是string
       this.transfer.targetKeys = this.transfer.data.filter(e => e.chosen).map(e => e.key)
-      console.log(this.transfer.data)
-      console.log(this.transfer.targetKeys)
     },
     getData() {
       return new Promise(resolve => {

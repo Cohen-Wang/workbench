@@ -1,10 +1,10 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">form</div>
-    </div>
-    <div class="panel-body panel-body-box" ref="container">
-      <div class="box" style="height:5000px;">
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
+      </div>
+      <div slot="component-body">
         <div class="content">
           <div class="left">
             <a-form-model :model="form" :label-col="labelCol" :wrapper-col="wrapperCol">
@@ -75,15 +75,24 @@
           </div>
         </div>
       </div>
-    </div>
+    </my-component>
   </div>
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
+
 export default {
-  name: 'Form',
+  name: 'FormStudy',
+  components: {
+    GoBack,
+    MyComponent
+  },
   data() {
     return {
+      visible: false,
+      // ...
       labelCol: { span: 4 },
       wrapperCol: { span: 20 },
       form: {
@@ -98,6 +107,15 @@ export default {
     }
   },
   methods: {
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+    },
+    goBack() {
+      this.visible = false
+    },
     onSubmit() {
       console.log('submit!', this.form)
     }

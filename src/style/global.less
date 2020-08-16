@@ -27,7 +27,7 @@
 // @0px:0px; // 使用px单位时有个坑，必须采用+的方式，不然编译的不对
 @list:
     2, 4, 5, 6, 8,
-    10, 12, 14, 16, 18,
+    10, 12, 14, 15, 16, 18,
     20, 24,
     30,
     40, 48,
@@ -55,6 +55,7 @@
   .pr-@{val} { padding-right: @val + 0px; }
   .pb-@{val} { padding-bottom: @val + 0px; }
   .pl-@{val} { padding-left: @val + 0px; }
+  .p-@{val} { padding: @val + 0px; }
 
   /* width */
   .w-@{val} { width: @val + 0px; }
