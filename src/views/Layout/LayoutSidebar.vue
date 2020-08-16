@@ -14,9 +14,8 @@
       <!-- 只有一个元素 -->
       <template v-for="item in notHaveChildrenRouter">
         <a-menu-item :key="item.path" titleClick="handleTitleClick">
-          <a-icon v-if="item.meta.icon"
-                  :type="item.meta.icon"/>
-          {{ item.meta.title}}
+          <a-icon v-if="item.meta.icon" :type="item.meta.icon"/>
+          <span>{{ item.meta.title }}</span> <!-- 必须有span包裹，否则字无法收缩 -->
         </a-menu-item>
       </template>
       <!-- 多个元素 -->
