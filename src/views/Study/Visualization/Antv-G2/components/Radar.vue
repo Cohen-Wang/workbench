@@ -8,7 +8,7 @@
         <div class="box">
           <blockquote>雷达图</blockquote>
           <a-button icon="redo" @click="refresh"></a-button>
-          <div id="basic" class="graph">
+          <div id="radarContainer" class="graph">
             <!-- 图形 -->
           </div>
         </div>
@@ -92,7 +92,7 @@ export default {
       })
       // 使用 G2 进行绘图的入口
       this.chart = new Chart({
-        container: 'basic',
+        container: 'radarContainer',
         renderer: 'canvas',
         padding: 50,
         // appendPadding: 20,

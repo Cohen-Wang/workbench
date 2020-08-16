@@ -20,6 +20,13 @@
                      @onClick="handleClick"/>
         <div class="message" v-text="message"></div>
       </div>
+      <div class="box">
+        <tiny-editor v-model="message"
+                     :debug="true"
+                     :height="100"
+                     @onClick="handleClick"/>
+        <div class="message" v-text="message"></div>
+      </div>
     </div>
   </div>
 </template>

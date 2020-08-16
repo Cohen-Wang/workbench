@@ -14,7 +14,7 @@
               {{ dataItem.label }}
             </a-radio-button>
           </a-radio-group>
-          <div id="container" class="graph">
+          <div id="barContainer" class="graph">
             <!-- 图形 -->
           </div>
         </div>
@@ -123,7 +123,11 @@ export default {
     // 画图
     initChart() {
       // 初始化canvas
-      this.chart = new Chart({ container: 'container', autoFit: true, padding: [50, 30, 80, 30] })
+      this.chart = new Chart({
+        container: 'barContainer',
+        autoFit: true,
+        padding: [50, 30, 80, 30]
+      })
       // 绑定数据
       this.chart.data(this.graphData)
       // tooltip的提示文字

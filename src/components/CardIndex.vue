@@ -5,19 +5,22 @@
            :key="cfgIndex"
            class="box">
         <blockquote>{{ cfgKey }}</blockquote>
-        <a-row :gutter="[16, 16]">
-          <a-col v-for="(item, index) in cfgItem" :key="index" :xs="24" :sm="12" :md="8" :lg="8" :xl="6" :xxl="4">
-            <a-card>
-              <img slot="cover"
-                   alt="example"
-                   :src="item.src || 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'"/>
-              <template slot="actions" class="ant-card-actions">
-                <a-button type="link" @click="showDetail(item.ref)">进入详情</a-button>
-              </template>
-              <a-card-meta :title="item.title || '暂无标题' " :description="item.description || '暂无描述'"/>
-            </a-card>
-          </a-col>
-        </a-row>
+        <template v-if="cfgItem.length > 0">
+          <a-row :gutter="[16, 16]">
+            <a-col v-for="(item, index) in cfgItem" :key="index" :xs="24" :sm="12" :md="8" :lg="8" :xl="6" :xxl="4">
+              <a-card>
+                <img slot="cover"
+                     alt="example"
+                     :src="item.src || 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'"/>
+                <template slot="actions" class="ant-card-actions">
+                  <a-button type="link" @click="showDetail(item.ref)">进入详情</a-button>
+                </template>
+                <a-card-meta :title="item.title || '暂无标题' " :description="item.description || '暂无描述'"/>
+              </a-card>
+            </a-col>
+          </a-row>
+        </template>
+        <a-empty v-else description="暂无数据"/>
       </div>
     </template>
     <a-empty v-else description="暂无数据"/>

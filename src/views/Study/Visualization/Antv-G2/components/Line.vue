@@ -14,7 +14,7 @@
               {{ dataItem.label }}
             </a-radio-button>
           </a-radio-group>
-          <div id="container1" class="graph">
+          <div id="lineContainer" class="graph">
             <!-- 图形 -->
           </div>
         </div>
@@ -119,7 +119,7 @@ export default {
     // 画图
     initChart() {
       this.chart = new Chart({
-        container: 'container1',
+        container: 'lineContainer',
         autoFit: true,
         padding: [30, 50, 50, 50]
       })
