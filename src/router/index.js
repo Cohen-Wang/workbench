@@ -513,6 +513,12 @@ export const routes = [
             name: 'datePicker',
             meta: { title: 'DatePicker(日期选择器)' },
             component: () => import('@/views/Study/Ant-Design/DatePicker.vue')
+          },
+          {
+            path: '/study/ant-design/transfer',
+            name: 'transfer',
+            meta: { title: 'transfer' },
+            component: () => import('@/views/Study/Ant-Design/Transfer.vue')
           }
         ]
       },
