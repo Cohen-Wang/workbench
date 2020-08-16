@@ -164,8 +164,7 @@ export default {
 
 <style lang="less" scoped>
   .graph {
-    background-color: #f8f8f8;
-    width: 500px;
+    background-color: #FEFEFE;
     height: 500px;
     margin-top: 10px;
   }
