@@ -7,13 +7,7 @@
       <div slot="component-body">
         <div class="box">
           <blockquote>基础折线图</blockquote>
-          <a-radio-group v-model="graphData">
-            <a-radio-button v-for="(dataItem, dataIndex) in DATA_OPTIONS"
-                            :key="dataIndex"
-                            :value="dataItem.value">
-              {{ dataItem.label }}
-            </a-radio-button>
-          </a-radio-group>
+          <a-button icon="redo" @click="refresh"></a-button>
           <div id="lineContainer" class="graph">
             <!-- 图形 -->
           </div>
@@ -28,37 +22,6 @@ import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
 import { Chart } from '@antv/g2'
 
-const DATA_OPTIONS = [
-  {
-    label: '数据1',
-    value: [
-      { year: '1991', value: 3 },
-      { year: '1992', value: 4 },
-      { year: '1993', value: 3.5 },
-      { year: '1994', value: 5 },
-      { year: '1995', value: 4.9 },
-      { year: '1996', value: 6 },
-      { year: '1997', value: 7 },
-      { year: '1998', value: 9 },
-      { year: '1999', value: 13 }
-    ]
-  },
-  {
-    label: '数据2',
-    value: [
-      { year: '1991', value: 1 },
-      { year: '1992', value: 3 },
-      { year: '1993', value: 2 },
-      { year: '1994', value: 5 },
-      { year: '1995', value: 4 },
-      { year: '1996', value: 7 },
-      { year: '1997', value: 6 },
-      { year: '1998', value: 9 },
-      { year: '1999', value: 11 }
-    ]
-  }
-]
-
 export default {
   name: 'LineStudy',
   components: {
@@ -68,9 +31,8 @@ export default {
   data() {
     return {
       visible: false,
-      //
-      DATA_OPTIONS,
-      graphData: DATA_OPTIONS[0].value,
+      // 数据
+      graphData: [],
       chart: null
     }
   },
@@ -79,16 +41,13 @@ export default {
       this.changeChart()
     }
   },
-  mounted() {
-    this.initChart()
-  },
   methods: {
     // +---------------------------------------------------------------------------------------------
     // | 页面
     // +---------------------------------------------------------------------------------------------
     show() {
       this.visible = true
-      // this.get()
+      this.get()
     },
     goBack() {
       this.visible = false
@@ -96,23 +55,23 @@ export default {
     // +---------------------------------------------------------------------------------------------
     // | 获取数据
     // +---------------------------------------------------------------------------------------------
-    // async get() {
-    //   this.graphData = await this.getData()
-    //   this.initChart()
-    // },
-    // // 数据
-    // getData() {
-    //   return new Promise(resolve => {
-    //     const url = '/antv-g2/radar'
-    //     this.$axios.get(url).then(res => {
-    //       const result = res.data.records // 赋值
-    //       resolve(result)
-    //     })
-    //   })
-    // },
-    // async refresh() {
-    //   this.graphData = await this.getData()
-    // },
+    async get() {
+      this.graphData = await this.getData()
+      this.initChart()
+    },
+    // 数据
+    getData() {
+      return new Promise(resolve => {
+        const url = '/antv-g2/line'
+        this.$axios.get(url).then(res => {
+          const result = res.data.records // 赋值
+          resolve(result)
+        })
+      })
+    },
+    async refresh() {
+      this.graphData = await this.getData()
+    },
     // +---------------------------------------------------------------------------------------------
     // | 雷达图
     // +---------------------------------------------------------------------------------------------
@@ -156,8 +115,7 @@ export default {
 
 <style lang="less" scoped>
   .graph {
-    background-color: #f8f8f8;
-    width: 500px;
+    background-color: #FEFEFE;
     height: 500px;
     margin-top: 10px;
   }

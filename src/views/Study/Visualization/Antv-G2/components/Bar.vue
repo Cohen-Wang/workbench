@@ -7,13 +7,7 @@
       <div slot="component-body">
         <div class="box">
           <blockquote>基础柱状图</blockquote>
-          <a-radio-group v-model="graphData">
-            <a-radio-button v-for="(dataItem, dataIndex) in DATA_OPTIONS"
-                            :key="dataIndex"
-                            :value="dataItem.value">
-              {{ dataItem.label }}
-            </a-radio-button>
-          </a-radio-group>
+          <a-button icon="redo" @click="refresh"></a-button>
           <div id="barContainer" class="graph">
             <!-- 图形 -->
           </div>
@@ -28,41 +22,6 @@ import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
 import { Chart } from '@antv/g2'
 
-const DATA_OPTIONS = [
-  {
-    label: '数据1',
-    value: [
-      { type: '未知', value: 100, percent: 0.1 },
-      { type: '17 岁以下', value: 300, percent: 0.3 },
-      { type: '18-24 岁', value: 200, percent: 0.2 },
-      { type: '25-29 岁', value: 500, percent: 0.5 },
-      { type: '30-39 岁', value: 400, percent: 0.4 },
-      { type: '40-49 岁', value: 700, percent: 0.7 },
-      { type: '50 岁以上', value: 600, percent: 0.6 }
-    ]
-  },
-  {
-    label: '数据2',
-    value: [
-      { type: '未知', value: 100, percent: 0.1 },
-      { type: '17 岁以下', value: 200, percent: 0.2 },
-      { type: '18-24 岁', value: 300, percent: 0.3 },
-      { type: '25-29 岁', value: 400, percent: 0.4 },
-      { type: '30-39 岁', value: 500, percent: 0.5 },
-      { type: '40-49 岁', value: 600, percent: 0.6 },
-      { type: '50 岁以上', value: 700, percent: 0.7 }
-    ]
-  },
-  {
-    label: '数据3',
-    value: [
-      { type: '未知', value: 100, percent: 0.1 },
-      { type: '17 岁以下', value: 200, percent: 0.2 },
-      { type: '50 岁以上', value: 700, percent: 0.7 }
-    ]
-  }
-]
-
 export default {
   name: 'Bar',
   components: {
@@ -73,8 +32,7 @@ export default {
     return {
       visible: false,
       //
-      DATA_OPTIONS,
-      graphData: DATA_OPTIONS[0].value,
+      graphData: [],
       chart: null
     }
   },
@@ -83,16 +41,13 @@ export default {
       this.changeChart()
     }
   },
-  mounted() {
-    this.initChart()
-  },
   methods: {
     // +---------------------------------------------------------------------------------------------
     // | 页面
     // +---------------------------------------------------------------------------------------------
     show() {
       this.visible = true
-      // this.get()
+      this.get()
     },
     goBack() {
       this.visible = false
@@ -100,23 +55,24 @@ export default {
     // +---------------------------------------------------------------------------------------------
     // | 获取数据
     // +---------------------------------------------------------------------------------------------
-    // async get() {
-    //   this.graphData = await this.getData()
-    //   this.initChart()
-    // },
-    // // 数据
-    // getData() {
-    //   return new Promise(resolve => {
-    //     const url = '/antv-g2/radar'
-    //     this.$axios.get(url).then(res => {
-    //       const result = res.data.records // 赋值
-    //       resolve(result)
-    //     })
-    //   })
-    // },
-    // async refresh() {
-    //   this.graphData = await this.getData()
-    // },
+    async get() {
+      this.graphData = await this.getData()
+      console.log(this.graphData)
+      this.initChart()
+    },
+    // 数据
+    getData() {
+      return new Promise(resolve => {
+        const url = '/antv-g2/bar'
+        this.$axios.get(url).then(res => {
+          const result = res.data.records // 赋值
+          resolve(result)
+        })
+      })
+    },
+    async refresh() {
+      this.graphData = await this.getData()
+    },
     // +---------------------------------------------------------------------------------------------
     // | 雷达图
     // +---------------------------------------------------------------------------------------------
