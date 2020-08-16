@@ -6,13 +6,7 @@
     <div class="panel-body panel-body-box">
       <div class="box">
         <blockquote>雷达图</blockquote>
-        <a-radio-group v-model="graphData">
-          <a-radio-button v-for="(dataItem, dataIndex) in DATA_OPTIONS"
-                          :key="dataIndex"
-                          :value="dataItem.value">
-            {{ dataItem.label }}
-          </a-radio-button>
-        </a-radio-group>
+        <a-button icon="redo" @click="refresh"></a-button>
         <div id="basic" class="graph">
           <!-- 图形 -->
         </div>
@@ -26,35 +20,12 @@ import { Chart } from '@antv/g2'
 import DataSet from '@antv/data-set'
 
 const { DataView } = DataSet
-const DATA_OPTIONS = [
-  {
-    label: '数据1',
-    value: [
-      { item: 'Design', '铜站': 70, '龚站': 30, '总厂': 50 },
-      { item: 'Development', '铜站': 60, '龚站': 70, '总厂': 50 },
-      { item: 'Marketing', '铜站': 50, '龚站': 60, '总厂': 50 },
-      { item: 'Users', '铜站': 40, '龚站': 50, '总厂': 50 },
-      { item: 'Sales', '铜站': 60, '龚站': 40, '总厂': 50 },
-      { item: 'UX', '铜站': 50, '龚站': 60, '总厂': 50 }
-    ]
-  },
-  {
-    label: '数据2',
-    value: [
-      { item: 'Design2', '铜站': 50, '龚站': 60, '总厂': 70 },
-      { item: 'Marketing2', '铜站': 50, '龚站': 60, '总厂': 70 },
-      { item: 'Users2', '铜站': 50, '龚站': 60, '总厂': 70 },
-      { item: 'UX2', '铜站': 50, '龚站': 60, '总厂': 70 }
-    ]
-  }
-]
 
 export default {
   name: 'BasalRadarChart',
   data() {
     return {
-      DATA_OPTIONS,
-      graphData: DATA_OPTIONS[0].value,
+      graphData: [],
       chart: null
     }
   },
@@ -63,12 +34,27 @@ export default {
       this.changeChart()
     }
   },
-  created() {
-  },
   mounted() {
-    this.initChart()
+    this.get()
   },
   methods: {
+    async get() {
+      this.graphData = await this.getData()
+      this.initChart()
+    },
+    // 数据
+    getData() {
+      return new Promise(resolve => {
+        const url = '/antv-g2/radar'
+        this.$axios.get(url).then(res => {
+          const result = res.data.records // 赋值
+          resolve(result)
+        })
+      })
+    },
+    async refresh() {
+      this.graphData = await this.getData()
+    },
     // 画图
     initChart() {
       const dv = new DataView().source(this.graphData)

@@ -37,12 +37,7 @@
                   <a @click="editItem(text)">编辑</a>
                 </a-menu-item>
                 <a-menu-item>
-                  <!--<a @click="deleteItem(text)">删除</a>-->
-                  <a-popconfirm title="确认删除?"
-                                ok-text="确认"
-                                ok-type="danger"
-                                cancel-text="取消"
-                                @confirm="deleteItem(text)">
+                  <a-popconfirm title="确认删除?" ok-text="确认" ok-type="danger" cancel-text="取消" @confirm="deleteItem(text)">
                     <a>删除</a>
                   </a-popconfirm>
                 </a-menu-item>
@@ -66,8 +61,6 @@
 </template>
 
 <script>
-import Mock from 'mockjs'
-import samplesize from 'lodash.samplesize'
 
 const columns = [
   {
@@ -179,46 +172,10 @@ const columns = [
 export default {
   name: 'Table',
   data() {
-    const data = Mock.mock({
-      'data|10-200': [
-        {
-          'id|+1': 1,
-          'name': '@cname',
-          'portrait': '@image',
-          'tags|1': () => {
-            const arr = [
-              { title: '达人', color: 'red' },
-              { title: '小人', color: 'pink' },
-              { title: '疯子', color: 'orange' },
-              { title: '棚子', color: 'green' },
-              { title: '狂人', color: 'cyan' },
-              { title: '欲望者', color: 'blue' },
-              { title: '情人', color: 'purple' }
-            ]
-            return samplesize(arr, ~~(Math.random() * 3) + 1)
-          },
-          'birthday': '@date("yyyy年MM月dd日")',
-          'telephone': () => {
-            const prefix = ['131', '132', '135', '136', '150', '152', '189']
-            return samplesize(prefix, 1) + Mock.mock(/\d{8}/)
-          },
-          'email': '@email',
-          'website': '@website',
-          'college|1': ['清华大学', '北京大学', '复旦大学', '南开大学'],
-          'address': {
-            'county': '@county',
-            'region': '@region',
-            'province': '@province',
-            'city': '@city',
-            'zip': '@zip'
-          }
-        }
-      ]
-    })
     return {
       table: {
         columns,
-        data: data.data,
+        data: [],
         loading: false
       },
       drawer: {
@@ -228,22 +185,22 @@ export default {
     }
   },
   created() {
-    // this.getTableData()
+    this.getTableData()
   },
   methods: {
     // 获取数据
-    // getTableData() {
-    //   const url = 'http://jsonplaceholder.typicode.com/users'
-    //   this.table.loading = true
-    //   this.$axios.get(url).then(res => {
-    //     if (!res.statusText) return this.$message.error('没有获取到数据', 2000)
-    //     this.table.data = res.data
-    //   }).catch(err => {
-    //     console.log(err)
-    //   }).finally(() => {
-    //     this.table.loading = false
-    //   })
-    // },
+    getTableData() {
+      const url = '/ant-design/table'
+      this.table.loading = true
+      this.$axios.get(url).then(res => {
+        if (!res.statusText) return this.$message.error('没有获取到数据')
+        this.table.data = res.data.records
+      }).catch(err => {
+        console.log(err)
+      }).finally(() => {
+        this.table.loading = false
+      })
+    },
     // +---------------------------------------------------------------------------------------------
     // | 表格
     // +---------------------------------------------------------------------------------------------
