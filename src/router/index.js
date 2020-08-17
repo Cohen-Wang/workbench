@@ -376,6 +376,12 @@ export const routes = [
                 name: 'force',
                 meta: { title: '力导向图布局' },
                 component: () => import('@/views/Study/Visualization/Antv-G6/Force.vue')
+              },
+              {
+                path: '/study/visualization/antv-g6/tree',
+                name: 'tree',
+                meta: { title: '定制树图元素' },
+                component: () => import('@/views/Study/Visualization/Antv-G6/Tree.vue')
               }
             ]
           },
