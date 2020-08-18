@@ -328,6 +328,12 @@ export const routes = [
                 name: 'throttle',
                 meta: { title: 'throttle（节流）' },
                 component: () => import('@/views/Study/Library/Lodash/Throttle.vue')
+              },
+              {
+                path: '/study/library/lodash/flatten',
+                name: 'flatten',
+                meta: { title: 'flatten' },
+                component: () => import('@/views/Study/Library/Lodash/Flatten.vue')
               }
             ]
           },
