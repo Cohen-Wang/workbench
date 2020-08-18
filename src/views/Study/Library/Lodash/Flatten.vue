@@ -21,6 +21,19 @@
 <script>
 import { flatten, flattenDeep } from 'lodash'
 
+// 我的
+const flatten = (arr) => {
+  const result = []
+  for (let i = 0; i < arr.length; i++) {
+    result.push(Object.assign({}, arr[i], { children: {}})) // 清空children内容
+    if (arr[i].children && arr[i].children.length > 0) {
+      result.push(...flatten(arr[i].children))
+    }
+  }
+  return result
+}
+
+
 export default {
   name: 'Flatten',
   data() {
