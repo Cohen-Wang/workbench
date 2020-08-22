@@ -6,6 +6,12 @@
     <!-- 详情组件 -->
     <flex ref="Flex" class="component"/>
     <scrollbar ref="Scrollbar" class="component"/>
+    <text-overflow ref="TextOverflow" class="component"/>
+    <icon-font ref="IconFont" class="component"/>
+    <font-awesome ref="FontAwesome" class="component"/>
+    <hover ref="Hover" class="component"/>
+    <deep ref="Deep" class="component"/>
+    <less-loop ref="LessLoop" class="component"/>
   </div>
 </template>
 
@@ -13,22 +19,37 @@
 import CardIndex from '@/components/CardIndex'
 import Flex from './components/Flex'
 import Scrollbar from './components/Scrollbar'
+import TextOverflow from './components/TextOverflow'
+import IconFont from './components/IconFont'
+import FontAwesome from './components/Font-Awesome'
+import Hover from './components/Hover'
+import Deep from './components/Deep'
+import LessLoop from './components/LessLoop'
 
 const DEFAULT_CONFIG = {
   A: [],
   B: [],
   C: [],
-  D: [],
+  D: [
+    { title: 'Deep', description: 'Deep', ref: 'Deep' }
+  ],
   E: [],
   F: [
-    { title: 'Flex', description: '弹性布局', ref: 'Flex' }
+    { title: 'Flex', description: '弹性布局', ref: 'Flex' },
+    { title: 'FontAwesome', description: 'font-awesome', ref: 'FontAwesome' }
   ],
   G: [],
-  H: [],
-  I: [],
+  H: [
+    { title: 'Hover', description: '移入移出', ref: 'Hover' }
+  ],
+  I: [
+    { title: 'IconFont', description: 'iconfont', ref: 'IconFont' }
+  ],
   J: [],
   K: [],
-  L: [],
+  L: [
+    { title: 'Less-loop', description: 'less循环', ref: 'LessLoop' }
+  ],
   M: [],
   N: [],
   O: [],
@@ -38,7 +59,9 @@ const DEFAULT_CONFIG = {
   S: [
     { title: 'Scrollbar', description: '滚动条', ref: 'Scrollbar' }
   ],
-  T: [],
+  T: [
+    { title: 'TextOverflow', description: '文字超框', ref: 'TextOverflow' }
+  ],
   U: [],
   V: [],
   W: [],
@@ -52,7 +75,13 @@ export default {
   components: {
     CardIndex,
     Flex,
-    Scrollbar
+    Scrollbar,
+    TextOverflow,
+    IconFont,
+    FontAwesome,
+    Hover,
+    Deep,
+    LessLoop
   },
   data() {
     return {

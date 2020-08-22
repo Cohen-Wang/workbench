@@ -56,60 +56,6 @@ export const routes = [
         name: 'css',
         component: () => import('@/views/Study/CSS/Index.vue'),
         meta: { title: 'CSS', icon: 'trophy' }
-        // redirect: '/study/css/flex',
-        // children: [
-        //   {
-        //     path: '/study/css/flex',
-        //     name: 'flex',
-        //     meta: { title: 'flex' },
-        //     component: () => import('@/views/Study/CSS/Flex.vue')
-        //   },
-        //   {
-        //     path: '/study/css/deep',
-        //     name: 'deep',
-        //     meta: { title: 'deep' },
-        //     component: () => import('@/views/Study/CSS/Deep.vue')
-        //   },
-        //   {
-        //     path: '/study/css/textOverflow',
-        //     name: 'textOverflow',
-        //     meta: { title: 'textOverflow' },
-        //     component: () => import('@/views/Study/CSS/TextOverflow.vue')
-        //   },
-        //   {
-        //     path: '/study/css/scrollbar',
-        //     name: 'scrollbar',
-        //     meta: { title: 'scrollbar' },
-        //     component: () => import('@/views/Study/CSS/Scrollbar.vue')
-        //   },
-        //   {
-        //     path: '/study/css/font-awesome',
-        //     name: 'font-awesome',
-        //     meta: { title: 'font-awesome' },
-        //     component: () => import('@/views/Study/CSS/Font-Awesome.vue')
-        //   },
-        //   {
-        //     path: '/study/css/iconfont',
-        //     name: 'iconfont',
-        //     meta: { title: 'iconfont' },
-        //     component: () => import('@/views/Study/CSS/IconFont.vue')
-        //   }
-        // ]
-      },
-      {
-        path: '/study/less',
-        name: 'less',
-        component: () => import('@/views/Study/Less/Index.vue'),
-        meta: { title: 'Less', icon: 'apartment' },
-        redirect: '/study/less/loop',
-        children: [
-          {
-            path: '/study/less/loop',
-            name: 'loop',
-            meta: { title: 'loop(循环)' },
-            component: () => import('@/views/Study/Less/Loop.vue')
-          }
-        ]
       },
       {
         path: '/study/javascript',

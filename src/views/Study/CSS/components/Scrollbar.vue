@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
+<style lang="less" scoped>
   .hide-scrollbar {
     height: 500px;
     border: 1px solid #999;
