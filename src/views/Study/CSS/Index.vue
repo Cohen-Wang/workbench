@@ -1,16 +1,18 @@
 <template>
-  <div class="root">
-    <card-index title="CSS" :data="DEFAULT_CONFIG" @gotoDetail="gotoDetail"/>
-    <!-- 组件 -->
-    <div style="position: absolute; top: 0; left: 0;">
-      <flex/>
+  <div>
+    <div class="root">
+      <card-index :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
+    <!-- 详情组件 -->
+    <flex ref="Flex" class="component"/>
+    <scrollbar ref="Scrollbar" class="component"/>
   </div>
 </template>
 
 <script>
 import CardIndex from '@/components/CardIndex'
 import Flex from './components/Flex'
+import Scrollbar from './components/Scrollbar'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -19,7 +21,7 @@ const DEFAULT_CONFIG = {
   D: [],
   E: [],
   F: [
-    { title: 'Flex', description: '弹性布局', method: 'abc' }
+    { title: 'Flex', description: '弹性布局', ref: 'Flex' }
   ],
   G: [],
   H: [],
@@ -33,7 +35,9 @@ const DEFAULT_CONFIG = {
   P: [],
   Q: [],
   R: [],
-  S: [],
+  S: [
+    { title: 'Scrollbar', description: '滚动条', ref: 'Scrollbar' }
+  ],
   T: [],
   U: [],
   V: [],
@@ -47,7 +51,8 @@ export default {
   name: 'Index',
   components: {
     CardIndex,
-    Flex
+    Flex,
+    Scrollbar
   },
   data() {
     return {
@@ -55,8 +60,10 @@ export default {
     }
   },
   methods: {
-    gotoDetail(val) {
-      console.log(val)
+    // ...
+    showDetail(ref) {
+      console.log(ref)
+      this.$refs[ref].show()
     }
   }
 }
@@ -64,8 +71,17 @@ export default {
 
 <style lang="less" scoped>
   .root {
-    position: relative;
     height: calc(100vh - 116px);
     overflow: auto;
+    position: relative;
+  }
+
+  .component {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 </style>
