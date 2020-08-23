@@ -31,51 +31,7 @@ export const routes = [
     children: [
       { path: '/study/css', name: 'css', meta: { title: 'CSS', icon: 'trophy' }, component: () => import('@/views/Study/CSS/Index.vue') },
       { path: '/study/javascript', name: 'javascript', meta: { title: 'Javascript', icon: 'cloud-server' }, component: () => import('@/views/Study/Javascript/Index.vue') },
-      {
-        path: '/study/es6',
-        name: 'es6',
-        component: () => import('@/views/Study/ES6/Index.vue'),
-        meta: { title: 'ES6', icon: 'deployment-unit' }
-        // redirect: '/study/es6/async',
-        // children: [
-        //   {
-        //     path: '/study/es6/symbol',
-        //     name: 'symbol',
-        //     meta: { title: 'symbol' },
-        //     component: () => import('@/views/Study/ES6/Symbol.vue')
-        //   },
-        //   {
-        //     path: '/study/es6/null-propagation-operator',
-        //     name: 'null-propagation-operator',
-        //     meta: { title: 'Null运算符' },
-        //     component: () => import('@/views/Study/ES6/NullOperator.vue')
-        //   },
-        //   {
-        //     path: '/study/es6/promise',
-        //     name: 'promise',
-        //     meta: { title: 'promise' },
-        //     component: () => import('@/views/Study/ES6/Promise.vue')
-        //   },
-        //   {
-        //     path: '/study/es6/async',
-        //     name: 'async',
-        //     meta: { title: 'Async' },
-        //     component: () => import('@/views/Study/ES6/Async.vue')
-        //   },
-        //   {
-        //     path: '/study/es6/square',
-        //     name: 'square',
-        //     meta: { title: '平方（square）' },
-        //     component: () => import('@/views/Study/ES6/Square.vue')
-        //   },
-        //   {
-        //     path: '/study/es6/clone',
-        //     name: 'clone',
-        //     meta: { title: '拷贝（clone）' },
-        //     component: () => import('@/views/Study/ES6/Clone.vue')
-        //   }
-        // ]
-      },
+      { path: '/study/es6', name: 'es6', meta: { title: 'ES6', icon: 'deployment-unit' }, component: () => import('@/views/Study/ES6/Index.vue') },
       {
         path: '/study/vue',
         name: 'vue',
@@ -308,17 +264,9 @@ export const routes = [
       }
     ]
   },
-  {
-    path: '/404',
-    name: '404',
-    isShow: false,
-    component: () => import('@/views/404.vue')
-  },
+  { path: '/404', name: '404', isShow: false, component: () => import('@/views/404.vue') },
   // 一定要放在最后一个，因为路由匹配是按顺序匹配的，只有当匹配了所有的都找不到才说明是不存在的页面
-  {
-    path: '/*',
-    redirect: '/404'
-  }
+  { path: '/*', redirect: '/404' }
 ]
 
 const router = new VueRouter({

@@ -11,6 +11,7 @@
     <debounce ref="Debounce" class="component"/>
     <throttle ref="Throttle" class="component"/>
     <flatten ref="Flatten" class="component"/>
+    <day-js ref="DayJs" class="component"/>
   </div>
 </template>
 
@@ -23,13 +24,15 @@ import TinyMCE from './components/TinyMCE'
 import Debounce from './components/Lodash.Debounce'
 import Throttle from './components/Lodash.Throttle'
 import Flatten from './components/Lodash.Flatten'
+import DayJs from './components/DayJs'
 
 const DEFAULT_CONFIG = {
   A: [],
   B: [],
   C: [],
   D: [
-    { title: 'Debounce', description: 'Debounce', ref: 'Debounce' }
+    { title: 'Debounce', description: 'Debounce', ref: 'Debounce' },
+    { title: 'DayJs', description: 'DayJs', ref: 'DayJs' }
   ],
   E: [],
   F: [
@@ -74,7 +77,8 @@ export default {
     TinyMCE,
     Debounce,
     Throttle,
-    Flatten
+    Flatten,
+    DayJs
   },
   data() {
     return {
