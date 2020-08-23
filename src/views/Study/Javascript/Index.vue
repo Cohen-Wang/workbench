@@ -10,6 +10,7 @@
     <string ref="String" class="component"/>
     <worker ref="Worker" class="component"/>
     <open ref="Open" class="component"/>
+    <geolocation ref="Geolocation" class="component"/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Fetch from './components/Fetch'
 import String from './components/String'
 import Worker from './components/Worker'
 import Open from './components/Open'
+import Geolocation from './components/Geolocation'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -36,7 +38,9 @@ const DEFAULT_CONFIG = {
   F: [
     { title: 'Fetch', description: 'Fetch', ref: 'Fetch' }
   ],
-  G: [],
+  G: [
+    { title: 'Geolocation', description: 'Geolocation', ref: 'Geolocation' }
+  ],
   H: [],
   I: [],
   J: [],
@@ -73,7 +77,8 @@ export default {
     Fetch,
     String,
     Worker,
-    Open
+    Open,
+    Geolocation
   },
   data() {
     return {
