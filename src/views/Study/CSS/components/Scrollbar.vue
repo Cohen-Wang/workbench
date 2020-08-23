@@ -27,6 +27,13 @@
               <div class="bg-lightgray">17</div>
             </div>
           </a-col>
+          <a-col :span="6">
+            <pre class="well">
+&::-webkit-scrollbar{
+  display:none;
+}
+            </pre>
+          </a-col>
         </a-row>
       </div>
     </my-component>

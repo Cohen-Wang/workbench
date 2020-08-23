@@ -5,7 +5,36 @@
         <go-back @goBack="goBack"/>
       </div>
       <div slot="component-body">
-        123
+        <div class="box">
+          <blockquote>自己改变</blockquote>
+          <div class="d-flex">
+            <div class="box1 w-200 h-200 bg-pink"></div>
+          </div>
+        </div>
+        <div class="box">
+          <blockquote>同级改变</blockquote>
+          <div class="d-flex">
+            <div class="box2 w-200 h-200 bg-pink">box2</div>
+            <div class="pox2 w-200 h-200 bg-yellowgreen">pox2</div>
+          </div>
+        </div>
+        <div class="box">
+          <blockquote>子级改变</blockquote>
+          <div class="d-flex">
+            <div class="box3 w-200 h-200 bg-pink">
+              <div class="pox3 w-100 h-100 bg-yellowgreen">pox3</div>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <blockquote>多个元素改变</blockquote>
+          <div class="d-flex">
+            <div class="box4 w-200 h-200 bg-pink">
+              <div class="pox41 w-100 h-100 bg-yellowgreen">pox41</div>
+            </div>
+            <div class="pox42 w-200 h-200 bg-yellowgreen">pox42</div>
+          </div>
+        </div>
       </div>
     </my-component>
   </div>
@@ -41,4 +70,62 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  /* 自己改变 */
+  /* css */
+  /*.box1:hover {*/
+  /*  background-color: #5bc0de;*/
+  /*}*/
+  /* less */
+  .box1 {
+    &:hover {
+      background-color: #FF456E;
+    }
+  }
+
+  /* 同级 */
+  /* css */
+  /*.box2:hover+.pox2 {*/
+  /*  background-color: #b3d4fc;*/
+  /*}*/
+  .box2 {
+    &:hover {
+      background-color: #FF456E;
+      +.pox2 {
+        background-color: #b3d4fc;
+      }
+    }
+  }
+
+  /* 子级 */
+  /* css */
+  /*.box3:hover .pox3 {*/
+  /*  background-color: #b3d4fc;*/
+  /*}*/
+  /* less */
+  .box3 {
+    &:hover {
+      background-color: #FF456E;
+      .pox3 {
+        background-color: #b3d4fc;
+      }
+    }
+  }
+
+  /* 多个元素 */
+  /* css */
+  /*.box4:hover .pox41,*/
+  /*.box4:hover+.pox42{*/
+  /*  background-color: red;*/
+  /*}*/
+  /* less */
+  .box4 {
+    &:hover {
+      .pox41 {
+        background-color: red;
+      }
+      +.pox42 {
+        background-color: red;
+      }
+    }
+  }
 </style>

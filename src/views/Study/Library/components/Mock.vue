@@ -1,21 +1,31 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">mock.js</div>
-    </div>
-    <div class="panel-body panel-body-box">
-      <pre class="well" v-text="a"></pre>
-    </div>
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
+      </div>
+      <div slot="component-body">
+        <pre class="well" v-text="a"></pre>
+      </div>
+    </my-component>
   </div>
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
 import Mock from 'mockjs'
 
 export default {
   name: 'Mock',
+  components: {
+    GoBack,
+    MyComponent
+  },
   data() {
     return {
+      visible: false,
+      // ...
       a: []
     }
   },
@@ -69,10 +79,37 @@ export default {
         }
       ]
     })
+  },
+  methods: {
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+    },
+    goBack() {
+      this.visible = false
+    }
   }
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
+  .hide-scrollbar {
+    height: 500px;
+    border: 1px solid #999;
+    overflow: auto;
 
+    &::-webkit-scrollbar{
+      display:none;
+    }
+
+    &>div {
+      height: 100px;
+      line-height: 100px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+      text-align: center;
+    }
+  }
 </style>

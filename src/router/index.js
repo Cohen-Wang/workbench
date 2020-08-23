@@ -226,76 +226,7 @@ export const routes = [
         path: '/study/library',
         name: 'library',
         component: () => import('@/views/Study/Library/Index.vue'),
-        meta: { title: '常用工具库', icon: 'rocket' },
-        redirect: '/study/library/moment',
-        children: [
-          {
-            path: '/study/library/axios',
-            name: 'axios',
-            meta: { title: 'axios', icon: 'credit-card' },
-            component: () => import('@/views/Study/Library/Axios/Index.vue'),
-            redirect: '/study/library/axios/basic',
-            children: [
-              {
-                path: '/study/library/axios/basic',
-                name: 'basic',
-                meta: { title: '基础' },
-                component: () => import('@/views/Study/Library/Axios/Basic.vue')
-              }
-            ]
-          },
-          {
-            path: '/study/library/moment',
-            name: 'moment',
-            meta: { title: 'moment.js' },
-            component: () => import('@/views/Study/Library/Moment.vue')
-          },
-          {
-            path: '/study/library/mock',
-            name: 'mock',
-            meta: { title: 'mock.js' },
-            component: () => import('@/views/Study/Library/Mock.vue')
-          },
-          {
-            path: '/study/library/lodash',
-            name: 'lodash',
-            meta: { title: 'lodash.js', icon: 'smile' },
-            component: () => import('@/views/Study/Library/Index.vue'),
-            redirect: '/study/library/lodash/debounce',
-            children: [
-              {
-                path: '/study/library/lodash/debounce',
-                name: 'debounce',
-                meta: { title: 'debounce（防抖）' },
-                component: () => import('@/views/Study/Library/Lodash/Debounce.vue')
-              },
-              {
-                path: '/study/library/lodash/throttle',
-                name: 'throttle',
-                meta: { title: 'throttle（节流）' },
-                component: () => import('@/views/Study/Library/Lodash/Throttle.vue')
-              },
-              {
-                path: '/study/library/lodash/flatten',
-                name: 'flatten',
-                meta: { title: 'flatten' },
-                component: () => import('@/views/Study/Library/Lodash/Flatten.vue')
-              }
-            ]
-          },
-          {
-            path: '/study/library/tinyMCE',
-            name: 'tinyMCE',
-            meta: { title: 'tinyMCE' },
-            component: () => import('@/views/Study/Library/TinyMCE.vue')
-          },
-          {
-            path: '/study/library/monaco',
-            name: 'monaco',
-            meta: { title: 'monaco' },
-            component: () => import('@/views/Study/Library/Monaco.vue')
-          }
-        ]
+        meta: { title: '常用工具库', icon: 'rocket' }
       },
       {
         path: '/study/visualization',
