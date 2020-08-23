@@ -18,95 +18,63 @@ VueRouter.prototype.push = function push(location) {
 }
 
 export const routes = [
+  { path: '/login', name: 'login', component: Login },
+  { path: '/register', name: 'register', component: Register },
   {
-    path: '/login',
-    name: 'login',
-    component: Login
-  },
-  {
-    path: '/register',
-    name: 'register',
-    component: Register
-  },
-  {
-    path: '/',
-    name: 'dashboard',
-    component: Index,
-    isShow: false,
-    redirect: '/home',
+    path: '/', name: 'dashboard', component: Index, isShow: false, redirect: '/home',
     children: [
-      {
-        path: '/home',
-        name: 'home',
-        meta: { title: '首页', icon: 'menu' },
-        component: () => import('@/views/Home.vue')
-      }
+      { path: '/home', name: 'home', meta: { title: '首页', icon: 'menu' }, component: () => import('@/views/Home.vue') }
     ]
   },
   {
-    path: '/study',
-    name: 'study',
-    component: Index,
-    isShow: true,
-    meta: { title: '学习', icon: 'credit-card' },
-    redirect: '/study/css',
+    path: '/study', name: 'study', component: Index, isShow: true, meta: { title: '学习', icon: 'credit-card' }, redirect: '/study/css',
     children: [
-      {
-        path: '/study/css',
-        name: 'css',
-        component: () => import('@/views/Study/CSS/Index.vue'),
-        meta: { title: 'CSS', icon: 'trophy' }
-      },
-      {
-        path: '/study/javascript',
-        name: 'javascript',
-        component: () => import('@/views/Study/Javascript/Index.vue'),
-        meta: { title: 'Javascript', icon: 'cloud-server' }
-      },
+      { path: '/study/css', name: 'css', meta: { title: 'CSS', icon: 'trophy' }, component: () => import('@/views/Study/CSS/Index.vue') },
+      { path: '/study/javascript', name: 'javascript', meta: { title: 'Javascript', icon: 'cloud-server' }, component: () => import('@/views/Study/Javascript/Index.vue') },
       {
         path: '/study/es6',
         name: 'es6',
         component: () => import('@/views/Study/ES6/Index.vue'),
-        meta: { title: 'ES6', icon: 'deployment-unit' },
-        redirect: '/study/es6/async',
-        children: [
-          {
-            path: '/study/es6/symbol',
-            name: 'symbol',
-            meta: { title: 'symbol' },
-            component: () => import('@/views/Study/ES6/Symbol.vue')
-          },
-          {
-            path: '/study/es6/null-propagation-operator',
-            name: 'null-propagation-operator',
-            meta: { title: 'Null运算符' },
-            component: () => import('@/views/Study/ES6/NullOperator.vue')
-          },
-          {
-            path: '/study/es6/promise',
-            name: 'promise',
-            meta: { title: 'promise' },
-            component: () => import('@/views/Study/ES6/Promise.vue')
-          },
-          {
-            path: '/study/es6/async',
-            name: 'async',
-            meta: { title: 'Async' },
-            component: () => import('@/views/Study/ES6/Async.vue')
-          },
-          {
-            path: '/study/es6/square',
-            name: 'square',
-            meta: { title: '平方（square）' },
-            component: () => import('@/views/Study/ES6/Square.vue')
-          },
-          {
-            path: '/study/es6/clone',
-            name: 'clone',
-            meta: { title: '拷贝（clone）' },
-            component: () => import('@/views/Study/ES6/Clone.vue')
-          }
-        ]
+        meta: { title: 'ES6', icon: 'deployment-unit' }
+        // redirect: '/study/es6/async',
+        // children: [
+        //   {
+        //     path: '/study/es6/symbol',
+        //     name: 'symbol',
+        //     meta: { title: 'symbol' },
+        //     component: () => import('@/views/Study/ES6/Symbol.vue')
+        //   },
+        //   {
+        //     path: '/study/es6/null-propagation-operator',
+        //     name: 'null-propagation-operator',
+        //     meta: { title: 'Null运算符' },
+        //     component: () => import('@/views/Study/ES6/NullOperator.vue')
+        //   },
+        //   {
+        //     path: '/study/es6/promise',
+        //     name: 'promise',
+        //     meta: { title: 'promise' },
+        //     component: () => import('@/views/Study/ES6/Promise.vue')
+        //   },
+        //   {
+        //     path: '/study/es6/async',
+        //     name: 'async',
+        //     meta: { title: 'Async' },
+        //     component: () => import('@/views/Study/ES6/Async.vue')
+        //   },
+        //   {
+        //     path: '/study/es6/square',
+        //     name: 'square',
+        //     meta: { title: '平方（square）' },
+        //     component: () => import('@/views/Study/ES6/Square.vue')
+        //   },
+        //   {
+        //     path: '/study/es6/clone',
+        //     name: 'clone',
+        //     meta: { title: '拷贝（clone）' },
+        //     component: () => import('@/views/Study/ES6/Clone.vue')
+        //   }
+        // ]
       },
       {
         path: '/study/vue',
