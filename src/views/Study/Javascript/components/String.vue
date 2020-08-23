@@ -5,11 +5,15 @@
         <go-back @goBack="goBack"/>
       </div>
       <div slot="component-body">
-        <h1>我是deep父组件</h1>
-        <p>在我这里定义了 &#45;&#45;&#45;&#45; #box #pox的背景颜色</p>
-        <p>但是只有#box给了穿透 &#45;&#45;&#45;&#45; /deep/</p>
-        <hr class="mt-100 mb-100"/>
-        <deep-child></deep-child>
+        <div class="box">
+          <blockquote>arr.toString()</blockquote>
+          <pre class="well">
+          {{ arr1.toString() }}
+        </pre>
+          <pre class="well">
+          {{ arr2.toString() }}
+        </pre>
+        </div>
       </div>
     </my-component>
   </div>
@@ -18,18 +22,18 @@
 <script>
 import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
-import DeepChild from './DeepChild'
 
 export default {
-  name: 'Deep',
+  name: 'StringVue',
   components: {
     GoBack,
-    MyComponent,
-    DeepChild
+    MyComponent
   },
   data() {
     return {
-      visible: false
+      visible: false,
+      arr1: [1, 2, 3, 4, 5],
+      arr2: ['a', 'b', 'c']
     }
   },
   methods: {
@@ -47,16 +51,4 @@ export default {
 </script>
 
 <style lang="less" scoped>
-  /deep/ #box {
-    background-color: indianred;
-  }
-
-  #pox {
-    background-color: cadetblue;
-  }
-
-  /deep/ .ant-btn-primary {
-    background-color: #d58bcc;
-    border-color: #d58bcc;
-  }
 </style>

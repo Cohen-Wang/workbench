@@ -61,52 +61,7 @@ export const routes = [
         path: '/study/javascript',
         name: 'javascript',
         component: () => import('@/views/Study/Javascript/Index.vue'),
-        meta: { title: 'Javascript', icon: 'cloud-server' },
-        redirect: '/study/javascript/console',
-        children: [
-          {
-            path: '/study/javascript/string',
-            name: 'string',
-            meta: { title: 'string' },
-            component: () => import('@/views/Study/Javascript/String.vue')
-          },
-          {
-            path: '/study/javascript/console',
-            name: 'console',
-            meta: { title: 'console' },
-            component: () => import('@/views/Study/Javascript/Console.vue')
-          },
-          {
-            path: '/study/javascript/cursor',
-            name: 'cursor',
-            meta: { title: '获取光标' },
-            component: () => import('@/views/Study/Javascript/Cursor.vue')
-          },
-          {
-            path: '/study/javascript/worker',
-            name: 'worker',
-            meta: { title: 'worker' },
-            component: () => import('@/views/Study/Javascript/Worker.vue')
-          },
-          {
-            path: '/study/javascript/fetch',
-            name: 'fetch',
-            meta: { title: 'window.fetch' },
-            component: () => import('@/views/Study/Javascript/Fetch.vue')
-          },
-          {
-            path: '/study/javascript/open',
-            name: 'open',
-            meta: { title: 'window.open' },
-            component: () => import('@/views/Study/Javascript/Open.vue')
-          },
-          {
-            path: '/study/javascript/iframe',
-            name: 'iframe',
-            meta: { title: 'window.iframe' },
-            component: () => import('@/views/Study/Javascript/IFrame.vue')
-          }
-        ]
+        meta: { title: 'Javascript', icon: 'cloud-server' }
       },
       {
         path: '/study/es6',

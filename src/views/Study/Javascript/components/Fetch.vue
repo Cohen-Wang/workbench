@@ -5,11 +5,7 @@
         <go-back @goBack="goBack"/>
       </div>
       <div slot="component-body">
-        <h1>我是deep父组件</h1>
-        <p>在我这里定义了 &#45;&#45;&#45;&#45; #box #pox的背景颜色</p>
-        <p>但是只有#box给了穿透 &#45;&#45;&#45;&#45; /deep/</p>
-        <hr class="mt-100 mb-100"/>
-        <deep-child></deep-child>
+        <a-button type="primary" @click="handleClick">点击我，请求，查看控制台</a-button>
       </div>
     </my-component>
   </div>
@@ -18,14 +14,12 @@
 <script>
 import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
-import DeepChild from './DeepChild'
 
 export default {
-  name: 'Deep',
+  name: 'Fetch',
   components: {
     GoBack,
-    MyComponent,
-    DeepChild
+    MyComponent
   },
   data() {
     return {
@@ -41,22 +35,20 @@ export default {
     },
     goBack() {
       this.visible = false
+    },
+    handleClick() {
+      const url = './Fetch.json'
+      const data = { username: 'abc', password: 123 }
+      fetch(url, data).then(function(res) {
+        console.log(res)
+        // return res.json()
+      }).then(function(myJson) {
+        console.log(myJson)
+      })
     }
   }
 }
 </script>
 
 <style lang="less" scoped>
-  /deep/ #box {
-    background-color: indianred;
-  }
-
-  #pox {
-    background-color: cadetblue;
-  }
-
-  /deep/ .ant-btn-primary {
-    background-color: #d58bcc;
-    border-color: #d58bcc;
-  }
 </style>

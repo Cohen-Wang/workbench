@@ -1,36 +1,40 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">获取光标</div>
-    </div>
-    <div class="panel-body">
-      <p>
-        <label>输入框测试:</label>
-        <label>
-          <input type="text" style="width:220px" @click="getCursortPosition"/>
-        </label>
-        <span>光标位置:</span>
-        <span></span>
-      </p>
-      <p>
-        <label>文本框测试:</label>
-        <textarea rows="5" style="width:220px" @click="getCursortPosition"/>
-        <span>光标位置:</span>
-        <span></span>
-      </p>
-      <div>
-        <label>可编辑div:</label>
-        <div contenteditable="true" class="edit-div" @click="getCursortPosition"></div>
-        <span>光标位置:</span>
-        <span></span>
+  <div v-show="visible" class="root">
+    <my-component>
+      <div slot="component-heading">
+        <go-back @goBack="goBack"/>
       </div>
-    </div>
+      <div slot="component-body">
+        <p>
+          <label>输入框测试:</label>
+          <label>
+            <input type="text" style="width:220px" @click="getCursorPosition"/>
+          </label>
+          <span>光标位置:</span>
+          <span></span>
+        </p>
+        <p>
+          <label>文本框测试:</label>
+          <textarea rows="5" style="width:220px" @click="getCursorPosition"/>
+          <span>光标位置:</span>
+          <span></span>
+        </p>
+        <div>
+          <label>可编辑div:</label>
+          <div contenteditable="true" class="edit-div" @click="getCursorPosition"></div>
+          <span>光标位置:</span>
+          <span></span>
+        </div>
+      </div>
+    </my-component>
   </div>
 </template>
 
 <script>
+import MyComponent from '@/components/MyComponent'
+import GoBack from '@/components/GoBack'
 
-const getCursortPosition = function(e) {
+const getCursorPosition = function(e) {
   var eleP = e.target.parentNode // 获取父级元素
   var pos = 0
   if (e.target.nodeName === 'DIV') {
@@ -87,14 +91,33 @@ const getPosition = function(element) {
 }
 
 export default {
-  name: 'Cursor',
+  name: 'MyCursor',
+  components: {
+    GoBack,
+    MyComponent
+  },
+  data() {
+    return {
+      visible: false
+    }
+  },
   methods: {
-    getCursortPosition
+    // +---------------------------------------------------------------------------------------------
+    // | 页面
+    // +---------------------------------------------------------------------------------------------
+    show() {
+      this.visible = true
+    },
+    goBack() {
+      this.visible = false
+    },
+    // ...
+    getCursorPosition
   }
 }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
   p {
     display: flex;
     flex-direction: row;

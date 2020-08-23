@@ -6,7 +6,7 @@
            cancel-text="取消"
            @ok="hideModal">
     <div ref="box">
-      <iframe :src="src"
+      <iframe :src="../../../.."
               ref="iframeId"
               height="500"
               width="100%"/>
