@@ -249,6 +249,10 @@ export const routes = [
     ]
   },
   {
+    path: '/case/d3/okr-flexible-management',
+    component: () => import('@/views/Case/D3/okr-flexible-management/Index.vue')
+  },
+  {
     path: '/application',
     name: 'application',
     component: Index,

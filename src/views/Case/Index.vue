@@ -26,7 +26,7 @@ export default {
   name: 'Index',
   data() {
     return {
-      url: 'file:///E:/project/case/canvas/',
+      url: 'http://localhost:8081',
       layoutCfg: [
         { name: '雷达', path: '' }
       ]
@@ -35,7 +35,7 @@ export default {
   methods: {
     handleClick(path) {
       console.log(this.url + path)
-      window.open(`${this.url}wavePlant/index.html`, '_blank', 'height=800, width=800, top=200, left=200')
+      window.open(`${this.url}/workbench/case/d3/okr-flexible-management`)
     }
   }
 }
