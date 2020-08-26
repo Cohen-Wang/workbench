@@ -7,6 +7,7 @@
     <table-study ref="TableStudy" class="component"/>
     <transfer-study ref="TransferStudy" class="component"/>
     <form-study ref="FormStudy" class="component"/>
+    <tree-study ref="TreeStudy" class="component"/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import CardIndex from '@/components/CardIndex'
 import TableStudy from './components/TableStudy'
 import TransferStudy from './components/TransferStudy'
 import FormStudy from './components/FormStudy'
+import TreeStudy from './components/TreeStudy'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -40,7 +42,8 @@ const DEFAULT_CONFIG = {
   S: [],
   T: [
     { title: '表格', description: 'table', ref: 'TableStudy' },
-    { title: '穿梭框', description: 'transfer', ref: 'TransferStudy' }
+    { title: '穿梭框', description: 'transfer', ref: 'TransferStudy' },
+    { title: '树', description: 'TreeStudy', ref: 'TreeStudy' }
   ],
   U: [],
   V: [],
@@ -56,7 +59,8 @@ export default {
     CardIndex,
     TableStudy,
     TransferStudy,
-    FormStudy
+    FormStudy,
+    TreeStudy
   },
   data() {
     return {
