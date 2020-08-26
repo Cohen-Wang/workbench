@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card size="small" title="力导图" :body-style="{ padding: 0}">
+    <a-card size="small" title="OKR柔性管理" :body-style="{ padding: 0}">
       <a slot="extra" href="#" @click="showEditorDialog">编辑</a>
       <div id="container" class="graph-box">
         <!-- ... -->

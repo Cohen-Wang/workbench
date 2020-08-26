@@ -28,14 +28,13 @@ export default {
     return {
       url: 'http://localhost:8081',
       layoutCfg: [
-        { name: '雷达', path: '' }
+        { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' }
       ]
     }
   },
   methods: {
     handleClick(path) {
-      console.log(this.url + path)
-      window.open(`${this.url}/workbench/case/d3/okr-flexible-management`)
+      window.open(this.url + path)
     }
   }
 }
