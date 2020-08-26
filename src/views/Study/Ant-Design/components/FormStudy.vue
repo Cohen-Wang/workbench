@@ -5,6 +5,7 @@
         <go-back @goBack="goBack"/>
       </div>
       <div slot="component-body">
+        <!-- 主题 -->
         <div class="content">
           <div class="left">
             <a-form-model :model="form" :label-col="labelCol" :wrapper-col="wrapperCol">
@@ -35,12 +36,8 @@
               <a-form-model-item label="地址">
                 <a-select v-model="form.region"
                           placeholder="请输入地址">
-                  <a-select-option value="shanghai">
-                    Zone one
-                  </a-select-option>
-                  <a-select-option value="beijing">
-                    Zone two
-                  </a-select-option>
+                  <a-select-option value="shanghai">Zone one</a-select-option>
+                  <a-select-option value="beijing">Zone two</a-select-option>
                 </a-select>
               </a-form-model-item>
               <!-- 树形下拉框 -->
@@ -93,6 +90,7 @@
             </a-affix>
           </div>
         </div>
+        <a-divider>Text</a-divider>
       </div>
     </my-component>
   </div>
