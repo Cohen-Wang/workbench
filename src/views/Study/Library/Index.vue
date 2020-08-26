@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="root">
-      <card-index :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
+      <card-index :title="'常用工具库'" :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
     <!-- 详情组件 -->
     <mock ref="Mock" class="component"/>

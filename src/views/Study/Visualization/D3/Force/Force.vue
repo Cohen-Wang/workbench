@@ -1,18 +1,13 @@
 <template>
   <div>
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">力导图</div>
-        <div class="panel-editor">
-          <a href="javascript:void(0);" @click="showEditorDialog" style="color: #fff;">编辑</a>
-        </div>
-      </div>
-      <div class="panel-body panel-body-box">
+    <a-card size="small" title="力导图" :body-style="{ padding: 0 }">
+      <a slot="extra" href="#" @click="showEditorDialog">编辑</a>
+      <div class="panel-body-box">
         <div id="container" class="graph-box">
           <!-- ... -->
         </div>
       </div>
-    </div>
+    </a-card>
     <!-- 编辑对话框 -->
     <a-modal title="编辑"
              :visible="editorDialog.visible"

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="root">
-      <card-index :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
+      <card-index :title="'Antv G2'" :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
     <!-- 详情组件 -->
     <bar ref="Bar" class="component"/>
