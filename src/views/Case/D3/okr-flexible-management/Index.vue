@@ -8,14 +8,12 @@
     </a-card>
     <!-- 编辑对话框 -->
     <a-modal title="编辑"
-             :visible="editorDialog.visible"
+             :visible="dialog.visible"
              :width="500"
              :mask-closable="false"
-             cancel-text="取消"
-             ok-text="确定"
-             @ok="onConfirm"
+             :footer="false"
              @cancel="hideEditorDialog">
-      <a-form-model :model="editorDialog.form" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
+      <a-form-model :model="dialog.form" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
         <a-form-model-item label="任务类型">
           <template v-for="(taskItem, taskIndex) in TASK_TYPE_CONFIG">
             <span :key="taskIndex" style="margin-right: 16px;">
@@ -24,8 +22,17 @@
             </span>
           </template>
         </a-form-model-item>
+        <a-form-model-item label="主题">
+          <a-radio-group v-model="dialog.form.theme">
+            <a-radio v-for="(item, index) in THEME_CONFIG"
+                     :key="index"
+                     :value="item.value">
+              {{ item.label }}
+            </a-radio>
+          </a-radio-group>
+        </a-form-model-item>
         <a-form-model-item label="图形类型">
-          <a-radio-group v-model="editorDialog.form.graphType">
+          <a-radio-group v-model="dialog.form.graphType">
             <a-radio v-for="(item, index) in GRAPH_TYPE_CONFIG"
                      :key="index"
                      :value="item">
@@ -34,9 +41,9 @@
           </a-radio-group>
         </a-form-model-item>
         <!-- 关系探索 -->
-        <template v-if="editorDialog.form.graphType === '关系探索'">
+        <template v-if="dialog.form.graphType === '关系探索'">
           <a-form-model-item label="显示对象">
-            <a-checkbox-group v-model="editorDialog.form.objectsList">
+            <a-checkbox-group v-model="dialog.form.objectsList">
               <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG"
                           :key="objectIndex"
                           :value="objectItem.value">
@@ -46,9 +53,9 @@
           </a-form-model-item>
         </template>
         <!-- 对象探索 -->
-        <template v-if="editorDialog.form.graphType === '对象探索'">
+        <template v-if="dialog.form.graphType === '对象探索'">
           <a-form-model-item label="选择对象">
-            <a-select v-model="editorDialog.form.SingleObject" placeholder="请先选择对象">
+            <a-select v-model="dialog.form.SingleObject" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
                 <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ index + 1 }} : {{ item.name }}
@@ -68,9 +75,9 @@
           </a-form-model-item>
         </template>
         <!-- 相对关系 -->
-        <template v-if="editorDialog.form.graphType === '相对关系'">
+        <template v-if="dialog.form.graphType === '相对关系'">
           <a-form-model-item label="对象1">
-            <a-select v-model="editorDialog.form.relatedObject.first" placeholder="请先选择对象">
+            <a-select v-model="dialog.form.relatedObject.first" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
                 <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ index + 1 }} : {{ item.name }}
@@ -89,7 +96,7 @@
             </a-select>
           </a-form-model-item>
           <a-form-model-item label="对象2">
-            <a-select v-model="editorDialog.form.relatedObject.second" placeholder="请先选择对象">
+            <a-select v-model="dialog.form.relatedObject.second" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
                 <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ index + 1 }} : {{ item.name }}
@@ -109,7 +116,7 @@
           </a-form-model-item>
         </template>
       </a-form-model>
-      <pre class="well" v-text="editorDialog.form"></pre>
+      <pre class="well" v-text="dialog.form"></pre>
     </a-modal>
   </div>
 </template>
@@ -125,6 +132,12 @@ import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
 import DiscoveryBgDark from '@/assets/image/discovery_bg_dark.png'
 import { mapGetters } from 'vuex'
 
+const THEME_CONFIG = [
+  { label: '朴素白', value: 'light' },
+  { label: '工作蓝', value: 'blue' },
+  { label: '经典黑', value: 'dark' }
+]
+const DEFAULT_THEME = 'light'
 // 主题背景配置
 const THEME_BG = {
   'light': DiscoveryBgLight,
@@ -165,9 +178,10 @@ export default {
         edges: []
       },
       // 编辑对话框
-      editorDialog: {
+      dialog: {
         visible: false,
         form: {
+          theme: DEFAULT_THEME,
           graphType: DEFAULT_GRAPH_TYPE,
           // 关系探索
           objectsList: DEFAULT_OBJECTS_LIST, // 展示对象
@@ -180,6 +194,7 @@ export default {
           }
         }
       },
+      THEME_CONFIG,
       TASK_TYPE_CONFIG,
       SHOW_OBJECT_CONFIG,
       GRAPH_TYPE_CONFIG,
@@ -196,17 +211,24 @@ export default {
     taskNode() { return this.allObject.filter(e => e.type === 'TASK') }
   },
   watch: {
-    theme(newValue) {
-      document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
-      flexibleManagement.setConfig(config[newValue])
-      flexibleManagement.reset()
+    // theme(newValue) {
+    //   document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
+    //   flexibleManagement.setConfig(config[newValue])
+    //   flexibleManagement.reset()
+    // },
+    'dialog.form.theme': {
+      handler: (newValue) => {
+        document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
+        flexibleManagement.setConfig(config[newValue])
+        flexibleManagement.reset()
+      }
     },
-    'editorDialog.form.graphType': {
+    'dialog.form.graphType': {
       handler: function() {
         console.log('改变图形类型')
       }
     },
-    'editorDialog.form.objectsList': {
+    'dialog.form.objectsList': {
       handler: function(newValue) {
         this.filter.nodes = [] // 清空
         newValue.forEach(type => {
@@ -241,7 +263,7 @@ export default {
         id: 'container',
         nodes: this.original.nodes,
         edges: this.original.edges,
-        config: config[this.theme]
+        config: config[this.dialog.form.theme]
       })
       // 渲染
       flexibleManagement.render()
@@ -251,16 +273,16 @@ export default {
     // +-------------------------------------------------------------------------------------------
     // 打开编辑对话框
     showEditorDialog() {
-      this.editorDialog.visible = true
+      this.dialog.visible = true
     },
     // 点击确定
     onConfirm() {
       // ?
-      this.editorDialog.visible = false
+      this.dialog.visible = false
     },
     // 关闭
     hideEditorDialog() {
-      this.editorDialog.visible = false
+      this.dialog.visible = false
     }
   }
 }
