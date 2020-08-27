@@ -242,10 +242,8 @@ export const routes = [
       }
     ]
   },
-  {
-    path: '/case/d3/okr-flexible-management',
-    component: () => import('@/views/Case/D3/okr-flexible-management/Index.vue')
-  },
+  { path: '/case/d3/okr-flexible-management', component: () => import('@/views/Case/D3/okr-flexible-management/Index.vue') },
+  { path: '/case/d3/force-geography', component: () => import('@/views/Case/D3/force-geography/Index.vue') },
   {
     path: '/application',
     name: 'application',

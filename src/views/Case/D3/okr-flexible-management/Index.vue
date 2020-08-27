@@ -14,6 +14,7 @@
              :footer="false"
              @cancel="hideDialog">
       <a-form-model :model="dialog.form" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
+        <a-divider>提示</a-divider>
         <a-form-model-item label="任务类型">
           <template v-for="(taskItem, taskIndex) in TASK_TYPE_CONFIG">
             <span :key="taskIndex" style="margin-right: 16px;">
@@ -22,40 +23,35 @@
             </span>
           </template>
         </a-form-model-item>
+        <a-divider>主题</a-divider>
         <a-form-model-item label="主题">
           <a-radio-group v-model="dialog.form.theme">
-            <a-radio v-for="(item, index) in THEME_CONFIG"
-                     :key="index"
-                     :value="item.value">
-              {{ item.label }}
-            </a-radio>
+            <a-radio v-for="(item, index) in THEME_CONFIG" :key="index" :value="item.value">{{ item.label }}</a-radio>
           </a-radio-group>
         </a-form-model-item>
+        <a-divider>操作</a-divider>
         <a-form-model-item label="图形类型">
           <a-radio-group v-model="dialog.form.graphType">
-            <a-radio v-for="(item, index) in GRAPH_TYPE_CONFIG"
-                     :key="index"
-                     :value="item">
-              {{ item }}
-            </a-radio>
+            <a-radio v-for="(item, index) in GRAPH_TYPE_CONFIG" :key="index" :value="item">{{ item }}</a-radio>
           </a-radio-group>
         </a-form-model-item>
         <!-- 关系探索 -->
         <template v-if="dialog.form.graphType === '关系探索'">
           <a-form-model-item label="显示对象">
             <a-checkbox-group v-model="dialog.form.objectsList">
-              <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG"
-                          :key="objectIndex"
-                          :value="objectItem.value">
-                {{ objectItem.label }}
-              </a-checkbox>
+              <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG" :key="objectIndex" :value="objectItem.value">{{ objectItem.label }}</a-checkbox>
             </a-checkbox-group>
           </a-form-model-item>
         </template>
         <!-- 对象探索 -->
         <template v-if="dialog.form.graphType === '对象探索'">
+          <a-form-model-item label="显示对象">
+            <a-checkbox-group v-model="dialog.form.objectsList">
+              <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG" :key="objectIndex" :value="objectItem.value">{{ objectItem.label }}</a-checkbox>
+            </a-checkbox-group>
+          </a-form-model-item>
           <a-form-model-item label="选择对象">
-            <a-select v-model="dialog.form.SingleObject" placeholder="请先选择对象">
+            <a-select v-model="dialog.form.singleObject" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
                 <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
                   {{ index + 1 }} : {{ item.name }}
@@ -76,6 +72,11 @@
         </template>
         <!-- 相对关系 -->
         <template v-if="dialog.form.graphType === '相对关系'">
+          <a-form-model-item label="显示对象">
+            <a-checkbox-group v-model="dialog.form.objectsList">
+              <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG" :key="objectIndex" :value="objectItem.value">{{ objectItem.label }}</a-checkbox>
+            </a-checkbox-group>
+          </a-form-model-item>
           <a-form-model-item label="对象1">
             <a-select v-model="dialog.form.relatedObject.first" placeholder="请先选择对象">
               <a-select-opt-group label="人员">
@@ -116,7 +117,7 @@
           </a-form-model-item>
         </template>
       </a-form-model>
-      <pre class="well" v-text="dialog.form"></pre>
+      <!--<pre class="well" v-text="dialog.form"></pre>-->
     </a-modal>
   </div>
 </template>
@@ -185,7 +186,7 @@ export default {
           // 关系探索
           objectsList: DEFAULT_OBJECTS_LIST, // 展示对象
           // 对象探索
-          SingleObject: null,
+          singleObject: null, // 选择的对象
           // 相对关系
           relatedObject: {
             first: null,
@@ -210,31 +211,80 @@ export default {
   },
   watch: {
     'dialog.form.theme': {
-      handler: (newValue) => {
+      handler: function(newValue) {
         document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
         flexibleManagement.setConfig(config[newValue])
         flexibleManagement.reset()
       }
     },
+    // 切换图形类型
     'dialog.form.graphType': {
       handler: function() {
-        console.log('改变图形类型')
+        // 还原
+        this.dialog.form.singleObject = null
+        this.dialog.form.relatedObject = { first: null, second: null }
       }
     },
+    // 关系探索 - 切换显示对象
     'dialog.form.objectsList': {
       handler: function(newValue) {
-        this.filter.nodes = [] // 清空
+        // 清空
+        this.filter.nodes = []
+        this.filter.edges = []
+        // 过滤节点
         newValue.forEach(type => {
           this.filter.nodes.push(...this.original.nodes.filter(node => node.type === type))
         })
-        // ???
-        // 过滤连线
-        //
-        flexibleManagement.setEdges(this.filter.edges)
+        // 过滤连线（）
+        // newValue.forEach(type => {
+        //   this.filter.edges.push(...this.original.edges.filter(node => node.source.type === type))
+        // })
+        this.filter.edges = this.original.edges.filter(e => newValue.includes(e.source.type) && newValue.includes(e.target.type))
+        // 设置
         flexibleManagement.setNodes(this.filter.nodes)
-        flexibleManagement.clear()
-        // 渲染
-        flexibleManagement.render()
+        flexibleManagement.setEdges(this.filter.edges)
+        flexibleManagement.clear() // 清空
+        flexibleManagement.render() // 渲染
+      }
+    },
+    // 对象探索 - 切换对象
+    'dialog.form.singleObject': {
+      handler: function(newValue) {
+        console.log('对象探索 - 切换对象', newValue)
+        const nodes = this.original.nodes.filter(node => node.id === newValue)
+        flexibleManagement.setNodes(nodes)
+        flexibleManagement.setEdges([]) // 没有线
+        flexibleManagement.clear() // 清空
+        flexibleManagement.render() // 渲染
+      }
+    },
+    // 相对关系 - 切换对象1
+    'dialog.form.relatedObject.first': {
+      handler: function(newValue) {
+        if (!this.dialog.form.relatedObject.second) return
+        const node_1_id = this.dialog.form.relatedObject.first
+        const node_2_id = this.dialog.form.relatedObject.second
+        // ...
+        const nodes = [...this.original.nodes.filter(node => node.id === node_1_id), ...this.original.nodes.filter(node => node.id === node_2_id)]
+        flexibleManagement.setNodes(nodes)
+        flexibleManagement.setEdges([]) // 没有线
+        flexibleManagement.clear() // 清空
+        flexibleManagement.render() // 渲染
+      }
+    },
+    // 相对关系 - 切换对象2
+    'dialog.form.relatedObject.second': {
+      handler: function(newValue) {
+        if (!this.dialog.form.relatedObject.first) return
+        const node_1_id = this.dialog.form.relatedObject.first
+        const node_2_id = this.dialog.form.relatedObject.second
+        // ...
+        const nodes = [...this.original.nodes.filter(node => node.id === node_1_id),
+          ...this.original.nodes.filter(node => node.id === node_2_id)]
+        flexibleManagement.setNodes(nodes)
+        flexibleManagement.setEdges([]) // 没有线
+        flexibleManagement.clear() // 清空
+        flexibleManagement.render() // 渲染
       }
     }
   },

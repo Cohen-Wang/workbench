@@ -28,15 +28,6 @@ export default {
   // +-------------------------------------------------------------------------------------------
   // + 方法
   // +-------------------------------------------------------------------------------------------
-  setNodes(nodes) {
-    this.nodes = nodes
-  },
-  setEdges(edges) {
-    this.edges = edges
-  },
-  setConfig(config) {
-    this.config = config
-  },
 
   // 初始化
   init(options) {
@@ -126,7 +117,7 @@ export default {
       .append('circle') // 剪切板里面添加圆形图
       .attr('cx', 0).attr('cy', 0)
       .attr('r', d => this.config[d.type].radius)
-    // 添加图片及其属性
+    // 绘制图片及其属性
     this.singleNodeGroup.append('image')
       .attr('xlink:href', d => {
         if (d.type === 'DEPART') return d.icon.img
@@ -138,7 +129,7 @@ export default {
       .attr('width', d => (d.type === 'image') ? this.config[d.type].radius * 2 * 1.4 : this.config[d.type].radius * 2)
       .attr('height', d => (d.type === 'image') ? this.config[d.type].radius * 2 * 1.4 : this.config[d.type].radius * 2)
       .attr('style', (d, i) => `clip-path:url(#portrait-${i})`)
-    // 文字及其属性
+    // 绘制文字及其属性
     this.nodeTest = this.singleNodeGroup.append('text')
       .text(d => this.config[d.type].isShowText ? d.name : '')
       .attr('text-anchor', 'middle')
@@ -147,6 +138,30 @@ export default {
       .attr('fill', d => this.config[d.type].text.color)
     // 缩放
     this.svgObj.call(d3.zoom().scaleExtent([1 / 6, 8]).on('zoom', this.zoomed.bind(this)))
+  },
+
+  /**
+   * 设置节点
+   * @param nodes
+   */
+  setNodes(nodes) {
+    this.nodes = nodes
+  },
+
+  /**
+   * 设置连线
+   * @param edges
+   */
+  setEdges(edges) {
+    this.edges = edges
+  },
+
+  /**
+   * 设置配置
+   * @param config
+   */
+  setConfig(config) {
+    this.config = config
   },
 
   /**

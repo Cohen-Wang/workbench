@@ -26,9 +26,10 @@ export default {
   name: 'Index',
   data() {
     return {
-      url: 'http://localhost:8081',
+      url: 'http://localhost:8080',
       layoutCfg: [
-        { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' }
+        { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' },
+        { name: '力导图-地理', path: '/workbench/case/d3/force-geography' }
       ]
     }
   },
