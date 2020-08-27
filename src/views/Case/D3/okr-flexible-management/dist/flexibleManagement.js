@@ -14,6 +14,7 @@ export default {
   container: null, // DOM容器
   width: 0,
   height: 0,
+  marge: { top: 10, bottom: 10, left: 10, right: 10 },
   // 实例
   svgObj: null, // svg实例
   groupObj: null, // 所有元素总和
@@ -36,6 +37,7 @@ export default {
   setConfig(config) {
     this.config = config
   },
+
   // 初始化
   init(options) {
     Object.assign(this, options)
@@ -43,38 +45,42 @@ export default {
     const oContainer = document.getElementById(this.id)
     this.width = oContainer.offsetWidth
     this.height = oContainer.offsetHeight
-
-    //
+    // 向容器添加svg元素，并设置宽高
     this.svgObj = d3.select(`#${this.id}`).append('svg').attr('width', this.width).attr('height', this.height)
   },
+
   // 画图
   render() {
     console.log('render')
-    const marge = { top: 10, bottom: 10, left: 10, right: 10 }
-
-    // 创建svg 对象
-    this.groupObj = this.svgObj.append('g').attr('transform', 'translate(' + marge.top + ',' + marge.left + ')')
-
+    // 向SVG元素，添加一个g元素（用于）
+    this.groupObj = this.svgObj.append('g').attr('transform', 'translate(' + this.marge.top + ',' + this.marge.left + ')')
     // 设置一个color的颜色比例尺，为了让不同的扇形呈现不同的颜色
     // const colorScale = d3.scaleOrdinal().domain(d3.range(this.nodes.length)).range(d3.schemeCategory10)
-
     // 初始化力导图实例
     this.forceSimulation = d3.forceSimulation()
       .force('link', d3.forceLink()) // 让相互有链接的点，有一定的距离
       .force('charge', d3.forceManyBody()) // 粒子两两之间的力，正数引力，负数斥力
       .force('center', d3.forceCenter()) // 所有粒子，向中心的力
-
     // 生成节点数据
     this.forceSimulation.nodes(this.nodes).on('tick', this.ticked.bind(this)) // 这个函数很重要，后面给出具体实现和说明
-
     // 生成边数据
     this.forceSimulation.force('link').links(this.edges)
-      .distance(d => this.config[d.source.type].distance) // 每一边的长度)
+      .distance(d => {
+        // console.log('d', d)
+        // return this.config[d.source.type].distance
+        // 人员 -> 部门
+        if (d.source.type === 'image' && d.target.type === 'DEPART') return 100
+        // 部门 -> 人员
+        if (d.source.type === 'DEPART' && d.target.type === 'image') return 150
+        // 任务->人员， 人员->任务
+        if (d.source.type === 'TASK' && d.target.type === 'image' || d.source.type === 'image' && d.target.type === 'TASK') return 400
+        // 任务 -> 部门, 部门 -> 任务
+        if ((d.source.type === 'TASK' && d.target.type === 'DEPART') || (d.source.type === 'DEPART' && d.target.type === 'TASK')) return 3500
+        return 500
+      }) // 每一边的长度)
     // .strength(-3) // 斥力大小
-
     // 设置图形的中心位置
     this.forceSimulation.force('center').x(this.width / 2).y(this.height / 2)
-
     // 绘制边
     this.links = this.groupObj.append('g')
       .selectAll('line')
@@ -83,7 +89,6 @@ export default {
       .append('line')
       .attr('stroke-width', this.config['line'].lineWidth)
       .attr('stroke', this.config['line'].normalColor) // 边的颜色
-
     // 线上文字
     this.linksText = this.groupObj.append('g')
       .selectAll('text')
@@ -93,7 +98,6 @@ export default {
       .text(d => d.relationshipAbbreviation)
       .attr('fill', this.config['line'].text.color)
       .attr('opacity', 0) // 初始化不显示，鼠标移入才显示
-
     // 建立用来放在每个节点和对应文字的分组<g>
     this.singleNodeGroup = this.groupObj.selectAll('.circleText')
       .data(this.nodes)
@@ -105,11 +109,9 @@ export default {
         .on('drag', this.dragged.bind(this))
         .on('end', this.ended.bind(this))
       )
-
     this.singleNodeGroup.on('mouseenter', this.onMouseenter.bind(this))
     this.singleNodeGroup.on('mouseleave', this.onMouseleave.bind(this))
     this.singleNodeGroup.on('click', this.onNodeClick.bind(this))
-
     // 绘制节点（圆圈），当没有图片的时候使用
     this.nodeCircle = this.singleNodeGroup.append('circle')
       .attr('r', d => this.config[d.type].radius) // 圆圈半径的大小
@@ -118,14 +120,12 @@ export default {
         if (d.type === 'TASK') return this.config[d.type][d.taskType].bgColor // 节点圆圈的颜色
         return this.config[d.type].bgColor
       })
-
     // 添加剪切clipPath，用于头像图片的裁剪
     this.singleNodeGroup.append('clipPath')
       .attr('id', (d, i) => `portrait-${i}`) // 给剪切版添加id
       .append('circle') // 剪切板里面添加圆形图
       .attr('cx', 0).attr('cy', 0)
       .attr('r', d => this.config[d.type].radius)
-
     // 添加图片及其属性
     this.singleNodeGroup.append('image')
       .attr('xlink:href', d => {
@@ -138,7 +138,6 @@ export default {
       .attr('width', d => (d.type === 'image') ? this.config[d.type].radius * 2 * 1.4 : this.config[d.type].radius * 2)
       .attr('height', d => (d.type === 'image') ? this.config[d.type].radius * 2 * 1.4 : this.config[d.type].radius * 2)
       .attr('style', (d, i) => `clip-path:url(#portrait-${i})`)
-
     // 文字及其属性
     this.nodeTest = this.singleNodeGroup.append('text')
       .text(d => this.config[d.type].isShowText ? d.name : '')
@@ -146,16 +145,20 @@ export default {
       .attr('font-size', d => this.config[d.type].text.size)
       .attr('dy', d => this.config[d.type].text.y) // y轴位置
       .attr('fill', d => this.config[d.type].text.color)
-
     // 缩放
     this.svgObj.call(d3.zoom().scaleExtent([1 / 6, 8]).on('zoom', this.zoomed.bind(this)))
   },
 
-  // 清空svg
+  /**
+   * 清空svg
+   */
   clear() {
     this.svgObj.selectAll('svg > *').remove() // 移除svg内部节点
   },
 
+  /**
+   * 重置属性
+   */
   reset() {
     console.log('reset')
     // 边的颜色
@@ -168,10 +171,16 @@ export default {
     this.nodeTest.attr('fill', d => this.config[d.type].text.color)
   },
 
+  /**
+   * 缩放
+   */
   zoomed() {
     this.groupObj.attr('transform', d3.event.transform)
   },
 
+  /**
+   * 没懂
+   */
   ticked() {
     // 连线的起始点坐标
     this.links.attr('x1', d => d.source.x)
@@ -185,7 +194,11 @@ export default {
     this.singleNodeGroup.attr('transform', d => `translate(${d.x}, ${d.y})`)
   },
 
-  // 强化
+  /**
+   * 强化
+   * @param thisD
+   * @param thisI
+   */
   strengthEffect(thisD, thisI) {
     const relatedNodeIndex = []
     // 鼠标移入节点
@@ -212,7 +225,9 @@ export default {
     })
   },
 
-  // 恢复正常效果
+  /**
+   * 恢复正常效果
+   */
   normalEffect() {
     this.singleNodeGroup.attr('opacity', d => this.config[d.type]['opacity'].normal)
     this.links.attr('stroke', this.config['line'].normalColor) // 恢复

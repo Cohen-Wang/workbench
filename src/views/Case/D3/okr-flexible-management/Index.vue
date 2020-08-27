@@ -1,7 +1,7 @@
 <template>
   <div>
     <a-card size="small" title="OKR柔性管理" :body-style="{ padding: 0}">
-      <a slot="extra" href="#" @click="showEditorDialog">编辑</a>
+      <a slot="extra" href="#" @click="showDialog">编辑</a>
       <div id="container" class="graph-box">
         <!-- ... -->
       </div>
@@ -12,7 +12,7 @@
              :width="500"
              :mask-closable="false"
              :footer="false"
-             @cancel="hideEditorDialog">
+             @cancel="hideDialog">
       <a-form-model :model="dialog.form" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
         <a-form-model-item label="任务类型">
           <template v-for="(taskItem, taskIndex) in TASK_TYPE_CONFIG">
@@ -130,7 +130,6 @@ import flexibleManagement from './dist/flexibleManagement'
 import DiscoveryBgLight from '@/assets/image/discovery_bg_light.png'
 import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
 import DiscoveryBgDark from '@/assets/image/discovery_bg_dark.png'
-import { mapGetters } from 'vuex'
 
 const THEME_CONFIG = [
   { label: '朴素白', value: 'light' },
@@ -202,7 +201,6 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['theme']),
     // 人员节点集合
     imageNode() { return this.allObject.filter(e => e.type === 'image') },
     // 部门节点集合
@@ -211,11 +209,6 @@ export default {
     taskNode() { return this.allObject.filter(e => e.type === 'TASK') }
   },
   watch: {
-    // theme(newValue) {
-    //   document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
-    //   flexibleManagement.setConfig(config[newValue])
-    //   flexibleManagement.reset()
-    // },
     'dialog.form.theme': {
       handler: (newValue) => {
         document.getElementById('container').style.backgroundImage = `url("${THEME_BG[newValue]}")`
@@ -251,11 +244,11 @@ export default {
       // 设置背景图
       document.getElementById('container').style.backgroundImage = `url("${THEME_BG[this.theme]}")`
       // 画图
-      this.show()
+      this.renderGraph()
     })
   },
   methods: {
-    show() {
+    renderGraph() {
       // ???
       this.allObject = this.original.nodes
       // 初始化
@@ -272,16 +265,11 @@ export default {
     // + 对话框
     // +-------------------------------------------------------------------------------------------
     // 打开编辑对话框
-    showEditorDialog() {
+    showDialog() {
       this.dialog.visible = true
     },
-    // 点击确定
-    onConfirm() {
-      // ?
-      this.dialog.visible = false
-    },
     // 关闭
-    hideEditorDialog() {
+    hideDialog() {
       this.dialog.visible = false
     }
   }
@@ -295,7 +283,7 @@ export default {
   }
   .graph-box {
     background: url("../../../../assets/image/discovery_bg_blue.png");
-    height: calc(100vh - 39px);
+    height: calc(100vh - 40px);
     user-select: none;
   }
 </style>

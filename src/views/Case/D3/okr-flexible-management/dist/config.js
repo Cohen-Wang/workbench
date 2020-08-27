@@ -1,3 +1,11 @@
+
+// 节点距离
+const DISTANCE = {
+  task: 850,
+  depart: 1000,
+  image: 150
+}
+
 export default {
 
   // +-------------------------------------------------------------------------------------------
@@ -7,7 +15,7 @@ export default {
     // 任务
     TASK: {
       radius: 18,
-      distance: 850,
+      distance: DISTANCE.task,
       text: {
         color: '#333333',
         size: '14px',
@@ -31,7 +39,7 @@ export default {
     // 部门
     DEPART: {
       radius: 30,
-      distance: 1000,
+      distance: DISTANCE.depart,
       text: {
         color: '#333333',
         size: '14px',
@@ -47,7 +55,7 @@ export default {
     // 人员
     image: {
       radius: 18,
-      distance: 150,
+      distance: DISTANCE.image,
       text: {
         color: '#333333',
         size: '12px',
@@ -79,7 +87,7 @@ export default {
     // 任务
     TASK: {
       radius: 18,
-      distance: 850,
+      distance: DISTANCE.task,
       text: {
         color: '#333333',
         size: '14px',
@@ -103,7 +111,7 @@ export default {
     // 部门
     DEPART: {
       radius: 30,
-      distance: 1000,
+      distance: DISTANCE.depart,
       text: {
         color: '#333333',
         size: '14px',
@@ -119,7 +127,7 @@ export default {
     // 人员
     image: {
       radius: 18,
-      distance: 150,
+      distance: DISTANCE.image,
       text: {
         color: '#333333',
         size: '12px',
@@ -152,7 +160,7 @@ export default {
     // 任务
     TASK: {
       radius: 18,
-      distance: 850,
+      distance: DISTANCE.task,
       text: {
         color: '#ffffff',
         size: '14px',
@@ -176,7 +184,7 @@ export default {
     // 部门
     DEPART: {
       radius: 30,
-      distance: 1000,
+      distance: DISTANCE.depart,
       text: {
         color: '#ffffff',
         size: '14px',
@@ -192,7 +200,7 @@ export default {
     // 人员
     image: {
       radius: 18,
-      distance: 150,
+      distance: DISTANCE.image,
       text: {
         color: '#ffffff',
         size: '12px',
