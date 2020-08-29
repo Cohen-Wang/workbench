@@ -74,23 +74,7 @@ export const routes = [
         name: 'vue',
         component: () => import('@/views/Study/Vue/Index.vue'),
         meta: { title: 'VUE', icon: 'fork' }
-        // redirect: '/study/vue/property',
-        // children: [
-        //   {
-        //     path: '/study/vue/slot',
-        //     name: 'slot',
-        //     meta: { title: '插槽（slot）' },
-        //     component: () => import('@/views/Study/Vue/MySlot.vue')
-        //   },
-        // ]
       },
-      // {
-      //   path: '/study/vue/routerTest',
-      //   name: 'routerTest',
-      //   meta: { title: '路由测试（router）' },
-      //   isShow: false,
-      //   component: () => import('@/views/Study/Vue/components/RouterTest.vue')
-      // },
       {
         path: '/study/library',
         name: 'library',

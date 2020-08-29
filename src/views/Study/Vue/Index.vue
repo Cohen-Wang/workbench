@@ -12,6 +12,7 @@
     <watch ref="Watch" class="component"/>
     <router ref="Router" class="component"/>
     <my-slot ref="MySlot" class="component"/>
+    <keep-alive-study ref="KeepAliveStudy" class="component"/>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import TransitionStudy from './components/Transition'
 import Watch from './components/Watch'
 import Router from './components/Router'
 import MySlot from './components/MySlot'
+import KeepAliveStudy from './components/KeepAliveStudy'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -42,7 +44,8 @@ const DEFAULT_CONFIG = {
   I: [],
   J: [],
   K: [
-    { title: 'Key', description: '（v-for）之Key', ref: 'Key' }
+    { title: 'Key', description: '（v-for）之Key', ref: 'Key' },
+    { title: 'KeepAliveStudy', description: 'keep-alive', ref: 'KeepAliveStudy' }
   ],
   L: [
     { title: 'Lifecycle', description: '生命周期', ref: 'Lifecycle' }
@@ -83,7 +86,8 @@ export default {
     TransitionStudy,
     Watch,
     Router,
-    MySlot
+    MySlot,
+    KeepAliveStudy
   },
   data() {
     return {
