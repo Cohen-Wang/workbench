@@ -10,6 +10,7 @@
     <mixins ref="Mixins" class="component"/>
     <transition-study ref="TransitionStudy" class="component"/>
     <watch ref="Watch" class="component"/>
+    <router ref="Router" class="component"/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Lifecycle from './components/Lifecycle'
 import Mixins from './components/Mixins'
 import TransitionStudy from './components/Transition'
 import Watch from './components/Watch'
+import Router from './components/Router'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -50,7 +52,9 @@ const DEFAULT_CONFIG = {
   O: [],
   P: [],
   Q: [],
-  R: [],
+  R: [
+    { title: 'Router', description: '路由', ref: 'Router' }
+  ],
   S: [],
   T: [
     { title: 'TransitionStudy', description: '混合', ref: 'TransitionStudy' }
@@ -74,7 +78,8 @@ export default {
     Lifecycle,
     Mixins,
     TransitionStudy,
-    Watch
+    Watch,
+    Router
   },
   data() {
     return {
