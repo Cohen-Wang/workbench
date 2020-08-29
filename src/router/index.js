@@ -18,88 +18,125 @@ VueRouter.prototype.push = function push(location) {
 }
 
 export const routes = [
-  { path: '/login', name: 'login', component: Login },
-  { path: '/register', name: 'register', component: Register },
   {
-    path: '/', name: 'dashboard', component: Index, isShow: false, redirect: '/home',
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
+  },
+  {
+    path: '/',
+    name: 'dashboard',
+    component: Index,
+    isShow: false,
+    redirect: '/home',
     children: [
-      { path: '/home', name: 'home', meta: { title: '首页', icon: 'menu' }, component: () => import('@/views/Home.vue') }
+      {
+        path: '/home',
+        name: 'home',
+        meta: { title: '首页', icon: 'menu' },
+        component: () => import('@/views/Home.vue')
+      }
     ]
   },
   {
-    path: '/study', name: 'study', component: Index, isShow: true, meta: { title: '学习', icon: 'credit-card' }, redirect: '/study/css',
+    path: '/study',
+    name: 'study',
+    component: Index,
+    isShow: true,
+    meta: { title: '学习', icon: 'credit-card' },
+    redirect: '/study/css',
     children: [
-      { path: '/study/css', name: 'css', meta: { title: 'CSS', icon: 'trophy' }, component: () => import('@/views/Study/CSS/Index.vue') },
-      { path: '/study/javascript', name: 'javascript', meta: { title: 'Javascript', icon: 'cloud-server' }, component: () => import('@/views/Study/Javascript/Index.vue') },
-      { path: '/study/es6', name: 'es6', meta: { title: 'ES6', icon: 'deployment-unit' }, component: () => import('@/views/Study/ES6/Index.vue') },
+      {
+        path: '/study/css',
+        name: 'css',
+        meta: { title: 'CSS', icon: 'trophy' },
+        component: () => import('@/views/Study/CSS/Index.vue')
+      },
+      {
+        path: '/study/javascript',
+        name: 'javascript',
+        meta: { title: 'Javascript', icon: 'cloud-server' },
+        component: () => import('@/views/Study/Javascript/Index.vue')
+      },
+      {
+        path: '/study/es6',
+        name: 'es6',
+        meta: { title: 'ES6', icon: 'deployment-unit' },
+        component: () => import('@/views/Study/ES6/Index.vue')
+      },
       {
         path: '/study/vue',
         name: 'vue',
         component: () => import('@/views/Study/Vue/Index.vue'),
-        meta: { title: 'VUE', icon: 'fork' },
-        redirect: '/study/vue/property',
-        children: [
-          {
-            path: '/study/vue/property',
-            name: 'property',
-            meta: { title: 'Vue属性（property）' },
-            component: () => import('@/views/Study/Vue/Property.vue')
-          },
-          {
-            path: '/study/vue/lifecycle',
-            name: 'lifecycle',
-            meta: { title: '生命周期（lifecycle）' },
-            component: () => import('@/views/Study/Vue/Lifecycle.vue')
-          },
-          {
-            path: '/study/vue/watch',
-            name: 'watch',
-            meta: { title: '侦听属性（watch）' },
-            component: () => import('@/views/Study/Vue/Watch.vue')
-          },
-          {
-            path: '/study/vue/slot',
-            name: 'slot',
-            meta: { title: '插槽（slot）' },
-            component: () => import('@/views/Study/Vue/MySlot.vue')
-          },
-          {
-            path: '/study/vue/router',
-            name: 'router',
-            meta: { title: '路由（router）' },
-            component: () => import('@/views/Study/Vue/Router.vue')
-          },
-          {
-            path: '/study/vue/routerTest',
-            name: 'routerTest',
-            meta: { title: '路由测试（router）' },
-            component: () => import('@/views/Study/Vue/RouterTest.vue')
-          },
-          {
-            path: '/study/vue/transition',
-            name: 'transition',
-            meta: { title: '过渡（transition）' },
-            component: () => import('@/views/Study/Vue/Transition.vue')
-          },
-          {
-            path: '/study/vue/mixins',
-            name: 'mixins',
-            meta: { title: '混入（mixins）' },
-            component: () => import('@/views/Study/Vue/Mixins.vue')
-          },
-          {
-            path: '/study/vue/forceUpdate',
-            name: 'forceUpdate',
-            meta: { title: '强制更新（forceUpdate）' },
-            component: () => import('@/views/Study/Vue/$forceUpdate.vue')
-          },
-          {
-            path: '/study/vue/key',
-            name: 'key',
-            meta: { title: '循环（key）' },
-            component: () => import('@/views/Study/Vue/Key.vue')
-          }
-        ]
+        meta: { title: 'VUE', icon: 'fork' }
+        // redirect: '/study/vue/property',
+        // children: [
+        //   {
+        //     path: '/study/vue/property',
+        //     name: 'property',
+        //     meta: { title: 'Vue属性（property）' },
+        //     component: () => import('@/views/Study/Vue/Property.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/lifecycle',
+        //     name: 'lifecycle',
+        //     meta: { title: '生命周期（lifecycle）' },
+        //     component: () => import('@/views/Study/Vue/Lifecycle.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/watch',
+        //     name: 'watch',
+        //     meta: { title: '侦听属性（watch）' },
+        //     component: () => import('@/views/Study/Vue/Watch.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/slot',
+        //     name: 'slot',
+        //     meta: { title: '插槽（slot）' },
+        //     component: () => import('@/views/Study/Vue/MySlot.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/router',
+        //     name: 'router',
+        //     meta: { title: '路由（router）' },
+        //     component: () => import('@/views/Study/Vue/Router.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/routerTest',
+        //     name: 'routerTest',
+        //     meta: { title: '路由测试（router）' },
+        //     component: () => import('@/views/Study/Vue/RouterTest.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/transition',
+        //     name: 'transition',
+        //     meta: { title: '过渡（transition）' },
+        //     component: () => import('@/views/Study/Vue/Transition.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/mixins',
+        //     name: 'mixins',
+        //     meta: { title: '混入（mixins）' },
+        //     component: () => import('@/views/Study/Vue/Mixins.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/forceUpdate',
+        //     name: 'forceUpdate',
+        //     meta: { title: '强制更新（forceUpdate）' },
+        //     component: () => import('@/views/Study/Vue/$forceUpdate.vue')
+        //   },
+        //   {
+        //     path: '/study/vue/key',
+        //     name: 'key',
+        //     meta: { title: '循环（key）' },
+        //     component: () => import('@/views/Study/Vue/Key.vue')
+        //   }
+        // ]
       },
       {
         path: '/study/library',
