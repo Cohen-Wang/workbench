@@ -77,67 +77,20 @@ export const routes = [
         // redirect: '/study/vue/property',
         // children: [
         //   {
-        //     path: '/study/vue/property',
-        //     name: 'property',
-        //     meta: { title: 'Vue属性（property）' },
-        //     component: () => import('@/views/Study/Vue/Property.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/lifecycle',
-        //     name: 'lifecycle',
-        //     meta: { title: '生命周期（lifecycle）' },
-        //     component: () => import('@/views/Study/Vue/Lifecycle.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/watch',
-        //     name: 'watch',
-        //     meta: { title: '侦听属性（watch）' },
-        //     component: () => import('@/views/Study/Vue/Watch.vue')
-        //   },
-        //   {
         //     path: '/study/vue/slot',
         //     name: 'slot',
         //     meta: { title: '插槽（slot）' },
         //     component: () => import('@/views/Study/Vue/MySlot.vue')
         //   },
-        //   {
-        //     path: '/study/vue/router',
-        //     name: 'router',
-        //     meta: { title: '路由（router）' },
-        //     component: () => import('@/views/Study/Vue/Router.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/routerTest',
-        //     name: 'routerTest',
-        //     meta: { title: '路由测试（router）' },
-        //     component: () => import('@/views/Study/Vue/RouterTest.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/transition',
-        //     name: 'transition',
-        //     meta: { title: '过渡（transition）' },
-        //     component: () => import('@/views/Study/Vue/Transition.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/mixins',
-        //     name: 'mixins',
-        //     meta: { title: '混入（mixins）' },
-        //     component: () => import('@/views/Study/Vue/Mixins.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/forceUpdate',
-        //     name: 'forceUpdate',
-        //     meta: { title: '强制更新（forceUpdate）' },
-        //     component: () => import('@/views/Study/Vue/$forceUpdate.vue')
-        //   },
-        //   {
-        //     path: '/study/vue/key',
-        //     name: 'key',
-        //     meta: { title: '循环（key）' },
-        //     component: () => import('@/views/Study/Vue/Key.vue')
-        //   }
         // ]
       },
+      // {
+      //   path: '/study/vue/routerTest',
+      //   name: 'routerTest',
+      //   meta: { title: '路由测试（router）' },
+      //   isShow: false,
+      //   component: () => import('@/views/Study/Vue/components/RouterTest.vue')
+      // },
       {
         path: '/study/library',
         name: 'library',
@@ -279,8 +232,14 @@ export const routes = [
       }
     ]
   },
-  { path: '/case/d3/okr-flexible-management', component: () => import('@/views/Case/D3/okr-flexible-management/Index.vue') },
-  { path: '/case/d3/force-geography', component: () => import('@/views/Case/D3/force-geography/Index.vue') },
+  {
+    path: '/case/d3/okr-flexible-management',
+    component: () => import('@/views/Case/D3/okr-flexible-management/Index.vue')
+  },
+  {
+    path: '/case/d3/force-geography',
+    component: () => import('@/views/Case/D3/force-geography/Index.vue')
+  },
   {
     path: '/application',
     name: 'application',
@@ -297,9 +256,17 @@ export const routes = [
       }
     ]
   },
-  { path: '/404', name: '404', isShow: false, component: () => import('@/views/404.vue') },
+  {
+    path: '/404',
+    name: '404',
+    isShow: false,
+    component: () => import('@/views/404.vue')
+  },
   // 一定要放在最后一个，因为路由匹配是按顺序匹配的，只有当匹配了所有的都找不到才说明是不存在的页面
-  { path: '/*', redirect: '/404' }
+  {
+    path: '/*',
+    redirect: '/404'
+  }
 ]
 
 const router = new VueRouter({
