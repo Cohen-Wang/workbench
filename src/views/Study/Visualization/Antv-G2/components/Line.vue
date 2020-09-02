@@ -47,7 +47,9 @@ export default {
     // +---------------------------------------------------------------------------------------------
     show() {
       this.visible = true
-      this.get()
+      if (!this.chart) {
+        this.get()
+      }
     },
     goBack() {
       this.visible = false
@@ -99,9 +101,8 @@ export default {
         shared: true
       })
 
-      this.chart.line().position('year*value').label('value')
-      this.chart.point().position('year*value')
-
+      this.chart.line().position('year*value').color('city').label('value')
+      this.chart.point().position('year*value').color('city')
       this.chart.render()
     },
     changeChart() {
