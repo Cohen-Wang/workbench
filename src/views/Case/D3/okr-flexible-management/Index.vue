@@ -125,13 +125,13 @@
 <script>
 import config from './dist/config'
 import { realData as data } from './dist/data'
-import dataManage from './dist/dataManage'
+import { optimizeTarget, optimizeSource, getRelativeData } from './dist/dataManage'
 import flexibleManagement from './dist/flexibleManagement'
 // 背景图片
 import DiscoveryBgLight from '@/assets/image/discovery_bg_light.png'
 import DiscoveryBgBlue from '@/assets/image/discovery_bg_blue.png'
 import DiscoveryBgDark from '@/assets/image/discovery_bg_dark.png'
-import { intersection, intersectionBy, uniq } from 'lodash'
+// import { intersection, intersectionBy, uniq } from 'lodash'
 
 const THEME_CONFIG = [
   { label: '朴素白', value: 'light' },
@@ -164,7 +164,7 @@ const DEFAULT_GRAPH_TYPE = '关系探索'
 
 // 处理数据
 const nodes = data.nodes
-const edges = dataManage.optimizeTarget(dataManage.optimizeSource(data.edges, nodes), nodes)
+const edges = optimizeTarget(optimizeSource(data.edges, nodes), nodes)
 
 export default {
   name: 'Index',
@@ -264,47 +264,15 @@ export default {
       handler: function(newValue) {
         if (!this.dialog.form.relatedObject.second) return
         // 求出节点
-        const node_1_id = this.dialog.form.relatedObject.first
-        const node_2_id = this.dialog.form.relatedObject.second
-        const object1 = this.original.nodes.find(node => node.id === node_1_id)
-        const object2 = this.original.nodes.find(node => node.id === node_2_id)
-        const nodes = [object1, object2]
-        // 求出连线
-        const object1RelatedEdges = this.original.edges.filter(e => e.source === object1.id || e.target === object1.id)
-        let object1RelatedNodesIds = []
-        object1RelatedEdges.forEach(e => {
-          if (object1.id !== e.source) return object1RelatedNodesIds.push(e.source)
-          if (object1.id !== e.target) return object1RelatedNodesIds.push(e.target)
-        })
-        object1RelatedNodesIds = uniq(object1RelatedNodesIds)
-        // ...
-        const object2RelatedEdges = this.original.edges.filter(e => e.source === object2.id || e.target === object2.id)
-        let object2RelatedNodesIds = []
-        object2RelatedEdges.forEach(e => {
-          if (object2.id !== e.source) return object2RelatedNodesIds.push(e.source)
-          if (object2.id !== e.target) return object2RelatedNodesIds.push(e.target)
-        })
-        object2RelatedNodesIds = uniq(object2RelatedNodesIds)
-        // ...
-        const intersectionNodeIds = intersection(object1RelatedNodesIds, object2RelatedNodesIds)
-        console.log(intersectionNodeIds)
-        // ...
-        let intersectionNodes = []
-        let intersectionEdges = intersectionBy(object1RelatedEdges, object2RelatedEdges, 'id')
-        if (intersectionNodeIds.length) {
-          intersectionNodes = this.original.nodes.filter(e => intersectionNodeIds.includes(e.id))
-          const edges1 = object1RelatedEdges.filter(e => {
-            const a = intersectionNodeIds.includes(e.source) && object1.id === e.target
-            const b = intersectionNodeIds.includes(e.target) && object1.id === e.source
-            return a || b
-          })
-          const edges2 = object2RelatedEdges.filter(e => (intersectionNodeIds.includes(e.source) && object2.id === e.target) || (intersectionNodeIds.includes(e.target) && object2.id === e.source))
-          intersectionEdges = [...intersectionEdges, ...edges1, ...edges2]
-        }
-        console.log(intersectionNodes, intersectionEdges)
+        const node_1 = this.original.nodes.find(node => node.id === this.dialog.form.relatedObject.first)
+        const node_2 = this.original.nodes.find(node => node.id === this.dialog.form.relatedObject.second)
+        // 获取结果
+        const relativeData = getRelativeData(this.original.edges, this.original.nodes, node_1, node_2)
+        const nodes = relativeData.nodes
+        const edges = relativeData.edges
         // 画图
         flexibleManagement.setNodes(nodes)
-        flexibleManagement.setEdges([]) // 没有线
+        flexibleManagement.setEdges(edges)
         flexibleManagement.clear() // 清空
         flexibleManagement.render() // 渲染
       }
@@ -313,13 +281,16 @@ export default {
     'dialog.form.relatedObject.second': {
       handler: function(newValue) {
         if (!this.dialog.form.relatedObject.first) return
-        const node_1_id = this.dialog.form.relatedObject.first
-        const node_2_id = this.dialog.form.relatedObject.second
-        // ...
-        const nodes = [...this.original.nodes.filter(node => node.id === node_1_id),
-          ...this.original.nodes.filter(node => node.id === node_2_id)]
+        // 求出节点
+        const node_1 = this.original.nodes.find(node => node.id === this.dialog.form.relatedObject.first)
+        const node_2 = this.original.nodes.find(node => node.id === this.dialog.form.relatedObject.second)
+        // 获取结果
+        const relativeData = getRelativeData(this.original.edges, this.original.nodes, node_1, node_2)
+        const nodes = relativeData.nodes
+        const edges = relativeData.edges
+        // 画图
         flexibleManagement.setNodes(nodes)
-        flexibleManagement.setEdges([]) // 没有线
+        flexibleManagement.setEdges(edges) // 没有线
         flexibleManagement.clear() // 清空
         flexibleManagement.render() // 渲染
       }
