@@ -225,6 +225,10 @@ export const routes = [
     component: () => import('@/views/Case/D3/force-geography/Index.vue')
   },
   {
+    path: '/case/d3/potency',
+    component: () => import('@/views/Case/D3/potency/Index.vue')
+  },
+  {
     path: '/application',
     name: 'application',
     component: Index,

@@ -29,7 +29,8 @@ export default {
       url: 'http://localhost:8080',
       layoutCfg: [
         { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' },
-        { name: '力导图-地理', path: '/workbench/case/d3/force-geography' }
+        { name: '力导图-地理', path: '/workbench/case/d3/force-geography' },
+        { name: '评先选优', path: '/workbench/case/d3/potency' }
       ]
     }
   },

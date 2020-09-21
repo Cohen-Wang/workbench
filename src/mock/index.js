@@ -8,3 +8,6 @@ import './views/study/ant-design/transfer'
 import './views/study/ant-design/tree'
 // lodash
 import './views/study/library/lodash/flatten'
+
+// case
+import './views/case/d3/potency'
