@@ -16,27 +16,35 @@ const random = (min, max) => {
 
 const formatData = (data, start, end) => {
   // const length = data.length
-  let x, y
-  return data.map((item, index) => {
-    // const r = Math.PI * 2 / 6 * index
-    // console.log('r', r)
-    x = Math.cos(random(0, 360) * Math.PI / 180) * random(start, end)
-    y = Math.sin(random(0, 360) * Math.PI / 180) * random(start, end)
-    return Object.assign({}, item, { x, y })
-  })
-  // if (length < 6) {
-  //   const r = Math.PI * 2 / length
-  //   x = Math.cos(r) * (end - start) + random(5, 10)
-  //   y = Math.cos(r) * (end - start) + random(5, 10)
-  // } else {
-  //   const r = Math.PI * 2 / 6
-  //   x = Math.cos(r) * (end - start) + random(5, 10)
-  //   y = Math.cos(r) * (end - start) + random(5, 10)
-  // }
-  // return {
-  //   x,
-  //   y
-  // }
+  // let x, y
+  // return data.map((item, index) => {
+  //   // const r = Math.PI * 2 / 6 * index
+  //   // console.log('r', r)
+  //   x = Math.cos(random(0, 360) * Math.PI / 180) * random(start, end)
+  //   y = Math.sin(random(0, 360) * Math.PI / 180) * random(start, end)
+  //   return Object.assign({}, item, { x, y })
+  // })
+  const result = []
+  let index = 0
+  while (result.length < data.length) {
+    const x = Math.cos(random(0, 360) * Math.PI / 180) * random(start, end)
+    const y = Math.sin(random(0, 360) * Math.PI / 180) * random(start, end)
+    // 判断（如果生成的时候，就重合，那么需要重来）
+    let flag = true
+    for (let i = 0; i < result.length; i++) {
+      // 两个圆的距离
+      const distance = Math.sqrt(Math.pow(x - result[i].x, 2) + Math.pow(y - result[i].y, 2))
+      if (distance < 80) { // 这里最好是小于，不要用小于等于，以免和碰撞判断发生矛盾
+        flag = false
+      }
+    }
+
+    if (!result.length || flag) {
+      result.push(Object.assign({}, data[index], { x, y }))
+      index++
+    }
+  }
+  return result
 }
 
 export default {
@@ -48,7 +56,6 @@ export default {
     }
   },
   mounted() {
-    alert('mounted')
     // 获取数据
     this.getData()
   },
@@ -97,9 +104,9 @@ export default {
       console.log('potency', potency)
 
       // 处理数据
-      this.firstLevelData = formatData(this.firstLevelData, 30, 70)
-      this.secondLevelData = formatData(this.secondLevelData, 170, 300).slice(0, 10)
-      this.thirdLevelData = formatData(this.thirdLevelData, 430, 570).slice(0, 15)
+      this.firstLevelData = formatData(this.firstLevelData.slice(0, 3), 30, 70)
+      this.secondLevelData = formatData(this.secondLevelData.slice(0, 10), 170, 300)
+      this.thirdLevelData = formatData(this.thirdLevelData.slice(0, 15), 430, 570)
       // 初始化
       potency.init({
         id: 'potencyChart',
