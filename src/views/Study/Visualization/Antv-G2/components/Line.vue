@@ -73,6 +73,7 @@ export default {
     },
     async refresh() {
       this.graphData = await this.getData()
+      console.log('this.graphData', this.graphData)
     },
     // +---------------------------------------------------------------------------------------------
     // | 雷达图
