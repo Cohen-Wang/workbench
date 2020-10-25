@@ -12,6 +12,7 @@
     <throttle ref="Throttle" class="component"/>
     <flatten ref="Flatten" class="component"/>
     <day-js ref="DayJs" class="component"/>
+    <vue-pdf ref="VuePDF" class="component"/>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import Debounce from './components/Lodash.Debounce'
 import Throttle from './components/Lodash.Throttle'
 import Flatten from './components/Lodash.Flatten'
 import DayJs from './components/DayJs'
+import VuePDF from './components/VuePDF'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -60,7 +62,9 @@ const DEFAULT_CONFIG = {
     { title: 'Throttle', description: 'Throttle', ref: 'Throttle' }
   ],
   U: [],
-  V: [],
+  V: [
+    { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' }
+  ],
   W: [],
   X: [],
   Y: [],
@@ -78,7 +82,8 @@ export default {
     Debounce,
     Throttle,
     Flatten,
-    DayJs
+    DayJs,
+    'vue-pdf': VuePDF
   },
   data() {
     return {
