@@ -15,15 +15,6 @@ const random = (min, max) => {
 }
 
 const formatData = (data, start, end) => {
-  // const length = data.length
-  // let x, y
-  // return data.map((item, index) => {
-  //   // const r = Math.PI * 2 / 6 * index
-  //   // console.log('r', r)
-  //   x = Math.cos(random(0, 360) * Math.PI / 180) * random(start, end)
-  //   y = Math.sin(random(0, 360) * Math.PI / 180) * random(start, end)
-  //   return Object.assign({}, item, { x, y })
-  // })
   const result = []
   let index = 0
   while (result.length < data.length) {

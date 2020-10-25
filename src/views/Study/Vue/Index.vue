@@ -13,6 +13,7 @@
     <router ref="Router" class="component"/>
     <my-slot ref="MySlot" class="component"/>
     <keep-alive-study ref="KeepAliveStudy" class="component"/>
+    <native ref="Native" class="component"/>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import Watch from './components/Watch'
 import Router from './components/Router'
 import MySlot from './components/MySlot'
 import KeepAliveStudy from './components/KeepAliveStudy'
+import Native from './components/Native'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -54,7 +56,9 @@ const DEFAULT_CONFIG = {
     { title: 'Mixins', description: '混合', ref: 'Mixins' },
     { title: 'MySlot', description: '插槽', ref: 'MySlot' }
   ],
-  N: [],
+  N: [
+    { title: 'Native', description: '修饰符Native', ref: 'Native' }
+  ],
   O: [],
   P: [],
   Q: [],
@@ -87,7 +91,8 @@ export default {
     Watch,
     Router,
     MySlot,
-    KeepAliveStudy
+    KeepAliveStudy,
+    Native
   },
   data() {
     return {
