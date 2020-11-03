@@ -11,6 +11,7 @@
     <worker ref="Worker" class="component"/>
     <open ref="Open" class="component"/>
     <geolocation ref="Geolocation" class="component"/>
+    <h5-video ref="H5Video" class="component"/>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import String from './components/String'
 import Worker from './components/Worker'
 import Open from './components/Open'
 import Geolocation from './components/Geolocation'
+import Video from './components/Video'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -59,7 +61,9 @@ const DEFAULT_CONFIG = {
   ],
   T: [],
   U: [],
-  V: [],
+  V: [
+    { title: 'video标签学习', description: 'H5的原生视频学习', ref: 'H5Video' }
+  ],
   W: [
     { title: 'Worker', description: 'Worker', ref: 'Worker' }
   ],
@@ -78,7 +82,8 @@ export default {
     String,
     Worker,
     Open,
-    Geolocation
+    Geolocation,
+    'h5-video': Video
   },
   data() {
     return {

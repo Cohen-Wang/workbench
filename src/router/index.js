@@ -124,23 +124,14 @@ export const routes = [
           {
             path: '/study/visualization/antv-g2',
             name: 'antv-g2',
-            component: () => import('@/views/Study/Visualization/Antv-G2/Index.vue'),
-            meta: { title: 'Antv-G2', icon: 'dot-chart' }
+            meta: { title: 'Antv-G2', icon: 'dot-chart' },
+            component: () => import('@/views/Study/Visualization/Antv-G2/Index.vue')
           },
           {
             path: '/study/visualization/echarts',
             name: 'echarts',
-            component: () => import('@/views/Study/Visualization/Antv-G6/Index.vue'),
-            meta: { title: 'ECharts', icon: 'dot-chart' },
-            redirect: '/study/visualization/echarts/category',
-            children: [
-              {
-                path: '/study/visualization/echarts/category',
-                name: 'category',
-                meta: { title: '图布局' },
-                component: () => import('@/views/Study/Visualization/ECharts/Category.vue')
-              }
-            ]
+            meta: { title: 'echarts', icon: 'dot-chart' },
+            component: () => import('@/views/Study/Visualization/ECharts/Index.vue')
           },
           {
             path: '/study/visualization/d3',
