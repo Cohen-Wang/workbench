@@ -13,6 +13,7 @@
     <flatten ref="Flatten" class="component"/>
     <day-js ref="DayJs" class="component"/>
     <vue-pdf ref="VuePDF" class="component"/>
+    <vue-video-player ref="VueVideoPlayer" class="component"/>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import Throttle from './components/Lodash.Throttle'
 import Flatten from './components/Lodash.Flatten'
 import DayJs from './components/DayJs'
 import VuePDF from './components/VuePDF'
+import VueVideoPlayer from './components/VueVideoPlayer'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -63,7 +65,8 @@ const DEFAULT_CONFIG = {
   ],
   U: [],
   V: [
-    { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' }
+    { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' },
+    { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' }
   ],
   W: [],
   X: [],
@@ -83,7 +86,8 @@ export default {
     Throttle,
     Flatten,
     DayJs,
-    'vue-pdf': VuePDF
+    'vue-pdf': VuePDF,
+    VueVideoPlayer
   },
   data() {
     return {

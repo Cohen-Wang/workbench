@@ -9,6 +9,11 @@ import store from './store'
 import axios from 'axios'
 import VueWorker from 'vue-worker'
 import './mock/index'
+// vue 播放器
+import VideoPlayer from 'vue-video-player'
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+Vue.use(VideoPlayer)
 
 Vue.config.productionTip = false
 
