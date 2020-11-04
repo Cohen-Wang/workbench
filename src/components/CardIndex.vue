@@ -8,17 +8,19 @@
              class="box">
           <blockquote>{{ cfgKey }}</blockquote>
           <template v-if="cfgItem.length > 0">
-            <a-row :gutter="[0, 16]">
+            <a-row :gutter="[16, 16]">
               <a-col v-for="(item, index) in cfgItem" :key="index" :xs="24" :sm="12" :md="8" :lg="8" :xl="6" :xxl="4">
-                <a-card>
-                  <img slot="cover"
-                       alt="example"
-                       :src="item.src || 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'"/>
-                  <template slot="actions" class="ant-card-actions">
-                    <a-button type="link" @click="showDetail(item.ref)">进入详情</a-button>
-                  </template>
-                  <a-card-meta :title="item.title || '暂无标题' " :description="item.description || '暂无描述'"/>
-                </a-card>
+                <div>
+                  <a-card>
+                    <img slot="cover"
+                         alt="example"
+                         :src="item.src || 'https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png'"/>
+                    <template slot="actions" class="ant-card-actions">
+                      <a-button type="link" @click="showDetail(item.ref)">进入详情</a-button>
+                    </template>
+                    <a-card-meta :title="item.title || '暂无标题' " :description="item.description || '暂无描述'"/>
+                  </a-card>
+                </div>
               </a-col>
             </a-row>
           </template>
@@ -81,6 +83,7 @@ export default {
 <style lang="less" scoped>
   .card-box {
     height: calc(100vh - 179px);
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 </style>

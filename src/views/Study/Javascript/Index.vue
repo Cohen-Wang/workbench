@@ -4,14 +4,14 @@
       <card-index :title="'Javascript'" :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
     <!-- 详情组件 -->
-    <console ref="Console" class="component"/>
-    <my-cursor ref="MyCursor" class="component"/>
-    <fetch ref="Fetch" class="component"/>
-    <string ref="String" class="component"/>
-    <worker ref="Worker" class="component"/>
-    <open ref="Open" class="component"/>
-    <geolocation ref="Geolocation" class="component"/>
-    <h5-video ref="H5Video" class="component"/>
+    <console v-if="activeComponent === 'Console'" ref="Console" class="component"/>
+    <my-cursor v-if="activeComponent === 'MyCursor'" ref="MyCursor" class="component"/>
+    <fetch v-if="activeComponent === 'Fetch'" ref="Fetch" class="component"/>
+    <string v-if="activeComponent === 'String'" ref="String" class="component"/>
+    <worker v-if="activeComponent === 'Worker'" ref="Worker" class="component"/>
+    <open v-if="activeComponent === 'Open'" ref="Open" class="component"/>
+    <geolocation v-if="activeComponent === 'Geolocation'" ref="Geolocation" class="component"/>
+    <h5-video v-if="activeComponent === 'H5Video'" ref="H5Video" class="component"/>
   </div>
 </template>
 
@@ -87,13 +87,17 @@ export default {
   },
   data() {
     return {
-      DEFAULT_CONFIG
+      DEFAULT_CONFIG,
+      activeComponent: ''
     }
   },
   methods: {
     // ...
     showDetail(ref) {
-      this.$refs[ref].show()
+      this.activeComponent = ref
+      setTimeout(() => {
+        this.$refs[ref].show()
+      }, 0)
     }
   }
 }

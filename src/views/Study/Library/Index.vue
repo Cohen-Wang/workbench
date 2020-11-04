@@ -4,16 +4,16 @@
       <card-index :title="'常用工具库'" :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
     <!-- 详情组件 -->
-    <mock ref="Mock" class="component"/>
-    <moment ref="Moment" class="component"/>
-    <monaco ref="Monaco" class="component"/>
-    <tinyMCE ref="TinyMCE" class="component"/>
-    <debounce ref="Debounce" class="component"/>
-    <throttle ref="Throttle" class="component"/>
-    <flatten ref="Flatten" class="component"/>
-    <day-js ref="DayJs" class="component"/>
-    <vue-pdf ref="VuePDF" class="component"/>
-    <vue-video-player ref="VueVideoPlayer" class="component"/>
+    <mock v-if="activeComponent === 'Mock'" ref="Mock" class="component"/>
+    <moment v-if="activeComponent === 'Moment'" ref="Moment" class="component"/>
+    <monaco v-if="activeComponent === 'Monaco'" ref="Monaco" class="component"/>
+    <tinyMCE v-if="activeComponent === 'TinyMCE'" ref="TinyMCE" class="component"/>
+    <debounce v-if="activeComponent === 'Debounce'" ref="Debounce" class="component"/>
+    <throttle v-if="activeComponent === 'Throttle'" ref="Throttle" class="component"/>
+    <flatten v-if="activeComponent === 'Flatten'" ref="Flatten" class="component"/>
+    <day-js v-if="activeComponent === 'DayJs'" ref="DayJs" class="component"/>
+    <vue-pdf v-if="activeComponent === 'VuePDF'" ref="VuePDF" class="component"/>
+    <vue-video-player v-if="activeComponent === 'VueVideoPlayer'" ref="VueVideoPlayer" class="component"/>
   </div>
 </template>
 
@@ -91,13 +91,17 @@ export default {
   },
   data() {
     return {
-      DEFAULT_CONFIG
+      DEFAULT_CONFIG,
+      activeComponent: ''
     }
   },
   methods: {
     // ...
     showDetail(ref) {
-      this.$refs[ref].show()
+      this.activeComponent = ref
+      setTimeout(() => {
+        this.$refs[ref].show()
+      }, 0)
     }
   }
 }
