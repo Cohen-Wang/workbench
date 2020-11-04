@@ -14,6 +14,7 @@
     <day-js v-if="activeComponent === 'DayJs'" ref="DayJs" class="component"/>
     <vue-pdf v-if="activeComponent === 'VuePDF'" ref="VuePDF" class="component"/>
     <vue-video-player v-if="activeComponent === 'VueVideoPlayer'" ref="VueVideoPlayer" class="component"/>
+    <xlsx v-if="activeComponent === 'XLSX'" ref="XLSX" class="component"/>
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import Flatten from './components/Lodash.Flatten'
 import DayJs from './components/DayJs'
 import VuePDF from './components/VuePDF'
 import VueVideoPlayer from './components/VueVideoPlayer'
+import XLSX from './components/XLSX'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -69,7 +71,9 @@ const DEFAULT_CONFIG = {
     { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' }
   ],
   W: [],
-  X: [],
+  X: [
+    { title: 'XLSX', description: 'excel解析插件', ref: 'XLSX' }
+  ],
   Y: [],
   Z: []
 }
@@ -87,7 +91,8 @@ export default {
     Flatten,
     DayJs,
     'vue-pdf': VuePDF,
-    VueVideoPlayer
+    VueVideoPlayer,
+    'xlsx': XLSX
   },
   data() {
     return {
