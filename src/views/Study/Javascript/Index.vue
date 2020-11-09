@@ -12,6 +12,7 @@
     <open v-if="activeComponent === 'Open'" ref="Open" class="component"/>
     <geolocation v-if="activeComponent === 'Geolocation'" ref="Geolocation" class="component"/>
     <h5-video v-if="activeComponent === 'H5Video'" ref="H5Video" class="component"/>
+    <traversal v-if="activeComponent === 'Traversal'" ref="Traversal" class="component"/>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import Worker from './components/Worker'
 import Open from './components/Open'
 import Geolocation from './components/Geolocation'
 import Video from './components/Video'
+import Traversal from './components/Traversal'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -59,7 +61,9 @@ const DEFAULT_CONFIG = {
   S: [
     { title: 'String', description: 'String', ref: 'String' }
   ],
-  T: [],
+  T: [
+    { title: 'Traversal', description: '遍历 - for', ref: 'Traversal' }
+  ],
   U: [],
   V: [
     { title: 'video标签学习', description: 'H5的原生视频学习', ref: 'H5Video' }
@@ -83,7 +87,8 @@ export default {
     Worker,
     Open,
     Geolocation,
-    'h5-video': Video
+    'h5-video': Video,
+    Traversal
   },
   data() {
     return {
