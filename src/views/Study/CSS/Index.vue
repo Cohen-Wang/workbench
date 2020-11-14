@@ -12,6 +12,7 @@
     <hover ref="Hover" class="component"/>
     <deep ref="Deep" class="component"/>
     <less-loop ref="LessLoop" class="component"/>
+    <my-picture ref="Picture" class="component"/>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import FontAwesome from './components/Font-Awesome'
 import Hover from './components/Hover'
 import Deep from './components/Deep'
 import LessLoop from './components/LessLoop'
+import Picture from './components/Picture'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -53,7 +55,9 @@ const DEFAULT_CONFIG = {
   M: [],
   N: [],
   O: [],
-  P: [],
+  P: [
+    { title: 'Picture', description: 'Picture', ref: 'Picture' }
+  ],
   Q: [],
   R: [],
   S: [
@@ -81,7 +85,8 @@ export default {
     FontAwesome,
     Hover,
     Deep,
-    LessLoop
+    LessLoop,
+    'my-picture': Picture
   },
   data() {
     return {

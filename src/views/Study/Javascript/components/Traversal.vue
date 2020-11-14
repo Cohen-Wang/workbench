@@ -10,6 +10,7 @@
         <a-divider orientation="left">123</a-divider>
         <a-button type="primary" @click="onlyBreak">查看</a-button>
         <a-button type="primary" @click="breakWithLabel">查看</a-button>
+        <a-button type="primary" @click="testData">查看</a-button>
       </div>
     </my-component>
   </div>
@@ -79,6 +80,42 @@ export default {
         }
       }
       console.log(num) // 55
+    },
+    // return
+    // 检查【题目类型】
+    isInArray(ruleArray, checkArray) {
+      let result = true
+      checkArray.forEach((e, i) => {
+        if (!ruleArray.includes(e)) {
+          result = i
+        }
+      })
+      return result
+    },
+    checkSubjectType(data) {
+      const arr = ['单选题', '多选题', '判断题', '简答题']
+      let result = true
+      try {
+        data.forEach((e, i) => {
+          if (!arr.includes(e)) {
+            console.log('e - w', e)
+            console.log('i - w', i)
+            result = i
+            throw new Error('exist')
+          }
+          console.log('e - r', e)
+          console.log('i - r', i)
+        })
+      } catch (e) {
+        console.dir(e)
+      }
+      return result
+    },
+    testData() {
+      // const data = ['单选题', '多选题', 'aaa', '判断题', '简答题', 'bbb']
+      const data = ['单选题', '多选题', 'aaa', '判断题', '简答题']
+      const result = this.checkSubjectType(data)
+      console.log('result', result)
     }
   }
 }
