@@ -69,6 +69,10 @@ export default {
     console.log('this.$route:', this.$route)
     console.log('this.$router:', this.$router)
   },
+  beforeRouteEnter(to, from, next) {
+    console.log('beforeRouteEnter时，this.age还没有初始化', this.age)
+    console.log('beforeRouteEnter时，to, from, next', to, from, next)
+  },
   methods: {
     // +---------------------------------------------------------------------------------------------
     // | 页面
