@@ -54,45 +54,45 @@ export const routes = [
       {
         path: '/study/css',
         name: 'css',
-        meta: { title: 'CSS', icon: 'trophy' },
+        meta: { title: 'CSS', icon: 'trophy', keepAlive: true },
         component: () => import('@/views/Study/CSS/Index.vue')
       },
       {
         path: '/study/javascript',
         name: 'javascript',
-        meta: { title: 'Javascript', icon: 'cloud-server' },
+        meta: { title: 'Javascript', icon: 'cloud-server', keepAlive: true },
         component: () => import('@/views/Study/Javascript/Index.vue')
       },
       {
         path: '/study/es6',
         name: 'es6',
-        meta: { title: 'ES6', icon: 'deployment-unit' },
+        meta: { title: 'ES6', icon: 'deployment-unit', keepAlive: true },
         component: () => import('@/views/Study/ES6/Index.vue')
       },
       {
         path: '/study/vue',
         name: 'vue',
-        component: () => import('@/views/Study/Vue/Index.vue'),
-        meta: { title: 'VUE', icon: 'fork' }
+        meta: { title: 'VUE', icon: 'fork', keepAlive: true },
+        component: () => import('@/views/Study/Vue/Index.vue')
       },
       {
         path: '/study/library',
         name: 'library',
-        component: () => import('@/views/Study/Library/Index.vue'),
-        meta: { title: '常用工具库', icon: 'rocket' }
+        meta: { title: '常用工具库', icon: 'rocket', keepAlive: true },
+        component: () => import('@/views/Study/Library/Index.vue')
       },
       {
         path: '/study/visualization',
         name: 'visualization',
-        component: () => import('@/views/Study/Visualization/Index.vue'),
         meta: { title: '数据可视化', icon: 'area-chart' },
+        component: () => import('@/views/Study/Visualization/Index.vue'),
         redirect: '/study/visualization/antv-g6',
         children: [
           {
             path: '/study/visualization/svg',
             name: 'svg',
-            component: () => import('@/views/Study/Visualization/SVG/SVG.vue'),
-            meta: { title: 'SVG', icon: 'dot-chart' }
+            meta: { title: 'SVG', icon: 'dot-chart' },
+            component: () => import('@/views/Study/Visualization/SVG/SVG.vue')
           },
           {
             path: '/study/visualization/antv-g6',
