@@ -47,10 +47,12 @@
                 <div class="pic-box banner" style="background-size: cover;"/>
               </a-col>
               <a-col :span="6">
-                <div class="pic-box banner" style="background-size: contain;"/>
+                <div class="pic-box banner" style="background-size: cover;background-position: center;"/>
               </a-col>
+            </a-row>
+            <a-row :gutter="20">
               <a-col :span="6">
-                <div class="pic-box"/>
+                <div class="pic-box banner" style="background-size: contain;"/>
               </a-col>
             </a-row>
           </div>
