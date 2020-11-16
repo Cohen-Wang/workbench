@@ -6,7 +6,9 @@
       </div>
       <div slot="component-body">
         <!-- ... -->
-        <h1>filter</h1>
+        <a-divider orientation="left">filters</a-divider>
+        <span>值：</span><a-input v-model="attachSize"/>
+        <p>{{ attachSize | filterSize }}</p>
       </div>
     </my-component>
   </div>
@@ -17,14 +19,35 @@ import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
 
 export default {
-  name: 'Filter',
+  name: 'Filters',
   components: {
     GoBack,
     MyComponent
   },
   data() {
     return {
-      visible: false
+      visible: false,
+      attachSize: 0
+    }
+  },
+  filters: {
+    filterSize(attachSize) {
+      attachSize = parseInt(attachSize)
+      // kb
+      attachSize = (attachSize / 1024).toFixed(2)
+      // 少于100kb，单位用kb
+      if (attachSize < 100) {
+        return attachSize + 'kb'
+      } else {
+        // mb
+        attachSize = (attachSize / 1024).toFixed(2)
+      }
+      attachSize = attachSize + ''
+      if (attachSize.length > 5) {
+        attachSize = attachSize.substring(0, 4)
+      }
+      attachSize = attachSize + 'M'
+      return attachSize
     }
   },
   methods: {

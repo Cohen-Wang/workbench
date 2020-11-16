@@ -4,16 +4,17 @@
       <card-index :title="'Vue'" :data="DEFAULT_CONFIG" @showDetail="showDetail"/>
     </div>
     <!-- 详情组件 -->
-    <force-update ref="ForceUpdate" class="component"/>
-    <key ref="Key" class="component"/>
-    <lifecycle ref="Lifecycle" class="component"/>
-    <mixins ref="Mixins" class="component"/>
-    <transition-study ref="TransitionStudy" class="component"/>
-    <watch ref="Watch" class="component"/>
-    <router ref="Router" class="component"/>
-    <my-slot ref="MySlot" class="component"/>
-    <keep-alive-study ref="KeepAliveStudy" class="component"/>
-    <native ref="Native" class="component"/>
+    <force-update v-if="activeComponent === 'ForceUpdate'" ref="ForceUpdate" class="component"/>
+    <key v-if="activeComponent === 'Key'" ref="Key" class="component"/>
+    <lifecycle v-if="activeComponent === 'Lifecycle'" ref="Lifecycle" class="component"/>
+    <mixins v-if="activeComponent === 'Mixins'" ref="Mixins" class="component"/>
+    <transition-study v-if="activeComponent === 'TransitionStudy'" ref="TransitionStudy" class="component"/>
+    <watch v-if="activeComponent === 'Watch'" ref="Watch" class="component"/>
+    <router v-if="activeComponent === 'Router'" ref="Router" class="component"/>
+    <my-slot v-if="activeComponent === 'MySlot'" ref="MySlot" class="component"/>
+    <keep-alive-study v-if="activeComponent === 'KeepAliveStudy'" ref="KeepAliveStudy" class="component"/>
+    <native v-if="activeComponent === 'Native'" ref="Native" class="component"/>
+    <filters v-if="activeComponent === 'Filters'" ref="Filters" class="component"/>
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import Router from './components/Router'
 import MySlot from './components/MySlot'
 import KeepAliveStudy from './components/KeepAliveStudy'
 import Native from './components/Native'
+import Filters from './components/Filters'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -39,7 +41,8 @@ const DEFAULT_CONFIG = {
   ],
   E: [],
   F: [
-    { title: 'ForceUpdate', description: '强制刷新', ref: 'ForceUpdate' }
+    { title: 'ForceUpdate', description: '强制刷新', ref: 'ForceUpdate' },
+    { title: 'Filters', description: '过滤器', ref: 'Filters' }
   ],
   G: [],
   H: [],
@@ -92,18 +95,22 @@ export default {
     Router,
     MySlot,
     KeepAliveStudy,
-    Native
+    Native,
+    Filters
   },
   data() {
     return {
-      DEFAULT_CONFIG
+      DEFAULT_CONFIG,
+      activeComponent: ''
     }
   },
   methods: {
     // ...
     showDetail(ref) {
-      console.log(ref)
-      this.$refs[ref].show()
+      this.activeComponent = ref
+      setTimeout(() => {
+        this.$refs[ref].show()
+      }, 0)
     }
   }
 }
