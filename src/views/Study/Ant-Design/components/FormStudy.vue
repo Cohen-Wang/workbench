@@ -5,94 +5,181 @@
         <go-back @goBack="goBack"/>
       </div>
       <div slot="component-body">
-        <!-- 主题 -->
-        <div class="content">
-          <div class="left">
-            <a-form-model :model="form" :label-col="labelCol" :wrapper-col="wrapperCol">
-              <!-- 用户名 -->
-              <a-form-model-item label="用户名" required>
-                <a-input v-model="form.name" placeholder="请输入用户名"/>
-              </a-form-model-item>
-              <!-- 性别 -->
-              <a-form-model-item label="性别" required>
-                <a-radio-group v-model="form.gender">
-                  <a-radio v-for="(item, index) in GENDER_CONFIG"
-                           :key="index"
-                           :label="item.label"
-                           :value="item.value">
-                    {{ item.label }}
-                  </a-radio>
-                </a-radio-group>
-              </a-form-model-item>
-              <!-- 生日 -->
-              <a-form-model-item label="生日" required>
-                <a-date-picker v-model="form.birthday"
-                               show-time
-                               type="date"
-                               placeholder="请选择日期"
-                               style="width: 100%;"/>
-              </a-form-model-item>
-              <!-- 地址 -->
-              <a-form-model-item label="地址">
-                <a-select v-model="form.region"
-                          placeholder="请输入地址">
-                  <a-select-option value="shanghai">Zone one</a-select-option>
-                  <a-select-option value="beijing">Zone two</a-select-option>
-                </a-select>
-              </a-form-model-item>
-              <!-- 树形下拉框 -->
-              <a-form-model-item label="家族">
-                <a-tree-select v-model="form.address"
-                               style="width: 100%"
-                               show-search
-                               :dropdown-style="{ maxHeight: '400px', overflow: 'auto' }"
-                               :tree-data="TREE_DATA_CONFIG"
-                               placeholder="请选择所在家族"
-                               tree-default-expand-all><!--@search="onSearchFamily"-->
-                </a-tree-select>
-              </a-form-model-item>
-              <!-- 接收推送 -->
-              <a-form-model-item label="接收推送">
-                <a-switch v-model="form.allowMessage"/>
-              </a-form-model-item>
-              <!-- 语言 -->
-              <a-form-model-item label="语言" required>
-                <a-checkbox-group v-model="form.language">
-                  <a-checkbox v-for="(item, index) in LANGUAGE_CONFIG"
-                              :key="index"
-                              :value="item.value">
-                    {{ item.label }}
-                  </a-checkbox>
-                </a-checkbox-group>
-              </a-form-model-item>
-              <!-- 自我描述 -->
-              <a-form-model-item label="自我描述">
-                <a-input v-model="form.introduce"
-                         type="textarea"
-                         placeholder="请填写自我描述"
-                         rows="5"
-                         style="resize: none"/>
-              </a-form-model-item>
-              <!-- 按钮 -->
-              <a-form-model-item :wrapper-col="{ span: 14, offset: 4 }">
-                <a-button type="primary" @click="onSubmit">
-                  确定
-                </a-button>
-                <a-button style="margin-left: 10px;">
-                  取消
-                </a-button>
-              </a-form-model-item>
-            </a-form-model>
-          </div>
-          <div class="right">
-            <a-affix :target="() => this.$refs.container">
-              <pre class="well" v-text="form"></pre>
-            </a-affix>
-          </div>
+        <div style="height: calc(100vh - 260px); overflow-x: hidden; overflow-y: auto; padding-right: 15px;">
+          <a-form-model ref="ruleForm"
+                        :model="form"
+                        :rules="rules"
+                        layout="vertical">
+            <div>
+              <a-divider orientation="left">输入框</a-divider>
+              <a-row :gutter="20">
+                <!-- 用户名 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="用户名" prop="name">
+                    <a-input v-model="form.name" placeholder="请输入用户名"/>
+                  </a-form-model-item>
+                </a-col>
+                <!-- 电话号码 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="电话号码" prop="phone">
+                    <a-input v-model="form.phone" placeholder="请输入电话号码"/>
+                  </a-form-model-item>
+                </a-col>
+                <!-- 邮箱 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="邮箱" prop="email">
+                    <a-input v-model="form.email" placeholder="请输入邮箱"/>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">单选框</a-divider>
+              <a-row :gutter="20">
+                <!-- 性别 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="性别" prop="gender">
+                    <a-radio-group v-model="form.gender">
+                      <a-radio v-for="(item, index) in GENDER_CONFIG"
+                               :key="index"
+                               :label="item.label"
+                               :value="item.value">
+                        {{ item.label }}
+                      </a-radio>
+                    </a-radio-group>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">单选框</a-divider>
+              <a-row :gutter="20">
+                <!-- 地址 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="地址" prop="address">
+                    <a-select v-model="form.region"
+                              placeholder="请输入地址">
+                      <a-select-option value="shanghai">Zone one</a-select-option>
+                      <a-select-option value="beijing">Zone two</a-select-option>
+                    </a-select>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">日期</a-divider>
+              <a-row :gutter="20">
+                <!-- 生日 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="生日" prop="birthday">
+                    <a-date-picker v-model="form.birthday"
+                                   show-time
+                                   type="date"
+                                   placeholder="请选择日期"
+                                   style="width: 100%;"/>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">树形下拉框</a-divider>
+              <a-row :gutter="20">
+                <!-- 家族 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="家族">
+                    <a-tree-select v-model="form.address"
+                                   style="width: 100%"
+                                   show-search
+                                   :dropdown-style="{ maxHeight: '400px', overflow: 'auto' }"
+                                   :tree-data="TREE_DATA_CONFIG"
+                                   placeholder="请选择所在家族"
+                                   tree-default-expand-all><!--@search="onSearchFamily"-->
+                    </a-tree-select>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">开关</a-divider>
+              <a-row :gutter="20">
+                <!-- 接收推送 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="接收推送">
+                    <a-switch v-model="form.allowMessage"/>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">复选框</a-divider>
+              <a-row :gutter="20">
+                <!-- 语言 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="选择课程">
+                    <a-checkbox-group v-model="form.language">
+                      <a-row :gutter="6">
+                        <a-col :span="12" v-for="(item, index) in LANGUAGE_CONFIG" :key="index">
+                          <a-checkbox :value="item.value">
+                            {{ item.label }}
+                          </a-checkbox>
+                        </a-col>
+                      </a-row>
+                    </a-checkbox-group>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+
+            <div>
+              <a-divider orientation="left">多行文本</a-divider>
+              <a-row :gutter="20">
+                <!-- 自我描述 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                  <a-form-model-item label="自我描述">
+                    <a-input v-model="form.introduce"
+                             type="textarea"
+                             placeholder="请填写自我描述"
+                             rows="5"
+                             style="resize: none"/>
+                  </a-form-model-item>
+                </a-col>
+              </a-row>
+            </div>
+          </a-form-model>
         </div>
-        <a-divider>Text</a-divider>
+        <!-- 按钮 -->
+        <div style="height: 83px; padding-top: 20px; box-shadow: 0 -3px 5px #E8E8E8;display: flex; justify-content: center">
+          <a-button-group size="large" block>
+            <a-button type="primary"
+                      @click="handleSubmit">
+              检查提交
+            </a-button>
+            <a-button type="primary"
+                      @click="showDrawer">
+              查看数据
+            </a-button>
+          </a-button-group>
+        </div>
       </div>
     </my-component>
+
+    <!-- 抽屉 -->
+    <a-drawer title="查看数据"
+              placement="right"
+              :closable="false"
+              width="400"
+              :visible="drawer.visible"
+              @close="hideDrawer"><!--:after-visible-change="afterVisibleChange"-->
+      <div>
+        <pre style="background-color: #e8e8e8; padding: 6px; border-radius: 4px;" v-text="form"/>
+      </div>
+    </a-drawer>
   </div>
 </template>
 
@@ -159,6 +246,75 @@ const TREE_DATA_CONFIG = [
   }
 ]
 
+// 验证
+// const checkRegisterUsername = (rule, value, callback) => {
+//   if (!value) {
+//     return callback(new Error('请输入用户名'))
+//   }
+//   // 检查用户名是否存在
+//   // checkExist(value).then(response => {
+//   //   if (isNotEmpty(response.data) && response.data.data) {
+//   //     callback(new Error('用户名已存在！'))
+//   //   } else {
+//   //     callback()
+//   //   }
+//   // })
+// }
+// 校验手机号
+// const validPhone = (rule, value, callback) => {
+//   if (!value) {
+//     callback(new Error('请输入电话号码'))
+//   } else if (!value) {
+//     callback(new Error('请输入正确的11位手机号码'))
+//   } else {
+//     callback()
+//   }
+// }
+const FORM = {
+  name: '',
+  gender: DEFAULT_GENDER,
+  birthday: undefined,
+  region: undefined,
+  allowMessage: true,
+  language: DEFAULT_LANGUAGE,
+  introduce: ''
+}
+const RULES = {
+  name: [
+    { required: true, message: '请输入名称', trigger: 'blur' },
+    { min: 2, max: 10, message: '字符长度范围应在2~10个', trigger: 'blur' }
+  ],
+  phone: [
+    { required: true, message: '请输入手机号码', trigger: 'blur' }
+  ],
+  email: [
+    { required: true, message: '请输入邮箱', trigger: 'blur' }
+  ],
+  gender: [
+    { required: true, message: '请选择性别', trigger: ['blur', 'change'] }
+  ],
+  address: [
+    { required: true, message: '请选择地址', trigger: ['blur', 'change'] }
+  ],
+  birthday: [
+    { required: true, message: '请选择生日', trigger: ['blur', 'change'] }
+  ],
+  region: [{ required: true, message: 'Please select Activity zone', trigger: 'change' }],
+  date1: [{ required: true, message: 'Please pick a date', trigger: 'change' }],
+  type: [
+    {
+      type: 'array',
+      required: true,
+      message: 'Please select at least one activity type',
+      trigger: 'change'
+    }
+  ],
+  resource: [
+    { required: true, message: 'Please select activity resource', trigger: 'change' }
+  ],
+  desc: [{ required: true, message: 'Please input activity form', trigger: 'blur' }]
+}
+
 export default {
   name: 'FormStudy',
   components: {
@@ -171,19 +327,15 @@ export default {
       // ...
       labelCol: { span: 4 },
       wrapperCol: { span: 20 },
-      form: {
-        name: '',
-        gender: DEFAULT_GENDER,
-        birthday: undefined,
-        region: undefined,
-        allowMessage: true,
-        language: DEFAULT_LANGUAGE,
-        introduce: ''
-      },
+      form: Object.assign({}, FORM),
+      rules: Object.assign({}, RULES),
       // 配置
       GENDER_CONFIG,
       LANGUAGE_CONFIG,
-      TREE_DATA_CONFIG
+      TREE_DATA_CONFIG,
+      drawer: {
+        visible: false
+      }
     }
   },
   methods: {
@@ -205,23 +357,26 @@ export default {
     },
     onSubmit() {
       console.log('submit!', this.form)
+    },
+    // +---------------------------------------------------------------------------------------------
+    // | 抽屉
+    // +---------------------------------------------------------------------------------------------
+    showDrawer() {
+      this.drawer.visible = true
+    },
+    hideDrawer() {
+      this.drawer.visible = false
+    },
+    // 提交
+    handleSubmit() {
+      this.$refs['ruleForm'].validate(valid => {
+        if (!valid) return
+        this.$message.success('成功')
+      })
     }
   }
 }
 </script>
 
 <style lang="less" scoped>
-  .content {
-    display: flex;
-
-    .left {
-      width: 30%;
-      margin-right: 10px;
-    }
-
-    .right {
-      width: 50%;
-      height: 100%;
-    }
-  }
 </style>
