@@ -14,45 +14,67 @@
           <div>
             <a-divider>img标签</a-divider>
             <a-row :gutter="20">
-              <a-col :span="6">
+              <a-col :span="4">
                 <div class="pic-box">
-                  <img :src="require('@/assets/image/banner1.jpg')" alt="">
+                  <img :src="require('@/assets/image/picture_200.jpg')" alt="">
                 </div>
               </a-col>
-              <a-col :span="6">
+              <a-col :span="4">
                 <div class="pic-box">
-                  <img :src="require('@/assets/image/banner1.jpg')" width="100%" alt="">
+                  <img :src="require('@/assets/image/picture_200.jpg')" width="100%" alt="">
                 </div>
               </a-col>
-              <a-col :span="6">
+              <a-col :span="4">
                 <div class="pic-box">
-                  <img :src="require('@/assets/image/banner1.jpg')" height="100%" alt="">
+                  <img :src="require('@/assets/image/picture_200.jpg')" height="100%" alt="">
                 </div>
               </a-col>
-              <a-col :span="6">
+              <a-col :span="4">
                 <div class="pic-box">
-                  <img :src="require('@/assets/image/banner1.jpg')" width="100%" height="100%" alt="">
+                  <img :src="require('@/assets/image/picture_200.jpg')" width="100%" height="100%" alt="">
                 </div>
               </a-col>
             </a-row>
           </div>
 
           <div>
-            <a-divider>background</a-divider>
+            <a-divider>background：图片高度比容器小</a-divider>
             <a-row :gutter="20">
-              <a-col :span="6">
-                <div class="pic-box banner"/>
+              <a-col :span="4">
+                <div class="pic-box picture-200"/>
               </a-col>
-              <a-col :span="6">
-                <div class="pic-box banner" style="background-size: cover;"/>
+              <a-col :span="4">
+                <div class="pic-box picture-200" style="background-size: cover;"/>
               </a-col>
-              <a-col :span="6">
-                <div class="pic-box banner" style="background-size: cover;background-position: center;"/>
+              <a-col :span="4">
+                <div class="pic-box picture-200" style="background-size: cover;background-position: center;"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-200" style="background-size: contain;"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-200" style="background-size: contain;background-position: center;"/>
               </a-col>
             </a-row>
+          </div>
+
+          <div>
+            <a-divider>background：图片高度比容器大</a-divider>
             <a-row :gutter="20">
-              <a-col :span="6">
-                <div class="pic-box banner" style="background-size: contain;"/>
+              <a-col :span="4">
+                <div class="pic-box picture-400"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-400" style="background-size: cover;"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-400" style="background-size: cover;background-position: center;"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-400" style="background-size: contain;"/>
+              </a-col>
+              <a-col :span="4">
+                <div class="pic-box picture-400" style="background-size: contain;background-position: center;"/>
               </a-col>
             </a-row>
           </div>
@@ -102,8 +124,13 @@ export default {
     overflow: hidden;
   }
 
-  .banner {
-    background: url('~@/assets/image/banner2.jpg');
+  .picture-200 {
+    background: url('~@/assets/image/picture_200.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .picture-400 {
+    background: url('~@/assets/image/picture_400.jpg');
     background-repeat: no-repeat;
   }
 </style>
