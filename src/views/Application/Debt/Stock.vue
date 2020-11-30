@@ -16,7 +16,11 @@
                 <a-button type="primary"><a-icon type="upload"/>Excel</a-button>
               </a-upload>
               <!-- 下载模板 -->
-              <a-button type="link">模板下载</a-button>
+              <a-button type="link">
+                <a :href="downloadTemplateHref" target="_self">
+                  下载模板
+                </a>
+              </a-button>
             </div>
           </a-col>
           <a-col :span="8">
@@ -187,6 +191,7 @@ export default {
     return {
       columns,
       chart: null,
+      downloadTemplateHref: 'workbench/static/stock_module.xlsx',
       data
     }
   },
