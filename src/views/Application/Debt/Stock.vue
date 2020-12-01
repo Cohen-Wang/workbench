@@ -59,8 +59,8 @@
 import XLSX from 'xlsx'
 import { Chart } from '@antv/g2'
 
-const EXCEL_HEADER = ['*名称', '*日期', '*值']
-const EXCEL_DATA_MAP = ['name', 'date', 'value']
+const EXCEL_HEADER = ['*债务人', '*债权人', '*日期', '*金额']
+const EXCEL_DATA_MAP = ['debtor', 'creditor', 'date', 'money']
 
 const columns = [
   {
@@ -70,13 +70,18 @@ const columns = [
     customRender: (text, record, index) => `${index + 1}`
   },
   {
-    title: '名称',
-    dataIndex: 'name',
-    key: 'name',
+    title: '债务人',
+    dataIndex: 'debtor',
+    key: 'debtor',
     align: 'center',
-    ellipsis: true,
-    slots: { title: 'customTitle' },
-    scopedSlots: { customRender: 'name' }
+    ellipsis: true
+  },
+  {
+    title: '债权人',
+    dataIndex: 'creditor',
+    key: 'creditor',
+    align: 'center',
+    ellipsis: true
   },
   {
     title: '时间',
@@ -86,102 +91,11 @@ const columns = [
     ellipsis: true
   },
   {
-    title: '值',
-    dataIndex: 'value',
+    title: '金额',
+    dataIndex: 'money',
     key: 'value',
     align: 'center',
     ellipsis: true
-  }
-  // {
-  //   title: '操作',
-  //   key: 'action',
-  //   scopedSlots: { customRender: 'action' }
-  // }
-]
-const data = [
-  {
-    key: '1',
-    name: '张三',
-    date: '2020-01-01',
-    value: 1,
-    tags: ['nice', 'developer']
-  },
-  {
-    key: '2',
-    name: '李四',
-    date: '2020-02-02',
-    value: 5,
-    tags: ['loser']
-  },
-  {
-    key: '3',
-    name: '王五',
-    date: '2020-03-03',
-    value: 7,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '4',
-    name: '王五',
-    date: '2020-04-04',
-    value: 9,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '5',
-    name: '王五',
-    date: '2020-05-05',
-    value: 2,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '6',
-    name: '王五',
-    date: '2020-06-06',
-    value: 6,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '7',
-    name: '王五',
-    date: '2020-07-07',
-    value: 3,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '8',
-    name: '王五',
-    date: '2020-08-08',
-    value: 8,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '9',
-    name: '王五',
-    date: '2020-09-09',
-    value: 10,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '10',
-    name: '王五',
-    date: '2020-10-10',
-    value: 6,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '11',
-    name: '王五',
-    date: '2020-11-11',
-    value: 6,
-    tags: ['cool', 'teacher']
-  },
-  {
-    key: '12',
-    name: '王五',
-    date: '2020-12-12',
-    value: 5,
-    tags: ['cool', 'teacher']
   }
 ]
 
@@ -191,8 +105,8 @@ export default {
     return {
       columns,
       chart: null,
-      downloadTemplateHref: 'workbench/static/stock_module.xlsx',
-      data
+      downloadTemplateHref: '/assets/stock_module.xlsx',
+      data: []
     }
   },
   mounted() {
@@ -239,7 +153,6 @@ export default {
             }
             // 去掉第一行
             sheetDataInArray.shift()
-            console.log('sheetDataInArray', sheetDataInArray)
             // 处理成中间格式
             batchArray = this.parseSheetData(sheetDataInArray)
             if (!batchArray) {
@@ -255,9 +168,9 @@ export default {
             //   return false
             // }
             // 处理成后端格式
-            batchArray = this.formatData(batchArray)
-            console.log('batchArray', batchArray)
+            batchArray = this.formatData(JSON.parse(JSON.stringify(batchArray)))
             this.data = batchArray
+            console.log('data', this.data)
           })
         } catch (e) {
           this.$message.warning(e)
@@ -341,76 +254,15 @@ export default {
     },
     // 处理成后端格式
     formatData(arr) {
-      let result = JSON.parse(JSON.stringify(arr))
-      result = this.formatSubjectId(result) // 增加【id】，固定为空字符串
-      result = this.formatSubjectChoiceType(result) // 增加【choicesType】，固定值0，不知道作用
-      result = this.formatSubjectLevel(result) // 转换【难度】
-      result = this.formatSubjectCategory(result) // 转换【专业范围】
-      result = this.formatSubjectAnswer(result) // 处理answer
-      result = this.formatSubjectOptions(result) // 处理options
+      const result = arr
       return result
-    },
-    // 处理【类型】
-    formatSubjectLevel(arr) {
-      return arr.map(e => Object.assign(e, {
-        level: +e.level
-      }))
-    },
-    // 处理【专业范围】
-    formatSubjectCategory(arr) {
-      // return arr.map(e => Object.assign(e, {
-      //   categoryId: this.subjectCategoryEnum[e.categoryId]
-      // }))
-      return arr.map(e => Object.assign(e, {
-        categoryId: e.categoryId.split('/').map(e2 => this.subjectCategoryEnum[e2]).join(',')
-      }))
-    },
-    // 处理【answer】
-    formatSubjectAnswer(arr) {
-      return arr.map(e => Object.assign(e, {
-        answer: {
-          subjectId: '',
-          // answer: e.answer.split('/').join(','),
-          answer: e.answer.split('').join(','),
-          answerType: '',
-          score: ''
-        }
-      }))
-    },
-    // 处理【options】
-    formatSubjectOptions(arr) {
-      arr.forEach((e, i) => {
-        e.options = []
-        const arr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-        arr.forEach(e2 => {
-          if (e[e2]) {
-            e.options.push({
-              subjectChoicesId: '',
-              optionName: e2,
-              optionContent: e[e2]
-            })
-          }
-        })
-      })
-      return arr
-    },
-    // 添加【choicesType】字段
-    formatSubjectChoiceType(arr) {
-      return arr.map(e => Object.assign(e, {
-        choicesType: 0
-      }))
-    },
-    // 添加【id】字段
-    formatSubjectId(arr) {
-      return arr.map(e => Object.assign(e, {
-        id: ''
-      }))
     },
     // +---------------------------------------------------------------------------------------------
     // | 图形
     // +---------------------------------------------------------------------------------------------
     // 图形
     initChart() {
+      if (this.chart) this.chart.destory()
       const chart = new Chart({
         container: this.$refs['graph'],
         width: this.$refs['graph'].clientWidth,
