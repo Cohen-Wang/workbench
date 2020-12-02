@@ -15,6 +15,7 @@
     <vue-pdf v-if="activeComponent === 'VuePDF'" ref="VuePDF" class="component"/>
     <vue-video-player v-if="activeComponent === 'VueVideoPlayer'" ref="VueVideoPlayer" class="component"/>
     <xlsx v-if="activeComponent === 'XLSX'" ref="XLSX" class="component"/>
+    <vue2-count-down v-if="activeComponent === 'Vue2CountDown'" ref="Vue2CountDown" class="component"/>
   </div>
 </template>
 
@@ -31,6 +32,7 @@ import DayJs from './components/DayJs'
 import VuePDF from './components/VuePDF'
 import VueVideoPlayer from './components/VueVideoPlayer'
 import XLSX from './components/XLSX'
+import Vue2CountDown from './components/Vue2CountDown'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -68,7 +70,8 @@ const DEFAULT_CONFIG = {
   U: [],
   V: [
     { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' },
-    { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' }
+    { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' },
+    { title: 'vue倒计时', description: 'vue倒计时', ref: 'Vue2CountDown' }
   ],
   W: [],
   X: [
@@ -92,7 +95,8 @@ export default {
     DayJs,
     'vue-pdf': VuePDF,
     VueVideoPlayer,
-    'xlsx': XLSX
+    'xlsx': XLSX,
+    'vue2-count-down': Vue2CountDown
   },
   data() {
     return {
