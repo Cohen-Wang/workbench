@@ -13,6 +13,7 @@
     <geolocation v-if="activeComponent === 'Geolocation'" ref="Geolocation" class="component"/>
     <h5-video v-if="activeComponent === 'H5Video'" ref="H5Video" class="component"/>
     <traversal v-if="activeComponent === 'Traversal'" ref="Traversal" class="component"/>
+    <interval-and-callback v-if="activeComponent === 'IntervalAndCallback'" ref="IntervalAndCallback" class="component"/>
   </div>
 </template>
 
@@ -27,6 +28,7 @@ import Open from './components/Open'
 import Geolocation from './components/Geolocation'
 import Video from './components/Video'
 import Traversal from './components/Traversal'
+import IntervalAndCallback from './components/IntervalAndCallback'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -46,7 +48,9 @@ const DEFAULT_CONFIG = {
     { title: 'Geolocation', description: 'Geolocation', ref: 'Geolocation' }
   ],
   H: [],
-  I: [],
+  I: [
+    { title: 'IntervalAndCallback', description: '定时器关闭自身，递归调用', ref: 'IntervalAndCallback' }
+  ],
   J: [],
   K: [],
   L: [],
@@ -88,7 +92,8 @@ export default {
     Open,
     Geolocation,
     'h5-video': Video,
-    Traversal
+    Traversal,
+    IntervalAndCallback
   },
   data() {
     return {
