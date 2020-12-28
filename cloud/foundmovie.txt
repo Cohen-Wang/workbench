@@ -1,0 +1,151 @@
+d:\360Cloud\web\webinn\case\20180917-videoPanel\res\video\view.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501e94\modifying-panels.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501e94\panel-layouts.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea0\new-comp-from-footage.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea0\opening-comp.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea1\adding-more-media.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea1\move-summer-layer-up.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea1\shift-logo-layer.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea1\trim-logo-layer.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea2\drag-logo-up.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea2\expand-properties.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea2\logo-title-fade-in.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea2\move-logo-to-bottom.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea2\play-back.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\add-blur-from-nav.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\add-mirror-effect.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\adjust-mirror-effect.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\change-blur-radius.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\move-cti-and-change-blur.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\play-result.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea3\set-first-keyframe.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea4\add-to-renderqueue.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\panel-payloads\content\d42b9250-8ee4-34e4-bf7d-edaf2b501ea4\set-render-settings.mp4
+d:\adobeTemp\ETRD211.tmp\1\support\learn_panel_content\project-payloads\playlist_the-basics\footage\Summer_Forest.mp4
+d:\CocosCreator\resources\static\default-assets\misc\default_video.mp4
+d:\CocosCreator\resources\templates\example-cases\assets\res\cocosvideo.mp4
+d:\Meitu\3\00116uPmlx07xPIQlAOQ010412004JhU0E010.mp4
+d:\Meitu\3\0abd69241857871b7c12f6ced1fcec85.mp4
+d:\Meitu\3\2ecb08a1075328f461a2a04ccb00f023.mp4
+d:\Meitu\3\333b7e86da35b62feaf5f8d19066ec43.mp4
+d:\Meitu\3\4fe95d3a5229c79098bf827fa6a16da4.mp4
+d:\Meitu\3\65793dada95dde2f2588c584163309c1.mp4
+d:\Meitu\3\7cb0381dca348e83cf0c85a670518dee.mp4
+d:\Meitu\3\84d3e200a531c40691dc32c7479b51d3.mp4
+d:\Meitu\3\8679dfb69deaed0c46999b5cbb260d97.mp4
+d:\Meitu\3\8d56ef1ea4f4d6e4c2cb427c1079b81e.mp4
+d:\Meitu\3\97b402fe5a0d2ed6cf75ee8cb21521e0.mp4
+d:\Meitu\3\b3bc6b2a9b820148fa704cca4b481eca.mp4
+d:\Meitu\3\d55326aeb2ea163fe74c21beab87a05e.mp4
+d:\Meitu\3\edd77b299eea8091d47df41f522792e6.mp4
+d:\Meitu\3\f4267449a7649fbccfcddfbe7122269f.mp4
+d:\Meitu\pic\tou小米\米儿\000bq2eQlx07xdPixUtO0104120245Uo0E010.mp4
+d:\Meitu\pic\tou小米\米儿\000Fy9Q0lx07x2JjDP3y01041201orlg0E010.mp4
+d:\Meitu\pic\tou小米\米儿\000qyTrblx07x2G8mun601041201RrtI0E010.mp4
+d:\Meitu\pic\tou小米\米儿\003oJrnSlx07xe7l8DuE01041202mq8F0E010.mp4
+d:\Meitu\pic\tou小米\米儿\白色.mp4
+d:\Meitu\pic\tou小米\米儿\红色.mp4
+d:\Meitu\pic\tou小米\米儿\蓝色.mp4
+d:\Meitu\pic\tou小米\米儿\黑色.mp4
+d:\Meitu\pic\wannab\15046697_210659862705010_6893921542330122240_n.mp4
+d:\Meitu\pic\wannab\28122842_2205167419726262_326902253094961152_n.mp4
+d:\Meitu\pic\wannab\28254514_155948178448818_6894329005877493760_n.mp4
+d:\Meitu\pic\wannab\28272450_155426728419226_397224757654716416_n.mp4
+d:\Meitu\pic\wannab\39232560_2140255239561926_1672841668737262333_n.mp4
+d:\Meitu\pic\wannab\42030478_234038487465326_7949987565862387712_n.mp4
+d:\Meitu\pic\wannab\51821962_1215609371925024_4215410474314891264_n.mp4
+d:\Meitu\pic\wannab\62642856_579751665766648_5159698612464123904_n.mp4
+d:\Meitu\pic\wannab\67247451_737519820038934_1129454914310280286_n.mp4
+d:\Meitu\pic\wannab\67358416_476847579553966_1471201219804813805_n.mp4
+d:\Meitu\pic\wannab\67488194_152698075840860_6679758519717735426_n.mp4
+d:\Meitu\pic\wannab\67516500_128332271727775_8802055320883982395_n.mp4
+d:\Meitu\pic\wannab\72028356_428010107831272_7775578061510834732_n.mp4
+d:\Meitu\pic\朱朱\a (1).mp4
+d:\Meitu\pic\朱朱\a (10).mp4
+d:\Meitu\pic\朱朱\a (11).mp4
+d:\Meitu\pic\朱朱\a (12).mp4
+d:\Meitu\pic\朱朱\a (13).mp4
+d:\Meitu\pic\朱朱\a (14).mp4
+d:\Meitu\pic\朱朱\a (15).mp4
+d:\Meitu\pic\朱朱\a (16).mp4
+d:\Meitu\pic\朱朱\a (17).mp4
+d:\Meitu\pic\朱朱\a (18).mp4
+d:\Meitu\pic\朱朱\a (19).mp4
+d:\Meitu\pic\朱朱\a (2).mp4
+d:\Meitu\pic\朱朱\a (20).mp4
+d:\Meitu\pic\朱朱\a (21).mp4
+d:\Meitu\pic\朱朱\a (22).mp4
+d:\Meitu\pic\朱朱\a (23).mp4
+d:\Meitu\pic\朱朱\a (24).mp4
+d:\Meitu\pic\朱朱\a (25).mp4
+d:\Meitu\pic\朱朱\a (26).mp4
+d:\Meitu\pic\朱朱\a (27).mp4
+d:\Meitu\pic\朱朱\a (28).mp4
+d:\Meitu\pic\朱朱\a (29).mp4
+d:\Meitu\pic\朱朱\a (3).mp4
+d:\Meitu\pic\朱朱\a (30).mp4
+d:\Meitu\pic\朱朱\a (31).mp4
+d:\Meitu\pic\朱朱\a (32).mp4
+d:\Meitu\pic\朱朱\a (33).mp4
+d:\Meitu\pic\朱朱\a (34).mp4
+d:\Meitu\pic\朱朱\a (35).mp4
+d:\Meitu\pic\朱朱\a (36).mp4
+d:\Meitu\pic\朱朱\a (37).mp4
+d:\Meitu\pic\朱朱\a (38).mp4
+d:\Meitu\pic\朱朱\a (4).mp4
+d:\Meitu\pic\朱朱\a (5).mp4
+d:\Meitu\pic\朱朱\a (6).mp4
+d:\Meitu\pic\朱朱\a (7).mp4
+d:\Meitu\pic\朱朱\a (8).mp4
+d:\Meitu\pic\朱朱\a (9).mp4
+d:\Meitu\pic\朱朱\c939da06e23a5050bc6b111073dcf8b2.mp4
+d:\Meitu\pic\视频\000OUgSOlx07dwLHpwVW010f01001Y3H0k01.mp4
+d:\Meitu\pic\视频\001SkT6jlx07qEEdn5p6010412008HTw0E010.mp4
+d:\Meitu\pic\视频\002aNurhgx07s7RuRngz010412006dIx0E010.mp4
+d:\Meitu\pic\视频\003zxALulx07dc8yXAli010f01001T990k01.mp4
+d:\Meitu\pic\视频\0ce6bae2a8ee687dc1e10f753c44b328.mp4
+d:\Meitu\pic\视频\20190331 (1).mp4
+d:\Meitu\pic\视频\49566994_1185269744955827_5422388801673619354_n.mp4
+d:\Meitu\pic\视频\49783284_1969857299984430_1008816677702698282_n.mp4
+d:\Meitu\pic\视频\50706323_2333617760258785_6660623027994466388_n.mp4
+d:\Meitu\pic\视频\54707734_166056371050722_624892574142565673_n.mp4
+d:\Meitu\pic\视频\55674393_491984471333683_5638609827657859536_n.mp4
+d:\Meitu\pic\视频\6dd2b2b54df19a47a25c985dcb96d643.mp4
+d:\Meitu\pic\视频\temp_uuid_15b6f8ebb8b6614285953a55c048dfe8.mp4
+d:\Meitu\pic\视频\temp_uuid_2cd088a06ff0a3f048a1d0f904ae2ef3.mp4
+d:\Meitu\pic\视频\temp_uuid_3997e68c21f99f9dc72a53a36e362786.mp4
+d:\Meitu\pic\视频\temp_uuid_501bd15457edf70c7753fa08d4f53c75.mp4
+d:\Meitu\pic\视频\temp_uuid_543159cc1e02b5352c5f5e8ed3d65629.mp4
+d:\Meitu\pic\视频\temp_uuid_7f52cfec13bdac7b420a737bbd765798.mp4
+d:\Meitu\pic\视频\temp_uuid_8b585233565dd4a3e413f6384d6b4c5e.mp4
+d:\Meitu\pic\视频\temp_uuid_8fb2c3e744f045460d228c43e69b4616.mp4
+d:\Meitu\pic\视频\temp_uuid_bc9ebf23634ca4b565dfdd69681691e9.mp4
+d:\Meitu\pic\视频\temp_uuid_bd77b17226b93075428018469463153f.mp4
+d:\Meitu\pic\视频\temp_uuid_bfe56d04febf6fbd075aca820636d0f9.mp4
+d:\Meitu\pic\视频\temp_uuid_c07bcec136195394a449c04ab764d430.mp4
+d:\Meitu\pic\视频\temp_uuid_c62856a794b7e322bed54cc74796eeec.mp4
+d:\Meitu\pic\视频\temp_uuid_e45e89477869424470c1c04a3f15f8b5.mp4
+d:\Meitu\pic\视频\temp_uuid_f745261c7a25fd1cb5e4e1c8320b1f0e.mp4
+d:\Meitu\pic\视频\动词大茗音.mp4
+d:\Meitu\pic\视频\跳舞很好.mp4
+d:\Meitu\新建文件夹\1\1063414b916d89c0ff385f14fd085be8.mp4
+d:\Meitu\新建文件夹\1\19741ad578de640a83009181cd6e5880.mp4
+d:\Meitu\新建文件夹\1\214734f14b9a592482085a59a8a0ca3f.mp4
+d:\Meitu\新建文件夹\1\230cc7ad8d678c0c3f249f42da5a2785.mp4
+d:\Meitu\新建文件夹\1\29d5a3b1c5553456f8ee5c82c3e212ca.mp4
+d:\Meitu\新建文件夹\1\317b35e08a49896cff70872ca2f2cc61.mp4
+d:\Meitu\新建文件夹\1\35153048442127bea6e2245f9a0d6973.mp4
+d:\Meitu\新建文件夹\1\530921c7559c2204d794e096e3a2f32f.mp4
+d:\Meitu\新建文件夹\1\5b5119b79d3eb8708639506ecee57b3b.mp4
+d:\Meitu\新建文件夹\1\6ec4121ad1c7eb52d1e78802f843dc2a.mp4
+d:\Meitu\新建文件夹\1\6ecfb62fae80c6708dfbe2b4b2442a8d.mp4
+d:\Meitu\新建文件夹\1\8dcedc49e373e4d019e19fe3ffc8f774.mp4
+d:\Meitu\新建文件夹\1\b1edbdbed207d1b0f21244bfe338bb2c.mp4
+d:\Meitu\新建文件夹\1\b4d81d12721c207fc10622866c41da7f.mp4
+d:\Meitu\新建文件夹\1\c6673243ee808d57172c429ac0528a26.mp4
+d:\Meitu\新建文件夹\1\ceb687238c105fcf985d7b826afc83c9.mp4
+d:\Meitu\新建文件夹\1\d2820c21c805e9ad3a806b52a3052405.mp4
+d:\Meitu\新建文件夹\1\ec5d32b52e40bf291da4cbd04f344ff5.mp4
+d:\Meitu\新建文件夹\1\f3a3bec16ef6d4f736ed8228cf0e0d43.mp4
+d:\Meitu\新建文件夹\1\f70252990ce80d66eda637e236a3d5a0.mp4
+d:\Meitu\新建文件夹\2\000boQUglx07u5nvx3tS010412009JM90E010.mp4

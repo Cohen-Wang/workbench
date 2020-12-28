@@ -1,0 +1,1 @@
+@dir>foundmovie.txt /s /a /b d:\*.mp4
