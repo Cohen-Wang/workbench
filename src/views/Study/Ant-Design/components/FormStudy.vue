@@ -14,19 +14,19 @@
               <a-divider orientation="left">输入框</a-divider>
               <a-row :gutter="20">
                 <!-- 用户名 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="用户名" prop="name">
                     <a-input v-model="form.name" placeholder="请输入用户名"/>
                   </a-form-model-item>
                 </a-col>
                 <!-- 电话号码 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="电话号码" prop="phone">
                     <a-input v-model="form.phone" placeholder="请输入电话号码"/>
                   </a-form-model-item>
                 </a-col>
                 <!-- 邮箱 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="邮箱" prop="email">
                     <a-input v-model="form.email" placeholder="请输入邮箱"/>
                   </a-form-model-item>
@@ -38,7 +38,7 @@
               <a-divider orientation="left">单选框</a-divider>
               <a-row :gutter="20">
                 <!-- 性别 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="性别" prop="gender">
                     <a-radio-group v-model="form.gender">
                       <a-radio v-for="(item, index) in GENDER_CONFIG"
@@ -57,7 +57,7 @@
               <a-divider orientation="left">单选框</a-divider>
               <a-row :gutter="20">
                 <!-- 地址 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="地址" prop="address">
                     <a-select v-model="form.region"
                               placeholder="请输入地址">
@@ -73,7 +73,7 @@
               <a-divider orientation="left">日期</a-divider>
               <a-row :gutter="20">
                 <!-- 生日 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="生日" prop="birthday">
                     <a-date-picker v-model="form.birthday"
                                    show-time
@@ -89,7 +89,7 @@
               <a-divider orientation="left">树形下拉框</a-divider>
               <a-row :gutter="20">
                 <!-- 家族 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="家族">
                     <a-tree-select v-model="form.address"
                                    style="width: 100%"
@@ -108,7 +108,7 @@
               <a-divider orientation="left">开关</a-divider>
               <a-row :gutter="20">
                 <!-- 接收推送 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="接收推送">
                     <a-switch v-model="form.allowMessage"/>
                   </a-form-model-item>
@@ -120,7 +120,7 @@
               <a-divider orientation="left">复选框</a-divider>
               <a-row :gutter="20">
                 <!-- 语言 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="选择课程">
                     <a-checkbox-group v-model="form.language">
                       <a-row :gutter="6">
@@ -140,7 +140,7 @@
               <a-divider orientation="left">多行文本</a-divider>
               <a-row :gutter="20">
                 <!-- 自我描述 -->
-                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" :xxl="8">
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="自我描述">
                     <a-input v-model="form.introduce"
                              type="textarea"
@@ -184,6 +184,9 @@
 </template>
 
 <script>
+// 工具
+import { isPhoneLegal, isEmailLegal } from '@/utils'
+// 组件
 import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
 
@@ -260,16 +263,7 @@ const TREE_DATA_CONFIG = [
 //   //   }
 //   // })
 // }
-// 校验手机号
-// const validPhone = (rule, value, callback) => {
-//   if (!value) {
-//     callback(new Error('请输入电话号码'))
-//   } else if (!value) {
-//     callback(new Error('请输入正确的11位手机号码'))
-//   } else {
-//     callback()
-//   }
-// }
+
 const FORM = {
   name: '',
   gender: DEFAULT_GENDER,
@@ -285,10 +279,12 @@ const RULES = {
     { min: 2, max: 10, message: '字符长度范围应在2~10个', trigger: 'blur' }
   ],
   phone: [
-    { required: true, message: '请输入手机号码', trigger: 'blur' }
+    { required: true, message: '请输入手机号码', trigger: 'blur' },
+    { validator: isPhoneLegal, trigger: 'blur' }
   ],
   email: [
-    { required: true, message: '请输入邮箱', trigger: 'blur' }
+    { required: true, message: '请输入邮箱', trigger: 'blur' },
+    { validator: isEmailLegal, trigger: 'blur' }
   ],
   gender: [
     { required: true, message: '请选择性别', trigger: ['blur', 'change'] }
