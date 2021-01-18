@@ -4,7 +4,7 @@
 
 module.exports = {
   // +-----------------------------------------------------------------------------------------
-  // | ？？？？？？？
+  // | 上下文：如果我们不设置context的值，context默认的值就是项目的根目录
   // +-----------------------------------------------------------------------------------------	
   context: path.resolve(__dirname, '../'),
   // +-----------------------------------------------------------------------------------------
@@ -129,16 +129,21 @@ module.exports = {
   // | 代理服务： 
   // +-----------------------------------------------------------------------------------------
   devServer: {
+	host: HOST || config.dev.host, // 用于配置devServer服务监听的地址，默认：127.0.0.1
+    port: PORT || config.dev.port, // 用于配置devServer服务监听的端口，默认：8080
+	hot: true, // 热模块替换。取决于HotModuleReplacementPlugin
     proxy: {
       '/api': 'http://localhost:3000' // 代理url
     },
 	publicPath: '/dist',
-    contentBase: path.join(__dirname, 'public'), // boolean | string | array, static file location
+    contentBase: path.join(__dirname, 'public'), // 服务器的文件根目录。 boolean | string | array, static file location
     compress: true, // 支持gzip压缩
     historyApiFallback: true, // html在404，对象为多个路径
-    hot: true, // 热模块替换。取决于HotModuleReplacementPlugin
     https: false, 
-    noInfo: true
+    noInfo: true,
+	allowedHosts: [ // 白名单
+	  'www.baidu.com'
+	]
   },
   // +-----------------------------------------------------------------------------------------
   // | 
