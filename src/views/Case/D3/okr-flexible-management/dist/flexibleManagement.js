@@ -175,7 +175,6 @@ export default {
    * 重置属性
    */
   reset() {
-    console.log('reset')
     // 边的颜色
     this.links.attr('stroke', this.config['line'].normalColor)
     // 线上文字
