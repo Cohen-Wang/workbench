@@ -135,6 +135,7 @@ module.exports = {
     proxy: {
       '/api': 'http://localhost:3000' // 代理url
     },
+	// ...
 	publicPath: '/dist',
     contentBase: path.join(__dirname, 'public'), // 服务器的文件根目录。 boolean | string | array, static file location
     compress: true, // 支持gzip压缩
