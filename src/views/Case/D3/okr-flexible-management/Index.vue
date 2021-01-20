@@ -169,7 +169,6 @@ const THEME_CONFIG = [
   { label: '工作蓝', value: 'blue' },
   { label: '经典黑', value: 'dark' }
 ]
-// const DEFAULT_THEME = 'light'
 // 主题背景配置
 const THEME_BG = {
   'light': DiscoveryBgLight,
