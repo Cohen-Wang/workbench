@@ -2,24 +2,32 @@
   <div>
     <a-card size="small" title="OKR柔性管理" :body-style="{ padding: 0}">
       <a slot="extra" href="#" @click="showDialog">编辑</a>
-      <div id="container" class="graph-box">
-        <!-- ... -->
+      <!-- card-body -->
+      <div>
+        <a-spin :spinning="loading" size="large" tip="请求数据中...">
+          <div id="container" class="graph-box">
+            <!-- ... -->
+          </div>
+        </a-spin>
       </div>
     </a-card>
 
-    <!-- 对话框：编辑 -->
-    <a-modal title="编辑"
-             :visible="dialog.visible"
-             :width="500"
-             :mask-closable="false"
-             :footer="false"
-             @cancel="hideDialog">
-      <a-form-model :model="dialog.form"
-                    :label-col="{ span: 6 }"
-                    :wrapper-col="{ span: 18 }">
-        <a-divider>提示</a-divider>
-        <a-form-model-item label="任务类型">
-          <template v-for="(taskItem, taskIndex) in TASK_TYPE_CONFIG">
+    <!-- 抽屉：编辑 -->
+    <a-drawer :visible="dialog.visible"
+              title="编辑"
+              placement="right"
+              :width="500"
+              keyboard
+              :mask-closable="false"
+              :closable="true"
+              @close="hideDialog">
+      <div class="drawer-body">
+        <a-form-model :model="dialog.form"
+                      :label-col="{ span: 6 }"
+                      :wrapper-col="{ span: 18 }">
+          <a-divider>提示</a-divider>
+          <a-form-model-item label="任务类型">
+            <template v-for="(taskItem, taskIndex) in TASK_TYPE_CONFIG">
             <span :key="taskIndex"
                   style="margin-right: 16px;">
               <a-icon type="cloud"
@@ -27,120 +35,121 @@
                       style="margin-right: 6px;"/>
               {{ taskItem.label }}
             </span>
+            </template>
+          </a-form-model-item>
+          <!-- 主题 -->
+          <a-divider>主题</a-divider>
+          <a-form-model-item label="主题">
+            <a-radio-group v-model="dialog.form.theme"
+                           @change="onChangeTheme">
+              <a-radio v-for="(item, index) in THEME_CONFIG"
+                       :key="index"
+                       :value="item.value">
+                {{ item.label }}
+              </a-radio>
+            </a-radio-group>
+          </a-form-model-item>
+          <!-- 操作 -->
+          <a-divider>操作</a-divider>
+          <!-- 图形类型 -->
+          <a-form-model-item label="图形类型">
+            <a-radio-group v-model="dialog.form.graphType"
+                           @change="onChangeGraphType">
+              <a-radio v-for="(item, index) in GRAPH_TYPE_CONFIG"
+                       :key="index"
+                       :value="item">
+                {{ item }}
+              </a-radio>
+            </a-radio-group>
+          </a-form-model-item>
+          <!-- 显示对象 -->
+          <a-form-model-item label="显示对象">
+            <a-checkbox-group v-model="dialog.form.objectsList"
+                              @change="onChangeObjectList">
+              <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG"
+                          :key="objectIndex"
+                          :value="objectItem.value">
+                {{ objectItem.label }}
+              </a-checkbox>
+            </a-checkbox-group>
+          </a-form-model-item>
+          <!-- 关系探索 -->
+          <template v-if="dialog.form.graphType === '关系探索'">
+            <!-- ... -->
           </template>
-        </a-form-model-item>
-        <!-- 主题 -->
-        <a-divider>主题</a-divider>
-        <a-form-model-item label="主题">
-          <a-radio-group v-model="dialog.form.theme"
-                         @change="onChangeTheme">
-            <a-radio v-for="(item, index) in THEME_CONFIG"
-                     :key="index"
-                     :value="item.value">
-              {{ item.label }}
-            </a-radio>
-          </a-radio-group>
-        </a-form-model-item>
-        <!-- 操作 -->
-        <a-divider>操作</a-divider>
-        <!-- 图形类型 -->
-        <a-form-model-item label="图形类型">
-          <a-radio-group v-model="dialog.form.graphType"
-                         @change="onChangeGraphType">
-            <a-radio v-for="(item, index) in GRAPH_TYPE_CONFIG"
-                     :key="index"
-                     :value="item">
-              {{ item }}
-            </a-radio>
-          </a-radio-group>
-        </a-form-model-item>
-        <!-- 显示对象 -->
-        <a-form-model-item label="显示对象">
-          <a-checkbox-group v-model="dialog.form.objectsList"
-                            @change="onChangeObjectList">
-            <a-checkbox v-for="(objectItem, objectIndex) in SHOW_OBJECT_CONFIG"
-                        :key="objectIndex"
-                        :value="objectItem.value">
-              {{ objectItem.label }}
-            </a-checkbox>
-          </a-checkbox-group>
-        </a-form-model-item>
-        <!-- 关系探索 -->
-        <template v-if="dialog.form.graphType === '关系探索'">
-          <!-- ... -->
-        </template>
-        <!-- 对象探索 -->
-        <template v-if="dialog.form.graphType === '对象探索'">
-          <a-form-model-item label="选择对象">
-            <a-select v-model="dialog.form.singleObject"
-                      placeholder="请先选择对象"
-                      @change="onChangeSingleObject">
-              <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-            </a-select>
-          </a-form-model-item>
-        </template>
-        <!-- 相对关系 -->
-        <template v-if="dialog.form.graphType === '相对关系'">
-          <a-form-model-item label="对象1">
-            <a-select v-model="dialog.form.relatedObject.first"
-                      placeholder="请先选择对象"
-                      @change="onChangeRelatedObjectFirst">
-              <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-            </a-select>
-          </a-form-model-item>
-          <a-form-model-item label="对象2">
-            <a-select v-model="dialog.form.relatedObject.second"
-                      placeholder="请先选择对象"
-                      @change="onChangeRelatedObjectSecond">
-              <a-select-opt-group label="人员">
-                <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="部门">
-                <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-              <a-select-opt-group label="任务">
-                <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
-                  {{ index + 1 }} : {{ item.name }}
-                </a-select-option>
-              </a-select-opt-group>
-            </a-select>
-          </a-form-model-item>
-        </template>
-      </a-form-model>
-      <pre class="well" v-text="dialog.form"/>
-    </a-modal>
+          <!-- 对象探索 -->
+          <template v-if="dialog.form.graphType === '对象探索'">
+            <a-form-model-item label="选择对象">
+              <a-select v-model="dialog.form.singleObject"
+                        placeholder="请先选择对象"
+                        @change="onChangeSingleObject">
+                <a-select-opt-group label="人员">
+                  <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="部门">
+                  <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="任务">
+                  <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+              </a-select>
+            </a-form-model-item>
+          </template>
+          <!-- 相对关系 -->
+          <template v-if="dialog.form.graphType === '相对关系'">
+            <a-form-model-item label="对象1">
+              <a-select v-model="dialog.form.relatedObject.first"
+                        placeholder="请先选择对象"
+                        @change="onChangeRelatedObjectFirst">
+                <a-select-opt-group label="人员">
+                  <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="部门">
+                  <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="任务">
+                  <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+              </a-select>
+            </a-form-model-item>
+            <a-form-model-item label="对象2">
+              <a-select v-model="dialog.form.relatedObject.second"
+                        placeholder="请先选择对象"
+                        @change="onChangeRelatedObjectSecond">
+                <a-select-opt-group label="人员">
+                  <a-select-option v-for="(item, index) in imageNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="部门">
+                  <a-select-option v-for="(item, index) in departNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+                <a-select-opt-group label="任务">
+                  <a-select-option v-for="(item, index) in taskNode" :key="index" :value="item.id">
+                    {{ index + 1 }} : {{ item.name }}
+                  </a-select-option>
+                </a-select-opt-group>
+              </a-select>
+            </a-form-model-item>
+          </template>
+        </a-form-model>
+        <pre class="well" v-text="dialog.form"/>
+      </div>
+    </a-drawer>
   </div>
 </template>
 
@@ -160,7 +169,7 @@ const THEME_CONFIG = [
   { label: '工作蓝', value: 'blue' },
   { label: '经典黑', value: 'dark' }
 ]
-const DEFAULT_THEME = 'light'
+// const DEFAULT_THEME = 'light'
 // 主题背景配置
 const THEME_BG = {
   'light': DiscoveryBgLight,
@@ -184,10 +193,6 @@ const DEFAULT_OBJECTS_LIST = ['image', 'DEPART', 'TASK']
 const GRAPH_TYPE_CONFIG = ['关系探索', '对象探索', '相对关系']
 const DEFAULT_GRAPH_TYPE = '关系探索'
 
-// 处理数据
-const nodes = data.nodes
-const edges = optimizeTarget(optimizeSource(data.edges, nodes), nodes)
-
 export default {
   name: 'Index',
   data() {
@@ -198,8 +203,8 @@ export default {
       GRAPH_TYPE_CONFIG,
       // ...
       original: {
-        nodes: nodes,
-        edges: edges
+        nodes: [],
+        edges: []
       },
       filter: {
         nodes: [],
@@ -209,7 +214,7 @@ export default {
       dialog: {
         visible: false,
         form: {
-          theme: DEFAULT_THEME,
+          theme: '',
           graphType: DEFAULT_GRAPH_TYPE,
           // 关系探索
           objectsList: DEFAULT_OBJECTS_LIST, // 展示对象
@@ -226,34 +231,56 @@ export default {
       // ...
       imageNode: [],
       departNode: [],
-      taskNode: []
+      taskNode: [],
+      // ...
+      loading: false
     }
   },
-  computed: {},
   created() {},
   mounted() {
+    this.dialog.form.theme = (Math.random() > 0.5) ? 'light' : 'dark'
+    // 初始化
     this.init()
   },
   methods: {
     // +----------------------------------------------------------------------------------------------------------------
     // + 初始化
     // +----------------------------------------------------------------------------------------------------------------
-    init() {
+    async init() {
+      // 请求数据
+      const { nodes, edges } = await this.getData()
+      // 处理数据
+      this.original.nodes = nodes
+      this.original.edges = optimizeTarget(optimizeSource(edges, nodes), nodes)
+      // 请求数据
+      this.allObject = this.original.nodes
       this.imageNode = this.allObject.filter(e => e.type === 'image')
       this.departNode = this.allObject.filter(e => e.type === 'DEPART')
       this.taskNode = this.allObject.filter(e => e.type === 'TASK')
       // 正文
       this.$nextTick(() => {
         // 设置背景图
-        document.getElementById('container').style.backgroundImage = `url("${THEME_BG[this.theme]}")`
+        document.getElementById('container').style.backgroundImage = `url("${THEME_BG[this.dialog.form.theme]}")`
         // 画图
         this.renderGraph()
       })
     },
-    // 画图
+    // +----------------------------------------------------------------------------------------------------------------
+    // + 模拟接口
+    // +----------------------------------------------------------------------------------------------------------------
+    getData() {
+      return new Promise(resolve => {
+        this.loading = true
+        window.setTimeout(() => {
+          resolve(data)
+          this.loading = false
+        }, 1000)
+      })
+    },
+    // +----------------------------------------------------------------------------------------------------------------
+    // + 画图
+    // +----------------------------------------------------------------------------------------------------------------
     renderGraph() {
-      // ???
-      this.allObject = this.original.nodes
       // 初始化
       flexibleManagement.init({
         id: 'container',
@@ -358,9 +385,19 @@ export default {
     padding: 0;
     overflow: hidden;
   }
+
   .graph-box {
     background: url("../../../../assets/image/discovery_bg_blue.png");
     height: calc(100vh - 40px);
     user-select: none;
+  }
+
+  .drawer-body {
+    max-height: calc(100vh - 103px);
+    overflow-y: auto;
+  }
+
+  /deep/ .ant-spin-nested-loading > div > .ant-spin {
+    max-height: 100%;
   }
 </style>
