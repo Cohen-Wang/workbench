@@ -68,31 +68,27 @@ module.exports = {
         loader: 'vue-loader',
         options: vueLoaderConfig
       },
-	  // svg
-      {
-        test: /\.svg$/,
-        loader: 'svg-sprite-loader',
-        include: [resolve('src/icons')],
-        options: {
-          symbolId: 'icon-[name]'
-        }
-      },
 	  // 图片
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         exclude: [resolve('src/icons')],
         options: {
-          limit: 10000,
+          limit: 30 * 1024, // 30KB以下大小，才使用url-loader
           name: utils.assetsPath('images/[name].[hash:7].[ext]')
         }
+      },
+	  // svg
+      {
+        test: /\.svg$/,
+        loader: 'raw-loader',
       },
 	  // 视频
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 30 * 1024, // 30KB以下大小，才使用url-loader
           name: utils.assetsPath('media/[name].[hash:7].[ext]')
         }
       },
@@ -101,7 +97,7 @@ module.exports = {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 30 * 1024, // 30KB以下大小，才使用url-loader
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
@@ -113,7 +109,29 @@ module.exports = {
   // | 特点：①什么时候用 ②用哪个
   // +-----------------------------------------------------------------------------------------
   plugins: [
-	new UglifyJsPlugin(), // 压缩js代码，如：注释，换行，变量名称
+	// 压缩输出的 JavaScript 代码
+    new UglifyJsPlugin({
+      // 最紧凑的输出
+      beautify: false,
+      // 删除所有的注释
+      comments: false,
+      compress: {
+        // 在UglifyJs删除没有用到的代码时不输出警告
+        warnings: false,
+        // 删除所有的 `console` 语句，可以兼容ie浏览器
+        drop_console: true,
+        // 内嵌定义了但是只用到一次的变量
+        collapse_vars: true,
+        // 提取出出现多次但是没有定义成变量去引用的静态值
+        reduce_vars: true,
+      }
+    }),
+	new DefinePlugin({
+      // 定义 NODE_ENV 环境变量为 production，以去除源码中只有开发时才需要的部分
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    }),
 	new FriendlyErrorsWebpackPlugin(), // 识别某些类别的webpack错误，并清理，聚合和优先级，以提供更好的开发人员体验。
 	new VueLoaderPlugin(),
 	new CopyWebpackPlugin([ // 将单个文件或整个目录复制到构建目录
@@ -122,7 +140,15 @@ module.exports = {
         to: config.dev.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+	// 使用本文的主角 WebPlugin，一个 WebPlugin 对应一个 HTML 文件
+    new WebPlugin({
+      template: './template.html', // HTML 模版文件所在的文件路径
+      filename: 'index.html' // 输出的 HTML 的文件名称
+    }),
+    new ExtractTextPlugin({
+      filename: `[name]_[contenthash:8].css`,// 给输出的 CSS 文件名称加上 Hash 值
+    })
   ],
   // +-----------------------------------------------------------------------------------------
   // | 重点
@@ -145,20 +171,5 @@ module.exports = {
 	allowedHosts: [ // 白名单
 	  'www.baidu.com'
 	]
-  },
-  // +-----------------------------------------------------------------------------------------
-  // | 
-  // +-----------------------------------------------------------------------------------------
-  node: {
-    // prevent webpack from injecting useless setImmediate polyfill because Vue
-    // source contains it (although only uses it if it's native).
-    setImmediate: false,
-    // prevent webpack from injecting mocks to Node native modules
-    // that does not make sense for the client
-    dgram: 'empty',
-    fs: 'empty',
-    net: 'empty',
-    tls: 'empty',
-    child_process: 'empty'
   }
 }
