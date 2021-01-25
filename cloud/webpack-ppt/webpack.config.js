@@ -68,9 +68,17 @@ module.exports = {
   },
   // +-----------------------------------------------------------------------------------------
   // | 重点
-  // | devtool - 监听：监听文件更新，在文件发生变化时，重新编译。
+  // | devtool - SourceMap是一种映射关系。当项目运行后，如果出现错误，错误信息只能定位到打包后文件中错误的位置。如果想查看在源文件中错误的位置，则需要使用映射关系，找到对应的位置。
   // +-----------------------------------------------------------------------------------------
-  devtool: 'source-map', // 默认false，及不生成source map
+  devtool: false, // 默认false，及不生成source map
+  devtool: 'source-map', // 会生成map格式的文件，里面包含映射关系的代码
+  // 其他
+  devtool: 'inline-source-map', // 不会生成map格式的文件，包含映射关系的代码会放在打包后生成的代码中
+  devtool: 'inline-cheap-source-map', // cheap有两种作用：一是将错误只定位到行，不定位到列。二是映射业务代码，不映射loader和第三方库等。会提升打包构建的速度。
+  devtool: 'inline-cheap-module-source-map', // module会映射loader和第三方库
+  devtool: 'eval', // 用eval的方式生成映射关系代码，效率和性能最佳。但是当代码复杂时，提示信息可能不精确。
+  devtool: 'cheap-module-eval-source-map', // 开发环境
+  devtool: 'cheap-module-source-map', // 生产环境
   // +-----------------------------------------------------------------------------------------
   // | 重点
   // | loader: 用于对模块的源代码进行转换
