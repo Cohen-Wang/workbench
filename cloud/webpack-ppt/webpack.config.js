@@ -6,7 +6,7 @@ module.exports = {
   // +-----------------------------------------------------------------------------------------
   // | entry概念 - context - 上下文：webpack在寻找相对路径的文件时，会以context为根目录。默认值：项目的根目录
   // +-----------------------------------------------------------------------------------------	
-  context: path.resolve(__dirname, '../'),
+  // context: path.resolve(__dirname, '../'),
   // +-----------------------------------------------------------------------------------------
   // | entry概念 - entry - 入口：工程依赖入口（必填）
   // | 可以指定多个入口起点
@@ -15,9 +15,9 @@ module.exports = {
     app: './src/main.js'
   },
   // +-----------------------------------------------------------------------------------------
-  // | mode - 模式： 告诉webpack是生产环境还是开发环境；"production" | "development" | "none"
+  // | mode - 模式： 告诉webpack4 是生产环境还是开发环境；"production" | "development" | "none"
   // +-----------------------------------------------------------------------------------------
-  mode: "production",
+  // mode: "production",
   // +-----------------------------------------------------------------------------------------
   // | output - 输出：只可指定一个输出配置；必须是绝对路径
   // +-----------------------------------------------------------------------------------------
@@ -68,11 +68,12 @@ module.exports = {
   },
   // +-----------------------------------------------------------------------------------------
   // | 重点
-  // | devtool - SourceMap是一种映射关系。当项目运行后，如果出现错误，错误信息只能定位到打包后文件中错误的位置。如果想查看在源文件中错误的位置，则需要使用映射关系，找到对应的位置。
+  // | devtool - 源程序映射 - SourceMap是一种映射关系。当项目运行后，如果出现错误，错误信息只能定位到打包后文件中错误的位置。如果想查看在源文件中错误的位置，则需要使用映射关系，找到对应的位置。
   // +-----------------------------------------------------------------------------------------
-  devtool: false, // 默认false，及不生成source map
   devtool: 'source-map', // 会生成map格式的文件，里面包含映射关系的代码
+  devtool: 'cheap-source-map', // 我们用的，更小
   // 其他
+  devtool: false, // 默认false，及不生成source map
   devtool: 'inline-source-map', // 不会生成map格式的文件，包含映射关系的代码会放在打包后生成的代码中
   devtool: 'inline-cheap-source-map', // cheap有两种作用：一是将错误只定位到行，不定位到列。二是映射业务代码，不映射loader和第三方库等。会提升打包构建的速度。
   devtool: 'inline-cheap-module-source-map', // module会映射loader和第三方库
@@ -86,11 +87,6 @@ module.exports = {
   // +-----------------------------------------------------------------------------------------
   module: {
     rules: [
-	  // 处理.css文件
-	  {
-	    test: /\.css$/,
-		loader: "style!css"
-	  },
 	  // 处理.less文件
 	  {
 	    test: /\.less/,
@@ -110,10 +106,9 @@ module.exports = {
 	  // 处理.vue文件
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
-        options: vueLoaderConfig
+        loader: 'vue-loader'
       },
-	  // 图片
+	  // 图片：给美术看看url-loader
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
@@ -154,13 +149,6 @@ module.exports = {
   // | 特点：①什么时候用 ②用哪个
   // +-----------------------------------------------------------------------------------------
   plugins: [
-	// 优化概念：
-	new DefinePlugin({
-      // 定义 NODE_ENV 环境变量为 production，以去除源码中只有开发时才需要的部分
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
-    }),
 	// 优化概念：压缩输出的JavaScript代码
     new UglifyJsPlugin({
       // 最紧凑的输出
@@ -178,11 +166,24 @@ module.exports = {
         reduce_vars: true,
       }
     }),
+	// 识别某些类别的webpack错误，并清理，聚合和优先级，以提供更好的开发人员体验。
+	new FriendlyErrorsWebpackPlugin(),
+	// 提取 JavaScript 中的 CSS 代码到单独的文件中
+    new ExtractTextPlugin({
+      filename: `[name]_[contenthash:8].css`,// 给输出的 CSS 文件名称加上 Hash 值
+    }),
+	// 优化概念：
+	new DefinePlugin({
+      // 定义 NODE_ENV 环境变量为 production，以去除源码中只有开发时才需要的部分
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    }),
 	// 该插件的作用就是实现模块热替换，实际上当启动时带上 `--hot` 参数，会注入该插件，生成 .hot-update.json 文件。
     new HotModuleReplacementPlugin(),
 	// ...
-	new FriendlyErrorsWebpackPlugin(), // 识别某些类别的webpack错误，并清理，聚合和优先级，以提供更好的开发人员体验。
 	new VueLoaderPlugin(),
+	// ...
 	new CopyWebpackPlugin([ // 将单个文件或整个目录复制到构建目录
       {
         from: path.resolve(__dirname, '../static'),
@@ -194,9 +195,6 @@ module.exports = {
     new WebPlugin({
       template: './template.html', // HTML 模版文件所在的文件路径
       filename: 'index.html' // 输出的 HTML 的文件名称
-    }),
-    new ExtractTextPlugin({
-      filename: `[name]_[contenthash:8].css`,// 给输出的 CSS 文件名称加上 Hash 值
     })
   ],
   // +-----------------------------------------------------------------------------------------
@@ -204,19 +202,39 @@ module.exports = {
   // | devServer - 代理服务： 
   // +-----------------------------------------------------------------------------------------
   devServer: {
-	host: HOST || config.dev.host, // 用于配置devServer服务监听的地址，默认：127.0.0.1
-    port: PORT || config.dev.port, // 用于配置devServer服务监听的端口，默认：8080
-	hot: true, // 热模块替换。取决于HotModuleReplacementPlugin
+	host: '127.0.0.1', // 用于配置devServer服务监听的地址；host 的默认值是 127.0.0.1 即只有本地可以访问 DevServer 的 HTTP 服务。
+    port: 9527, // 用于配置devServer服务监听的端口（启动时的端口）；默认：8080
+	open: true, // 构建完成后，自动打开浏览器
+	hot: true, // 热模块替换
+	// devServer中其实还有一个proxy属性，可以用做代理，简单来说，配好了他，就可以用来实现跨域
+	// 
     proxy: {
-      '/api': 'http://localhost:3000' // 代理url
+	  // 代理url，如：请求到/api/users现在会被代理到请求http://localhost:3000/api/user
+      '/api': 'http://192.168.0.106:9180',
+	  // 如果不想始终传递/api，可以重写路径：
+	  "/api": {
+		target: "http://192.168.0.106:9180",
+		pathRewrite: {"^/api" : ""}
+	  }
+    },
+	// 还可以同时代理多个
+	proxy: {
+      '/api': {
+        target: '<url>',
+        ws: true,
+        changeOrigin: true // 如果接口跨域，要设置
+      },
+      '/foo': {
+        target: '<other_url>'
+      }
     },
 	// 其他
 	publicPath: '/dist',
-    contentBase: path.join(__dirname, 'public'), // 服务器的文件根目录。 boolean | string | array, static file location
+    contentBase: path.join(__dirname, 'public'), // devServer.contentBase 配置 DevServer HTTP 服务器的文件根目录。默认情况下为当前执行目录，通常是项目根目录，所有一般情况下你不必设置它，
     compress: true, // 支持gzip压缩
-	inline: true, // ...
-    historyApiFallback: true, // html在404，对象为多个路径
-    https: false, // 是否使用https协议
+	inline: true, // DevServer 的实时预览功能依赖一个注入到页面里的代理客户端去接受来自 DevServer 的命令和负责刷新网页的工作。
+    historyApiFallback: true, // devServer.historyApiFallback 用于方便的开发使用了 HTML5 History API 的单页应用。 这类单页应用要求服务器在针对任何命中的路由时都返回一个对应的 HTML 文件，例如在访问 http://localhost/user 和 http://localhost/home 时都返回 index.html 文件， 浏览器端的 JavaScript 代码会从 URL 里解析出当前页面的状态，显示出对应的界面。
+    https: false, // 是否使用https协议；DevServer 默认使用 HTTP 协议服务，它也能通过 HTTPS 协议服务。
     noInfo: true,
 	allowedHosts: [ // 白名单
 	  'www.baidu.com'
@@ -224,7 +242,7 @@ module.exports = {
 	headers: { // HTTP相应中注入一些HTTP响应头
 	  'X-foo': 'bar' 
 	},
-	disableHostCheck: '', // ...
+	disableHostCheck: '', // devServer.disableHostCheck 配置项用于配置是否关闭用于 DNS 重绑定的 HTTP 请求的 HOST 检查。 DevServer 默认只接受来自本地的请求，关闭后可以接受来自任何 HOST 的请求。
   },
   // +-----------------------------------------------------------------------------------------
   // | resolveLoader - 解决loader: 告诉webpack如何去寻找loader
