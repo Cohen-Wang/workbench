@@ -4,12 +4,14 @@
       <div class="panel-title">案例集合</div>
     </div>
     <div class="panel-body panel-body-box">
-      <div class="box">
-        <blockquote>Canvas案例</blockquote>
+      <div v-for="(layoutItem, key, index) in layoutCfg"
+           :key="index"
+           class="box">
+        <blockquote>{{ key }}</blockquote>
         <a-row>
           <a-col :span="4"
                  class="mb-20"
-                 v-for="item in layoutCfg"
+                 v-for="item in layoutItem"
                  :key="item.name">
             <a-button type="dashed" @click="handleClick(item.path)">
               {{ item.name }}
@@ -27,11 +29,16 @@ export default {
   data() {
     return {
       url: 'http://localhost:8080',
-      layoutCfg: [
-        { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' },
-        { name: '力导图-地理', path: '/workbench/case/d3/force-geography' },
-        { name: '评先选优', path: '/workbench/case/d3/potency' }
-      ]
+      layoutCfg: {
+        canvas: [
+          { name: 'OKR柔性管理', path: '/workbench/case/d3/okr-flexible-management' },
+          { name: '力导图-地理', path: '/workbench/case/d3/force-geography' },
+          { name: '评先选优', path: '/workbench/case/d3/potency' }
+        ],
+        video: [
+          { name: 'ChimeePlayer', path: '/workbench/case/video/chimee-player' }
+        ]
+      }
     }
   },
   methods: {

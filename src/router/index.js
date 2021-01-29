@@ -220,6 +220,10 @@ export const routes = [
     component: () => import('@/views/Case/D3/potency/Index.vue')
   },
   {
+    path: '/case/video/chimee-player',
+    component: () => import('@/views/Case/Video/ChimeePlayer.vue')
+  },
+  {
     path: '/application',
     name: 'application',
     component: Index,
