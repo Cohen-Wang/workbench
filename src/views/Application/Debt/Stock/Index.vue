@@ -30,11 +30,11 @@
       </div>
       <!-- 标签页 -->
       <a-tabs type="card">
-        <a-tab-pane key="1" tab="日历">
-          <stock-calendar class="tab-content-height"/>
+        <a-tab-pane key="1" tab="时间轴">
+          <stock-timeline :data="data" class="tab-content-height"/>
         </a-tab-pane>
-        <a-tab-pane key="2" tab="时间轴">
-          <stock-timeline class="tab-content-height"/>
+        <a-tab-pane key="2" tab="日历">
+          <stock-calendar class="tab-content-height"/>
         </a-tab-pane>
         <a-tab-pane key="3" tab="表格">
           <stock-table class="tab-content-height"/>
@@ -46,14 +46,13 @@
 
 <script>
 import XLSX from 'xlsx'
-// import { Chart } from '@antv/g2'
 // 组件
 import StockCalendar from './components/stock-calendar'
 import StockTable from './components/stock-table'
 import StockTimeline from './components/stock-timeline'
 
-const EXCEL_HEADER = ['*债务人', '*债权人', '*日期', '*金额']
-const EXCEL_DATA_MAP = ['debtor', 'creditor', 'date', 'money']
+const EXCEL_HEADER = ['日期', '中国', '外国']
+const EXCEL_DATA_MAP = ['date', 'china', 'other']
 
 export default {
   name: 'Stock',
@@ -64,7 +63,7 @@ export default {
   },
   data() {
     return {
-      downloadTemplateHref: '/assets/stock_module.xlsx',
+      downloadTemplateHref: '/assets/stock.xlsx',
       data: []
     }
   },
@@ -215,48 +214,6 @@ export default {
     formatData(arr) {
       const result = arr
       return result
-    },
-    // +---------------------------------------------------------------------------------------------
-    // | 图形
-    // +---------------------------------------------------------------------------------------------
-    // 图形
-    // initChart() {
-    //   if (this.chart) this.chart.destory()
-    //   const chart = new Chart({
-    //     container: this.$refs['graph'],
-    //     width: this.$refs['graph'].clientWidth,
-    //     height: this.$refs['graph'].clientHeight,
-    //     autoFit: true,
-    //     padding: [30, 50, 50, 50]
-    //   })
-    //
-    //   chart.data(this.data)
-    //
-    //   chart.scale({
-    //     date: {
-    //       range: [0, 1]
-    //     },
-    //     value: {
-    //       min: 0,
-    //       nice: true
-    //     }
-    //   })
-    //
-    //   chart.tooltip({
-    //     showCrosshairs: true, // 展示 Tooltip 辅助线
-    //     shared: true
-    //   })
-    //
-    //   chart.line().position('date*value').color('city').label('value')
-    //   chart.point().position('date*value').color('city')
-    //   chart.render()
-    //
-    //   this.chart = chart
-    // },
-    changeChart() {
-      console.log('更新数据后')
-      // 更新数据
-      this.chart.changeData(this.graphData)
     }
   }
 }
@@ -264,7 +221,7 @@ export default {
 
 <style scoped lang="less">
   .tab-content-height {
-    height: calc(100vh - 300px);
+    height: calc(100vh - 350px);
     overflow-y: auto;
   }
 </style>
