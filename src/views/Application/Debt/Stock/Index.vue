@@ -5,7 +5,7 @@
     </div>
     <div class="panel-body panel-body-box">
       <!-- 按钮区 -->
-      <div style="overflow: hidden;">
+      <div class="margin-bottom">
         <a-row :gutter="16">
           <a-col :span="8">
             <div class="d-flex">
@@ -28,6 +28,18 @@
           </a-col>
         </a-row>
       </div>
+      <!-- 标签页 -->
+      <a-tabs type="card" @change="callback">
+        <a-tab-pane key="1" tab="Tab 1">
+          Content of Tab Pane 1
+        </a-tab-pane>
+        <a-tab-pane key="2" tab="Tab 2">
+          Content of Tab Pane 2
+        </a-tab-pane>
+        <a-tab-pane key="3" tab="Tab 3">
+          Content of Tab Pane 3
+        </a-tab-pane>
+      </a-tabs>
       <!-- 表单区 -->
       <!--<div>
         <a-divider>表单区</a-divider>
@@ -38,6 +50,32 @@
         <a-divider>图形区</a-divider>
         <div>
           <div ref="graph" style="height: 300px; width: 90%; background-color: #F8F8F8;"/>
+        </div>
+      </div>
+      <!-- 时间轴 -->
+      <div>
+        <a-divider>图形区</a-divider>
+        <div>
+          <a-timeline mode="alternate">
+            <a-timeline-item>Create a services site 2015-09-01</a-timeline-item>
+            <a-timeline-item color="green">
+              Solve initial network problems 2015-09-01
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-icon slot="dot" type="clock-circle-o" style="font-size: 16px;" />
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+              beatae vitae dicta sunt explicabo.
+            </a-timeline-item>
+            <a-timeline-item color="red">
+              Network problems being solved 2015-09-01
+            </a-timeline-item>
+            <a-timeline-item>Create a services site 2015-09-01</a-timeline-item>
+            <a-timeline-item>
+              <a-icon slot="dot" type="clock-circle-o" style="font-size: 16px;" />
+              Technical testing 2015-09-01
+            </a-timeline-item>
+          </a-timeline>
         </div>
       </div>
       <!-- 表格区 -->
