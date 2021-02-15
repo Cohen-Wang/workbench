@@ -237,7 +237,7 @@ export const routes = [
         path: '/application/stock',
         name: 'stock',
         meta: { title: '股票', icon: 'credit-card' },
-        component: () => import('@/views/Application/Debt/Stock.vue')
+        component: () => import('@/views/Application/Debt/Stock/Index.vue')
       }
     ]
   },
