@@ -1,7 +1,7 @@
 <template>
   <div class="panel panel-primary">
     <div class="panel-heading">
-      <div class="panel-title">Excel练习</div>
+      <div class="panel-title">重要事件</div>
     </div>
     <div class="panel-body panel-body-box">
       <!-- 按钮区 -->
@@ -29,126 +29,47 @@
         </a-row>
       </div>
       <!-- 标签页 -->
-      <a-tabs type="card" @change="callback">
-        <a-tab-pane key="1" tab="Tab 1">
-          Content of Tab Pane 1
+      <a-tabs type="card">
+        <a-tab-pane key="1" tab="日历">
+          <stock-calendar class="tab-content-height"/>
         </a-tab-pane>
-        <a-tab-pane key="2" tab="Tab 2">
-          Content of Tab Pane 2
+        <a-tab-pane key="2" tab="时间轴">
+          <stock-timeline class="tab-content-height"/>
         </a-tab-pane>
-        <a-tab-pane key="3" tab="Tab 3">
-          Content of Tab Pane 3
+        <a-tab-pane key="3" tab="表格">
+          <stock-table class="tab-content-height"/>
         </a-tab-pane>
       </a-tabs>
-      <!-- 表单区 -->
-      <!--<div>
-        <a-divider>表单区</a-divider>
-        <div>表单区</div>
-      </div>-->
-      <!-- 图形区 -->
-      <div>
-        <a-divider>图形区</a-divider>
-        <div>
-          <div ref="graph" style="height: 300px; width: 90%; background-color: #F8F8F8;"/>
-        </div>
-      </div>
-      <!-- 时间轴 -->
-      <div>
-        <a-divider>图形区</a-divider>
-        <div>
-          <a-timeline mode="alternate">
-            <a-timeline-item>Create a services site 2015-09-01</a-timeline-item>
-            <a-timeline-item color="green">
-              Solve initial network problems 2015-09-01
-            </a-timeline-item>
-            <a-timeline-item>
-              <a-icon slot="dot" type="clock-circle-o" style="font-size: 16px;" />
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.
-            </a-timeline-item>
-            <a-timeline-item color="red">
-              Network problems being solved 2015-09-01
-            </a-timeline-item>
-            <a-timeline-item>Create a services site 2015-09-01</a-timeline-item>
-            <a-timeline-item>
-              <a-icon slot="dot" type="clock-circle-o" style="font-size: 16px;" />
-              Technical testing 2015-09-01
-            </a-timeline-item>
-          </a-timeline>
-        </div>
-      </div>
-      <!-- 表格区 -->
-      <div>
-        <a-divider>表格区</a-divider>
-        <div>
-          <a-table :columns="columns"
-                   :data-source="data"
-                   size="small"
-                   bordered>
-          </a-table>
-        </div>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
 import XLSX from 'xlsx'
-import { Chart } from '@antv/g2'
+// import { Chart } from '@antv/g2'
+// 组件
+import StockCalendar from './components/stock-calendar'
+import StockTable from './components/stock-table'
+import StockTimeline from './components/stock-timeline'
 
 const EXCEL_HEADER = ['*债务人', '*债权人', '*日期', '*金额']
 const EXCEL_DATA_MAP = ['debtor', 'creditor', 'date', 'money']
 
-const columns = [
-  {
-    title: '序号',
-    width: 50,
-    align: 'center',
-    customRender: (text, record, index) => `${index + 1}`
-  },
-  {
-    title: '债务人',
-    dataIndex: 'debtor',
-    key: 'debtor',
-    align: 'center',
-    ellipsis: true
-  },
-  {
-    title: '债权人',
-    dataIndex: 'creditor',
-    key: 'creditor',
-    align: 'center',
-    ellipsis: true
-  },
-  {
-    title: '时间',
-    dataIndex: 'date',
-    key: 'date',
-    align: 'center',
-    ellipsis: true
-  },
-  {
-    title: '金额',
-    dataIndex: 'money',
-    key: 'value',
-    align: 'center',
-    ellipsis: true
-  }
-]
-
 export default {
   name: 'Stock',
+  components: {
+    StockCalendar,
+    StockTable,
+    StockTimeline
+  },
   data() {
     return {
-      columns,
-      chart: null,
       downloadTemplateHref: '/assets/stock_module.xlsx',
       data: []
     }
   },
   mounted() {
-    this.initChart()
+    // this.initChart()
   },
   methods: {
     // +---------------------------------------------------------------------------------------------
@@ -299,39 +220,39 @@ export default {
     // | 图形
     // +---------------------------------------------------------------------------------------------
     // 图形
-    initChart() {
-      if (this.chart) this.chart.destory()
-      const chart = new Chart({
-        container: this.$refs['graph'],
-        width: this.$refs['graph'].clientWidth,
-        height: this.$refs['graph'].clientHeight,
-        autoFit: true,
-        padding: [30, 50, 50, 50]
-      })
-
-      chart.data(this.data)
-
-      chart.scale({
-        date: {
-          range: [0, 1]
-        },
-        value: {
-          min: 0,
-          nice: true
-        }
-      })
-
-      chart.tooltip({
-        showCrosshairs: true, // 展示 Tooltip 辅助线
-        shared: true
-      })
-
-      chart.line().position('date*value').color('city').label('value')
-      chart.point().position('date*value').color('city')
-      chart.render()
-
-      this.chart = chart
-    },
+    // initChart() {
+    //   if (this.chart) this.chart.destory()
+    //   const chart = new Chart({
+    //     container: this.$refs['graph'],
+    //     width: this.$refs['graph'].clientWidth,
+    //     height: this.$refs['graph'].clientHeight,
+    //     autoFit: true,
+    //     padding: [30, 50, 50, 50]
+    //   })
+    //
+    //   chart.data(this.data)
+    //
+    //   chart.scale({
+    //     date: {
+    //       range: [0, 1]
+    //     },
+    //     value: {
+    //       min: 0,
+    //       nice: true
+    //     }
+    //   })
+    //
+    //   chart.tooltip({
+    //     showCrosshairs: true, // 展示 Tooltip 辅助线
+    //     shared: true
+    //   })
+    //
+    //   chart.line().position('date*value').color('city').label('value')
+    //   chart.point().position('date*value').color('city')
+    //   chart.render()
+    //
+    //   this.chart = chart
+    // },
     changeChart() {
       console.log('更新数据后')
       // 更新数据
@@ -341,4 +262,9 @@ export default {
 }
 </script>
 
-<style scoped lang="less"></style>
+<style scoped lang="less">
+  .tab-content-height {
+    height: calc(100vh - 300px);
+    overflow-y: auto;
+  }
+</style>
