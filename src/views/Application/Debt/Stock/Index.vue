@@ -31,10 +31,12 @@
       <!-- 标签页 -->
       <a-tabs type="card">
         <a-tab-pane key="1" tab="时间轴">
-          <stock-timeline :data="data" class="tab-content-height"/>
+          <stock-timeline :data="data"
+                          class="tab-content-height"/>
         </a-tab-pane>
         <a-tab-pane key="2" tab="日历">
-          <stock-calendar class="tab-content-height"/>
+          <stock-calendar :data="data"
+                          class="tab-content-height"/>
         </a-tab-pane>
         <a-tab-pane key="3" tab="表格">
           <stock-table class="tab-content-height"/>
@@ -54,6 +56,23 @@ import StockTimeline from './components/stock-timeline'
 const EXCEL_HEADER = ['日期', '中国', '外国']
 const EXCEL_DATA_MAP = ['date', 'china', 'other']
 
+// 正则
+// 获取()之间的内容
+const getLevel = str => {
+  // const reg = /(\(=?)(\S*)(?=\))/ig
+  // const reg = /\((\S*)\)/g
+  const reg = /(\(=?)(.+)(?=\))/
+  return str.match(reg)[2]
+}
+
+// 获取[]之间的内容
+const getSubject = str => {
+  // const reg = /(\(=?)(\S*)(?=\))/ig
+  // const reg = /\((\S*)\)/g
+  const reg = /(\[=?)(.+)(?=\])/
+  return str.match(reg)[2]
+}
+
 export default {
   name: 'Stock',
   components: {
@@ -67,8 +86,7 @@ export default {
       data: []
     }
   },
-  mounted() {
-    // this.initChart()
+  created() {
   },
   methods: {
     // +---------------------------------------------------------------------------------------------
@@ -120,7 +138,6 @@ export default {
               this.$message.error('没有满足格式要求的数据可导入')
               return false
             }
-            console.log('batchArray', batchArray)
             // 检查数据是否合法
             // if (!this.checkData(batchArray)) {
             //   return false
@@ -128,7 +145,6 @@ export default {
             // 处理成后端格式
             batchArray = this.formatData(JSON.parse(JSON.stringify(batchArray)))
             this.data = batchArray
-            console.log('data', this.data)
           })
         } catch (e) {
           this.$message.warning(e)
@@ -212,8 +228,57 @@ export default {
     },
     // 处理成后端格式
     formatData(arr) {
-      const result = arr
-      return result
+      arr = this.divideChinaBySemicolon(arr)
+      arr = this.divideOtherBySemicolon(arr)
+      arr = this.getChinaData(arr)
+      arr = this.getOtherData(arr)
+      return arr
+    },
+    // 根据';'分割
+    divideChinaBySemicolon(arr) {
+      return arr.map(e => {
+        return e.china ? Object.assign(e, { china: e.china.split(';') }) : Object.assign(e, { china: [] })
+      })
+    },
+    divideOtherBySemicolon(arr) {
+      return arr.map(e => {
+        return e.other ? Object.assign(e, { other: e.other.split(';') }) : Object.assign(e, { other: [] })
+      })
+    },
+    // 求level
+    getChinaData(arr) {
+      arr.forEach(e => {
+        if (e.china.length) {
+          e.china = e.china.map(c => {
+            if (c !== '') {
+              return {
+                level: +getLevel(c) || 1,
+                event: getSubject(c) || '错误'
+              }
+            } else {
+              return {}
+            }
+          })
+        }
+      })
+      return arr
+    },
+    getOtherData(arr) {
+      arr.forEach(e => {
+        if (e.other.length) {
+          e.other = e.other.map(c => {
+            if (c !== '') {
+              return {
+                level: +getLevel(c) || 1,
+                event: getSubject(c) || '错误'
+              }
+            } else {
+              return {}
+            }
+          })
+        }
+      })
+      return arr
     }
   }
 }

@@ -1,59 +1,68 @@
 <template>
   <div>
-    <a-calendar>
-      <ul slot="dateCellRender" slot-scope="value" class="events">
-        <li v-for="item in getListData(value)" :key="item.content">
-          <a-badge :status="item.type" :text="item.content"/>
-        </li>
-      </ul>
-      <template slot="monthCellRender" slot-scope="value">
-        <div v-if="getMonthData(value)" class="notes-month">
-          <section>{{ getMonthData(value) }}</section>
-          <span>Backlog number</span>
-        </div>
-      </template>
+    <a-calendar fullscreen>
+      <div slot="dateCellRender"
+           slot-scope="value"
+           class="pointer"
+           @click="showDrawer(getListData(value))">
+        <template v-if="getListData(value).china && getListData(value).china.length">
+          <a-alert v-for="(item, index) in getListData(value).china"
+               :key="index"
+               :type="ALERT_LEVEL_TYPE[item.level]"
+               :message="`${index + 1}. ${item.event}`"
+               banner/>
+        </template>
+        <template v-if="getListData(value).other && getListData(value).other.length">
+          <a-alert v-for="(item, index) in getListData(value).other"
+                   :key="index"
+                   :type="ALERT_LEVEL_TYPE[item.level]"
+                   :message="`${index + 1}. ${item.event}`"
+                   banner/>
+        </template>
+      </div>
     </a-calendar>
+
+    <!-- 抽屉 -->
+    <stock-drawer ref="StockDrawer"/>
   </div>
 </template>
 
 <script>
+import moment from 'moment'
+import { ALERT_LEVEL_TYPE } from '@/constant'
+import StockDrawer from './stock-drawer'
+
 export default {
   name: 'StockCalendar',
+  components: {
+    StockDrawer
+  },
+  props: {
+    data: {
+      type: Array,
+      default: () => {
+        return []
+      }
+    }
+  },
+  data() {
+    return {
+      ALERT_LEVEL_TYPE,
+      // ...
+      visible: false
+    }
+  },
+  created() {
+  },
   methods: {
     getListData(value) {
-      let listData
-      switch (value.date()) {
-        case 8:
-          listData = [
-            { type: 'warning', content: 'This is warning event.' },
-            { type: 'success', content: 'This is usual event.' }
-          ]
-          break
-        case 10:
-          listData = [
-            { type: 'warning', content: 'This is warning event.' },
-            { type: 'success', content: 'This is usual event.' },
-            { type: 'error', content: 'This is error event.' }
-          ]
-          break
-        case 15:
-          listData = [
-            { type: 'warning', content: 'This is warning event' },
-            { type: 'success', content: 'This is very long usual event。。....' },
-            { type: 'error', content: 'This is error event 1.' },
-            { type: 'error', content: 'This is error event 2.' },
-            { type: 'error', content: 'This is error event 3.' },
-            { type: 'error', content: 'This is error event 4.' }
-          ]
-          break
-        default:
-      }
-      return listData || []
+      return this.data.filter(e => e.date === moment(value).format('YYYY-MM-DD'))[0]
     },
-    getMonthData(value) {
-      if (value.month() === 8) {
-        return 1394
-      }
+    // +----------------------------------------------------------------------------------------------------------------
+    // | 抽屉
+    // +----------------------------------------------------------------------------------------------------------------
+    showDrawer(data) {
+      this.$refs['StockDrawer'].showDrawer(data)
     }
   }
 }
