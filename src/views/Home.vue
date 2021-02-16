@@ -1,14 +1,5 @@
 <template>
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <div class="panel-title">
-        首页
-      </div>
-    </div>
-    <div class="panel-body panel-body-box">
-      <a-calendar/>
-    </div>
-  </div>
+  <div class="main-content"/>
 </template>
 
 <script>
@@ -17,12 +8,20 @@ export default {
   data() {
     return {}
   },
-  methods: {}
+  methods: {
+    onChange(a, b, c) {
+      console.log(a, b, c)
+    }
+  }
 }
 </script>
 
 <style lang="less" scoped>
-.home {
-  vertical-align: middle;
+.main-content {
+  height: calc(100vh - 120px);
+  max-width: calc(100vw - 173px);
+  background-size: cover;
+  background-position: center;
+  background-image: url('~@/assets/image/home.jpg');
 }
 </style>
