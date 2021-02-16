@@ -1,6 +1,8 @@
 <template>
   <div>
-    <a-calendar fullscreen>
+    <a-calendar fullscreen
+                mode="month"
+                :locale="zh_CN">
       <div slot="dateCellRender"
            slot-scope="value"
            class="pointer"
@@ -28,9 +30,12 @@
 </template>
 
 <script>
+import zh_CN from 'ant-design-vue/lib/locale-provider/zh_CN'
 import moment from 'moment'
 import { ALERT_LEVEL_TYPE } from '@/constant'
 import StockDrawer from './stock-drawer'
+
+moment.locale('zh-cn')
 
 export default {
   name: 'StockCalendar',
@@ -47,6 +52,7 @@ export default {
   },
   data() {
     return {
+      zh_CN,
       ALERT_LEVEL_TYPE,
       // ...
       visible: false
