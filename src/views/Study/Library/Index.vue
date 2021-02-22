@@ -16,6 +16,7 @@
     <vue-video-player v-if="activeComponent === 'VueVideoPlayer'" ref="VueVideoPlayer" class="component"/>
     <xlsx v-if="activeComponent === 'XLSX'" ref="XLSX" class="component"/>
     <vue2-count-down v-if="activeComponent === 'Vue2CountDown'" ref="Vue2CountDown" class="component"/>
+    <vue-draggable-case v-if="activeComponent === 'VueDraggableCase'" ref="VueDraggableCase" class="component"/>
   </div>
 </template>
 
@@ -33,6 +34,7 @@ import VuePDF from './components/VuePDF'
 import VueVideoPlayer from './components/VueVideoPlayer'
 import XLSX from './components/XLSX'
 import Vue2CountDown from './components/Vue2CountDown'
+import VueDraggableCase from './components/VueDraggableCase'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -71,7 +73,8 @@ const DEFAULT_CONFIG = {
   V: [
     { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' },
     { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' },
-    { title: 'vue倒计时', description: 'vue倒计时', ref: 'Vue2CountDown' }
+    { title: 'vue倒计时', description: 'vue倒计时', ref: 'Vue2CountDown' },
+    { title: 'vue拖拽', description: 'vue拖拽', ref: 'VueDraggableCase' }
   ],
   W: [],
   X: [
@@ -96,7 +99,8 @@ export default {
     'vue-pdf': VuePDF,
     VueVideoPlayer,
     'xlsx': XLSX,
-    'vue2-count-down': Vue2CountDown
+    'vue2-count-down': Vue2CountDown,
+    VueDraggableCase
   },
   data() {
     return {
