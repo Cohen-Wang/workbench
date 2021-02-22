@@ -7,43 +7,67 @@
       <div slot="component-body">
         <!-- ... -->
         <div>
-          <div class="row">
-            <div class="col-2">
-              <div class="form-group">
-                <div class="btn-group-vertical buttons"
-                     role="group"
-                     aria-label="Basic example">
-                  <button class="btn btn-secondary" @click="add">Add</button>
-                  <button class="btn btn-secondary" @click="replace">Replace</button>
-                </div>
-
-                <div class="form-check">
-                  <input id="disabled"
-                         type="checkbox"
-                         v-model="enabled"
-                         class="form-check-input"/>
-                  <label class="form-check-label" for="disabled">DnD enabled</label>
-                </div>
-              </div>
+          <div class="margin-bottom">
+            <div class="margin-bottom">
+              <a-button type="primary" class="margin-right" @click="add">添加节点</a-button>
+              <a-button type="primary" class="margin-right" @click="replace">替换</a-button>
             </div>
-
-            <div class="col-6">
-              <h3>Draggable {{ draggingInfo }}</h3>
-
-              <vue-draggable :list="list"
-                             :disabled="!enabled"
-                             class="list-group"
-                             ghost-class="ghost"
-                             :move="checkMove"
-                             @start="dragging = true"
-                             @end="dragging = false">
-                <div class="list-group-item"
-                     v-for="element in list"
-                     :key="element.name">
-                  {{ element.name }}
-                </div>
-              </vue-draggable>
+            <div class="">
+              <input id="disabled"
+                     type="checkbox"
+                     v-model="enabled"
+                     class="form-check-input"/>
+              <label class="form-check-label" for="disabled">DnD enabled</label>
             </div>
+          </div>
+          <a-divider>内容</a-divider>
+          <div>
+            <a-row :gutter="20">
+              <a-col :span="8">
+                <div>
+                  <vue-draggable :list="list"
+                                 :disabled="!enabled"
+                                 class="list-group"
+                                 ghost-class="ghost"
+                                 :move="checkMove"
+                                 @start="dragging = true"
+                                 @end="dragging = false">
+                    <div v-for="(item, index) in list"
+                         :key="index"
+                         class="list-group-item">
+                      {{ item.id }}. {{ item.name }}
+                    </div>
+                  </vue-draggable>
+                </div>
+              </a-col>
+              <a-col :span="8">
+                <div>
+                  <a-row :gutter="20">
+                    <vue-draggable :list="list"
+                                   :disabled="!enabled"
+                                   class="list-group"
+                                   ghost-class="ghost"
+                                   :move="checkMove"
+                                   @start="dragging = true"
+                                   @end="dragging = false">
+                      <a-col v-for="(item, index) in list"
+                             :key="index"
+                             :span="8"
+                             class="margin-bottom">
+                        <a-card :title="item.id">
+                          {{ item.name }}
+                        </a-card>
+                      </a-col>
+                    </vue-draggable>
+                  </a-row>
+                </div>
+              </a-col>
+              <a-col :span="8">
+                <div>
+                  <pre v-text="list" style="background-color: #EEEEEE; padding: 10px; border-radius: 6px;"/>
+                </div>
+              </a-col>
+            </a-row>
           </div>
         </div>
       </div>
@@ -69,12 +93,14 @@ export default {
       // ...
       enabled: true,
       id: 0,
-      list: [1, 2, 34, 4, 54, 5]
-    }
-  },
-  computed: {
-    draggingInfo() {
-      return this.dragging ? 'under drag' : ''
+      list: [
+        { id: 1, name: '张三' },
+        { id: 2, name: '李四' },
+        { id: 3, name: '王五' },
+        { id: 4, name: '六二' },
+        { id: 5, name: '七八' },
+        { id: 6, name: '德华' }
+      ]
     }
   },
   methods: {
@@ -124,5 +150,12 @@ export default {
   .ghost {
     opacity: 0.5;
     background: #c8ebfb;
+  }
+
+  .list-group-item {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 6px;
+    padding: 15px;
   }
 </style>
