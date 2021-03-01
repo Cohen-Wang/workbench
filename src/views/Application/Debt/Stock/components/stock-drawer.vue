@@ -7,20 +7,40 @@
               :closable="true"
               @close="hideDrawer">
       <div class="drawer-body">
-        <template v-if="data.china && data.china.length">
-          <a-alert v-for="(item, index) in data.china"
-                   :key="index"
-                   :type="ALERT_LEVEL_TYPE[item.level]"
-                   :message="`${index + 1}. ${item.event}`"
-                   banner/>
-        </template>
-        <template v-if="data.other && data.other.length">
-          <a-alert v-for="(item, index) in data.other"
-                   :key="index"
-                   :type="ALERT_LEVEL_TYPE[item.level]"
-                   :message="`${index + 1}. ${item.event}`"
-                   banner/>
-        </template>
+        <!-- 中国 -->
+        <div>
+          <a-divider orientation="left">
+            <a-avatar shape="square"
+                      :src="require(`@/assets/image/flag/china_flag.jpg`)"/>
+          </a-divider>
+          <template v-if="data.china && data.china.length">
+            <div v-for="(item, index) in data.china"
+                 :key="index"
+                 class="margin-bottom-sm">
+              <a-alert :type="ALERT_LEVEL_TYPE[item.level]"
+                       :message="`${index + 1}. ${item.event}`"
+                       banner/>
+            </div>
+          </template>
+          <a-empty v-else description="暂无数据"/>
+        </div>
+        <!-- 外国 -->
+        <div>
+          <a-divider orientation="left">
+            <a-avatar shape="square"
+                      :src="require(`@/assets/image/flag/world_flag.jpg`)"/>
+          </a-divider>
+          <template v-if="data.other && data.other.length">
+            <div v-for="(item, index) in data.other"
+                 :key="index"
+                 class="margin-bottom-sm">
+              <a-alert :type="ALERT_LEVEL_TYPE[item.level]"
+                       :message="`${index + 1}. ${item.event}`"
+                       banner/>
+            </div>
+          </template>
+          <a-empty v-else description="暂无数据"/>
+        </div>
       </div>
     </a-drawer>
   </div>

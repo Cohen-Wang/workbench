@@ -4,7 +4,7 @@
  */
 export const ALERT_LEVEL_TYPE = {
   1: 'error',
-  2: 'warning',
-  3: 'info',
+  2: 'info',
+  3: 'warning',
   4: 'success'
 }
