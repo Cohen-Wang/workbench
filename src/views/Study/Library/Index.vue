@@ -17,6 +17,7 @@
     <xlsx v-if="activeComponent === 'XLSX'" ref="XLSX" class="component"/>
     <vue2-count-down v-if="activeComponent === 'Vue2CountDown'" ref="Vue2CountDown" class="component"/>
     <vue-draggable-case v-if="activeComponent === 'VueDraggableCase'" ref="VueDraggableCase" class="component"/>
+    <minio v-if="activeComponent === 'Minio'" ref="Minio" class="component"/>
   </div>
 </template>
 
@@ -35,6 +36,7 @@ import VueVideoPlayer from './components/VueVideoPlayer'
 import XLSX from './components/XLSX'
 import Vue2CountDown from './components/Vue2CountDown'
 import VueDraggableCase from './components/VueDraggableCase'
+import Minio from './components/Minio'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -57,7 +59,8 @@ const DEFAULT_CONFIG = {
   M: [
     { title: 'Mock', description: 'Mock', ref: 'Mock' },
     { title: 'Moment', description: 'Moment', ref: 'Moment' },
-    { title: 'Monaco', description: 'Monaco', ref: 'Monaco' }
+    { title: 'Monaco', description: 'Monaco', ref: 'Monaco' },
+    { title: 'Minio', description: 'Minio', ref: 'Minio' }
   ],
   N: [],
   O: [],
@@ -100,7 +103,8 @@ export default {
     VueVideoPlayer,
     'xlsx': XLSX,
     'vue2-count-down': Vue2CountDown,
-    VueDraggableCase
+    VueDraggableCase,
+    Minio
   },
   data() {
     return {
