@@ -14,6 +14,7 @@
     "animate.css": "^4.1.0",
     "ant-design-vue": "^1.6.2",
     "axios": "^0.21.1",
+    "browserify-fs": "^1.0.0",
     "chimee": "^0.12.0",
     "chimee-player": "^1.4.9",
     "chimee-plugin-center-state": "0.0.14",
