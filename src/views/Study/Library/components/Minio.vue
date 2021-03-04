@@ -216,6 +216,7 @@ export default {
     // ...
     async downloadObjectByUrl(item) {
       const url = await this.getDownLoadUrl(item)
+      console.log('+++++', url)
       window.location = url
       window.URL.revokeObjectURL(url)
     },
