@@ -25,10 +25,16 @@
                     <a-input v-model="form.password" placeholder="请输入密码" :maxLength="20"/>
                   </a-form-model-item>
                 </a-col>
+                <!-- 确认密码 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
+                  <a-form-model-item label="确认密码" prop="confirmPassword">
+                    <a-input v-model="form.confirmPassword" placeholder="请输入确认密码" :maxLength="20"/>
+                  </a-form-model-item>
+                </a-col>
                 <!-- 电话号码 -->
                 <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="电话号码" prop="phone">
-                    <a-input v-model="form.phone" placeholder="请输入电话号码" :maxLength="20"/>
+                    <a-input v-model="form.phone" placeholder="请输入电话号码" :maxLength="11"/>
                   </a-form-model-item>
                 </a-col>
                 <!-- 邮箱 -->
@@ -65,7 +71,7 @@
                 <!-- 地址 -->
                 <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="地址" prop="address">
-                    <a-select v-model="form.region"
+                    <a-select v-model="form.address"
                               placeholder="请输入地址">
                       <a-select-option value="shanghai">Zone one</a-select-option>
                       <a-select-option value="beijing">Zone two</a-select-option>
@@ -103,7 +109,8 @@
                                    :dropdown-style="{ maxHeight: '400px', overflow: 'auto' }"
                                    :tree-data="TREE_DATA_CONFIG"
                                    placeholder="请选择所在家族"
-                                   tree-default-expand-all><!--@search="onSearchFamily"-->
+                                   tree-default-expand-all
+                                   @search="onSearchFamily">
                     </a-tree-select>
                   </a-form-model-item>
                 </a-col>
@@ -163,7 +170,7 @@
         <div style="height: 83px; padding-top: 20px; box-shadow: 0 -3px 5px #E8E8E8;display: flex; justify-content: center">
           <a-button-group size="large" block>
             <a-button type="primary"
-                      @click="handleSubmit">
+                      @click="onSubmit">
               检查提交
             </a-button>
             <a-button type="primary"
@@ -273,8 +280,12 @@ const TREE_DATA_CONFIG = [
 const FORM = {
   name: '',
   password: '',
+  confirmPassword: '',
+  phone: '',
+  email: '',
   gender: DEFAULT_GENDER,
   birthday: undefined,
+  address: undefined,
   region: undefined,
   allowMessage: true,
   language: DEFAULT_LANGUAGE,
@@ -287,6 +298,10 @@ const RULES = {
   ],
   password: [
     { required: true, message: '请输入密码', trigger: 'blur' },
+    { validator: isPasswordStrong, trigger: 'blur' }
+  ],
+  confirmPassword: [
+    { required: true, message: '请输入确认密码', trigger: 'blur' },
     { validator: isPasswordStrong, trigger: 'blur' }
   ],
   phone: [
@@ -329,13 +344,26 @@ export default {
     MyComponent
   },
   data() {
+    // 重复密码验证
+    const confirmPasswordCheck = async(rule, value, callback) => {
+      if (value !== this.form.password) {
+        return callback(new Error('两次输入密码不一致！'))
+      } else {
+        callback()
+      }
+    }
     return {
       visible: false,
       // ...
       labelCol: { span: 4 },
       wrapperCol: { span: 20 },
       form: Object.assign({}, FORM),
-      rules: Object.assign({}, RULES),
+      rules: Object.assign({}, RULES, {
+        confirmPassword: [
+          { required: true, message: '请输入确认密码', trigger: 'blur' },
+          { validator: confirmPasswordCheck, trigger: 'blur' }
+        ]
+      }),
       // 配置
       GENDER_CONFIG,
       LANGUAGE_CONFIG,
@@ -362,9 +390,6 @@ export default {
     onSearchFamily() {
       console.log('onSearchFamily', ...arguments)
     },
-    onSubmit() {
-      console.log('submit!', this.form)
-    },
     // +---------------------------------------------------------------------------------------------
     // | 抽屉
     // +---------------------------------------------------------------------------------------------
@@ -375,11 +400,14 @@ export default {
       this.drawer.visible = false
     },
     // 提交
-    handleSubmit() {
+    onSubmit() {
       this.$refs['ruleForm'].validate(valid => {
         if (!valid) return
-        this.$message.success('成功')
+        this.submit()
       })
+    },
+    submit() {
+      this.$message.success('提交说成功')
     }
   }
 }
