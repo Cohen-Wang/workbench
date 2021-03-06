@@ -67,7 +67,7 @@
                   <a slot="actions" @click="onDeleteImage(item)">删除</a>
                   <a-list-item-meta :description="item.name">
                     <a slot="title" href="https://www.antdv.com/">图片</a>
-                    <a-avatar slot="avatar" src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+                    <a-avatar slot="avatar" :src="item.url || `https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png`"/>
                   </a-list-item-meta>
                 </a-list-item>
               </a-list>
@@ -148,12 +148,18 @@ export default {
     // | 初始化minio
     // +---------------------------------------------------------------------------------------------
     initMinio() {
+      // 模拟外部配置
+      const END_POINT = `192.168.0.151`
+      const PORT = 9000
+      const ACCESS_KEY = `minioadmin`
+      const SECREY_KEY = `minioadmin`
+      // 初始化
       this.minioClient = new minio.Client({
-        endPoint: '192.168.0.151',
-        port: 9000,
+        endPoint: END_POINT,
+        port: PORT,
         useSSL: false,
-        accessKey: 'minioadmin', // Q3AM3UQ867SPQQA43P2F
-        secretKey: 'minioadmin' // zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+        accessKey: ACCESS_KEY, // Q3AM3UQ867SPQQA43P2F
+        secretKey: SECREY_KEY // zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
       })
     },
     // +---------------------------------------------------------------------------------------------
@@ -192,7 +198,10 @@ export default {
       this.objectList = []
       // 1：存储桶名称；2：要列出的对象的前缀；3：true - 代表递归查找，false - 代表类似文件夹查找
       const stream = this.minioClient.listObjects(this.bucketName, '', true)
-      stream.on('data', obj => {
+      stream.on('data', async obj => {
+        // TODO 由于objectList的数据不包括图片的URL，所以要逐一请求
+        obj.url = await this.getImageUrl(obj)
+        // 添加
         this.objectList.push(obj)
         this.loading = false
       })
@@ -201,6 +210,8 @@ export default {
         console.log(err)
         this.loading = false
       })
+      console.log('this.objectList', this.objectList)
+      // 不知道下面是什么
       // var stream = this.minioClient.listObjectsV2('yujian-test','', true) // 使用S3 listing objects V2版本API列出所有对象。
       // stream.on('data', function(obj) { console.log(obj) } )
       // stream.on('error', function(err) { console.log(err) } )
@@ -215,14 +226,14 @@ export default {
     },
     // ...
     async downloadObjectByUrl(item) {
-      const url = await this.getDownLoadUrl(item)
-      console.log('+++++', url)
+      const url = await this.getImageUrl(item)
+      // console.log('url', url)
       window.location = url
       window.URL.revokeObjectURL(url)
     },
-    getDownLoadUrl(file) {
+    getImageUrl(file) {
       return new Promise((resolve, reject) => {
-        this.minioClient.presignedGetObject(this.bucketName, file.name, 24 * 60 * 60, function(err, presignedUrl) {
+        this.minioClient.presignedGetObject(this.bucketName, file.name, 60 * 60 * 24 * 7, function(err, presignedUrl) {
           if (err) return reject(err)
           resolve(presignedUrl)
         })
@@ -248,7 +259,7 @@ export default {
     },
     getUploadUrl(file) {
       return new Promise((resolve, reject) => {
-        this.minioClient.presignedPutObject(this.bucketName, file.name, 24 * 60 * 60, function(err, presignedUrl) {
+        this.minioClient.presignedPutObject(this.bucketName, file.name, 60 * 60 * 24 * 7, function(err, presignedUrl) {
           if (err) return reject(err)
           resolve(presignedUrl)
         })
@@ -273,7 +284,7 @@ export default {
           this.progressDetail = `${(progressEvent.loaded / 1024 / 1024).toFixed(2)}/MB(${(progressEvent.loaded / progressEvent.total * 100).toFixed(2)}%)`
         },
         cancelToken: source.token
-      }).then((res) => {
+      }).then(res => {
         if (res.status !== 200) this.$message.error('上传失败')
         this.$message.success('上传成功')
         // 重置
