@@ -290,11 +290,11 @@ const RULES = {
     { validator: isPasswordStrong, trigger: 'blur' }
   ],
   phone: [
-    { required: true, message: '请输入手机号码', trigger: 'blur' },
+    { required: false, message: '请输入手机号码', trigger: 'blur' },
     { validator: isPhoneLegal, trigger: 'blur' }
   ],
   email: [
-    { required: true, message: '请输入邮箱', trigger: 'blur' },
+    { required: false, message: '请输入邮箱', trigger: 'blur' },
     { validator: isEmailLegal, trigger: 'blur' }
   ],
   gender: [
