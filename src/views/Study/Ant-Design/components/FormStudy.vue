@@ -16,19 +16,25 @@
                 <!-- 用户名 -->
                 <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="用户名" prop="name">
-                    <a-input v-model="form.name" placeholder="请输入用户名"/>
+                    <a-input v-model="form.name" placeholder="请输入用户名" :maxLength="20"/>
+                  </a-form-model-item>
+                </a-col>
+                <!-- 密码 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
+                  <a-form-model-item label="密码" prop="password">
+                    <a-input v-model="form.password" placeholder="请输入密码" :maxLength="20"/>
                   </a-form-model-item>
                 </a-col>
                 <!-- 电话号码 -->
                 <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="电话号码" prop="phone">
-                    <a-input v-model="form.phone" placeholder="请输入电话号码"/>
+                    <a-input v-model="form.phone" placeholder="请输入电话号码" :maxLength="20"/>
                   </a-form-model-item>
                 </a-col>
                 <!-- 邮箱 -->
                 <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
                   <a-form-model-item label="邮箱" prop="email">
-                    <a-input v-model="form.email" placeholder="请输入邮箱"/>
+                    <a-input v-model="form.email" placeholder="请输入邮箱" :maxLength="20"/>
                   </a-form-model-item>
                 </a-col>
               </a-row>
@@ -185,7 +191,7 @@
 
 <script>
 // 工具
-import { isPhoneLegal, isEmailLegal } from '@/utils'
+import { isPasswordStrong, isPhoneLegal, isEmailLegal } from '@/utils'
 // 组件
 import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
@@ -266,6 +272,7 @@ const TREE_DATA_CONFIG = [
 
 const FORM = {
   name: '',
+  password: '',
   gender: DEFAULT_GENDER,
   birthday: undefined,
   region: undefined,
@@ -277,6 +284,10 @@ const RULES = {
   name: [
     { required: true, message: '请输入名称', trigger: 'blur' },
     { min: 2, max: 10, message: '字符长度范围应在2~10个', trigger: 'blur' }
+  ],
+  password: [
+    { required: true, message: '请输入密码', trigger: 'blur' },
+    { validator: isPasswordStrong, trigger: 'blur' }
   ],
   phone: [
     { required: true, message: '请输入手机号码', trigger: 'blur' },

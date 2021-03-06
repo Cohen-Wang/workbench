@@ -1,8 +1,25 @@
 // +-----------------------------------------------------------------------------------------------------
 // | 表单方法
 // +-----------------------------------------------------------------------------------------------------
+
 /**
- * 判断输入内容是否为电话号码
+ * 判断字符串是否为强密码
+ * @param rule
+ * @param value
+ * @param callback
+ */
+export const isPasswordStrong = (rule, value, callback) => {
+  const reg = /^(?=.*[a-zA-Z])(?=.*\d).{8,20}$/
+  const isStrong = reg.test(value)
+  if (!isStrong) {
+    callback(new Error('密码弱，请设置8-20位字母加数字密码！'))
+  } else {
+    callback()
+  }
+}
+
+/**
+ * 判断字符串是否为合法的电话号码
  * @param rule
  * @param value
  * @param callback
@@ -22,7 +39,7 @@ export const isPhoneLegal = (rule, value, callback) => {
 }
 
 /**
- * 检查form表单email字段
+ * 判断字符串是否为合法的邮箱
  * @param rule
  * @param value
  * @param callback
