@@ -11,7 +11,11 @@ const state = {
   // 主题
   theme: localStorage.getItem('theme') || DEFAULT_THEME,
   // 导航菜单宽度
-  collapsed: JSON.parse(localStorage.getItem('collapsed')) || DEFAULT_COLLAPSED
+  collapsed: JSON.parse(localStorage.getItem('collapsed')) || DEFAULT_COLLAPSED,
+  // 登录用户信息
+  userInfo: JSON.parse(localStorage.getItem('userInfo')),
+  // token
+  token: localStorage.getItem('token')
 }
 
 export default state

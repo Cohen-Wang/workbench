@@ -19,7 +19,7 @@
       <!-- 右边 -->
       <a-dropdown style="float: right;padding-right: 30px;">
         <a class="ant-dropdown-link" @click="e => e.preventDefault()">
-          王海涛
+          {{ userInfo.realName }}
           <a-icon type="down"/>
         </a>
         <a-menu slot="overlay">
@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapGetters, mapActions } from 'vuex'
 import IndividuationModal from '@/components/modal/IndividuationModal'
 
 export default {
@@ -59,7 +59,8 @@ export default {
       'routes',
       'currentNav',
       'theme',
-      'collapsed'
+      'collapsed',
+      'userInfo'
     ]),
     showRouter() {
       return this.routes.filter(e => e.isShow)
@@ -67,7 +68,9 @@ export default {
   },
   methods: {
     ...mapActions([
-      'SET_CURRENT_COLLAPSED'
+      'SET_CURRENT_COLLAPSED',
+      'REMOVE_USER_INFO',
+      'REMOVE_TOKEN'
     ]),
     // 导航条点击
     handleClick(option) {
@@ -106,7 +109,8 @@ export default {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           // 清除token
-          localStorage.removeItem('token')
+          this.REMOVE_USER_INFO()
+          this.REMOVE_TOKEN()
           // 跳转login
           this.$router.push('/login')
           // 为了关闭loading

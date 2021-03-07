@@ -62,6 +62,7 @@
 
 <script>
 import Layout from './components/Layout'
+import { mapActions } from 'vuex'
 
 const FORM = {
   username: 'admin',
@@ -89,6 +90,9 @@ export default {
     }
   },
   methods: {
+    ...mapActions([
+      'SET_USER_INFO'
+    ]),
     // 登录
     onLogin() {
       this.$refs['loginForm'].validate(valid => {
@@ -99,10 +103,15 @@ export default {
     login() {
       this.loading = true
       this.$axios.post('http://jsonplaceholder.typicode.com/posts/1/comments').then(res => {
-        if (this.form.username === 'admin' && this.form.password === '123456') {
+        if (this.form.password === '123456') {
           // 存储token
           const token = JSON.stringify({ username: 'admin', password: '123456' })
           localStorage.setItem('token', token)
+          // 模拟用户信息
+          const userInfo = {
+            realName: this.form.username
+          }
+          this.SET_USER_INFO(userInfo)
           // 跳转
           this.$router.push('/')
         } else {
