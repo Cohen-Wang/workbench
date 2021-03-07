@@ -91,6 +91,7 @@ export default {
   },
   methods: {
     ...mapActions([
+      'SET_TOKEN',
       'SET_USER_INFO'
     ]),
     // 登录
@@ -104,10 +105,16 @@ export default {
       this.loading = true
       this.$axios.post('http://jsonplaceholder.typicode.com/posts/1/comments').then(res => {
         if (this.form.password === '123456') {
-          // 存储token
-          const token = JSON.stringify({ username: 'admin', password: '123456' })
-          localStorage.setItem('token', token)
-          // 模拟用户信息
+          /**
+           * 模拟后台返回数据
+           */
+          // 模拟存储token
+          const token = {
+            username: 'admin',
+            password: '123456'
+          }
+          this.SET_TOKEN(encodeURI(JSON.stringify(token)))
+          // 模拟存储用户信息
           const userInfo = {
             realName: this.form.username
           }
