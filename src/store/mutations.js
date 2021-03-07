@@ -9,7 +9,6 @@ const mutations = {
   },
   // 设置主题
   SET_CURRENT_THEME: (state, payload) => {
-    console.log('mutations')
     state.theme = payload
     localStorage.setItem('theme', payload)
   },

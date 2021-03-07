@@ -9,7 +9,6 @@ const actions = {
   },
   // 设置主题
   SET_CURRENT_THEME: (context, payload) => {
-    console.log('actions')
     context.commit('SET_CURRENT_THEME', payload)
   },
   // 设置导航菜单宽度
