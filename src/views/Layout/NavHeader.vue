@@ -28,7 +28,7 @@
         </a>
         <a-menu slot="overlay">
           <a-menu-item>
-            <a href="javascript:void(0)">个人中心</a>
+            <a href="javascript:void(0)" @click="gotoParsonalCenter">个人中心</a>
           </a-menu-item>
           <a-menu-item>
             <a href="javascript:void(0)" @click="showIndividuationDialog">个性化</a>
@@ -80,6 +80,12 @@ export default {
     handleClick(option) {
       const { key } = option
       this.$store.commit('SET_CURRENT_NAV', key)
+    },
+    // +----------------------------------------------------------------------------------------------------------------
+    // | 个人中心
+    // +----------------------------------------------------------------------------------------------------------------
+    gotoParsonalCenter() {
+      this.$router.push('/personal-center')
     },
     // +----------------------------------------------------------------------------------------------------------------
     // | 对话框：个性化

@@ -44,6 +44,22 @@ export const routes = [
     ]
   },
   {
+    path: '/case',
+    name: 'case',
+    component: Index,
+    isShow: true,
+    meta: { title: '案例', icon: 'file' },
+    redirect: '/case/index',
+    children: [
+      {
+        path: '/personal-center',
+        name: 'personal-center',
+        meta: { title: '所有案例', icon: 'credit-card' },
+        component: () => import('@/views/PersonalCenter/Index.vue')
+      }
+    ]
+  },
+  {
     path: '/study',
     name: 'study',
     component: Index,
