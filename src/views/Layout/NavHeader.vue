@@ -30,104 +30,67 @@
             <a href="javascript:void(0)" @click="showIndividuationDialog">个性化</a>
           </a-menu-item>
           <a-menu-item>
-            <a href="javascript:void(0)" @click="logout">退出登录</a>
+            <a href="javascript:void(0)" @click="onLogout">退出登录</a>
           </a-menu-item>
         </a-menu>
       </a-dropdown>
     </a-menu>
+
     <!-- 个性化对话框 -->
-    <a-modal title="个性化"
-             :visible="individuationDialog.visible"
-             :width="600"
-             okText="确认"
-             cancelText="取消"
-             @ok="handleOk"
-             @cancel="hideIndividuationDialog">
-      <a-form-model :label-col="{ span: 4 }" :wrapper-col="{ span: 14 }">
-        <a-form-model-item label="选择主题">
-          <a-radio-group v-model="theme">
-            <a-radio v-for="(themeItem, themeIndex) in THEME_CONFIG"
-                     :key="themeIndex"
-                     :value="themeItem.value">
-              {{ themeItem.label }}
-            </a-radio>
-          </a-radio-group>
-        </a-form-model-item>
-      </a-form-model>
-    </a-modal>
+    <individuation-modal ref="IndividuationModal"/>
   </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-import { THEME_CONFIG, DEFAULT_THEME, DEFAULT_COLLAPSED } from '@/global/config'
+import { mapActions, mapGetters } from 'vuex'
+import IndividuationModal from '@/components/modal/IndividuationModal'
 
 export default {
   name: 'NavHeader',
+  components: {
+    IndividuationModal
+  },
   data() {
     return {
-      THEME_CONFIG,
-      //
-      theme: null,
-      collapsed: null,
-      // 个性化
-      individuationDialog: {
-        visible: false,
-        form: {
-          // theme: 'light'
-        }
-      }
     }
   },
   computed: {
-    ...mapGetters(['routes', 'currentNav']),
+    ...mapGetters([
+      'routes',
+      'currentNav',
+      'theme',
+      'collapsed'
+    ]),
     showRouter() {
       return this.routes.filter(e => e.isShow)
     }
   },
-  watch: {
-    theme(newValue) {
-      this.$store.commit('SET_CURRENT_THEME', newValue)
-    },
-    collapsed(newValue) {
-      this.$store.commit('SET_CURRENT_COLLAPSED', newValue)
-    }
-  },
-  created() {
-    this.theme = window.localStorage.getItem('theme') || DEFAULT_THEME
-    // JSON.parse('false') => false
-    this.collapsed = JSON.parse(window.localStorage.getItem('collapsed')) || DEFAULT_COLLAPSED
-    // 如果是第一次，就保存
-    this.$store.commit('SET_CURRENT_THEME', this.theme)
-    this.$store.commit('SET_CURRENT_COLLAPSED', this.collapsed)
-  },
   methods: {
+    ...mapActions([
+      'SET_CURRENT_COLLAPSED'
+    ]),
     // 导航条点击
     handleClick(option) {
       const { key } = option
       this.$store.commit('SET_CURRENT_NAV', key)
     },
-    // 【个性化对话框】
+    // +----------------------------------------------------------------------------------------------------------------
+    // | 对话框：个性化
+    // +----------------------------------------------------------------------------------------------------------------
     // 打开
     showIndividuationDialog() {
-      this.individuationDialog.visible = true
+      this.$refs['IndividuationModal'].showModal()
     },
-    // 切换导航菜单宽度
+    // +----------------------------------------------------------------------------------------------------------------
+    // | 切换导航菜单宽度
+    // +----------------------------------------------------------------------------------------------------------------
     toggleCollapsed() {
-      this.collapsed = !this.collapsed
-      this.$store.commit('SET_CURRENT_COLLAPSED', this.collapsed)
+      this.SET_CURRENT_COLLAPSED(!this.collapsed)
     },
-    // 确定
-    handleOk() {
-      // ?
-      this.hideIndividuationDialog()
-    },
-    // 隐藏对话框
-    hideIndividuationDialog() {
-      this.individuationDialog.visible = false
-    },
-    // 退出登录
-    logout() {
+    // +----------------------------------------------------------------------------------------------------------------
+    // | 退出登录
+    // +----------------------------------------------------------------------------------------------------------------
+    onLogout() {
       const _this = this
       this.$confirm({
         title: '确认退出登录吗？',
@@ -135,19 +98,22 @@ export default {
         cancelText: '取消',
         onCancel() {},
         onOk() {
-          return new Promise((resolve, reject) => {
-            setTimeout(() => {
-              // 清除token
-              localStorage.removeItem('token')
-              // 跳转login
-              _this.$router.push('/login')
-              // 为了关闭loading
-              resolve('关闭')
-            }, 1000)
-          }).catch(() => {
-            console.log('Oops errors!')
-          })
+          _this.logout()
         }
+      })
+    },
+    logout() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          // 清除token
+          localStorage.removeItem('token')
+          // 跳转login
+          this.$router.push('/login')
+          // 为了关闭loading
+          resolve('关闭')
+        }, 1000)
+      }).catch(() => {
+        console.log('Oops errors!')
       })
     }
   }

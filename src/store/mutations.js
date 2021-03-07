@@ -9,13 +9,14 @@ const mutations = {
   },
   // 设置主题
   SET_CURRENT_THEME: (state, payload) => {
+    console.log('mutations')
     state.theme = payload
-    window.localStorage.setItem('theme', payload)
+    localStorage.setItem('theme', payload)
   },
   // 设置导航菜单宽度
   SET_CURRENT_COLLAPSED: (state, payload) => {
     state.collapsed = payload
-    window.localStorage.setItem('collapsed', payload)
+    localStorage.setItem('collapsed', payload)
   }
 }
 
