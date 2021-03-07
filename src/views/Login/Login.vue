@@ -116,7 +116,8 @@ export default {
           this.SET_TOKEN(encodeURI(JSON.stringify(token)))
           // 模拟存储用户信息
           const userInfo = {
-            realName: this.form.username
+            realName: this.form.username,
+            avatarUrl: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1729510474,1941158659&fm=26&gp=0.jpg'
           }
           this.SET_USER_INFO(userInfo)
           // 跳转

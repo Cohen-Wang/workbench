@@ -3,7 +3,7 @@
     <a-menu mode="horizontal"
             :theme="theme"
             :selected-keys="[currentNav]"
-            style="height: 64px;line-height: 64px;">
+            style="height: 64px; line-height: 64px;">
       <a-button size="small"
                 type="link"
                 :icon="collapsed ? 'menu-unfold' : 'menu-fold'"
@@ -19,6 +19,10 @@
       <!-- 右边 -->
       <a-dropdown style="float: right;padding-right: 30px;">
         <a class="ant-dropdown-link" @click="e => e.preventDefault()">
+          <a-badge :count="1">
+            <a-avatar shape="square"
+                      :src="userInfo.avatarUrl"/>
+          </a-badge>
           {{ userInfo.realName }}
           <a-icon type="down"/>
         </a>
