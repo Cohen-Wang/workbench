@@ -71,7 +71,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   name: 'LayoutSidebar',
@@ -79,12 +79,12 @@ export default {
     return {}
   },
   computed: {
-    ...mapGetters([
-      'routes',
-      'currentNav',
-      'theme',
-      'collapsed'
-    ]),
+    ...mapState({
+      routes: state => state.common.routes,
+      currentNav: state => state.common.currentNav,
+      theme: state => state.common.theme,
+      collapsed: state => state.common.collapsed
+    }),
     currentRoute() {
       return this.routes.find(item => item.name === this.currentNav).children
     },

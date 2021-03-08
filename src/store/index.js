@@ -1,16 +1,16 @@
+// 注册
 import Vue from 'vue'
 import Vuex from 'vuex'
-import state from './state'
-import getters from './getters'
-import mutations from './mutations'
-import actions from './actions'
+// 模块
+import common from './modules/common'
+import user from './modules/user'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   strict: true,
-  state,
-  getters,
-  mutations,
-  actions
+  modules: {
+    common,
+    user
+  }
 })

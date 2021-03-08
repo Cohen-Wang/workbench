@@ -23,7 +23,7 @@
 
 <script>
 import { MODAL_SIZE, THEME_CONFIG } from '@/const'
-import { mapGetters, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 
 export default {
   name: 'IndividuationModal',
@@ -36,14 +36,11 @@ export default {
     }
   },
   computed: {
-    ...mapGetters([
-      'theme'
-    ])
+    ...mapState({
+      theme: state => state.common.theme
+    })
   },
   methods: {
-    ...mapActions([
-      'SET_CURRENT_THEME'
-    ]),
     // +----------------------------------------------------------------------------------------------------------------
     // | 对话框
     // +----------------------------------------------------------------------------------------------------------------
@@ -59,7 +56,7 @@ export default {
     // 切换主题
     onChangeTheme(e) {
       const newValue = e.target.value
-      this.SET_CURRENT_THEME(newValue)
+      this.$store.dispatch('common/SET_CURRENT_THEME', newValue)
     }
   }
 }

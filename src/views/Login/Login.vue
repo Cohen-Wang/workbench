@@ -64,7 +64,6 @@
 
 <script>
 import Layout from './components/Layout'
-import { mapActions } from 'vuex'
 
 const FORM = {
   username: 'admin',
@@ -92,10 +91,6 @@ export default {
     }
   },
   methods: {
-    ...mapActions([
-      'SET_TOKEN',
-      'SET_USER_INFO'
-    ]),
     // 登录
     onLogin() {
       this.$refs['loginForm'].validate(valid => {
@@ -115,13 +110,13 @@ export default {
             username: 'admin',
             password: '123456'
           }
-          this.SET_TOKEN(encodeURI(JSON.stringify(token)))
+          this.$store.dispatch('user/SET_TOKEN', encodeURI(JSON.stringify(token)))
           // 模拟存储用户信息
           const userInfo = {
             realName: this.form.username,
             avatarUrl: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1729510474,1941158659&fm=26&gp=0.jpg'
           }
-          this.SET_USER_INFO(userInfo)
+          this.$store.dispatch('user/SET_USER_INFO', userInfo)
           // 跳转
           this.$router.push('/')
         } else {

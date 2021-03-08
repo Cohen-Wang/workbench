@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import IndividuationModal from '@/components/modal/IndividuationModal'
 
 export default {
@@ -59,27 +59,22 @@ export default {
     }
   },
   computed: {
-    ...mapGetters([
-      'routes',
-      'currentNav',
-      'theme',
-      'collapsed',
-      'userInfo'
-    ]),
+    ...mapState({
+      userInfo: state => state.user.userInfo,
+      routes: state => state.common.routes,
+      currentNav: state => state.common.currentNav,
+      theme: state => state.common.theme,
+      collapsed: state => state.common.collapsed
+    }),
     showRouter() {
       return this.routes.filter(e => e.isShow)
     }
   },
   methods: {
-    ...mapActions([
-      'SET_CURRENT_COLLAPSED',
-      'REMOVE_USER_INFO',
-      'REMOVE_TOKEN'
-    ]),
     // 导航条点击
     handleClick(option) {
       const { key } = option
-      this.$store.commit('SET_CURRENT_NAV', key)
+      this.$store.dispatch('common/SET_CURRENT_NAV', key)
     },
     // +----------------------------------------------------------------------------------------------------------------
     // | 个人中心
@@ -98,7 +93,7 @@ export default {
     // | 切换导航菜单宽度
     // +----------------------------------------------------------------------------------------------------------------
     toggleCollapsed() {
-      this.SET_CURRENT_COLLAPSED(!this.collapsed)
+      this.$store.dispatch('common/SET_CURRENT_COLLAPSED', !this.collapsed)
     },
     // +----------------------------------------------------------------------------------------------------------------
     // | 退出登录
@@ -119,8 +114,8 @@ export default {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           // 清除token
-          this.REMOVE_USER_INFO()
-          this.REMOVE_TOKEN()
+          this.$store.dispatch('common/REMOVE_USER_INFO')
+          this.$store.dispatch('common/REMOVE_TOKEN')
           // 跳转login
           this.$router.push('/login')
           // 为了关闭loading
