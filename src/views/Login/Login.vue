@@ -20,7 +20,8 @@
               <a-input type="text"
                        allowClear
                        v-model="form.username"
-                       placeholder="用户名">
+                       placeholder="用户名"
+                       @keyup.enter="onLogin">
                 <a-icon slot="prefix" type="user" style="color: rgba(0,0,0,.25)"/>
               </a-input>
             </a-form-model-item>
@@ -28,7 +29,8 @@
               <a-input type="password"
                        allowClear
                        v-model="form.password"
-                       placeholder="密码">
+                       placeholder="密码"
+                       @keyup.enter="onLogin">
                 <a-icon slot="prefix" type="lock" style="color: rgba(0,0,0,.25)"/>
               </a-input>
             </a-form-model-item>
@@ -79,21 +81,6 @@ const RULES = {
   ]
 }
 
-const FORM = {
-  username: 'admin',
-  password: '123456',
-  autoLogin: false
-}
-
-const RULES = {
-  username: [
-    { required: true, message: '请输入用户名', trigger: 'blur' }
-  ],
-  password: [
-    { required: true, message: '请输入密码', trigger: 'blur' }
-  ]
-}
-
 export default {
   name: 'Login',
   components: { Layout },
@@ -119,12 +106,6 @@ export default {
     login() {
       this.loading = true
       this.$axios.post('http://jsonplaceholder.typicode.com/posts/1/comments').then(res => {
-<<<<<<< HEAD
-        if (this.form.username === 'admin' && this.form.password === '123456') {
-          // 存储token
-          const token = JSON.stringify({ username: 'admin', password: '123456' })
-          localStorage.setItem('token', token)
-=======
         if (this.form.password === '123456') {
           /**
            * 模拟后台返回数据
@@ -141,7 +122,6 @@ export default {
             avatarUrl: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1729510474,1941158659&fm=26&gp=0.jpg'
           }
           this.SET_USER_INFO(userInfo)
->>>>>>> f4f60bd93dd3c4c64a047bce0db6419d6943929b
           // 跳转
           this.$router.push('/')
         } else {
