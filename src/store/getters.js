@@ -6,7 +6,11 @@ const getters = {
   // 主题
   theme: state => state.theme,
   // 导航菜单宽度
-  collapsed: state => state.collapsed
+  collapsed: state => state.collapsed,
+  // 登录用户信息
+  userInfo: state => state.userInfo,
+  // token
+  token: state => state.token
 }
 
 export default getters

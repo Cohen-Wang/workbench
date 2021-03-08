@@ -79,7 +79,12 @@ export default {
     return {}
   },
   computed: {
-    ...mapGetters(['routes', 'currentNav', 'theme', 'collapsed']),
+    ...mapGetters([
+      'routes',
+      'currentNav',
+      'theme',
+      'collapsed'
+    ]),
     currentRoute() {
       return this.routes.find(item => item.name === this.currentNav).children
     },
@@ -95,8 +100,7 @@ export default {
       const { key } = option
       this.$router.push(key)
     }
-  },
-  created() {}
+  }
 }
 </script>
 

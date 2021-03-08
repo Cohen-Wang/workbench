@@ -62,6 +62,22 @@
 
 <script>
 import Layout from './components/Layout'
+import { mapActions } from 'vuex'
+
+const FORM = {
+  username: 'admin',
+  password: '123456',
+  autoLogin: false
+}
+
+const RULES = {
+  username: [
+    { required: true, message: '请输入用户名', trigger: 'blur' }
+  ],
+  password: [
+    { required: true, message: '请输入密码', trigger: 'blur' }
+  ]
+}
 
 const FORM = {
   username: 'admin',
@@ -89,6 +105,10 @@ export default {
     }
   },
   methods: {
+    ...mapActions([
+      'SET_TOKEN',
+      'SET_USER_INFO'
+    ]),
     // 登录
     onLogin() {
       this.$refs['loginForm'].validate(valid => {
@@ -99,10 +119,29 @@ export default {
     login() {
       this.loading = true
       this.$axios.post('http://jsonplaceholder.typicode.com/posts/1/comments').then(res => {
+<<<<<<< HEAD
         if (this.form.username === 'admin' && this.form.password === '123456') {
           // 存储token
           const token = JSON.stringify({ username: 'admin', password: '123456' })
           localStorage.setItem('token', token)
+=======
+        if (this.form.password === '123456') {
+          /**
+           * 模拟后台返回数据
+           */
+          // 模拟存储token
+          const token = {
+            username: 'admin',
+            password: '123456'
+          }
+          this.SET_TOKEN(encodeURI(JSON.stringify(token)))
+          // 模拟存储用户信息
+          const userInfo = {
+            realName: this.form.username,
+            avatarUrl: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1729510474,1941158659&fm=26&gp=0.jpg'
+          }
+          this.SET_USER_INFO(userInfo)
+>>>>>>> f4f60bd93dd3c4c64a047bce0db6419d6943929b
           // 跳转
           this.$router.push('/')
         } else {
