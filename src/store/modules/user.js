@@ -1,3 +1,4 @@
+import { Base64 } from 'js-base64'
 
 const user = {
   namespaced: true,
@@ -5,7 +6,7 @@ const user = {
     // 登录用户信息
     userInfo: JSON.parse(localStorage.getItem('userInfo')) || {},
     // token
-    token: localStorage.getItem('token') || ''
+    token: JSON.parse(Base64.decode(localStorage.getItem('token'))) || ''
   },
   getters: {
   },
@@ -54,7 +55,7 @@ const user = {
     // +----------------------------------------------------------------------------------------------------------------
     // 设置token
     SET_TOKEN: (context, payload) => {
-      context.commit('SET_TOKEN', payload)
+      context.commit('SET_TOKEN', Base64.encode(JSON.stringify(payload)))
     },
     // 清空token
     REMOVE_TOKEN: context => {

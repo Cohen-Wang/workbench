@@ -7,7 +7,7 @@ const common = {
   namespaced: true,
   state: {
     // 全局路由配置
-    routes: routes,
+    routes: routes || [],
     // 当前一级导航
     currentNav: 'study',
     // 主题
