@@ -114,8 +114,8 @@ export default {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           // 清除token
-          this.$store.dispatch('common/REMOVE_USER_INFO')
-          this.$store.dispatch('common/REMOVE_TOKEN')
+          this.$store.dispatch('user/REMOVE_USER_INFO')
+          this.$store.dispatch('user/REMOVE_TOKEN')
           // 跳转login
           this.$router.push('/login')
           // 为了关闭loading
