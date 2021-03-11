@@ -15,9 +15,9 @@ const user = {
     // | 用户
     // +----------------------------------------------------------------------------------------------------------------
     // 设置用户信息
-    SET_USER_INFO: (state, payload1) => {
-      state.userInfo = payload1
-      localStorage.setItem('userInfo', JSON.stringify(payload1))
+    SET_USER_INFO: (state, payload) => {
+      state.userInfo = payload
+      localStorage.setItem('userInfo', JSON.stringify(payload))
     },
     // 清空用户信息
     REMOVE_USER_INFO: state => {
