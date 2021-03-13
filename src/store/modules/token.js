@@ -3,7 +3,7 @@ import { session } from '@/utils'
 const token = {
   namespaced: true,
   state: {
-    token: session.get('token') || ''
+    token: session.get('access_token') || ''
   },
   getters: {
   },
@@ -12,14 +12,14 @@ const token = {
     SET_TOKEN: (state, payload) => {
       state.token = payload
       session.set({
-        name: 'token',
+        name: 'access_token',
         content: payload
       })
     },
     // 清空token
     REMOVE_TOKEN: state => {
       state.token = ''
-      session.remove('token')
+      session.remove('access_token')
     }
   },
   actions: {

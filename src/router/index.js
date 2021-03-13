@@ -268,7 +268,7 @@ const router = new VueRouter({
 
 // 拦截器
 router.beforeEach((to, from, next) => {
-  const isLogin = !!session.get('token')
+  const isLogin = !!session.get('access_token')
   if (to.path === '/login' || to.path === '/register') {
     next()
   } else {
