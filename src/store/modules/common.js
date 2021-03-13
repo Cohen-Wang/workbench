@@ -1,15 +1,15 @@
-// 配置常量
-import { DEFAULT_THEME, DEFAULT_COLLAPSED } from '@/const'
+import { DEFAULT_THEME, DEFAULT_COLLAPSED } from '@/const' // 配置常量
+import { local } from '@/utils'
 
 const common = {
   namespaced: true,
   state: {
     // 当前一级导航
-    currentNav: 'study',
+    currentNav: local.get({ name: 'currentNav' }) || 'study',
     // 主题
-    theme: localStorage.getItem('theme') || DEFAULT_THEME,
+    theme: local.get({ name: 'theme' }) || DEFAULT_THEME,
     // 导航菜单宽度
-    collapsed: JSON.parse(localStorage.getItem('collapsed')) || DEFAULT_COLLAPSED
+    collapsed: local.get('collapsed') || DEFAULT_COLLAPSED
   },
   getters: {
   },
@@ -17,16 +17,26 @@ const common = {
     // 当前导航
     SET_CURRENT_NAV: (state, payload) => {
       state.currentNav = payload
+      local.set({
+        name: 'currentNav',
+        content: payload
+      })
     },
     // 设置主题
     SET_CURRENT_THEME: (state, payload) => {
       state.theme = payload
-      localStorage.setItem('theme', payload)
+      local.set({
+        name: 'theme',
+        content: payload
+      })
     },
     // 设置导航菜单宽度
     SET_CURRENT_COLLAPSED: (state, payload) => {
       state.collapsed = payload
-      localStorage.setItem('collapsed', payload)
+      local.set({
+        name: 'collapsed',
+        content: payload
+      })
     }
   },
   actions: {

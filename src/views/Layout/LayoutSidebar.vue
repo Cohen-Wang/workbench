@@ -80,7 +80,7 @@ export default {
   },
   computed: {
     ...mapState({
-      routes: state => state.common.routes,
+      routes: state => state.router.routes,
       currentNav: state => state.common.currentNav,
       theme: state => state.common.theme,
       collapsed: state => state.common.collapsed

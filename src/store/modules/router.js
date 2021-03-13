@@ -1,5 +1,4 @@
-// asideBar 导航处需要的router数据
-import { routes } from '@/router'
+import { routes } from '@/router' // asideBar 导航处需要的router数据
 
 const router = {
   namespaced: true,
