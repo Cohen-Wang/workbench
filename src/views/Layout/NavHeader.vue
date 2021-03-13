@@ -115,7 +115,7 @@ export default {
         setTimeout(() => {
           // 清除token
           this.$store.dispatch('user/REMOVE_USER_INFO')
-          this.$store.dispatch('user/REMOVE_TOKEN')
+          this.$store.dispatch('token/REMOVE_TOKEN')
           // 跳转login
           this.$router.push('/login')
           // 为了关闭loading

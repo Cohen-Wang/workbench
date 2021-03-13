@@ -110,7 +110,7 @@ export default {
             username: 'admin',
             password: '123456'
           }
-          this.$store.dispatch('user/SET_TOKEN', encodeURI(JSON.stringify(token)))
+          this.$store.dispatch('token/SET_TOKEN', encodeURI(JSON.stringify(token)))
           // 模拟存储用户信息
           const userInfo = {
             realName: this.form.username,
