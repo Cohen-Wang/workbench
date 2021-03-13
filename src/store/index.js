@@ -2,15 +2,19 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 // 模块
-import common from './modules/common'
+import token from './modules/token'
 import user from './modules/user'
+import router from './modules/router'
+import common from './modules/common'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   strict: true,
   modules: {
-    common,
-    user
+    token,
+    user,
+    router,
+    common
   }
 })
