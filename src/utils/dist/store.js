@@ -28,6 +28,8 @@ export const session = {
       content = Number(obj.content)
     } else if (obj.dataType === 'object') {
       content = obj.content
+    } else {
+      content = obj.content
     }
     return content
   },
@@ -66,6 +68,8 @@ export const local = {
     } else if (obj.dataType === 'number') {
       content = Number(obj.content)
     } else if (obj.dataType === 'object') {
+      content = obj.content
+    } else {
       content = obj.content
     }
     return content
