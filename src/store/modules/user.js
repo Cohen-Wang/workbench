@@ -3,7 +3,7 @@ import { local } from '@/utils'
 const user = {
   namespaced: true,
   state: {
-    userInfo: local.get({ name: 'userInfo' }) || {}
+    userInfo: local.get('userInfo') || {}
   },
   getters: {
   },

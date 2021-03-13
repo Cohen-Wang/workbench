@@ -5,11 +5,11 @@ const common = {
   namespaced: true,
   state: {
     // 当前一级导航
-    currentNav: local.get({ name: 'currentNav' }) || 'study',
+    currentNav: local.get('currentNav') || 'study',
     // 主题
-    theme: local.get({ name: 'theme' }) || DEFAULT_THEME,
+    theme: local.get('theme') || DEFAULT_THEME,
     // 导航菜单宽度
-    collapsed: local.get({ name: 'collapsed' }) || DEFAULT_COLLAPSED
+    collapsed: local.get('collapsed') || DEFAULT_COLLAPSED
   },
   getters: {
   },

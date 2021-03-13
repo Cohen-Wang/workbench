@@ -15,8 +15,7 @@ export const session = {
     window.sessionStorage.setItem(name, JSON.stringify(obj))
   },
   // 获取
-  get: params => {
-    const { name } = params
+  get: name => {
     let obj = {}
     let content
     obj = window.sessionStorage.getItem(name)
@@ -56,8 +55,7 @@ export const local = {
     window.localStorage.setItem(name, JSON.stringify(obj))
   },
   // 获取
-  get: params => {
-    const { name } = params
+  get: name => {
     let obj = {}
     let content
     obj = window.localStorage.getItem(name)
