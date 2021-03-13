@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Index from '../views/Layout/Index'
-import Login from '../views/Login/Login'
-import Register from '../views/Login/Register'
+import Index from '@/views/Layout/Index'
+import Login from '@/views/Login/Login'
+import Register from '@/views/Login/Register'
+import { session } from '@/utils'
 
 Vue.use(VueRouter)
 
@@ -267,7 +268,7 @@ const router = new VueRouter({
 
 // 拦截器
 router.beforeEach((to, from, next) => {
-  const isLogin = !!localStorage.getItem('token')
+  const isLogin = !!session.get({ name: 'token' })
   if (to.path === '/login' || to.path === '/register') {
     next()
   } else {
