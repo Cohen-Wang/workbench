@@ -32,8 +32,7 @@ export const session = {
     return content
   },
   // 删除
-  remove: params => {
-    const { name } = params
+  remove: name => {
     window.sessionStorage.removeItem(name)
   }
 }
@@ -72,8 +71,7 @@ export const local = {
     return content
   },
   // 删除
-  remove: params => {
-    const { name } = params
+  remove: name => {
     window.localStorage.removeItem(name)
   }
 }
