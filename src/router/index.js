@@ -41,6 +41,12 @@ export const routes = [
         name: 'home',
         meta: { title: '首页', icon: 'menu' },
         component: () => import('@/views/Home.vue')
+      },
+      {
+        path: '/personal-center',
+        name: 'personal-center',
+        meta: { title: '个人中心', icon: 'credit-card' },
+        component: () => import('@/views/PersonalCenter/Index.vue')
       }
     ]
   },

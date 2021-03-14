@@ -14,6 +14,7 @@
     <h5-video v-if="activeComponent === 'H5Video'" ref="H5Video" class="component"/>
     <traversal v-if="activeComponent === 'Traversal'" ref="Traversal" class="component"/>
     <interval-and-callback v-if="activeComponent === 'IntervalAndCallback'" ref="IntervalAndCallback" class="component"/>
+    <type-script-study v-if="activeComponent === 'type-script-study'" ref="type-script-study" class="component"/>
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import Geolocation from './components/Geolocation'
 import Video from './components/Video'
 import Traversal from './components/Traversal'
 import IntervalAndCallback from './components/IntervalAndCallback'
+import TypeScriptStudy from './components/TypeScriptStudy'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -66,7 +68,8 @@ const DEFAULT_CONFIG = {
     { title: 'String', description: 'String', ref: 'String' }
   ],
   T: [
-    { title: 'Traversal', description: '遍历 - for', ref: 'Traversal' }
+    { title: 'Traversal', description: '遍历 - for', ref: 'Traversal' },
+    { title: 'TypeScriptStudy', description: 'TypeScriptStudy', ref: 'TypeScriptStudy' }
   ],
   U: [],
   V: [
@@ -93,7 +96,8 @@ export default {
     Geolocation,
     'h5-video': Video,
     Traversal,
-    IntervalAndCallback
+    IntervalAndCallback,
+    TypeScriptStudy
   },
   data() {
     return {

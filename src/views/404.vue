@@ -3,11 +3,10 @@
     <img src="@/assets/image/404.png" width="600"/>
     <div class="description">
       <p class="text">很抱歉，页面不小心迷路了 ~</p>
-      <a-button
-        type="link"
-        size="large"
-        icon="swap-left"
-        @click="$router.go(-1)">
+      <a-button type="link"
+                size="large"
+                icon="swap-left"
+                @click="$router.go(-1)">
         返回上一页
       </a-button>
     </div>

@@ -28,7 +28,7 @@
         </a>
         <a-menu slot="overlay">
           <a-menu-item>
-            <a href="javascript:void(0)" @click="gotoParsonalCenter">个人中心</a>
+            <a href="javascript:void(0)" @click="gotoPersonalCenter">个人中心</a>
           </a-menu-item>
           <a-menu-item>
             <a href="javascript:void(0)" @click="showIndividuationDialog">个性化</a>
@@ -79,7 +79,7 @@ export default {
     // +----------------------------------------------------------------------------------------------------------------
     // | 个人中心
     // +----------------------------------------------------------------------------------------------------------------
-    gotoParsonalCenter() {
+    gotoPersonalCenter() {
       this.$router.push('/personal-center')
     },
     // +----------------------------------------------------------------------------------------------------------------

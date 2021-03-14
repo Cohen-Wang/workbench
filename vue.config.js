@@ -2,8 +2,8 @@ module.exports = {
   // webpack-dev-server 相关配置
   devServer: {
     // 反向代理
-    open: true,
-    host: 'localhost',
+    open: false,
+    host: '127.0.0.1',
     port: 8080,
     https: false,
     hotOnly: false,
