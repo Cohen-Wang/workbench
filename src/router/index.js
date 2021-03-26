@@ -39,14 +39,14 @@ export const routes = [
       {
         path: '/home',
         name: 'home',
-        meta: { title: '首页', icon: 'menu' },
-        component: () => import('@/views/Home.vue')
+        component: () => import('@/views/Home.vue'),
+        meta: { title: '首页', icon: 'menu' }
       },
       {
         path: '/personal-center',
         name: 'personal-center',
-        meta: { title: '个人中心', icon: 'credit-card' },
-        component: () => import('@/views/PersonalCenter/Index.vue')
+        component: () => import('@/views/PersonalCenter/Index.vue'),
+        meta: { title: '个人中心', icon: 'credit-card' }
       }
     ]
   },
