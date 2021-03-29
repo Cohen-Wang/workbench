@@ -18,6 +18,7 @@
     <vue2-count-down v-if="activeComponent === 'Vue2CountDown'" ref="Vue2CountDown" class="component"/>
     <vue-draggable-case v-if="activeComponent === 'VueDraggableCase'" ref="VueDraggableCase" class="component"/>
     <minio v-if="activeComponent === 'Minio'" ref="Minio" class="component"/>
+    <export-json-excel v-if="activeComponent === 'ExportJsonExcel'" ref="ExportJsonExcel" class="component"/>
   </div>
 </template>
 
@@ -37,6 +38,7 @@ import XLSX from './components/XLSX'
 import Vue2CountDown from './components/Vue2CountDown'
 import VueDraggableCase from './components/VueDraggableCase'
 import Minio from './components/Minio'
+import ExportJsonExcel from '@/views/Study/Library/components/ExportJsonExcel'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -46,7 +48,9 @@ const DEFAULT_CONFIG = {
     { title: 'Debounce', description: 'Debounce', ref: 'Debounce' },
     { title: 'DayJs', description: 'DayJs', ref: 'DayJs' }
   ],
-  E: [],
+  E: [
+    { title: 'ExportJsonExcel', description: 'ExportJsonExcel', ref: 'ExportJsonExcel' }
+  ],
   F: [
     { title: 'Flatten', description: 'Flatten', ref: 'Flatten' }
   ],
@@ -104,7 +108,8 @@ export default {
     'xlsx': XLSX,
     'vue2-count-down': Vue2CountDown,
     VueDraggableCase,
-    Minio
+    Minio,
+    ExportJsonExcel
   },
   data() {
     return {

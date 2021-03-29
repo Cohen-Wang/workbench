@@ -29,6 +29,7 @@
     "echarts": "^4.8.0",
     "font-awesome": "^4.7.0",
     "js-base64": "^3.6.0",
+    "js-export-excel": "^1.1.4",
     "lodash": "^4.17.20",
     "lodash.debounce": "^4.0.8",
     "lodash.samplesize": "^4.2.0",
