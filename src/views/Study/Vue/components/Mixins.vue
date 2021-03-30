@@ -57,38 +57,38 @@ import GoBack from '@/components/GoBack'
 
 const mixinx1 = {
   created: function() {
-    console.log('created from 1')
+    console.log('mixinx1：created')
     this.showSame()
     this.showDiff1()
   },
   mounted: function() {
-    console.log('mounted from 1')
+    console.log('mixinx1：mounted')
   },
   methods: {
     showSame() {
-      console.log('showSame from 1')
+      console.log('mixinx1：showSame')
     },
     showDiff1() {
-      console.log('showDiff1 from 1')
+      console.log('mixinx1：showDiff1')
     }
   }
 }
 
 const mixinx2 = {
   created: function() {
-    console.log('created from 2')
+    console.log('mixinx2：created')
     this.showSame()
     this.showDiff2()
   },
   mounted: function() {
-    console.log('mounted from 2')
+    console.log('mixinx2：mounted')
   },
   methods: {
     showSame() {
-      console.log('showSame from 2')
+      console.log('mixinx2：showSame')
     },
     showDiff2() {
-      console.log('showDiff2 from 2')
+      console.log('mixinx2：showDiff2')
     }
   }
 }
@@ -106,12 +106,12 @@ export default {
     }
   },
   created() {
-    console.log('created from main')
+    console.log('main：created')
     this.showSame()
     this.showDiff3()
   },
   mounted() {
-    console.log('mounted from main')
+    console.log('main：mounted')
   },
   methods: {
     // +---------------------------------------------------------------------------------------------
@@ -124,10 +124,10 @@ export default {
       this.visible = false
     },
     showSame() {
-      console.log('showSame from main')
+      console.log('main：showSame')
     },
     showDiff3() {
-      console.log('showDiff3 from main')
+      console.log('main：showDiff3')
     }
   }
 }
