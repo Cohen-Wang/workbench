@@ -110,8 +110,16 @@
                                    :tree-data="TREE_DATA_CONFIG"
                                    placeholder="请选择所在家族"
                                    tree-default-expand-all
-                                   @search="onSearchFamily">
-                    </a-tree-select>
+                                   @search="onSearchFamily"/>
+                  </a-form-model-item>
+                </a-col>
+
+                <!-- 家族 -->
+                <a-col :xs="24" :sm="24" :md="24" :lg="12" :xl="8" :xxl="6">
+                  <a-form-model-item label="行政地区">
+                    <a-cascader :options="regionData"
+                                placeholder="Please select"
+                                @change="onAddressChange"/>
                   </a-form-model-item>
                 </a-col>
               </a-row>
@@ -190,7 +198,7 @@
               :visible="drawer.visible"
               @close="hideDrawer"><!--:after-visible-change="afterVisibleChange"-->
       <div>
-        <pre style="background-color: #e8e8e8; padding: 6px; border-radius: 4px;" v-text="form"/>
+        <pre v-text="form"/>
       </div>
     </a-drawer>
   </div>
@@ -199,6 +207,7 @@
 <script>
 // 工具
 import { isPasswordStrong, isPhoneLegal, isEmailLegal } from '@/utils'
+import { provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode } from 'element-china-area-data'
 // 组件
 import MyComponent from '@/components/MyComponent'
 import GoBack from '@/components/GoBack'
@@ -355,6 +364,8 @@ export default {
     return {
       visible: false,
       // ...
+      regionData,
+      // ...
       labelCol: { span: 4 },
       wrapperCol: { span: 20 },
       form: Object.assign({}, FORM),
@@ -373,6 +384,9 @@ export default {
       }
     }
   },
+  created() {
+    console.log(provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode)
+  },
   methods: {
     // +---------------------------------------------------------------------------------------------
     // | 页面
@@ -389,6 +403,9 @@ export default {
     // 家族
     onSearchFamily() {
       console.log('onSearchFamily', ...arguments)
+    },
+    onAddressChange(val) {
+      console.log(val)
     },
     // +---------------------------------------------------------------------------------------------
     // | 抽屉
