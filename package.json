@@ -40,6 +40,7 @@
     "monaco-editor": "^0.20.0",
     "vue": "^2.6.11",
     "vue-pdf": "^4.2.0",
+    "vue-print-nb-jeecg": "^1.0.9",
     "vue-router": "^3.2.0",
     "vue-video-player": "^5.0.2",
     "vue-worker": "^1.2.1",

@@ -19,6 +19,7 @@
     <vue-draggable-case v-if="activeComponent === 'VueDraggableCase'" ref="VueDraggableCase" class="component"/>
     <minio v-if="activeComponent === 'Minio'" ref="Minio" class="component"/>
     <export-json-excel v-if="activeComponent === 'ExportJsonExcel'" ref="ExportJsonExcel" class="component"/>
+    <vue-print-nb-jeecg v-if="activeComponent === 'VuePrintNbJeecg'" ref="VuePrintNbJeecg" class="component"/>
   </div>
 </template>
 
@@ -39,6 +40,7 @@ import Vue2CountDown from './components/Vue2CountDown'
 import VueDraggableCase from './components/VueDraggableCase'
 import Minio from './components/Minio'
 import ExportJsonExcel from '@/views/Study/Library/components/ExportJsonExcel'
+import VuePrintNbJeecg from '@/views/Study/Library/components/VuePrintNbJeecg'
 
 const DEFAULT_CONFIG = {
   A: [],
@@ -81,7 +83,8 @@ const DEFAULT_CONFIG = {
     { title: 'VuePDF', description: 'VuePDF', ref: 'VuePDF' },
     { title: 'vue播放器', description: 'vue 播放器插件 之 vue-video-player', ref: 'VueVideoPlayer' },
     { title: 'vue倒计时', description: 'vue倒计时', ref: 'Vue2CountDown' },
-    { title: 'vue拖拽', description: 'vue拖拽', ref: 'VueDraggableCase' }
+    { title: 'vue拖拽', description: 'vue拖拽', ref: 'VueDraggableCase' },
+    { title: 'VuePrintNbJeecg', description: 'VuePrintNbJeecg', ref: 'VuePrintNbJeecg' }
   ],
   W: [],
   X: [
@@ -109,7 +112,8 @@ export default {
     'vue2-count-down': Vue2CountDown,
     VueDraggableCase,
     Minio,
-    ExportJsonExcel
+    ExportJsonExcel,
+    VuePrintNbJeecg
   },
   data() {
     return {
