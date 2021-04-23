@@ -39,6 +39,7 @@
     "mockjs": "^1.1.0",
     "moment": "^2.27.0",
     "monaco-editor": "^0.20.0",
+    "nprogress": "^0.2.0",
     "vue": "^2.6.11",
     "vue-pdf": "^4.2.0",
     "vue-print-nb-jeecg": "^1.0.9",

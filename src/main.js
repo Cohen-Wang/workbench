@@ -10,7 +10,15 @@ import App from './App.vue'
 import 'ant-design-vue/dist/antd.css'
 import router from './router'
 import store from './store'
-import axios from 'axios'
+
+// axios
+import apiServer from '@/service'
+Vue.prototype.$apiServer = apiServer
+// /**
+//  * axios并没有install 方法，所以是不能使用vue.use()方法的。
+//  * 引入axios，并加到原型链中
+//  */
+// Vue.prototype.$axios = axios
 
 // 调用Vue-Worker
 import VueWorker from 'vue-worker'
@@ -27,12 +35,6 @@ import Print from 'vue-print-nb-jeecg'
 Vue.use(Print)
 
 Vue.config.productionTip = false
-
-/**
- * axios并没有install 方法，所以是不能使用vue.use()方法的。
- * 引入axios，并加到原型链中
- */
-Vue.prototype.$axios = axios
 
 new Vue({
   router,
