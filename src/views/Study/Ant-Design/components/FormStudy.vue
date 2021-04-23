@@ -175,7 +175,7 @@
           </a-form-model>
         </div>
         <!-- 按钮 -->
-        <div style="height: 83px; padding-top: 20px; box-shadow: 0 -3px 5px #E8E8E8;display: flex; justify-content: center">
+        <div style="height: 83px; padding-top: 20px; display: flex; justify-content: center">
           <a-button-group size="large" block>
             <a-button type="primary"
                       @click="onSubmit">
